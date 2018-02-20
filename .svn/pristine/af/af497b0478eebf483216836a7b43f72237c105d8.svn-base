@@ -1,0 +1,249 @@
+<?php 
+	//
+	// IncomeLineItem.php
+	// 
+	// Created on 2014-11-01 @ 10:01 am.
+	 
+	require_once BLOGIC."/BLogic.php"; 
+	 
+	class IncomeLineItem extends BLGenericRecord 
+	{ 
+		public static $PENDING = "Pending";
+		public static $PAID = "Paid";
+		public static $OVERDUE = "Overdue";
+		
+		public function __construct($dataSource = null) 
+		{ 
+			parent::__construct($dataSource); 
+			
+			$this->defineRelationship(new BLToOneRelationship("occupant", $this, "Occupant", "occupantID", "occupantID"));
+			$this->defineRelationship(new BLToOneRelationship("incomesource", $this, "IncomeSource", "incomeSourceID", "incomeSourceID"));
+            
+            // @John: put your default value fields right in the constructor. Records fecthed from the database
+            // will overwrite it.
+            $this->vars["created"] = date("Y-m-d H:i:s");
+		} 
+		
+	 
+		public function tableName() 
+		{ 
+			return "IncomeLineItem"; 
+		} 
+		 
+		public function pkNames() 
+		{ 
+			return "incomeLineItemID"; 
+		}
+		
+		/*
+			Override this method if you have any database fields which should not
+			be modified or saved back to the server. This provides only 'quiet' protection.
+			It does not pass any errors or warnings back if field data has changed, it merely
+			ommits the fields from the save request.
+		*/
+		public function readOnlyAttributes()
+		{
+			return array("incomeLineItemID");
+		}	
+		
+		
+		public function status(){
+			
+			if(is_null($this->vars["paymentDate"])){
+				$fromDate = $this->fromDateObject(); 
+				$currentDate = new DateTime();
+				
+				//echo "From Date is " . $fromDate->format("Y-m-d") . " Current Date: " . $currentDate->format("Y-m-d");
+				
+				if($fromDate < $currentDate){
+					return IncomeLineItem::$OVERDUE;
+				}
+				else
+					return IncomeLineItem::$PENDING;
+				
+			}
+			else{
+				return IncomeLineItem::$PAID;
+			}
+		}
+		
+		public function isOverDue(){
+			return $this->status() == IncomeLineItem::$OVERDUE;
+		}
+
+		public function isPending(){
+			return $this->status() == IncomeLineItem::$PENDING;
+		}
+
+		public function isPaid(){
+			return $this->status() == IncomeLineItem::$PAID;
+		}
+		
+		public function cssString(){
+			if($this->isOverDue())
+				return "overdue";
+			else if($this->isPending())
+				return "pending";
+			else
+				return "paid";
+		}
+		
+		public function fromDate(){
+			return $this->vars["fromDate"];
+		}
+		
+		public function fromDateObject(){
+			return new DateTime($this->fromDate());
+		}
+		
+		public function fromDateFormatted(){
+			return $this->fromDateObject()->format("d/m/y");
+		}
+		
+	
+		public function toDate(){
+			return $this->vars["toDate"];
+		}
+		
+		public function toDateObject(){
+			return new DateTime($this->vars["toDate"]);
+		}
+		
+		public function toDateFormatted(){
+			return $this->toDateObject()->format("d/m/y");
+		}
+		
+		
+		public function paymentDate(){
+			return $this->vars["paymentDate"];
+		}
+		
+		public function paymentDateObject(){
+			if(!is_null(paymentDate())){
+				return new DateTime(paymentDate());
+			}	
+			return null;
+		}
+        
+        /*
+            @John: If you specify a function name at the end of a keypath in valueForKeyPath, it will find
+             and call the method!
+        
+            processFormValueKeyPathsForSave() will also check for and use setter methods to!
+        */
+		
+		public function paymentDateFormatted()
+        {
+            $date = $this->paymentDate();
+			return $date ? date("d/m/Y", strtotime($date)) : "";
+		}
+        
+        
+        public function setPaymentDateFormatted($value)
+        {
+            if ($value) {
+                // This nifty line will transforms a dd/mm/yyyy into a yyyy-mm-dd.
+                $value = implode("-", array_reverse(explode("/", $value)));
+            }
+            $this->vars["paymentDate"] = $value;
+        }
+		
+		public function __toString(){
+			return "new IncomeLIneItem";
+		}
+		
+		
+		
+		public function occupant(){
+			return $this->valueForRelationship("occupant");
+		}
+		
+		public function safeOccupantDisplay(){
+			return $this->occupant() != null ? $this->occupant()->fullName() : "No occupant specified";
+		}
+		
+		public function toAndFromString(){
+			$toAndFromDates = "";
+			
+			$toAndFromDates = $toAndFromDates . ($this->fromDate() != null ? $this->fromDateFormatted() : "N/A");
+			$toAndFromDates = $toAndFromDates. " to ";
+			$toAndFromDates = $toAndFromDates. ($this->toDate() != null ? $this->toDateFormatted() : "N/A");
+			 
+			return $toAndFromDates;
+		}
+		
+		public function assetAndSourceName(){
+			$incomeSource =  $this->valueForRelationship("incomesource");
+			$asset =  $incomeSource->valueForRelationship("asset");
+			
+			return $asset->safeName() . " - " . $incomeSource->safeName();
+		}
+
+		/* 	Override this method if you have any database fields that deal in
+			raw binary data.
+			WARNING: attributes returned from here do not get escaped when working with the
+			MySQLDataSource so be very very careful on trusting the contents of the data
+			you are working with!
+		*/
+		/* public function binaryAttributes()
+		{
+			return array();
+		}
+		*/
+		/*
+		public function awakeFromFetch()
+		{
+			
+		}	 
+		
+		public function validateForSave()
+		{
+			
+		}
+		*/
+		
+		/*
+		// amount of time any apc auto-caching will store a copy for records of this entity
+		public function cacheTTL()
+		{
+			return 60;
+		}
+		*/
+		
+		
+		/*
+		 * 
+		 *  private void copyOverIncomeSourceDetails(IncomeSource value){
+    	if(value.occupant() != null){
+    		setOccupant(value.occupant());
+    	}
+    	setAmount(value.paymentAmount());
+    }
+    
+
+    public BigDecimal safeAmount(){
+    	return amountPaid() != null ? amountPaid() : TrackerUtils.ZERO_DECIMAL;
+    }
+    
+    
+	public NSTimestamp paymentDate()
+	{
+        return (NSTimestamp)storedValueForKey("paymentDate");
+    }
+	
+    public void setPaymentDate(NSTimestamp value)
+	{
+        takeStoredValueForKey(value, "paymentDate");
+    }
+	
+    public String dueDateString(){
+    	return fromDate() != null ? DateUtils.dateOnlyFormat.format(fromDate()) : "N/A";
+    }
+    
+  
+    
+   
+    */
+		 
+	} 
+?>

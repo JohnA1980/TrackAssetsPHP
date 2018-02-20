@@ -1,0 +1,66 @@
+<script type="text/javascript">
+
+	jQuery.noConflict();
+
+	jQuery(document).ready(function($)
+	{	
+		$(function() {
+    	
+			 
+    		//alert("The datepicker object: " + $("#datepicker" ));
+    		$("#transactionDateID" ).datepicker({ dateFormat: 'dd/mm/yy'});
+  		});
+						
+	});
+</script>
+
+<input type="hidden" name="selectedPettyCashEntryID" value="<?php echo $controller->formValueForKey("selectedPettyCashEntryID"); ?>" id="selectedPettyCashEntryID">
+<input type="hidden" name="deletePettyCashEntryID" value="<?php echo $controller->formValueForKey("deletePettyCashEntryID"); ?>" id="deletePettyCashEntryID">
+	
+	<div>
+		<?php addSubmitButtonWithActions("Create Entry", array("page" => "PettyCashList", "action" => "createPettyCash")); ?>
+		<?php addSubmitButtonWithActions("Save", array("page" => "PettyCashList", "action" => "saveAction")); ?>
+	</div>
+	<div class="headingRightJustified">
+		Balance: <?php echo $controller->investmentPortfolio()->theWholeTotal(); ?> 
+	</div>
+	<div class="tabular scrollableArea" style="height:600px;">
+		<table class="table table-bordered" border="0" cellpadding="0" cellspacing="0">
+			<tr class="tableHead">
+				<td style="width:60px"></td>
+				<td style="width:150px">Date</td>
+				<td style="width:300px">Description</td>
+				<td style="width:150px">Amount</td>
+				<td style="width:60px"></td>
+			</tr>
+		<?php $pettyCashEntries = $controller->investmentPortfolio()->sortedPettyCashEntries(); foreach($pettyCashEntries as $pettyCashEntry) : ?>
+			<tr >
+				<td><?php addSubmitButtonWithActions("Edit", array("page" => "PettyCashList", "action" => "resetPettyEntryForm", "selectedPettyCashEntryID" => $pettyCashEntry->vars["pettyCashEntryID"])); ?></td>
+				
+				<td><?php echo $pettyCashEntry->transactionDateFormatted(); ?></td>
+				<td><?php echo $pettyCashEntry->vars["descText"]; ?></td>
+				<td><?php echo $pettyCashEntry->vars["amount"]; ?></td>
+				<td><?php addSubmitLinkWithActionsAndCallback("confirmDeleteSubmit()", array("page" => "PettyCashList", "action" => "deletePettyCash", "deletePettyCashEntryID" => $pettyCashEntry->vars["pettyCashEntryID"]), null, "images/iconDelete.png"); ?></td>
+			</tr>
+			
+			<?php endforeach; ?>
+		</table>
+	</div>
+	
+	 <?php if ($controller->selectedPettyCashEntry()) : ?>
+	<div class="inliDetails selectedArea" style="height:55px;">     
+		<div class="labelAndValue">
+            <div class="labels">Transaction Date:</div>
+            <div>
+                <input type="text" name="selectedPettyCashEntry.transactionDateFormatted" value="<?php echo $controller->formValueForKeyPath("selectedPettyCashEntry.transactionDateFormatted") ?>" placeholder="dd/mm/yyyy" id="transactionDateID">
+            </div>
+        </div>
+		<div class="labelAndValue" style="width:300px;">
+            <div class="labels">Description:</div>
+            <div>
+                <input type="text" name="selectedPettyCashEntry.descText" value="<?php echo $controller->formValueForKeyPath("selectedPettyCashEntry.descText"); ?>" placeholder="short description">
+            </div>
+        </div>
+		<div class="labelAndValue" style="width:120px;"><div class="labels">Amount:</div><div><?php addTextField("selectedPettyCashEntry.amount", $controller->selectedPettyCashEntry()->vars["amount"],"selectedPettyCashEntry.amount"); ?></div></div>
+	</div>
+	<?php endif; ?>

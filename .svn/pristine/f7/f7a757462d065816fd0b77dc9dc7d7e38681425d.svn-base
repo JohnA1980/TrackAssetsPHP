@@ -1,0 +1,525 @@
+<?php 
+	//
+	// Asset.php
+	// 
+	// Created on 2014-11-01 @ 10:00 am.
+	 
+	require_once BLOGIC."/BLogic.php"; 
+	
+ 
+	class Asset extends BLGenericRecord 
+	{ 
+		public function __construct($dataSource = null) 
+		{ 
+			parent::__construct($dataSource); 
+
+			$this->defineRelationship(new BLToManyRelationship("incomelineitems", $this, "IncomeLineItem", "assetID", "assetID"));
+			$this->defineRelationship(new BLToManyRelationship("expenselineitems", $this, "ExpenseLineItem", "assetID", "assetID"));
+			$this->defineRelationship(new BLToManyRelationship("incomesources", $this, "IncomeSource", "assetID", "assetID"));
+			$this->defineRelationship(new BLToManyRelationship("occupants", $this, "Occupant", "assetID", "assetID"));
+		} 
+	 
+		public function tableName() 
+		{ 
+			return "Asset"; 
+		} 
+		 
+		public function pkNames() 
+		{ 
+			return "assetID"; 
+		}
+
+		//FIXME : need to filter deleted occupants
+		public function nonDeletedOccupants(){
+			return $this->valueForRelationship("occupants");
+		}
+		
+		//FIXME : need to filter deleted expenselineitems
+		public function nonDeletedExpenseLineItems(){
+			return $this->valueForRelationship("expenselineitems");
+		}
+	
+		
+		public function incomesources(){
+			return $this->valueForRelationship("incomesources");
+		}
+		
+		public function firstIncomeSource(){
+			$incomeSources = $this->nonDeletedIncomeSources();
+			if(sizeof($incomeSources) > 0){
+				return $incomeSources[0];
+			}
+			else{
+				return null;
+			}
+		}
+		
+		
+		public function nonDeletedIncomeSources(){
+			$qual = new BLAndQualifier(array(
+					new BLKeyValueQualifier("assetID", OP_EQUAL, $this->vars["assetID"]),
+					new BLKeyValueQualifier("deleted", OP_EXACT_MATCH, NULL_VALUE),
+						
+			));
+			$found = BLGenericRecord::find("IncomeSource", $qual);
+			echo "found non deleted: " + count($found);
+		
+			return $found;
+			//return $this->incomelineItems();
+		}
+		
+// 		public NSArray<IncomeLineItem> nonDeletedIncomeLineItems(){
+// 			if(incomesources().count() == 1){
+// 				return incomesources().get(0).nonDeletedIncomeLineItems();
+// 			}
+// 			else{
+// 				NSMutableArray<IncomeLineItem> incomeLineItems = new NSMutableArray<IncomeLineItem>();
+		
+// 				for(IncomeSource incomeSource : incomesources()){
+// 					incomeLineItems.addObjectsFromArray(incomeSource.nonDeletedIncomeLineItems());
+// 				}
+		
+// 				return incomeLineItems;
+// 			}
+// 		}
+		
+		
+		public function nonDeletedIncomeLineItems(){
+			$allIncomeLineItems = array();
+			
+			if(count($this->incomesources()) > 0){
+				$incomeSources = $this->incomesources();
+				
+				foreach ($incomeSources as $incomeSource){
+					$allIncomeLineItems = array_merge($allIncomeLineItems, $incomeSource->nonDeletedIncomeLineItems());
+				}
+			}
+				
+			return $allIncomeLineItems;
+			
+		}
+		
+		public function unpaidIncomeLineItems(){
+			$allIncomeLineItems = array();
+				
+			if(count($this->incomesources()) > 0){
+				$incomeSources = $this->incomesources();
+		
+				foreach ($incomeSources as $incomeSource){
+					$allIncomeLineItems = array_merge($allIncomeLineItems, $incomeSource->unpaidIncomeLineItems());
+				}
+			}
+		
+			return $allIncomeLineItems;
+				
+		}
+		
+		public function safeName(){
+				
+			if(!is_null($this->vars["name"])){
+				return $this->vars["name"];
+			}
+			else{
+				return "";
+			}
+		}
+		
+	/*
+		public function ()
+		{
+			$categories = $this->valueForRelationship("categories");
+			if (sizeof($categories) > 0)
+			{
+				$names = array();
+				foreach ($categories as $category)
+					$names[] = $category->vars["name"];
+				unset($categories);
+				return implode(", ", $names);
+			}
+			return "";
+		}
+
+	*/	
+		/*
+		public function upComingPayments(){
+		
+		}
+		
+		public NSArray sortedIncomeLineItems(){
+			return TrackerUtils.sortMyArrayDescending(nonDeletedIncomeLineItems(), SORT_KEYS_ILI);
+		}	
+	
+			
+		public NSArray upComingPayments(){
+			NSMutableArray<EOQualifier> andQuals = new NSMutableArray<EOQualifier>();
+			//andQuals.addObject(new EOKeyValueQualifier("fromDate", EOQualifier.QualifierOperatorLessThanOrEqualTo, new NSTimestamp()));
+			andQuals.addObject(new EOKeyValueQualifier("paymentDate", EOQualifier.QualifierOperatorEqual, null));
+			return EOQualifier.filteredArrayWithQualifier(sortedIncomeLineItems(), new EOAndQualifier(andQuals));
+		}*/
+	
+		/*	
+		public NSArray<ExpenseLineItem> nonDeletedExpenseLineItems(){
+			return EOQualifier.filteredArrayWithQualifier(expenselineitems(), deletedQualifier);
+		}
+		
+		public NSArray sortedExpenseLineItems(){
+			return TrackerUtils.sortMyArrayDescending(nonDeletedExpenseLineItems(), SORT_KEYS_ELI);
+		}
+	
+		public NSArray<IncomeLineItem> nonDeletedIncomeLineItems(){
+			if(incomesources().count() == 1){
+				return incomesources().get(0).nonDeletedIncomeLineItems();
+			}
+			else{
+				NSMutableArray<IncomeLineItem> incomeLineItems = new NSMutableArray<IncomeLineItem>();
+				
+				for(IncomeSource incomeSource : incomesources()){
+					incomeLineItems.addObjectsFromArray(incomeSource.nonDeletedIncomeLineItems());
+				}
+				
+				return incomeLineItems;
+			}
+		}
+		
+	
+		
+		public financeTracker.common.InvestmentPortfolio investmentportfolio()
+		{
+			return (financeTracker.common.InvestmentPortfolio)storedValueForKey("investmentportfolio");
+		}
+		
+		public void setInvestmentportfolio(financeTracker.common.InvestmentPortfolio value)
+		{
+			takeStoredValueForKey(value, "investmentportfolio");
+		}
+		
+		public NSArray<financeTracker.common.User> users()
+		{
+			return (NSArray<financeTracker.common.User>)storedValueForKey("users");
+		}
+	
+		public void setUsers(NSArray<financeTracker.common.User> value)
+		{
+			takeStoredValueForKey(value, "users");
+		}
+	
+		public void addToUsers(financeTracker.common.User object)
+		{
+			includeObjectIntoPropertyWithKey(object, "users");
+		}
+	
+		public void removeFromUsers(financeTracker.common.User object)
+		{
+			excludeObjectFromPropertyWithKey(object, "users");
+		}
+	
+		//TODO: will need to change this is to raw rows or an actual sql query 
+		public BigDecimal grossExpenses(){
+			BigDecimal totalAmount = new BigDecimal("0.00");
+			for(ExpenseLineItem expenseLineItem : nonDeletedExpenseLineItems()){
+				totalAmount = totalAmount.add(expenseLineItem.safeAmount());
+			}
+			return totalAmount;
+		}
+		
+		public BigDecimal grossIncome(){
+			BigDecimal totalAmount = new BigDecimal("0.00");
+			for(IncomeLineItem incomeLineItem : nonDeletedIncomeLineItems()){
+				totalAmount = totalAmount.add(incomeLineItem.safeAmount());
+			}
+			
+			return totalAmount;
+		}
+		
+		public BigDecimal netIncome(){
+			return grossIncome().subtract(grossExpenses());
+		}
+		
+		public String displayName(){
+			return name() != null ? name() : "No Name";
+		}*/
+		
+		
+		/*
+			Override this method if you have any database fields which should not
+			be modified or saved back to the server. This provides only 'quiet' protection.
+			It does not pass any errors or warnings back if field data has changed, it merely
+			ommits the fields from the save request.
+		*/
+		public function readOnlyAttributes()
+		{
+			return array("assetID");
+		}	
+		
+		/* 	Override this method if you have any database fields that deal in
+			raw binary data.
+			WARNING: attributes returned from here do not get escaped when working with the
+			MySQLDataSource so be very very careful on trusting the contents of the data
+			you are working with!
+		*/
+		/* public function binaryAttributes()
+		{
+			return array();
+		}
+		*/
+		/*
+		public function awakeFromFetch()
+		{
+			
+		}	 
+		
+		public function validateForSave()
+		{
+			
+		}
+		*/
+		
+		/*
+		// amount of time any apc auto-caching will store a copy for records of this entity
+		public function cacheTTL()
+		{
+			return 60;
+		}
+		*/
+		
+		
+		//return [month, income, expense]
+		public  function incomeSummaryForFinancialYear(){
+			//TODO: create an Array of Income and Expense.
+			
+			$result = Asset::finanicalYear();
+			//$startFinancialYear = new DateTime($result['start']);
+			//$endFinancialYear = new DateTime($result['end']);
+			
+			$startFinancialYear = $result['start'];
+			$endFinancialYear = $result['end'];
+			
+			
+			//echo "Start Date: " . $startFinancialYear->format('jS, F Y');
+			//echo "ENd Date: " . $endFinancialYear->format('jS, F Y');
+			
+			echo "Start Date: " . $startFinancialYear->format("Y-m-d");
+			echo "ENd Date: " . $endFinancialYear->format("Y-m-d");
+			
+			echo "<br>";
+			
+			
+			$allIncomeLineItems = $this->incomeBetweenDates($startFinancialYear, $endFinancialYear);
+			
+			echo "number of incomelineitems: " . sizeof($allIncomeLineItems);
+			echo "total amount paid: " . $this->totalAmountArrayOfIncome($allIncomeLineItems);
+
+			//$this->incomeForBetweenDates($startDate, $endDate);
+			//Fetch all Expenses For that Month
+			
+			//Create a dictionary for that month with Income and Expense. 
+			 			
+		}
+		
+		private function totalAmountArrayOfIncome($incomeLineItems){
+			return $this->baseTotalAmountForArrayAndKey($incomeLineItems, "amountPaid");			
+		}
+		
+		private function totalAmountArrayOfExpense($expenseLineItems){
+			return $this->baseTotalAmountForArrayAndKey($incomeLineItems, "amount");
+		}
+		
+		private function baseTotalAmountForArrayAndKey($theArray, $key){
+			$totalAmount = null;
+			
+			foreach ($theArray as $baseItem) {
+				$totalAmount = $totalAmount + $baseItem->vars[$key];
+			}
+				
+			return $totalAmount;
+		}
+		
+		public function financialSummaryArrayForMonthRange($startMonth, $endMonth){
+			//Cycle through the months in between 
+			//Go through all and call financial SummaryFor Month
+			
+			return $finaicalSummaryArray = array
+			  (
+			  array("Jan", 1000,500, 500),
+			  array("Feb", 800,600, 200),
+			  array("Mar",100, 100),
+			  array("Apr", 600,200, 400)
+			  );
+		}
+		//select *
+		// 		from IncomeLineItem ili
+		// 		left join IncomeSource ins on (ili.incomeSourceID = ins.incomeSourceID)
+		// 		and ins.assetID = 1;
+		
+
+		function incomeBetweenDates($startDate, $endDate)
+		{
+			$qual = new BLAndQualifier(array(
+					//new BLKeyValueQualifier("ins.assetID", OP_EQUAL, $this->vars["assetID"]),
+					//new BLKeyValueQualifier("ili.paymentDate", OP_GREATER_EQUAL, $startDate->format("Y-m-d")),
+					//new BLKeyValueQualifier("ili.paymentDate", OP_LESS_EQUAL, $endDate->format("Y-m-d"))
+					
+					//new BLKeyValueQualifier("assetID", OP_EQUAL, $this->vars["assetID"]),
+					new BLKeyValueQualifier("paymentDate", OP_LESS_EQUAL, $endDate->format("Y-m-d")),
+					new BLKeyValueQualifier("paymentDate", OP_GREATER_EQUAL, $startDate->format("Y-m-d"))
+					
+			));
+			//$order = array("ili.paymentDate" => ORDER_ASCEND);
+			//return BLGenericRecord::find("IncomeLineItem", $qual, $order, array("sqlTableIdentity" => "ili", "joins" => array("IncomeSource ins on ins.incomeSourceID = ili.incomeSourceID")));
+			return $found = BLGenericRecord::find("IncomeLineItem", $qual);
+			//return $found = BLGenericRecord::find("IncomeLineItem");
+			
+		}
+		
+		// 		function metricsEnteredToday($user, $date, $endDate)
+		// 		{
+		// 			$qual = new BLAndQualifier(array(
+		// 					new BLKeyValueQualifier("w.patientID", OP_EQUAL, $user),
+		// 					new BLKeyValueQualifier("e.collectionDate", OP_GREATER_EQUAL, $date),
+		// 					new BLKeyValueQualifier("e.collectionDate", OP_LESS_EQUAL, $endDate)
+		// 			));
+		// 			$order = array("e.collectionDate" => ORDER_ASCEND);
+		// 			return BLGenericRecord::find("WellnessEntry", $qual, $order, array("sqlTableIdentity" => "e", "joins" => array("Wellness w on w.id = e.wellnessID")));
+		// 		}
+		
+		
+// 		public function incomeForBetweenDates($startDate, $endDate){
+// 			$startDate = new DateTime($date);
+// 			$startDate->modify('first day of this month');
+			
+// 			$endDate = new DateTime($date);
+// 			$endDate->modify('last day of this month');
+			
+			
+			//echo "first day" . $startDate->format('jS, F Y');
+			//echo "last day" . $endDate->format('jS, F Y');
+				
+// 			$this->monthsBetweenDates($startDate, $endDate);
+// 			$qual = array(
+// 					new BLKeyValueQualifier("incomesource.assetID", OP_EQUAL, $this->vars["assetID"]),
+// 					new BLKeyValueQualifier("paymentDate", OP_GREATER_EQUAL, $startDate),
+// 					new BLKeyValueQualifier("paymentDate", OP_LESS_EQUAL, $endDate),
+// 					new BLKeyValueQualifier("deleted", OP_EXACT_MATCH, NULL_VALUE)
+// 			);
+			
+// 			$found = BLGenericRecord::find("IncomeLineItem", new BLAndQualifier($qual));
+			
+// 			//debugln("found attendances for year: ".sizeof($year));
+			
+// 			if (sizeof($found) > 0)
+// 			{
+				
+// 			}
+		
+// 		}
+		
+// 		
+	
+		
+// 		function metricsEnteredToday($user, $date, $endDate)
+// 		{
+// 			$qual = new BLAndQualifier(array(
+// 					new BLKeyValueQualifier("w.patientID", OP_EQUAL, $user),
+// 					new BLKeyValueQualifier("e.collectionDate", OP_GREATER_EQUAL, $date),
+// 					new BLKeyValueQualifier("e.collectionDate", OP_LESS_EQUAL, $endDate)
+// 			));
+// 			$order = array("e.collectionDate" => ORDER_ASCEND);
+// 			return BLGenericRecord::find("WellnessEntry", $qual, $order, array("sqlTableIdentity" => "e", "joins" => array("Wellness w on w.id = e.wellnessID")));
+// 		}
+		
+	
+		
+		
+		public static function monthsBetweenDates($startDate, $endDate){
+			//$start    = new DateTime('2010-12-02');
+			$startDate->modify('first day of this month');
+			//$end      = new DateTime('2012-05-06');
+			$endDate->modify('first day of next month');
+			$interval = DateInterval::createFromDateString('1 month');
+			$period   = new DatePeriod($startDate, $interval, $endDate);
+			
+			foreach ($period as $dt) {
+				echo "first day: " . $dt->format("Y-m-d") . " last day: " . $dt->modify("last day of this month")->format("Y-m-d") . "<br>\n";
+			}
+		}
+		
+		public static function finanicalYear()
+		{
+			$currentTime = new DateTime();
+			$result = array();
+			$start = new DateTime();
+			$start->setTime(0, 0, 0);
+			$end = new DateTime();
+			$end->setTime(23, 59, 59);
+			$year = $currentTime->format('Y');
+			$start->setDate($year, 7, 1);
+			if($start <= $currentTime){
+				$end->setDate($year +1, 6, 30);
+			} else {
+				$start->setDate($year - 1, 7, 1);
+				$end->setDate($year, 6, 30);
+			}
+			//$result['start'] = $start->getTimestamp();
+			//$result['end'] = $end->getTimestamp();
+			
+			
+			
+			$result['start'] = $start;
+			$result['end'] = $end;
+			
+			
+			
+			return $result;
+		}
+		
+		public function attendanceCountForYear($year = null)
+		{
+			if (empty($this->vars["personsID"]) || empty($this->vars["homeCountryID"]))
+				return "N/A";
+			if ($this->attendanceCountYear === null)
+			{
+				$this->attendanceCountYear = 0;
+		
+				if ($year == null)
+					$year = date("Y");
+					
+				$yearStart = $year."-01-01";
+				$yearEnd = date("$year-12-31");
+		
+				$qual = array(
+						new BLKeyValueQualifier("countryID", OP_EQUAL, $this->vars["homeCountryID"]),
+						new BLKeyValueQualifier("paymentDate", OP_GREATER_EQUAL, $yearStart),
+						new BLKeyValueQualifier("paymentDate", OP_LESS_EQUAL, $yearEnd),
+						new BLKeyValueQualifier("deleted", OP_EXACT_MATCH, NULL_VALUE)
+				);
+				// if ($this->vars["stateID"])
+				// {
+				// 	$qual[] = new BLOrQualifier(array(
+					// 		new BLKeyValueQualifier("stateID", OP_EQUAL, $this->vars["stateID"]),
+					// 		new BLKeyValueQualifier("stateID", OP_EXACT_MATCH, NULL_VALUE)
+					// 	));
+					// }
+					$found = BLGenericRecord::find("Attendance", new BLAndQualifier($qual));
+		
+					//debugln("found attendances for year: ".sizeof($year));
+		
+					if (sizeof($found) > 0)
+					{
+						$quals = array();
+						foreach ($found as $attendance)
+						{
+							$quals[] = new BLKeyValueQualifier("attendanceID", OP_EQUAL, $attendance->vars["attendanceId"]);
+						}
+						$qual = new BLAndQualifier(array(
+								new BLKeyValueQualifier("personID", OP_EQUAL, $this->vars["personsID"]),
+								new BLOrQualifier($quals)
+						));
+						$this->attendanceCountYear = BLDataSource::defaultDataSource()->countForQualifier("PersonAttendance", $qual);
+					}
+				}
+				return $this->attendanceCountYear;
+			}
+		
+		
+	} 
+?>

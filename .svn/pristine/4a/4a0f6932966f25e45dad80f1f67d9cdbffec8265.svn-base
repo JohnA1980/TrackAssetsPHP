@@ -1,0 +1,190 @@
+<?php 
+	//
+	// Asset.php
+	// 
+	// Created on 2014-11-01 @ 10:00 am.
+	 
+	require_once BLOGIC."/BLogic.php"; 
+	 
+	class Asset extends BLGenericRecord 
+	{ 
+		public function __construct($dataSource = null) 
+		{ 
+			parent::__construct($dataSource); 
+
+			$this->defineRelationship(new BLToManyRelationship("incomelineitems", $this, "IncomeLineItem", "assetID", "assetID"));
+			$this->defineRelationship(new BLToManyRelationship("incomesources", $this, "IncomeSource", "assetID", "assetID"));
+		} 
+	 
+		public function tableName() 
+		{ 
+			return "Asset"; 
+		} 
+		 
+		public function pkNames() 
+		{ 
+			return "assetID"; 
+		}
+
+	
+	/*
+		public function ()
+		{
+			$categories = $this->valueForRelationship("categories");
+			if (sizeof($categories) > 0)
+			{
+				$names = array();
+				foreach ($categories as $category)
+					$names[] = $category->vars["name"];
+				unset($categories);
+				return implode(", ", $names);
+			}
+			return "";
+		}
+
+	*/	
+		/*
+		public function upComingPayments(){
+		
+		}
+		
+		public NSArray sortedIncomeLineItems(){
+			return TrackerUtils.sortMyArrayDescending(nonDeletedIncomeLineItems(), SORT_KEYS_ILI);
+		}	
+	
+			
+		public NSArray upComingPayments(){
+			NSMutableArray<EOQualifier> andQuals = new NSMutableArray<EOQualifier>();
+			//andQuals.addObject(new EOKeyValueQualifier("fromDate", EOQualifier.QualifierOperatorLessThanOrEqualTo, new NSTimestamp()));
+			andQuals.addObject(new EOKeyValueQualifier("paymentDate", EOQualifier.QualifierOperatorEqual, null));
+			return EOQualifier.filteredArrayWithQualifier(sortedIncomeLineItems(), new EOAndQualifier(andQuals));
+		}*/
+	
+		/*	
+		public NSArray<ExpenseLineItem> nonDeletedExpenseLineItems(){
+			return EOQualifier.filteredArrayWithQualifier(expenselineitems(), deletedQualifier);
+		}
+		
+		public NSArray sortedExpenseLineItems(){
+			return TrackerUtils.sortMyArrayDescending(nonDeletedExpenseLineItems(), SORT_KEYS_ELI);
+		}
+	
+		public NSArray<IncomeLineItem> nonDeletedIncomeLineItems(){
+			if(incomesources().count() == 1){
+				return incomesources().get(0).nonDeletedIncomeLineItems();
+			}
+			else{
+				NSMutableArray<IncomeLineItem> incomeLineItems = new NSMutableArray<IncomeLineItem>();
+				
+				for(IncomeSource incomeSource : incomesources()){
+					incomeLineItems.addObjectsFromArray(incomeSource.nonDeletedIncomeLineItems());
+				}
+				
+				return incomeLineItems;
+			}
+		}
+		
+	
+		
+		public financeTracker.common.InvestmentPortfolio investmentportfolio()
+		{
+			return (financeTracker.common.InvestmentPortfolio)storedValueForKey("investmentportfolio");
+		}
+		
+		public void setInvestmentportfolio(financeTracker.common.InvestmentPortfolio value)
+		{
+			takeStoredValueForKey(value, "investmentportfolio");
+		}
+		
+		public NSArray<financeTracker.common.User> users()
+		{
+			return (NSArray<financeTracker.common.User>)storedValueForKey("users");
+		}
+	
+		public void setUsers(NSArray<financeTracker.common.User> value)
+		{
+			takeStoredValueForKey(value, "users");
+		}
+	
+		public void addToUsers(financeTracker.common.User object)
+		{
+			includeObjectIntoPropertyWithKey(object, "users");
+		}
+	
+		public void removeFromUsers(financeTracker.common.User object)
+		{
+			excludeObjectFromPropertyWithKey(object, "users");
+		}
+	
+		//TODO: will need to change this is to raw rows or an actual sql query 
+		public BigDecimal grossExpenses(){
+			BigDecimal totalAmount = new BigDecimal("0.00");
+			for(ExpenseLineItem expenseLineItem : nonDeletedExpenseLineItems()){
+				totalAmount = totalAmount.add(expenseLineItem.safeAmount());
+			}
+			return totalAmount;
+		}
+		
+		public BigDecimal grossIncome(){
+			BigDecimal totalAmount = new BigDecimal("0.00");
+			for(IncomeLineItem incomeLineItem : nonDeletedIncomeLineItems()){
+				totalAmount = totalAmount.add(incomeLineItem.safeAmount());
+			}
+			
+			return totalAmount;
+		}
+		
+		public BigDecimal netIncome(){
+			return grossIncome().subtract(grossExpenses());
+		}
+		
+		public String displayName(){
+			return name() != null ? name() : "No Name";
+		}*/
+		
+		
+		/*
+			Override this method if you have any database fields which should not
+			be modified or saved back to the server. This provides only 'quiet' protection.
+			It does not pass any errors or warnings back if field data has changed, it merely
+			ommits the fields from the save request.
+		*/
+		public function readOnlyAttributes()
+		{
+			return array("assetID");
+		}	
+		
+		/* 	Override this method if you have any database fields that deal in
+			raw binary data.
+			WARNING: attributes returned from here do not get escaped when working with the
+			MySQLDataSource so be very very careful on trusting the contents of the data
+			you are working with!
+		*/
+		/* public function binaryAttributes()
+		{
+			return array();
+		}
+		*/
+		/*
+		public function awakeFromFetch()
+		{
+			
+		}	 
+		
+		public function validateForSave()
+		{
+			
+		}
+		*/
+		
+		/*
+		// amount of time any apc auto-caching will store a copy for records of this entity
+		public function cacheTTL()
+		{
+			return 60;
+		}
+		*/
+		
+		
+	} 
+?>

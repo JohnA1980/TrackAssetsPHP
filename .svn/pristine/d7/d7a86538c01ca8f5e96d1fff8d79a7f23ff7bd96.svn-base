@@ -1,0 +1,22 @@
+<?php
+
+	//interval = P1D = Period of 1 Day
+	//			= P1M = Period of 1 Month
+	function addIntervalToDate($date, $interval){
+		
+		debugln("addCalendarDaysToDate Date 1: " . $date->format('d/m/y'));
+		$date->add(new DateInterval($interval)); // P1D means a period of 1 day
+		//$date2 = $date->format('Y-m-d');
+		debugln("returning date is " . $date->format("d/m/y"));
+		return $date;
+	}
+	
+	function minusIntervalToDate($date, $interval){
+	
+		debugln("minusIntervalToDate Date 1: " . $date->format('d/m/y'));
+		$date->sub(new DateInterval($interval)); // P1D means a period of 1 day
+		//$date2 = $date->format('Y-m-d');
+		debugln("returning date is " . $date->format("d/m/y"));
+		return $date;
+	}
+?>

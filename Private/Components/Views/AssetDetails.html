@@ -1,0 +1,465 @@
+<style type="text/css" media="screen">
+#edit {
+    margin-left:auto;
+    margin-right:auto;
+    width:75%;
+    margin-top:20px;
+}
+#edit td {
+    padding:5px;
+}
+#edit td input[type=text], textarea {
+    width:300px;
+    color:#333;
+    border:1px solid #ddd;
+    padding:5px;
+}
+#edit td textarea {
+    height:40px;
+}
+#edit td.label {
+    text-align:right;
+    font-weight:bold;
+    color:#444;
+}
+#tabs {
+	width:100%;
+	border-spacing:0;
+	margin-bottom:10px;
+	margin-top:40px;
+}
+#tabs td.tab {
+	width:120px;
+	font-weight:bold;
+	color:white;
+	font-size:13px;
+	text-align:center;
+	background-color:#0092DA;
+	padding:3px;
+	height:24px;
+	border-left:1px solid #eee;
+	border-top-left-radius:8px;
+	border-top-right-radius:8px;
+}
+#tabs td > a {
+	color:white;
+	text-decoration:none;
+}
+#tabs td.selected {
+	background-color:#96BFD5;
+	color:white;
+}
+
+
+	.inliDetails .labelAndValue{
+	float:left;
+	width: 150px;
+	}
+
+	#dateField{
+		width: 200px;
+	}
+
+	.detailsHeading{
+		font-weight:bold;
+		font-size:14px;
+		margin-bottom: 5px;
+		margin-top:5px;
+	}
+	
+	
+	
+
+</style>
+
+	
+
+<script type="text/javascript">
+
+	jQuery.noConflict();
+
+	jQuery(document).ready(function($)
+	{	
+		$(function() {
+    	
+			 
+    		//alert("The datepicker object: " + $("#datepicker" ));
+    		$("#incomePaymentDateID" ).datepicker({ dateFormat: 'dd/mm/yy'});
+    		$("#incomeFromDateID" ).datepicker({ dateFormat: 'dd/mm/yy'});
+    		$("#incomeToDateID" ).datepicker({ dateFormat: 'dd/mm/yy'});
+    		$("#expenseDateID" ).datepicker({ dateFormat: 'dd/mm/yy'});
+  		});
+						
+	});
+</script>
+
+
+<div style="margin-left:auto;margin-right:auto;width:75%;text-align:center;border-bottom:1px solid #eee;margin-top:20px;padding-bottom:10px;">
+    
+    <?php addSubmitButtonWithActions("Back", array("page" => "AssetList", "action" => "doNothing")); ?>
+    
+    <?php addSubmitButtonWithActions("Save", array("page" => "AssetDetails", "action" => "save")); ?>
+    
+</div>    
+
+<input type="hidden" name="selectedID" value="<?php echo $controller->formValueForKey("selectedID"); ?>" id="selectedID">
+
+     
+<input type="hidden" name="currentView" value="<?php echo $controller->formValueForKey("currentView"); ?>" id="currentView">
+<table id="tabs">
+	<tr>
+		<td style="width:20px;"></td>
+		<?php $tabs = array("Details" => "Details", "Income" => "Income", "Expenses" => "Expenses", "Financial Summary" => "Financial Summary"); 
+			foreach ($tabs as $value => $label) :
+		?>
+		<td class="tab<?php if ($controller->currentView() == $value) echo " selected"; ?>"><?php addSubmitLinkWithActions("mainForm", array("page" => "AssetDetails", "action" => "doNothing", "currentView" => $value), $label); ?> </td>
+		
+		<?php endforeach; ?>	
+        <td style="width:20px;"></td>	
+	</tr>
+	<tr>
+		<td colspan="<?php echo sizeof($tabs)+2; ?>" style="background-color:#96BFD5;height:3px;"></td>
+	</tr>		 
+</table>
+
+<div id="tabContents">
+    
+    <!-- SUMMARY VIEW -->
+    <?php if ($controller->currentView() == "Details") : ?>
+        <!-- summary tab contents -->
+		
+		<div style="width:100%; overflow:hidden;">
+			<div style="width:49%; float:left;">
+				<div class="detailsHeading">Name</div>
+				<input style="width:97%;" type="text" name="asset.name" value= "<?php echo $controller->asset()->vars["name"] ?>" id="asset.name" class="textEntry">
+				<div class="detailsHeading">Address</div>
+				<textarea style="width:95%; height:100px;" name="asset.address" id="asset.address" placeholder="Enter Address Here" ><?php echo $controller->asset()->vars["address"] ?></textarea>
+			</div>
+			<div style="width:49%; float:left; ">
+				<div class="detailsHeading">Details</div>
+				<textarea style="width:95%; height:149px;" name="asset.descText" id="asset.descText" placeholder="Enter Description Here" ><?php echo $controller->asset()->vars["descText"] ?></textarea>
+			</div>
+		</div>
+			
+		<div  style="width:100%; margin-top:10px; height:70px;">
+			<table width="97%" padding="10" id="SummaryTable" border=".5" margin=0 cellspacing=0 >
+				<tr height="30px">
+				<td width="30%" class="labels">Net Financial Income:</td>
+				<td width="30%" class="labels">Gross Financial Yield:</td>
+				<td width="30%" class="labels">Gross Financial Expenditure:</td>
+				</tr>
+					<td>
+						<?php echo "$". number_format($controller->asset()->incomeSummaryForFinancialYear()["income"], 2); ?>
+					</td>
+					<td><?php echo  "$".number_format($controller->asset()->incomeSummaryForFinancialYear()["netIncome"], 2); ?></td>
+					<td><?php echo "$".number_format($controller->asset()->incomeSummaryForFinancialYear()["expenses"],2); ?></td>
+				<tr>
+				</tr>
+			</table>		
+         	</div>
+         	<div >
+         		<div class="subSectionTitle">Upcoming Payments</div>
+
+         		<div class="tabular scrollableArea">
+					<table border="0" cellpadding="0" cellspacing="0">
+					
+						<tr class="tableHead">
+							<td style="width:150px">Payment Status</td>
+							<td style="width:150px">Due Date</td>
+							<td style="width:200px">Rental Dates</td>
+							<td style="width:300px">Occupant</td>
+						</tr>
+						<?php $nonDeletedIncomeLineItems = $controller->asset()->unpaidIncomeLineItems(); foreach($nonDeletedIncomeLineItems as $incomeLineItem) : ?>
+						<tr class="<?php echo $incomeLineItem->cssString() ?>">
+							<td class="status"><?php echo $incomeLineItem->status(); ?></td>
+							<td><?php echo $incomeLineItem->fromDateFormatted(); ?></td>
+							<td><?php echo $incomeLineItem->toAndFromString(); ?></td>
+							<td><?php echo $incomeLineItem->safeOccupantDisplay() ?></td>
+						</tr>
+						<?php endforeach; ?>
+					</table>
+         		</div>
+         	</div>
+
+        
+    <?php endif; ?>
+    
+    <!-- INCOME VIEW -->
+    
+    
+   <input type="hidden" name="selectedIncomeSourceID" value="<?php echo $controller->formValueForKey("selectedIncomeSourceID"); ?>" id="selectedIncomeSourceID">
+   <input type="hidden" name="selectedIncomeLineItemID" value="<?php echo $controller->formValueForKey("selectedIncomeLineItemID"); ?>" id="selectedIncomeLineItemID"> 
+   <input type="hidden" name="deleteIncomeLineItemID" value="<?php echo $controller->formValueForKey("deleteIncomeLineItemID"); ?>" id="deleteIncomeLineItemID">
+   <input type="hidden" name="incomeToBeMarkedAsPaidID" value="<?php echo $controller->formValueForKey("incomeToBeMarkedAsPaidID"); ?>" id="incomeToBeMarkedAsPaidID"> 
+    
+    <?php if ($controller->currentView() == "Income") : ?>
+  <div id="InvoiceDiv">
+   	 <div style="margin-bottom: 5px;">
+  
+   	 	<select name="selectedIncomeSourceSelect" id="selectedIncomeSourceSelect">
+   	 	
+   	 			<?php $incomeSources = $controller->incomeSources(); foreach ($incomeSources as $incomeSource) : 
+   	 			constructSelectOption($controller->formValueForKeyPath("selectedIncomeSource.incomeSourceID"), $incomeSource->vars["incomeSourceID"], $incomeSource->safeNameAndOccupant()); 
+   	 		 endforeach; ?>
+   	 	</select> 
+   	 		<?php addSubmitButtonWithActions("Select Room", array("page" => "AssetDetails", "action" => "selectIncomeSource")); ?>
+   	 		<?php addSubmitButtonWithActions("Edit Rooms", array("page" => "IncomeSourceEdit", "action" => "doNothing", "selectedID" => $controller->asset()->vars["assetID"])); ?>
+   	 		<?php addSubmitButtonWithActions("Edit Occupants", array("page" => "OccupantDetailsList", "action" => "doNothing", "selectedID" => $controller->asset()->vars["assetID"])); ?>
+   	 </div>
+   	   
+   	 <div class="innerActionsBar">
+   	 	<div>
+   	 		
+   	 	<div>
+   	 	<div class="actionsArea">
+     		<?php addSubmitButtonWithActions("Create Income Item", array("page" => "AssetDetails", "action" => "createIncomeLineItem")); ?>
+     	</div>
+     	<div class="leftBarArea">
+   	 		
+   	 	</div>
+     </div> 
+   	<div>
+   	
+   <?php if($controller->selectedIncomeSource()) : ?>
+   	<div class="subSectionTitle" >
+   		Bedroom: <?php echo $controller->safeNameAndOccupant(); ?>
+   	</div>	
+    
+    <?php if ($controller->selectedIncomeLineItem()) : ?>
+	<div class="inliDetails selectedArea" style="height:55px;">     
+		<div class="labelAndValue">
+            <div class="labels">Payment Date:</div>
+            <div>
+                <?php 
+                // @John: ok some problems with how this is done. I don't think you have the paramters on this method call right. Instead lets go back to basics and use the input field. 
+                //addTextField("incomePaymentDate", $controller->selectedIncomeLineItem()->vars["paymentDate"], "selectedIncomeLineItem.paymentDate"); 
+                
+                // NOTE: pay special attention to the field name used in the keypath: formattedPaymentDate... check out the entity..
+                
+                // change each of your editing fields as per the first two I have done.
+                ?>
+                <input type="text" name="selectedIncomeLineItem.paymentDateFormatted" value="<?php echo $controller->formValueForKeyPath("selectedIncomeLineItem.paymentDateFormatted") ?>" placeholder="dd/mm/yyyy" id="incomePaymentDateID">
+            </div>
+        </div>
+		<div class="labelAndValue"><div class="labels">Occupant:</div><div><?php echo $controller->selectedIncomeLineItem()->safeOccupantDisplay(); ?></div></div>
+		<div class="labelAndValue" style="width:200px;">
+            <div class="labels">Description:</div>
+            <div>
+                <input type="text" name="selectedIncomeLineItem.descText" value="<?php echo $controller->formValueForKeyPath("selectedIncomeLineItem.descText"); ?>" placeholder="short description">
+            </div>
+        </div>
+		<div class="labelAndValue" style="width:120px;"><div class="labels">Amount:</div><div><?php addTextField("selectedIncomeLineItem.amount", $controller->selectedIncomeLineItem()->vars["amount"],"selectedIncomeLineItem.amount"); ?></div></div>
+		<div class="labelAndValue" style="width:120px;"><div class="labels">Amount Paid:</div><div><?php addTextField("selectedIncomeLineItem.amountPaid", $controller->selectedIncomeLineItem()->vars["amountPaid"],"selectedIncomeLineItem.amountPaid"); ?></div></div>
+		<div id="dateField" class="labelAndValue"  style="width:200px;"><div class="labels">From-To Date:</div><div><table><tr><td><?php addTextField("selectedIncomeLineItem.fromDateFormatted", $controller->selectedIncomeLineItem()->fromDateFormatted(),"selectedIncomeLineItem.fromDateFormatted", null ,"incomeFromDateID"); ?></td><td> - </td><td>&nbsp;<?php addTextField("selectedIncomeLineItem.toDateFormatted", $controller->selectedIncomeLineItem()->toDateFormatted(),"selectedIncomeLineItem.toDateFormatted", null, "incomeToDateID"); ?></td></tr></table> </div></div>
+        <div class="labelAndValue">
+            
+        </div>    
+	</div>
+	<?php endif; ?>
+
+  	<div class="tabular scrollableArea">
+        <table>
+         	<tr class="tableHead">
+         		<td  style="width:5%"></td>
+				<td style="width:10%">Status</td>
+				<td style="width:13%">Payment Date</td>
+				<td  style="width:15%">To-From</td>
+				<td style="width:15%">Occupant</td>
+				<td  style="width:20%">Description</td>
+				<td style="width:10%">Invoice Amount</td>
+				<td style="width:10%">Amount&nbsp;Paid</td>
+				<td style="width:5%"></td>
+         	</tr>
+         <?php $incomeLineItems = $controller->selectedIncomeSource()->nonDeletedIncomeLineItems(); foreach($incomeLineItems as $incomeLineItem) : ?>
+         <tr class="<?php echo $incomeLineItem->cssString() ?>">
+         		<td>
+         		<?php addSubmitLinkWithActions("mainForm", array("page" => "AssetDetails", "action" => "resetIncomeLineItemForm", "selectedIncomeLineItemID" => $incomeLineItem->vars["incomeLineItemID"]), null ,"images/write-btn.gif"); ?>
+         		&nbsp<?php if(!$incomeLineItem->isPaid())addSubmitLinkWithActions("mainForm", array("page" => "AssetDetails", "action" => "markAsPaid", "incomeToBeMarkedAsPaidID" => $incomeLineItem->vars["incomeLineItemID"]), null ,"images/dollarSign.jpeg"); ?>
+         		</td>
+         		<td class="status"><?php echo $incomeLineItem->status(); ?></td>
+         		<td><?php echo $incomeLineItem->paymentDateFormatted(); ?></td>
+         		<td><?php echo $incomeLineItem->toAndFromString(); ?></td>
+         		<td><?php echo $incomeLineItem->safeOccupantDisplay();?></td>
+         		<td><?php echo $incomeLineItem->vars["descText"]; ?></td>
+         		<td><?php echo $incomeLineItem->vars["amount"]; ?></td>
+         		<td><?php echo $incomeLineItem->vars["amountPaid"]; ?></td>
+         		<td><?php addSubmitLinkWithActionsAndCallback("confirmDeleteSubmit()", array("page" => "AssetDetails", "action" => "deleteIncomeLineItem", "deleteIncomeLineItemID" => $incomeLineItem->vars["incomeLineItemID"]), null, "images/iconDelete.png"); ?></td>
+         	</tr>
+         <?php endforeach; ?>
+       </table>
+    </div>
+    
+    
+ </div>
+ <!--  End if for selectedIncomeSource -->
+    <?php endif; ?>
+        
+    <?php endif; ?>    
+    
+    
+     <!-- EXPENSES VIEW -->
+    <?php if ($controller->currentView() == "Expenses") : ?>   
+    <input type="hidden" name="selectedExpenseLineItemID" value="<?php echo $controller->formValueForKey("selectedExpenseLineItemID"); ?>" id="selectedExpenseLineItemID">
+    <input type="hidden" name="deleteExpenseLineItemID" value="<?php echo $controller->formValueForKey("deleteExpenseLineItemID"); ?>" id="deleteExpenseLineItemID">
+    <div id="ExpenditureDiv">    
+	<div class="innerActionsBar">
+   	 	
+   	 	<div class="actionsArea">
+     		<?php addSubmitButtonWithActions("Create Expense Item", array("page" => "AssetDetails", "action" => "createExpenseLineItem", "selectedID" => $controller->asset()->vars["assetID"])); ?>
+     	</div>
+     	<div class="leftBarArea">
+   	 		
+   	 	</div>
+   	<?php if($controller->hasSelectedExpenseLineItem()) : ?><div class="eliDetails selectedArea">  
+	
+		 <div class="labelAndValue"><div class="header">Payment Date:</div><div><input type="text" name="selectedExpenseLineItem.expenseDateFormatted" value="<?php echo $controller->formValueForKeyPath("selectedExpenseLineItem.expenseDateFormatted") ?>" placeholder="dd/mm/yyyy" id="expenseDateID"></div></div>
+	 <div class="labelAndValue"><div class="header">Type:</div><div>
+			<select name="selectedExpenseLineItem.expenseTypeID" id="selectedExpenseLineItem.expenseTypeID">
+   	 		<?php $expenseTypes = $controller->allExpenseTypes(); foreach ($expenseTypes as $expenseType) : 
+   	 			constructSelectOption($controller->formValueForKeyPath("selectedExpenseLineItem.expenseTypeID"), $expenseType->vars["expenseTypeID"], $expenseType->vars["name"]); 
+   	 		 endforeach; ?>
+   	 		</select> 
+		</div></div>
+		
+		<div class="labelAndValue"><div class="header">Amount:</div><div><?php addTextField("selectedExpenseLineItem.amount", $controller->selectedExpenseLineItem()->vars["amount"], $enabled = true, $class = null, $id = "selectedExpenseLineItem.amount", $style = null, $addHiddenFieldWhenDisabled = false); ?></div></div>
+		<div class="labelAndValue"><div class="header">Description:</div><div><?php addTextField("selectedExpenseLineItem.descText", $controller->selectedExpenseLineItem()->vars["descText"], $enabled = true, $class = null, $id = "selectedExpenseLineItem.descText", $style = null, $addHiddenFieldWhenDisabled = false); ?></div></div>
+	</div> <?php endif; ?> 	
+	<div class="navigationArea">
+		<webobject name="BatchNavigationBar1"></webobject>
+	</div>
+	<div class="tabular scrollableArea">               
+		<table>            
+			<tr class="tableHead">
+				<td style="width:5%"></td>
+				<td style="width:20%">Payment Date</td>
+				<td style="width:20%">Type</td>
+				<td style="width:20%">Description</td> 
+				<td style="width:30%">Amount</td> 
+				<td style="width:5%"></td>           
+			</tr>             
+			<?php $expenseLineItems = $controller->asset()->sortedExpenseLineitemsBasedOnPaymentDate(); foreach($expenseLineItems as $expenseLineItem) : ?>
+				<tr>   
+					<td style="text-align:center"><?php addSubmitButtonWithActions("Edit", array("page" => "AssetDetails", "action" => "resetExpenseLineItemForm", "selectedExpenseLineItemID" => $expenseLineItem->vars["expenseLineItemID"])); ?></td>         
+					<td><?php echo $expenseLineItem->expenseDateFormatted(); ?></td>
+					            
+					<td><?php echo $expenseLineItem->expenseTypeDisplay(); ?></td>            
+					<td><?php echo $expenseLineItem->vars["descText"] ?> </td>
+					<td><?php echo $expenseLineItem->vars["amount"] ?></td>
+					
+					<td><?php addSubmitLinkWithActionsAndCallback("confirmDeleteSubmit()", array("page" => "AssetDetails", "action" => "deleteExpenseLineItem", "deleteExpenseLineItemID" => $expenseLineItem->vars["expenseLineItemID"]), null, "images/iconDelete.png"); ?></td>            
+				</tr>
+			<?php endforeach; ?>	                        
+		</table>    
+	</div>
+	<?php endif; ?>   
+	<?php if ($controller->currentView() == "Financial Summary") : ?>
+	  <!--Load the AJAX API-->
+   	<script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type="text/javascript">
+ 	// Load the Visualization API and the piechart package.
+      //google.load('visualization', '1.0', {'packages':['corechart']});
+      google.load("visualization", "1.1", {packages:["bar", "corechart"]});
+
+      // Set a callback to run when the Google Visualization API is loaded.
+      google.setOnLoadCallback(expensesDrawChart);
+
+      // Callback that creates and populates a data table,
+      // instantiates the pie chart, passes in the data and
+      // draws it.
+      function expensesDrawChart() {
+
+        // Create the data table.
+        var data = new google.visualization.DataTable();
+        data.addColumn('string', 'Expenss');
+        data.addColumn('number', 'Amount');
+     	// data.addRows([
+        //  ['Water Bills', 300],
+        //  ['Electricity', 400],
+        //  ['Rates', 100],
+        //  ['General Maintenence', 100],
+        //  ['Internet', 59]
+        //]);
+        
+        
+        data.addRows( <?php echo $controller->currentExpenseSummaryJSON(); ?>);
+
+        // Set chart options
+        var options = {'title':'Expenses',
+                       'width':600,
+                       'height':300};
+
+        // Instantiate and draw our chart, passing in some options.
+        var chart = new google.visualization.PieChart(document.getElementById('chart_div'));
+        chart.draw(data, options);
+      }
+      
+  
+      
+      google.setOnLoadCallback(drawChart);
+      function drawChart() {
+      // var data = google.visualization.arrayToDataTable([
+       //   ['Month', 'Rent', 'Expenses', 'Profit'],
+       //   ['Jan', 1500, 400, 1100],
+       //   ['Feb', 1600, 460, 1540],
+       //   ['Mar', 1000, 1120, -120],
+       //   ['Apr', 1500, 3000, -1500]
+       // ]);
+
+		var data = google.visualization.arrayToDataTable(<?php echo $controller->chartArrayTable() ?>);
+		
+        var options = {
+          chart: {
+            title: 'Company Performance',
+            subtitle: 'Sales, Expenses, and Profit: 2014-2017',
+          }
+        };
+
+        var chart = new google.charts.Bar(document.getElementById('columnchart_material'));
+
+        chart.draw(data, options);
+      }
+
+      
+      
+    </script>
+    
+    <input type="hidden" name="currentChart" value="<?php echo $controller->formValueForKey("currentChart"); ?>" id="currentChart">
+    <input type="hidden" name="startDateExpenseSummary" value="<?php echo $controller->formValueForKey("startDateExpenseSummary"); ?>" id="startDateExpenseSummary">
+    <input type="hidden" name="endDateExpenseSummary" value="<?php echo $controller->formValueForKey("endDateExpenseSummary"); ?>" id="endDateExpenseSummary">
+    
+    <div style="margin-bottom: 5px;">
+    	<select name="chartSelection" id="chartSelection">
+   	 		<?php $reportCharts = $controller->reportsChartArray(); 
+   	 		debugln("number of report charts?? " . count($reportCharts));
+   	 		foreach($reportCharts as $reportChart) : 
+   	 			constructSelectOption($controller->currentChart, $reportChart, $reportChart);
+   	 		endforeach; ?>
+   	 		</select> 
+   	 	<!--  
+   	 	<select name="chartSelection" value="<?php echo $controller->currentChart; ?>" selected="<?php echo $controller->currentChart; ?>">
+   	 		<?php $reportCharts = $controller->reportsChartArray(); foreach($reportCharts as $reportChart) : ?>
+   	 			<option value="<?php echo $reportChart; ?>"  ><?php echo $reportChart; ?></option>
+   	 		<?php endforeach; ?>
+   	 	</select> --> 
+   	 		<?php addSubmitButtonWithActions("View Chart", array("page" => "AssetDetails", "action" => "selectCurrentChart", "currentChart" => $controller->formValueForKey("chartSelection"))); ?>
+   	 </div>
+   	 
+    
+      <!--Div that will hold the pie chart-->
+     <?php if ($controller->currentChart == "Expenses Summary Chart") : ?>
+    <div><?php $financialYearMonths = $controller->financialYearMonths(); 
+    debugln("number in financial array: " . sizeof($financialYearMonths));
+    foreach($financialYearMonths as $month) : ?> <span>&nbsp <?php addSubmitLinkWithActions("mainForm", array("page" => "AssetDetails", "action" => "doNothing", "startDateExpenseSummary" => $month["start"]->format('Y-m-d'), "endDateExpenseSummary" => $month["end"]->format('Y-m-d')), $month["start"]->format('y-M')); ?>  &nbsp</span> <?php endforeach; ?></div>
+    
+    <!-- <div>Date selected: <?php echo $controller->currentExpenseSummaryJSON(); ?></div> -->
+   	 <div id="chart_div"></div>
+    
+    <?php endif; ?>
+    
+    <?php if ($controller->currentChart == "Net Income Chart") : ?>
+    
+    	 <div id="columnchart_material" style="width: 900px; height: 500px;"></div>
+   	<?php endif; ?> 
+	<?php endif; ?>
+</div>    
+

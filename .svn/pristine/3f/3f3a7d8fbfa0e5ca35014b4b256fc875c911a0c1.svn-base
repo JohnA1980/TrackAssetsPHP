@@ -1,0 +1,4 @@
+<?php
+    $domain = "http://".$_SERVER['SERVER_ADDR']."/~sqonk/trackassets";
+    setDebugLogging(2);
+?>

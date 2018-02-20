@@ -1,0 +1,21 @@
+<div id="header">
+    <span style="color:#CDE2F7;">Finance</span> TRACKER
+</div>    
+
+
+<div id="navbar">
+<?php if (safeValue($_SESSION, "userID")) : ?>
+    <span style="float:left;padding-left:10px;">
+        <a href="Assets">Assets</a>
+        &nbsp;|&nbsp;
+        <a href="Portfolio">Investment Portfolio</a>
+    </span>    
+    <?php addSubmitLinkWithActions("mainForm", array("page" => "AssetList", "action" => "logout"), "Logout"); ?>
+<?php else : ?>
+    
+    <a href="Home">Home</a>
+    &nbsp;|&nbsp;
+    <a href="Login">Login</a>
+    
+<?php endif; ?>    
+</div>

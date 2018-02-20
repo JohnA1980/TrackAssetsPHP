@@ -1,0 +1,5 @@
+<?php
+    $domain = "http://".$_SERVER['SERVER_ADDR']."/~sqonk/trackassets";
+    setDebugLogging(3);
+    BLDataSource::setDefaultDataSource(new BLMySQLDataSource("localhost", "root", "", "trackassets"));
+?>

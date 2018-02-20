@@ -1,0 +1,115 @@
+<style type="text/css" media="screen">
+#edit {
+    margin-left:auto;
+    margin-right:auto;
+    width:75%;
+    margin-top:20px;
+}
+#edit td {
+    padding:5px;
+}
+#edit td input[type=text], textarea {
+    width:300px;
+    color:#333;
+    border:1px solid #ddd;
+    padding:5px;
+}
+#edit td textarea {
+    height:40px;
+}
+#edit td.label {
+    text-align:right;
+    font-weight:bold;
+    color:#444;
+}
+#tabs {
+	width:100%;
+	border-spacing:0;
+	margin-bottom:10px;
+	margin-top:40px;
+}
+#tabs td.tab {
+	width:120px;
+	font-weight:bold;
+	color:white;
+	font-size:13px;
+	text-align:center;
+	background-color:#0092DA;
+	padding:3px;
+	height:24px;
+	border-left:1px solid #eee;
+	border-top-left-radius:8px;
+	border-top-right-radius:8px;
+}
+#tabs td > a {
+	color:white;
+	text-decoration:none;
+}
+#tabs td.selected {
+	background-color:#96BFD5;
+	color:white;
+}
+</style>
+
+<div style="margin-left:auto;margin-right:auto;width:75%;text-align:center;border-bottom:1px solid #eee;margin-top:50px;padding-bottom:10px;">
+    
+    <?php addSubmitButtonWithActions("Back", array("page" => "AssetList", "action" => "doNothing")); ?>
+    
+    <?php addSubmitButtonWithActions("Save", array("page" => "AssetDetails", "action" => "save")); ?>
+    
+</div>    
+
+<input type="hidden" name="selectedID" value="<?php echo $controller->formValueForKey("selectedID"); ?>" id="selectedID">
+
+        <div style="text-align:center;padding:40px;">
+            A place to put anything you want to live outside of the tabs.
+        </div>
+        
+        
+
+<input type="hidden" name="currentView" value="<?php echo $controller->formValueForKey("currentView"); ?>" id="currentView">
+<table id="tabs">
+	<tr>
+		<td style="width:20px;"></td>
+		<?php $tabs = array("Summary" => "Summary", "Income" => "This is a sample label of the tab"); 
+		
+			foreach ($tabs as $value => $label) :
+		?>
+		<td class="tab<?php if ($controller->currentView == $value) echo " selected"; ?>"><?php addSubmitLinkWithActions("mainForm", array("page" => "AssetDetails", "action" => "doNothing", "currentView" => $value), $label); ?></td>
+		
+		<?php endforeach; ?>	
+        <td style="width:20px;"></td>	
+	</tr>
+	<tr>
+		<td colspan=<?php echo sizeof($tabs)+2; ?> style="background-color:#96BFD5;height:3px;">
+	</tr>		
+</table>
+
+<div id="tabContents">
+    
+    <?php if ($controller->currentView == "Summary") : ?>
+        <!-- summary tab contents -->
+        <table id="edit">
+
+            <?php printEditForm(array(
+        
+            "Name" => array("type" => "text", "keypath" => "asset.name"),
+            "Address" => array("type" => "textarea", "keypath" => "asset.address"),
+            "Description" => array("type" => "textarea", "keypath" => "asset.descText")
+        
+            ), $controller, array("labelClass" => "label")); ?>
+
+        </table>
+        
+    <?php endif; ?>
+    
+    <?php if ($controller->currentView == "Income") : ?>
+        <!-- income tab -->
+        <div style="text-align:center;padding:40px;">
+            Income
+        </div>
+        
+    <?php endif; ?>    
+    
+</div>    
+

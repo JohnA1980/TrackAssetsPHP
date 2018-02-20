@@ -1,0 +1,123 @@
+<style type="text/css" media="screen">
+#tabular table td {
+    border-right:1px solid #eee;
+    padding:2px;
+}
+#top_bar {
+    width:75%;
+    margin-left:auto;
+    margin-right:auto;
+}
+#results {
+    width:75%;
+    margin-left:auto;
+    margin-right:auto;
+}
+#search {
+	padding-left:10px;
+	padding-right:10px;
+}
+#search table {
+    width:75%;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:40px;
+}
+#search table td {
+	font-size:12px;
+}
+#results tr.deleted {
+    background-color:#FFC4CB;
+}
+</style>
+
+<script type="text/javascript">
+var fullList = null;
+var searching = false;
+var timer = null;
+
+function resetList() {
+	el_id("searchField").value = "";
+	var div = el_id("results");
+	div.innerHTML = fullList;
+	el_id("clearButton").disabled = true;
+	el_id("showDeleted").checked = false;
+}
+
+function filterAssets(event) {
+	if (event.keyCode == 13)
+		return false;
+	if (searching)
+		return true;
+	searching = true;
+	
+	if (fullList == null) {
+		// cache the full list so we can return to it later.
+		fullList = el_id("results").innerHTML;
+	}
+	
+	el_id("clearButton").disabled = false;
+	
+    if (timer) {
+        clearTimeout(timer);
+    }
+	timer = setTimeout("doSearch()", 800);
+	return true;
+}
+
+function doSearch() {
+	var searchDiv = el_id("search");
+	searchDiv.style.display = "none";
+	var searchField = el_id("searchField");
+	var div = el_id("results");
+	div.innerHTML = "<div style='margin-top:50px;margin-left:auto;margin-right:auto;width:300px;text-align:center;'><img src='images/ajax-loader.gif' width=100 height=100></div>";
+	
+	var page = encodeURIComponent("<?php echo doEncrypt("AssetResults"); ?>");
+	var action = encodeURIComponent("<?php echo doEncrypt("doNothing"); ?>")
+	var name = searchField.value;
+	var showDeleted = el_id("showDeleted").checked ? "1" : "0";
+	var data = "searchText="+encodeURIComponent(name)+"&showDeleted="+showDeleted+"&page="+page+"&action="+action;
+	
+	sendRequest("index.php", data, function(originalQuery, result) {
+		//console.log(result);
+        //var result = JSON.parse(result);
+		div.innerHTML = result;
+		
+		searching = false;
+		searchDiv.style.display = "block";
+	}, function(originalQuery, error) {
+		div.innerHTML = "<div class='notice'>An error occured while searching the patient list.</div>";
+		searching = false;
+		searchDiv.style.display = "block";
+	});
+}
+</script>
+
+<input type="hidden" name="selectedID" value="" id="selectedID">
+
+<div id="search">	
+	<table>
+		<tr>
+			<td style="width:385px;border-right:1px solid #ddd;">
+				<input type="text" name="search" value="" id="searchField" placeholder="name or address" style="padding:5px;font-size:13px;border-radius:16px;width:300px;border:1px solid #aaa;" onkeypress="return filterAssets(event);" autocomplete="off">
+				
+				<input type="button" name="clearButton" value="Reset" id="clearButton" onclick="return resetList();" disabled>
+			</td>	
+			<td style="text-align:left;">
+				<input type="checkbox" name="showDeleted" value="1" id="showDeleted" onclick="return filterAssets(event);"> Show Deleted
+			</td>
+			<td style="text-align:right;">
+				<?php addSubmitButtonWithActions("New Asset", array("mpage" => "PatientList", "maction" => "newPatient")); ?>
+			</td>	
+		</tr>	
+	</table>	
+</div>
+
+<div class="tabular" id="results">
+	
+</div>	
+
+
+<script type="text/javascript">
+    doSearch();
+</script>

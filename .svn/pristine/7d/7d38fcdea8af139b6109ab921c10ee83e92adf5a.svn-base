@@ -1,0 +1,13 @@
+<?php 
+	require_once BLOGIC."/BLogic.php"; 
+	require_once ROOT.'/Components/Controllers/PageWrapper.php';
+	 
+	class PortfolioList extends PageWrapper 
+	{ 
+		public function __construct($formData) 
+		{ 
+			$templateName = $this->templateNameBasedOnDevice("PortfolioList", array());
+			parent::__construct($formData, $templateName);
+		} 
+	} 
+?>

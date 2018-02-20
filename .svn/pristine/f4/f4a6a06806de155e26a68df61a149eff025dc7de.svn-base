@@ -1,0 +1,274 @@
+<style type="text/css" media="screen">
+#edit {
+    margin-left:auto;
+    margin-right:auto;
+    width:75%;
+    margin-top:20px;
+}
+#edit td {
+    padding:5px;
+}
+#edit td input[type=text], textarea {
+    width:300px;
+    color:#333;
+    border:1px solid #ddd;
+    padding:5px;
+}
+#edit td textarea {
+    height:40px;
+}
+#edit td.label {
+    text-align:right;
+    font-weight:bold;
+    color:#444;
+}
+#tabs {
+	width:100%;
+	border-spacing:0;
+	margin-bottom:10px;
+	margin-top:40px;
+}
+#tabs td.tab {
+	width:120px;
+	font-weight:bold;
+	color:white;
+	font-size:13px;
+	text-align:center;
+	background-color:#0092DA;
+	padding:3px;
+	height:24px;
+	border-left:1px solid #eee;
+	border-top-left-radius:8px;
+	border-top-right-radius:8px;
+}
+#tabs td > a {
+	color:white;
+	text-decoration:none;
+}
+#tabs td.selected {
+	background-color:#96BFD5;
+	color:white;
+}
+
+
+	.inliDetails .labelAndValue{
+	float:left;
+	width: 150px;
+	}
+
+	#dateField{
+		width: 200px;
+	}
+
+</style>
+
+<div style="margin-left:auto;margin-right:auto;width:75%;text-align:center;border-bottom:1px solid #eee;margin-top:50px;padding-bottom:10px;">
+    
+    <?php addSubmitButtonWithActions("Back", array("page" => "AssetList", "action" => "doNothing")); ?>
+    
+    <?php addSubmitButtonWithActions("Save", array("page" => "AssetDetails", "action" => "save")); ?>
+    
+</div>    
+
+<input type="hidden" name="selectedID" value="<?php echo $controller->formValueForKey("selectedID"); ?>" id="selectedID">
+
+        <div style="text-align:center;padding:40px;">
+            A place to put anything you want to live outside of the tabs.
+        </div>
+        
+        
+
+<input type="hidden" name="currentView" value="<?php echo $controller->formValueForKey("currentView"); ?>" id="currentView">
+<table id="tabs">
+	<tr>
+		<td style="width:20px;"></td>
+		<?php $tabs = array("Summary" => "Summary", "Income" => "Income", "Expenses" => "Expenses"); 
+		
+			foreach ($tabs as $value => $label) :
+		?>
+		<td class="tab<?php if ($controller->currentView == $value) echo " selected"; ?>"><?php addSubmitLinkWithActions("mainForm", array("page" => "AssetDetails", "action" => "doNothing", "currentView" => $value), $label); ?></td>
+		
+		<?php endforeach; ?>	
+        <td style="width:20px;"></td>	
+	</tr>
+	<tr>
+		<td colspan=<?php echo sizeof($tabs)+2; ?> style="background-color:#96BFD5;height:3px;">
+	</tr>		
+</table>
+
+<div id="tabContents">
+    
+    <!-- SUMMARY VIEW -->
+    <?php if ($controller->currentView == "Summary") : ?>
+        <!-- summary tab contents -->
+
+        <table id="edit">
+
+            <?php printEditForm(array(
+        
+            "Name" => array("type" => "text", "keypath" => "asset.name"),
+            "Address" => array("type" => "textarea", "keypath" => "asset.address"),
+            "Description" => array("type" => "textarea", "keypath" => "asset.descText")
+        
+            ), $controller, array("labelClass" => "label")); ?>
+
+        </table>
+        
+        
+		<div style="height:80px;">
+         		<div class="labelAndValue">
+					<div class="labels">Net Financial Income:</div><div><webobject name="netIncomeString"></webobject></div>
+				</div>	
+				<div class="labelAndValue">
+					<div class="labels">Gross Financial Yield:</div><div><webobject name="grossIncomeString"></webobject></div>
+				</div>
+				<div class="labelAndValue">
+					<div class="labels">Gross Financial Expenditure:</div><div><webobject name="grossExpensesString"></webobject></div>
+				</div>	
+         	</div>
+         
+         	<div >
+         		<div class="subSectionTitle">Upcoming Payments</div>
+
+         		<div class="tabular scrollableArea">
+					<table border="0" cellpadding="0" cellspacing="0">
+						<tr class="tableHead">
+							<td style="width:150px">Payment Status</td>
+							<td style="width:150px">Due Date</td>
+							<td style="width:200px">Rental Dates</td>
+							<td style="width:300px">Occupant</td>
+						</tr>
+						<tr>
+							<td class="status">OverDue</td>
+							<td>10/10/2014</td>
+							<td>10/10/2014 - 9/11/2014</td>
+							<td>John Doe</td>
+						</tr>
+						<tr>
+							<td class="status">PAID</td>
+							<td>10/10/2014</td>
+							<td>10/10/2014 - 9/11/2014</td>
+							<td>Richard Gear</td>
+						</tr>
+					</table>
+         		</div>
+         	</div>
+
+        
+    <?php endif; ?>
+    
+    <!-- INCOME VIEW -->
+    <?php if ($controller->currentView == "Income") : ?>
+  <div id="InvoiceDiv">
+   	 <div style="margin-bottom: 5px;">
+   	 	<select>
+   	 		<?php $incomeSources = $controller->incomeSources(); foreach ($incomeSources as $incomeSource) : ?>
+   	 		<option value="><?php echo $incomeSource->vars["incomeSourceID"]; ?>"><?php echo $incomeSource->field("name"); ?></option><?php endforeach; ?></select> 
+   	 		<?php addSubmitButtonWithActions("Edit Rooms", array("page" => "IncomeSourceEdit", "action" => "doNothing", "selectedID" => 1)); ?>
+   	 </div>
+   	   
+   	 
+   	 <div class="innerActionsBar">
+   	 	<div>
+   	 		
+   	 	<div>
+   	 	<div class="actionsArea">
+     		<webobject name="CreateIncomeSubmitButton"></webobject>
+     	</div>
+     	<div class="leftBarArea">
+   	 		
+   	 	</div>
+     </div> 
+   	<div>
+   	
+   	<div class="subSectionTitle" >
+   		Bedroom: <webobject name="WOString4"></webobject>
+   	</div>	
+
+  	<div class="tabular scrollableArea">
+        <table>
+         	<tr class="tableHead">
+         		<td  style="width:5%"></td>
+				<td style="width:10%">Status</td>
+				<td style="width:13%">Payment Date</td>
+				<td  style="width:15%">To-From</td>
+				<td style="width:15%">Occupant</td>
+				<td  style="width:20%">Description</td>
+				<td style="width:10%">Invoice Amount</td>
+				<td style="width:10%">Amount&nbsp;Paid</td>
+				<td style="width:5%"</td>
+         	</tr>
+         <tr >
+         		<td><webobject name="WOActiveImage1"></webobject></td>
+         		<td class="status"><webobject name="WOString3"></webobject></td>
+         		<td><webobject name="paymentDateString"></webobject></td>
+         		<td><webobject name="toAndFromString"></webobject></td>
+         		<td><webobject name="payeeString"></webobject></td>
+         		<td><webobject name="descriptionString"></webobject></td>
+         		<td><webobject name="amountString"></webobject></td>
+         		<td><webobject name="amountPaidString1"></webobject></td>
+         		<td><webobject name="JSConfirmPanel"></webobject></td>
+         	</tr>
+         
+       </table>
+    </div>
+	<div class="inliDetails selectedArea">     
+		<div class="labelAndValue"><div class="labels">Payment Date:</div><div>15/8/2014</div></div>
+		<div class="labelAndValue"><div class="labels">Occupant:</div><div>James Dean</div></div>
+		<div class="labelAndValue" style="width:200px;"><div class="labels">Description:</div><div>blah</div></div>
+		<div class="labelAndValue" style="width:120px;"><div class="labels">Amount:</div><div>$160.00</div></div>
+		<div class="labelAndValue" style="width:120px;"><div class="labels">Amount Paid:</div><div>$160.00</div></div>
+		<div id="dateField" class="labelAndValue"><div class="labels">From-To Date:</div><div><15/8/2014- 30/8/2014</div></div>
+	</div>
+ </div>
+      
+        
+    <?php endif; ?>    
+    
+     <!-- EXPENSES VIEW -->
+    <?php if ($controller->currentView == "Expenses") : ?>   
+    <div id="ExpenditureDiv">    
+	<div class="innerActionsBar">
+   	 	
+   	 	<div class="actionsArea">
+     		<webobject name="CreateELISubmitButton"></webobject>
+     	</div>
+     	<div class="leftBarArea">
+   	 		
+   	 	</div>
+	<div class="navigationArea">
+		<webobject name="BatchNavigationBar1"></webobject>
+	</div>
+	<div class="tabular scrollableArea">               
+		<table>            
+			<tr class="tableHead">
+				<td style="width:5%"></td>
+				<td style="width:20%">Payment Date</td>
+				<td style="width:20%">Type</td>
+				<td style="width:20%">Description</td> 
+				<td style="width:30%">Amount</td> 
+				<td style="width:5%"></td>           
+			</tr>             
+			<webobject name="WORepetition">
+				<tr>   
+					<td style="text-align:center"><webobject name="WOActiveImage"></webobject></td>         
+					<td><webobject name="DateReceivedString"></webobject></td>
+					            
+					<td><webobject name="ExpenseTypeString"></webobject></td>            
+					<td><webobject name="DescriptionString"></webobject>
+					<td><webobject name="AmountString"></webobject></td>
+					
+					<td><webobject name="JSConfirmPanel"></webobject></td>            
+				</tr>
+			</webobject>	                        
+		</table>    
+	</div>
+	<webobject name="WOConditional"><div class="eliDetails selectedArea">     
+		<div class="labelAndValue"><div class="header">Payment Date:</div><div><webobject name="DatePicker"></webobject></div></div>
+		<div class="labelAndValue"><div class="header">Type:</div><div><webobject name="WOPopUpButton"></webobject></div></div>
+		<div class="labelAndValue"><div class="header">Amount:</div><div><webobject name="WOTextField"></webobject></div></div>
+		<div class="labelAndValue"><div class="header">Description:</div><div><webobject name="WOTextField1"></webobject></div></div>
+	</div></webobject>
+	<?php endif; ?>   
+</div>    
+

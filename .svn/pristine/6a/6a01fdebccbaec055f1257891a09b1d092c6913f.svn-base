@@ -1,0 +1,210 @@
+<?php 
+	require_once BLOGIC."/BLogic.php"; 
+	require_once ROOT.'/Components/Controllers/PageWrapper.php';
+	 
+	class AssetDetails extends PageWrapper 
+	{ 
+        public $currentView;
+        public $currentChart;
+        
+        protected $asset;
+        protected $selectedExpenseLineItem;
+        
+        
+		public function __construct($formData) 
+		{ 
+			$templateName = $this->templateNameBasedOnDevice("AssetDetails", array());
+			parent::__construct($formData, $templateName);
+            
+			$this->currentView = doDecrypt($this->formValueForKey("currentView"));
+			if (! $this->currentView)
+				$this->currentView = "Details";
+			
+			$this->currentChart = doDecrypt($this->formValueForKey("currentChart"));
+			if (! $this->currentChart)
+				$this->currentChart = "Net Income Chart";
+
+		} 
+        
+        
+        
+        public function asset()
+        {
+            if (! $this->asset)
+            {
+                $id = doDecrypt($this->formValueForKey("selectedID"));
+                //echo "ID : " . $id;
+                if ($id) {
+                    $this->asset = BLGenericRecord::recordMatchingKeyAndValue("Asset", "assetID", $id);
+                }
+                else {
+                    $this->asset = BLGenericRecord::newRecordOfType("Asset");
+                }
+            }
+            return $this->asset;
+        }
+        
+        public function save()
+        {
+            $this->processFormValueKeyPathsForSave();
+            try {
+                $this->asset()->save();
+                
+                $page = $this->pageWithName("AssetList");
+                $page->alertMessage = "Asset saved.";
+                return $page;
+            }
+            catch (Exception $error) {
+                debugln($error->getMessage());
+                $this->errorMessage = "There was a problem saving the asset, please try again.";
+            }
+        }
+                
+        public function selectedExpenseLineItem(){
+        	if (! $this->selectedExpenseLineItem)
+        	{
+        		$id = doDecrypt($this->formValueForKey("selectedExpenseLineItemID"));
+        		echo "selectedExpenseLineItemID : " . $id;
+        		if ($id) {
+        			$this->selectedExpenseLineItem = BLGenericRecord::recordMatchingKeyAndValue("ExpenseLineItem", "expenseLineItemID", $id);
+        		}
+        	}
+        	return $this->selectedExpenseLineItem;
+        }
+
+        public function createExpenseLineItem(){
+        	$newExpenseLineItem = BLGenericRecord::newRecordOfType("ExpenseLineItem");
+        	$newExpenseLineItem->vars["assetID"] = $this->asset()->vars["assetID"];
+        	$newExpenseLineItem->save();
+        	
+        	$this->setFormValueForKey(doEncrypt($newExpenseLineItem->vars["expenseLineItemID"]), "selectedExpenseLineItemID");
+        	
+            // debuging statements? why not in the debug log?
+        	echo "new expense lineItem: " . $newExpenseLineItem->vars["assetID"];
+        	echo "new expense lineItem ID: " . $newExpenseLineItem->vars["expenseLineItemID"];        	
+        	
+        }
+        
+        public function hasSelectedExpenseLineItem(){
+        	return !is_null($this->selectedExpenseLineItem());
+        }
+        
+        public function incomeSources(){
+            return $this->asset()->valueForRelationship("incomesources");
+        }
+        
+        public function reportsChartArray(){
+        	$reports = array("Expenses Summary Chart", "Net Income Chart");
+        	return $reports;
+        }
+        
+        public $fromMonth;
+        public $toMonth;
+        
+        public function chartArrayTable(){
+        	return $chartTable= "[
+          ['Month', 'Rent', 'Expenses', 'Profit'],
+          ['Jan', 1500, 400, 1100],
+          ['Feb', 1600, 460, 1540],
+          ['Mar', 1000, 1120, -120],
+          ['Apr', 1500, 3000, -1500]
+        ]";
+        }
+        
+        /***************** Income Tab code ***************/
+        protected $selectedIncomeSource;
+        protected $selectedIncomeLineItem;
+        
+        public function selectedIncomeSource(){
+        	
+        	if (!$this->selectedIncomeSource)
+        	{
+        		$selectedIncomeSourceID = doDecrypt($this->formValueForKey("selectedIncomeSourceID"));
+        		debugln("selectedIncomeSource baby: " . $selectedIncomeSourceID);
+        		if(is_null($selectedIncomeSourceID) && !is_null($this->asset()->firstIncomeSource())){
+        			$selectedIncomeSourceID = $this->asset()->firstIncomeSource()->vars["incomeSourceID"];
+        		}
+        		
+        		//echo "ID : " . $id;
+        		if ($selectedIncomeSourceID) {
+        			$this->selectedIncomeSource = BLGenericRecord::recordMatchingKeyAndValue("IncomeSource", "incomeSourceID", $selectedIncomeSourceID);
+        		}
+        	}
+        	return $this->selectedIncomeSource;
+        } 
+        
+        public function selectedIncomeLineItem()
+        {
+        	if (! $this->selectedIncomeLineItem)
+        	{
+        		$id = doDecrypt($this->formValueForKey("selectedIncomeLineItemID"));
+        		if ($id) {
+        			$this->selectedIncomeLineItem = BLGenericRecord::recordMatchingKeyAndValue("IncomeLineItem", "incomeLineItemID", $id);
+        		}
+        	}
+        	return $this->selectedIncomeLineItem;
+        }
+        
+        public function safeNameAndOccupant(){
+        	if($this->selectedIncomeSource()){
+        		return $this->selectedIncomeSource()->safeNameAndOccupant();
+        	} 
+        	else{
+        		return "";
+        	}
+        }
+        
+        protected $selectIncomeSource;
+
+        public function selectIncomeSource()
+        {
+        	$selectedIncomeSourceID = $this->formValueForKey("selectedIncomeSourceSelect");
+        	
+        	$this->setFormValueForKey(doEncrypt($selectedIncomeSourceID), "selectedIncomeSourceID");
+        	debugln("selectedIncomeSourceID: " . doDecrypt($this->formValueForKey("selectedIncomeSourceID")));
+        }
+        
+     
+        public function createIncomeLineItem() {
+        	$lineItem = BLGenericRecord::newRecordOfType("IncomeLineItem");
+            
+            $sourceID = doDecrypt($this->formValueForKey("selectedIncomeSourceID"));
+            if ($sourceID)
+        	    $lineItem->vars["incomeSourceID"] = $sourceID;
+            
+        	$this->processFormValueKeyPathsForSave();
+            
+            /*
+                @John: Always wrap save() calls in a try-catch. I've set the data sources to throw exceptions when 
+                a save fails. This allows you to gracefully fall back with a message to user and handle it 
+                as needed.
+            */
+            try {
+                $lineItem->save();
+                
+                $savedID = doEncrypt($lineItem->vars["incomeLineItemID"]);
+                $this->setFormValueForKey($savedID, "selectedIncomeLineItemID");
+            }
+        	catch (Exception $error) {
+        	    $this->errorMessage = "There was an error creating the invoice line item. Please try again.";
+                debugln($error->getMessage());
+        	}
+        }
+        
+        
+        /*
+            Because your editor form is inline you need to clear out previous form values. formValueForKeyPath() stores
+            cached values so user changes are not lost on page refresh.
+        */
+        public function resetIncomeLineItemForm()
+        {
+            foreach ($this->formData as $key => $value)
+            {
+                if (BLStringUtils::startsWith($key, "selectedIncomeLineItem.")) {
+                    $this->setFormValueForKey("", $key);
+                }
+            }
+        }
+	} 
+
+?>

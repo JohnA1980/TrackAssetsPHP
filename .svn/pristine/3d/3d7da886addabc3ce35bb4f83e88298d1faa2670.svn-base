@@ -1,0 +1,13 @@
+<input type="hidden" name="parentClass" value="<?php echo $controller->formValueForKey("parentClass"); ?>" id="parentClass">
+<input type="hidden" name="selectedID" value="<?php echo $controller->formValueForKey("selectedID"); ?>" id="selectedID">
+<input type="hidden" name="selectedIncomeSourceID" value="<?php echo $controller->formValueForKey("selectedIncomeSourceID"); ?>" id="selectedIncomeSourceID">
+
+
+<div class="heading">
+	Image Upload
+</div>
+
+<div>
+	 <input type="file" name="fileToUpload" id="fileToUpload">
+    <?php addSubmitButtonWithActions("Upload", array("page" => "FileUpload", "action" => "uploadAction")); ?>
+</div>

@@ -1,0 +1,708 @@
+[12/02/2018 09:36:26 pm] perma link part count for / 1
+[12/02/2018 09:36:26 pm] examining permalink path...
+[12/02/2018 09:36:26 pm] ip address: fe80::c6b3:1ff:fec3:e76d
+[12/02/2018 09:36:26 pm] request page: 
+[12/02/2018 09:36:26 pm] page=FrontPage
+[12/02/2018 09:36:26 pm] loading controller ../Private/Components/Controllers/FrontPage.php
+[12/02/2018 09:36:26 pm] letComponentHandleRequest: FrontPage
+[12/02/2018 09:36:26 pm] starting component: FrontPage, final: FrontPage
+[12/02/2018 09:36:26 pm] fe80::c6b3:1ff:fec3:e76d: no action given
+[19/02/2018 12:43:19 pm] perma link part count for / 1
+[19/02/2018 12:43:19 pm] examining permalink path...
+[19/02/2018 12:43:19 pm] ip address: 10.7.3.152
+[19/02/2018 12:43:19 pm] request page: 
+[19/02/2018 12:43:19 pm] page=FrontPage
+[19/02/2018 12:43:19 pm] loading controller ../Private/Components/Controllers/FrontPage.php
+[19/02/2018 12:43:19 pm] letComponentHandleRequest: FrontPage
+[19/02/2018 12:43:19 pm] starting component: FrontPage, final: FrontPage
+[19/02/2018 12:43:19 pm] 10.7.3.152: no action given
+[19/02/2018 12:51:29 pm] perma link part count for / 1
+[19/02/2018 12:51:29 pm] examining permalink path...
+[19/02/2018 12:51:29 pm] ip address: 10.7.3.152
+[19/02/2018 12:51:29 pm] request page: 
+[19/02/2018 12:51:29 pm] page=FrontPage
+[19/02/2018 12:51:29 pm] loading controller ../Private/Components/Controllers/FrontPage.php
+[19/02/2018 12:51:29 pm] letComponentHandleRequest: FrontPage
+[19/02/2018 12:51:29 pm] starting component: FrontPage, final: FrontPage
+[19/02/2018 12:51:29 pm] 10.7.3.152: no action given
+[19/02/2018 12:51:43 pm] perma link part count for / 1
+[19/02/2018 12:51:43 pm] examining permalink path...
+[19/02/2018 12:51:43 pm] ip address: 10.7.3.152
+[19/02/2018 12:51:43 pm] request page: 
+[19/02/2018 12:51:43 pm] page=FrontPage
+[19/02/2018 12:51:43 pm] loading controller ../Private/Components/Controllers/FrontPage.php
+[19/02/2018 12:51:43 pm] letComponentHandleRequest: FrontPage
+[19/02/2018 12:51:43 pm] starting component: FrontPage, final: FrontPage
+[19/02/2018 12:51:43 pm] 10.7.3.152: no action given
+[19/02/2018 01:07:27 pm] perma link part count for / 1
+[19/02/2018 01:07:27 pm] examining permalink path...
+[19/02/2018 01:07:27 pm] ip address: 10.7.3.152
+[19/02/2018 01:07:27 pm] request page: 
+[19/02/2018 01:07:27 pm] page=FrontPage
+[19/02/2018 01:07:27 pm] loading controller ../Private/Components/Controllers/FrontPage.php
+[19/02/2018 01:07:27 pm] letComponentHandleRequest: FrontPage
+[19/02/2018 01:07:27 pm] starting component: FrontPage, final: FrontPage
+[19/02/2018 01:07:27 pm] 10.7.3.152: no action given
+[19/02/2018 01:42:56 pm] ** ERROR: could not find component with name: Assets, ../Private/Components/Assets.php
+[19/02/2018 01:42:56 pm] Array
+(
+    [0] => Array
+        (
+            [file] => /usr/local/sqonk/BLogic/Framework/PL/PLRequestResponseHandler.php
+            [line] => 149
+            [function] => componentWithName
+            [class] => PLController
+            [type] => ::
+            [args] => Array
+                (
+                    [0] => Assets
+                    [1] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [1] => Array
+        (
+            [file] => /Automaton/TrackAssets/Public/index.php
+            [line] => 13
+            [function] => handleRequest
+            [args] => Array
+                (
+                    [0] => FrontPage
+                )
+
+        )
+
+)
+
+[19/02/2018 01:46:42 pm] ** ERROR: could not find component with name: Assets, ../Private/Components/Assets.php
+[19/02/2018 01:46:42 pm] Array
+(
+    [0] => Array
+        (
+            [file] => /usr/local/sqonk/BLogic/Framework/PL/PLRequestResponseHandler.php
+            [line] => 149
+            [function] => componentWithName
+            [class] => PLController
+            [type] => ::
+            [args] => Array
+                (
+                    [0] => Assets
+                    [1] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [1] => Array
+        (
+            [file] => /Automaton/TrackAssets/Public/index.php
+            [line] => 13
+            [function] => handleRequest
+            [args] => Array
+                (
+                    [0] => FrontPage
+                )
+
+        )
+
+)
+
+[19/02/2018 01:46:49 pm] ** ERROR: could not find component with name: Assets, ../Private/Components/Assets.php
+[19/02/2018 01:46:49 pm] Array
+(
+    [0] => Array
+        (
+            [file] => /usr/local/sqonk/BLogic/Framework/PL/PLRequestResponseHandler.php
+            [line] => 149
+            [function] => componentWithName
+            [class] => PLController
+            [type] => ::
+            [args] => Array
+                (
+                    [0] => Assets
+                    [1] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [1] => Array
+        (
+            [file] => /Automaton/TrackAssets/Public/index.php
+            [line] => 13
+            [function] => handleRequest
+            [args] => Array
+                (
+                    [0] => FrontPage
+                )
+
+        )
+
+)
+
+[19/02/2018 01:48:14 pm] ** ERROR: could not find component with name: Assets, ../Private/Components/Assets.php
+[19/02/2018 01:48:14 pm] Array
+(
+    [0] => Array
+        (
+            [file] => /usr/local/sqonk/BLogic/Framework/PL/PLRequestResponseHandler.php
+            [line] => 149
+            [function] => componentWithName
+            [class] => PLController
+            [type] => ::
+            [args] => Array
+                (
+                    [0] => Assets
+                    [1] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [1] => Array
+        (
+            [file] => /Automaton/TrackAssets/Public/index.php
+            [line] => 13
+            [function] => handleRequest
+            [args] => Array
+                (
+                    [0] => FrontPage
+                )
+
+        )
+
+)
+
+[19/02/2018 01:49:33 pm] ** ERROR: could not find component with name: AssetsList, ../Private/Components/AssetsList.php
+[19/02/2018 01:49:33 pm] Array
+(
+    [0] => Array
+        (
+            [file] => /usr/local/sqonk/BLogic/Framework/PL/PLRequestResponseHandler.php
+            [line] => 149
+            [function] => componentWithName
+            [class] => PLController
+            [type] => ::
+            [args] => Array
+                (
+                    [0] => AssetsList
+                    [1] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [1] => Array
+        (
+            [file] => /Automaton/TrackAssets/Public/index.php
+            [line] => 13
+            [function] => handleRequest
+            [args] => Array
+                (
+                    [0] => FrontPage
+                )
+
+        )
+
+)
+
+[19/02/2018 01:49:41 pm] the First date: 31/01/2015
+[19/02/2018 01:49:41 pm] returning date is 03/03/15
+[19/02/2018 01:49:41 pm] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
+[19/02/2018 01:49:41 pm] firstDate: 31/01/15
+[19/02/2018 01:49:47 pm] ID : 7
+[19/02/2018 01:49:47 pm] financial year start Time: 2017-07-01
+[19/02/2018 01:49:47 pm] financial year end Time: 2018-06-30
+[19/02/2018 01:49:47 pm] incoming enddate is: 30/06/18
+[19/02/2018 01:49:47 pm] before incomeLineItem search
+[19/02/2018 01:49:47 pm] before expenseLineItem search
+[19/02/2018 01:49:47 pm] Returning Summary: 0,0,0
+[19/02/2018 01:49:49 pm] the First date: 31/01/2015
+[19/02/2018 01:49:49 pm] returning date is 03/03/15
+[19/02/2018 01:49:49 pm] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
+[19/02/2018 01:49:49 pm] firstDate: 31/01/15
+[19/02/2018 01:49:50 pm] ** ERROR: could not find component with name: Assets, ../Private/Components/Assets.php
+[19/02/2018 01:49:50 pm] Array
+(
+    [0] => Array
+        (
+            [file] => /usr/local/sqonk/BLogic/Framework/PL/PLRequestResponseHandler.php
+            [line] => 149
+            [function] => componentWithName
+            [class] => PLController
+            [type] => ::
+            [args] => Array
+                (
+                    [0] => Assets
+                    [1] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [1] => Array
+        (
+            [file] => /Automaton/TrackAssets/Public/index.php
+            [line] => 13
+            [function] => handleRequest
+            [args] => Array
+                (
+                    [0] => FrontPage
+                )
+
+        )
+
+)
+
+[19/02/2018 01:50:34 pm] the First date: 31/01/2015
+[19/02/2018 01:50:34 pm] returning date is 03/03/15
+[19/02/2018 01:50:34 pm] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
+[19/02/2018 01:50:34 pm] firstDate: 31/01/15
+[19/02/2018 01:51:13 pm] the First date: 31/01/2015
+[19/02/2018 01:51:13 pm] returning date is 03/03/15
+[19/02/2018 01:51:13 pm] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
+[19/02/2018 01:51:13 pm] firstDate: 31/01/15
+[19/02/2018 01:51:15 pm] 2
+[19/02/2018 01:51:15 pm] 2
+[19/02/2018 01:51:15 pm] 1 PettyCash ID 
+[19/02/2018 01:51:15 pm] 0
+[19/02/2018 01:51:15 pm] ** ERROR: could not find component with name: Portfolio, ../Private/Components/Portfolio.php
+[19/02/2018 01:51:15 pm] Array
+(
+    [0] => Array
+        (
+            [file] => /usr/local/sqonk/BLogic/Framework/PL/PLRequestResponseHandler.php
+            [line] => 149
+            [function] => componentWithName
+            [class] => PLController
+            [type] => ::
+            [args] => Array
+                (
+                    [0] => Portfolio
+                    [1] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [1] => Array
+        (
+            [file] => /Automaton/TrackAssets/Public/index.php
+            [line] => 13
+            [function] => handleRequest
+            [args] => Array
+                (
+                    [0] => FrontPage
+                )
+
+        )
+
+)
+
+[19/02/2018 01:52:12 pm] ** ERROR: could not find component with name: Portfolio, ../Private/Components/Portfolio.php
+[19/02/2018 01:52:12 pm] Array
+(
+    [0] => Array
+        (
+            [file] => /usr/local/sqonk/BLogic/Framework/PL/PLRequestResponseHandler.php
+            [line] => 149
+            [function] => componentWithName
+            [class] => PLController
+            [type] => ::
+            [args] => Array
+                (
+                    [0] => Portfolio
+                    [1] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [1] => Array
+        (
+            [file] => /Automaton/TrackAssets/Public/index.php
+            [line] => 13
+            [function] => handleRequest
+            [args] => Array
+                (
+                    [0] => FrontPage
+                )
+
+        )
+
+)
+
+[19/02/2018 01:52:50 pm] ** ERROR: could not find component with name: Assets, ../Private/Components/Assets.php
+[19/02/2018 01:52:50 pm] Array
+(
+    [0] => Array
+        (
+            [file] => /usr/local/sqonk/BLogic/Framework/PL/PLRequestResponseHandler.php
+            [line] => 149
+            [function] => componentWithName
+            [class] => PLController
+            [type] => ::
+            [args] => Array
+                (
+                    [0] => Assets
+                    [1] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [1] => Array
+        (
+            [file] => /Automaton/TrackAssets/Public/index.php
+            [line] => 13
+            [function] => handleRequest
+            [args] => Array
+                (
+                    [0] => FrontPage
+                )
+
+        )
+
+)
+
+[19/02/2018 01:53:37 pm] ** ERROR: could not find component with name: Assets, ../Private/Components/Assets.php
+[19/02/2018 01:53:37 pm] Array
+(
+    [0] => Array
+        (
+            [file] => /usr/local/sqonk/BLogic/Framework/PL/PLRequestResponseHandler.php
+            [line] => 149
+            [function] => componentWithName
+            [class] => PLController
+            [type] => ::
+            [args] => Array
+                (
+                    [0] => Assets
+                    [1] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [1] => Array
+        (
+            [file] => /Automaton/TrackAssets/Public/index.php
+            [line] => 13
+            [function] => handleRequest
+            [args] => Array
+                (
+                    [0] => FrontPage
+                )
+
+        )
+
+)
+
+[19/02/2018 01:53:40 pm] ** ERROR: could not find component with name: Assets, ../Private/Components/Assets.php
+[19/02/2018 01:53:40 pm] Array
+(
+    [0] => Array
+        (
+            [file] => /usr/local/sqonk/BLogic/Framework/PL/PLRequestResponseHandler.php
+            [line] => 149
+            [function] => componentWithName
+            [class] => PLController
+            [type] => ::
+            [args] => Array
+                (
+                    [0] => Assets
+                    [1] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [1] => Array
+        (
+            [file] => /Automaton/TrackAssets/Public/index.php
+            [line] => 13
+            [function] => handleRequest
+            [args] => Array
+                (
+                    [0] => FrontPage
+                )
+
+        )
+
+)
+
+[19/02/2018 01:53:53 pm] ** ERROR: could not find component with name: PendingSummary, ../Private/Components/PendingSummary.php
+[19/02/2018 01:53:53 pm] Array
+(
+    [0] => Array
+        (
+            [file] => /usr/local/sqonk/BLogic/Framework/PL/PLRequestResponseHandler.php
+            [line] => 149
+            [function] => componentWithName
+            [class] => PLController
+            [type] => ::
+            [args] => Array
+                (
+                    [0] => PendingSummary
+                    [1] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [1] => Array
+        (
+            [file] => /Automaton/TrackAssets/Public/index.php
+            [line] => 13
+            [function] => handleRequest
+            [args] => Array
+                (
+                    [0] => FrontPage
+                )
+
+        )
+
+)
+
+[19/02/2018 01:53:56 pm] the First date: 31/01/2015
+[19/02/2018 01:53:56 pm] returning date is 03/03/15
+[19/02/2018 01:53:56 pm] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
+[19/02/2018 01:53:56 pm] firstDate: 31/01/15
+[19/02/2018 01:54:00 pm] the First date: 31/01/2015
+[19/02/2018 01:54:00 pm] returning date is 03/03/15
+[19/02/2018 01:54:00 pm] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
+[19/02/2018 01:54:00 pm] firstDate: 31/01/15
+[19/02/2018 01:54:01 pm] 2
+[19/02/2018 01:54:01 pm] 2
+[19/02/2018 01:54:01 pm] 1 PettyCash ID 
+[19/02/2018 01:54:01 pm] 0
+[19/02/2018 01:54:02 pm] the First date: 31/01/2015
+[19/02/2018 01:54:02 pm] returning date is 03/03/15
+[19/02/2018 01:54:02 pm] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
+[19/02/2018 01:54:02 pm] firstDate: 31/01/15
+[19/02/2018 01:54:05 pm] 2
+[19/02/2018 01:54:05 pm] 2
+[19/02/2018 01:54:05 pm] 1 PettyCash ID 
+[19/02/2018 01:54:05 pm] 0
+[19/02/2018 01:54:08 pm] ID : 7
+[19/02/2018 01:54:08 pm] selectedIncomeSource baby: 10
+[19/02/2018 01:54:09 pm] the First date: 31/01/2015
+[19/02/2018 01:54:09 pm] returning date is 03/03/15
+[19/02/2018 01:54:09 pm] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
+[19/02/2018 01:54:09 pm] firstDate: 31/01/15
+[19/02/2018 01:54:13 pm] ID : 7
+[19/02/2018 01:54:13 pm] selectedIncomeSource baby: 10
+[19/02/2018 01:54:14 pm] marked As Paid ID: 400
+[19/02/2018 01:54:14 pm] this is the ID 400
+[19/02/2018 01:54:14 pm] selectedIncomeSource baby: 10
+[19/02/2018 01:54:14 pm] this is the sourceID: 10
+[19/02/2018 01:54:14 pm] Name of the object: 400
+[19/02/2018 01:54:14 pm] blah here 1 
+[19/02/2018 01:54:14 pm] goat here 1 
+[19/02/2018 01:54:14 pm] laste Date on incomelineItem: 20/09/15
+[19/02/2018 01:54:14 pm] returning date is 21/09/15
+[19/02/2018 01:54:14 pm] goat here: start date is : 21/09/15
+[19/02/2018 01:54:14 pm] returning date is 04/10/15
+[19/02/2018 01:54:14 pm] Start Day: 21/09/15 EndDay set is : 04/10/15
+[19/02/2018 01:54:14 pm] this is the new incomelineItemID: 410
+[19/02/2018 01:54:14 pm] ID : 7
+[19/02/2018 01:54:17 pm] selectedIncomeSourceID: 11
+[19/02/2018 01:54:17 pm] ID : 7
+[19/02/2018 01:54:17 pm] selectedIncomeSource baby: 11
+[19/02/2018 01:54:18 pm] selected ID is: 7
+[19/02/2018 01:54:21 pm] selected Income source is null
+[19/02/2018 01:54:21 pm] ID : 7
+[19/02/2018 01:54:21 pm] financial year start Time: 2017-07-01
+[19/02/2018 01:54:21 pm] financial year end Time: 2018-06-30
+[19/02/2018 01:54:21 pm] incoming enddate is: 30/06/18
+[19/02/2018 01:54:21 pm] before incomeLineItem search
+[19/02/2018 01:54:21 pm] before expenseLineItem search
+[19/02/2018 01:54:21 pm] Returning Summary: 250,0,250
+[19/02/2018 01:54:23 pm] ID : 7
+[19/02/2018 01:54:23 pm] selectedIncomeSource baby: 
+[19/02/2018 01:54:23 pm] firstIncomeSource: 10
+[19/02/2018 01:54:24 pm] ID : 7
+[19/02/2018 01:54:24 pm] 24
+[19/02/2018 01:54:25 pm] startDateExpenseSummary: 2018-02-19 endDateExpenseSummary2018-02-19
+[19/02/2018 01:54:25 pm] startDateExpenseSummary: 2018-02-19 endDateExpenseSummary2018-02-19
+[19/02/2018 01:54:25 pm] ID : 7
+[19/02/2018 01:54:25 pm] expenseSummaryJSON : startdate: 18-02 endDate: 18-02
+[19/02/2018 01:54:25 pm] before expenseLineItem search
+[19/02/2018 01:54:25 pm] count in expenseLineItems: 0
+[19/02/2018 01:54:25 pm] number in expense summary array: 0
+[19/02/2018 01:54:25 pm] Not Set
+[19/02/2018 01:54:25 pm] arraykeys : startend
+[19/02/2018 01:54:25 pm] incoming enddate is: 31/07/17
+[19/02/2018 01:54:25 pm] before incomeLineItem search
+[19/02/2018 01:54:25 pm] before expenseLineItem search
+[19/02/2018 01:54:25 pm] Returning Summary: 0,0,0
+[19/02/2018 01:54:25 pm] arraykeys : startend
+[19/02/2018 01:54:25 pm] incoming enddate is: 31/08/17
+[19/02/2018 01:54:25 pm] before incomeLineItem search
+[19/02/2018 01:54:25 pm] before expenseLineItem search
+[19/02/2018 01:54:25 pm] Returning Summary: 0,0,0
+[19/02/2018 01:54:25 pm] arraykeys : startend
+[19/02/2018 01:54:25 pm] incoming enddate is: 30/09/17
+[19/02/2018 01:54:25 pm] before incomeLineItem search
+[19/02/2018 01:54:25 pm] before expenseLineItem search
+[19/02/2018 01:54:25 pm] Returning Summary: 0,0,0
+[19/02/2018 01:54:25 pm] arraykeys : startend
+[19/02/2018 01:54:25 pm] incoming enddate is: 31/10/17
+[19/02/2018 01:54:25 pm] before incomeLineItem search
+[19/02/2018 01:54:25 pm] before expenseLineItem search
+[19/02/2018 01:54:25 pm] Returning Summary: 0,0,0
+[19/02/2018 01:54:25 pm] arraykeys : startend
+[19/02/2018 01:54:25 pm] incoming enddate is: 30/11/17
+[19/02/2018 01:54:25 pm] before incomeLineItem search
+[19/02/2018 01:54:25 pm] before expenseLineItem search
+[19/02/2018 01:54:25 pm] Returning Summary: 0,0,0
+[19/02/2018 01:54:25 pm] arraykeys : startend
+[19/02/2018 01:54:25 pm] incoming enddate is: 31/12/17
+[19/02/2018 01:54:25 pm] before incomeLineItem search
+[19/02/2018 01:54:25 pm] before expenseLineItem search
+[19/02/2018 01:54:25 pm] Returning Summary: 0,0,0
+[19/02/2018 01:54:25 pm] arraykeys : startend
+[19/02/2018 01:54:25 pm] incoming enddate is: 31/01/18
+[19/02/2018 01:54:25 pm] before incomeLineItem search
+[19/02/2018 01:54:25 pm] before expenseLineItem search
+[19/02/2018 01:54:25 pm] Returning Summary: 0,0,0
+[19/02/2018 01:54:25 pm] arraykeys : startend
+[19/02/2018 01:54:25 pm] incoming enddate is: 28/02/18
+[19/02/2018 01:54:25 pm] before incomeLineItem search
+[19/02/2018 01:54:25 pm] before expenseLineItem search
+[19/02/2018 01:54:25 pm] Returning Summary: 250,0,250
+[19/02/2018 01:54:25 pm] arraykeys : startend
+[19/02/2018 01:54:25 pm] incoming enddate is: 31/03/18
+[19/02/2018 01:54:25 pm] before incomeLineItem search
+[19/02/2018 01:54:25 pm] before expenseLineItem search
+[19/02/2018 01:54:25 pm] Returning Summary: 0,0,0
+[19/02/2018 01:54:25 pm] arraykeys : startend
+[19/02/2018 01:54:25 pm] incoming enddate is: 30/04/18
+[19/02/2018 01:54:25 pm] before incomeLineItem search
+[19/02/2018 01:54:25 pm] before expenseLineItem search
+[19/02/2018 01:54:25 pm] Returning Summary: 0,0,0
+[19/02/2018 01:54:25 pm] arraykeys : startend
+[19/02/2018 01:54:25 pm] incoming enddate is: 31/05/18
+[19/02/2018 01:54:25 pm] before incomeLineItem search
+[19/02/2018 01:54:25 pm] before expenseLineItem search
+[19/02/2018 01:54:25 pm] Returning Summary: 0,0,0
+[19/02/2018 01:54:25 pm] arraykeys : startend
+[19/02/2018 01:54:25 pm] incoming enddate is: 30/06/18
+[19/02/2018 01:54:25 pm] before incomeLineItem search
+[19/02/2018 01:54:25 pm] before expenseLineItem search
+[19/02/2018 01:54:25 pm] Returning Summary: 0,0,0
+[19/02/2018 01:54:25 pm] arraykeys : startend
+[19/02/2018 01:54:25 pm] incoming enddate is: 31/07/18
+[19/02/2018 01:54:25 pm] before incomeLineItem search
+[19/02/2018 01:54:25 pm] before expenseLineItem search
+[19/02/2018 01:54:25 pm] Returning Summary: 0,0,0
+[19/02/2018 01:54:25 pm] json data: [["Month","Rent","Expenses","Profit"],["Jul-17",0,0,0],["Aug-17",0,0,0],["Sep-17",0,0,0],["Oct-17",0,0,0],["Nov-17",0,0,0],["Dec-17",0,0,0],["Jan-18",0,0,0],["Feb-18",250,0,250],["Mar-18",0,0,0],["Apr-18",0,0,0],["May-18",0,0,0],["Jun-18",0,0,0],["Jul-18",0,0,0]]
+[19/02/2018 01:54:25 pm] number of report charts?? 2
+[19/02/2018 01:54:26 pm] ID : 7
+[19/02/2018 01:54:26 pm] 24
+[19/02/2018 01:54:26 pm] ID : 7
+[19/02/2018 01:54:26 pm] selectedIncomeSource baby: 
+[19/02/2018 01:54:26 pm] firstIncomeSource: 10
+[19/02/2018 01:54:28 pm] ID : 7
+[19/02/2018 01:54:28 pm] financial year start Time: 2017-07-01
+[19/02/2018 01:54:28 pm] financial year end Time: 2018-06-30
+[19/02/2018 01:54:28 pm] incoming enddate is: 30/06/18
+[19/02/2018 01:54:28 pm] before incomeLineItem search
+[19/02/2018 01:54:28 pm] before expenseLineItem search
+[19/02/2018 01:54:28 pm] Returning Summary: 250,0,250
+[19/02/2018 01:54:43 pm] ** ERROR: could not find component with name: mrinfo, ../Private/Components/mrinfo.php
+[19/02/2018 01:54:43 pm] Array
+(
+    [0] => Array
+        (
+            [file] => /usr/local/sqonk/BLogic/Framework/PL/PLRequestResponseHandler.php
+            [line] => 149
+            [function] => componentWithName
+            [class] => PLController
+            [type] => ::
+            [args] => Array
+                (
+                    [0] => mrinfo
+                    [1] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [1] => Array
+        (
+            [file] => /Automaton/TrackAssets/Public/index.php
+            [line] => 13
+            [function] => handleRequest
+            [args] => Array
+                (
+                    [0] => FrontPage
+                )
+
+        )
+
+)
+
+[19/02/2018 01:54:50 pm] ** ERROR: could not find component with name: index, ../Private/Components/index.php
+[19/02/2018 01:54:50 pm] Array
+(
+    [0] => Array
+        (
+            [file] => /usr/local/sqonk/BLogic/Framework/PL/PLRequestResponseHandler.php
+            [line] => 149
+            [function] => componentWithName
+            [class] => PLController
+            [type] => ::
+            [args] => Array
+                (
+                    [0] => index
+                    [1] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [1] => Array
+        (
+            [file] => /Automaton/TrackAssets/Public/index.php
+            [line] => 13
+            [function] => handleRequest
+            [args] => Array
+                (
+                    [0] => FrontPage
+                )
+
+        )
+
+)
+

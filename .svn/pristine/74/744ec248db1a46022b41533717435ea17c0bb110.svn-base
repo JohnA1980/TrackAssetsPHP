@@ -1,0 +1,25 @@
+html {
+
+}
+body {
+    padding: 0px;
+    margin: 0px;
+    font-family: verdana;
+    font-size:12px;
+}
+form {
+	margin:0;
+}
+img {
+	border:0;
+}
+
+/* === Convenience Classes === */
+.hidden {
+    display: none;
+}
+
+.clear {
+    clear: both;
+}
+

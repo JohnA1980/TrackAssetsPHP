@@ -1,0 +1,90 @@
+<webobject name="PageWrapper">
+	<webobject name="WOForm1">
+	<input type="hidden" name="selectedID" value="<?php echo $controller->formValueForKey("selectedID"); ?>" id="selectedID">
+	<input type="hidden" name="selectedOccupantID" value="<?php echo $controller->formValueForKey("selectedOccupantID"); ?>" id="selectedOccupantID">
+	<input type="hidden" name="currentIncomeSourceID" value="<?php echo $controller->formValueForKey("currentIncomeSourceID"); ?>" id="currentIncomeSourceID">
+	
+	<div class="topActionArea">
+		<?php addSubmitButtonWithActions("Save", array("page" => "OccupantDetailsList", "action" => "saveAction")); ?>
+	 <?php addSubmitButtonWithActions("Back", array("page" => "OccupantDetailsList", "action" => "backAction")); ?>
+    <?php addSubmitButtonWithActions("Cancel", array("page" => "OccupantDetailsList", "action" => "cancelAction")); ?>
+	</div>
+	
+	<div class="navigationArea">
+		<webobject name="BatchNavigationBar"></webobject>
+	</div>
+	<div class="tabular" style="margin-bottom:20px;">
+	
+		<table>
+			<tr class="tableHead">
+			<td style="width:200px">
+				<webobject name="WOSubmitButton2"></webobject>	
+				</td>
+				<td style="width:200px">
+					Full Name
+				</td>
+				<td style="width:250px">
+					
+				</td>
+			</tr>
+			<?php $occupants = $controller->asset()->nonDeletedOccupants(); foreach ($occupants as $occupant) : ?>
+			<tr>
+				<td >
+				
+				<?php addSubmitButtonWithActions("Edit", array("page" => "OccupantDetailsList", "action" => "doNothing", "selectedOccupantID" => $occupant->vars["occupantID"])); ?>
+				<?php addSubmitButtonWithActions("Select For Room", array("page" => "OccupantDetailsList", "action" => "selectedForIncomeSourceAction")); ?>
+				</td>
+				<td >
+					<?php echo $occupant->fullName(); ?>
+				</td>
+				<td>
+					<webobject name="JSConfirmPanel1"></webobject>
+				</td>
+			</tr>
+   	 		<?php endforeach; ?>
+
+		</table>
+	</div>	
+
+<?php if ($controller->selectedOccupant()) : ?>
+	<div class="occupantDetailsArea">
+		
+<table border="0" cellpadding="2" cellspacing="0">
+	<tr>
+		<td class="labels" style="width:200px;">Given:</td>
+		<td style="width:400px;"><?php addTextField("given", $controller->selectedOccupant()->vars["given"], $enabled = true, $class = null, $id = "selectedOccupant.given", $style = null, $addHiddenFieldWhenDisabled = false); ?></td>
+	</tr>
+	<tr>
+		<td class="labels">Surname:</td>
+		<td><?php addTextField("surname", $controller->selectedOccupant()->vars["surname"], $enabled = true, $class = null, $id = "selectedOccupant.surname", $style = null, $addHiddenFieldWhenDisabled = false); ?></td>
+	</tr>
+	<tr>
+		<td class="labels" >Contact Number:</td>
+		<td><?php addTextField("contactNumber", $controller->selectedOccupant()->vars["contactNumber"], $enabled = true, $class = null, $id = "selectedOccupant.contactNumber", $style = null, $addHiddenFieldWhenDisabled = false); ?></td>
+	</tr>
+	<tr>
+		<td class="labels" >Email: </td>
+		<td><?php addTextField("email", $controller->selectedOccupant()->vars["email"], $enabled = true, $class = null, $id = "selectedOccupant.email", $style = null, $addHiddenFieldWhenDisabled = false); ?></td>
+	</tr>
+	<tr>
+		<td class="labels" >Emergency Contact:</td>
+		<td><?php addTextField("emergencyContact", $controller->selectedOccupant()->vars["emergencyContact"], $enabled = true, $class = null, $id = "selectedOccupant.emergencyContact", $style = null, $addHiddenFieldWhenDisabled = false); ?></td>
+	</tr>
+	<tr>
+		<td class="labels" >Emergency Contact Number:</td>
+		<td><?php addTextField("emergencyPhoneNumber", $controller->selectedOccupant()->vars["emergencyPhoneNumber"], $enabled = true, $class = null, $id = "selectedOccupant.emergencyPhoneNumber", $style = null, $addHiddenFieldWhenDisabled = false); ?></td>
+	</tr>
+	<tr>
+		<td class="labels" >Start Date:  </td>
+		<td><webobject name="DatePicker1"></webobject></td>
+	</tr>
+	<tr>
+		<td class="labels" >Bond Amount: </td>
+		<td><?php addTextField("bond", $controller->selectedOccupant()->vars["bond"], $enabled = true, $class = null, $id = "selectedOccupant.bond", $style = null, $addHiddenFieldWhenDisabled = false); ?></td>
+	</tr>
+	<tr>
+		<td class="labels" >Notes:</td>
+		<td><?php addTextField("otherNotes", $controller->selectedOccupant()->vars["otherNotes"], $enabled = true, $class = null, $id = "selectedOccupant.otherNotes", $style = null, $addHiddenFieldWhenDisabled = false); ?></td>
+	</tr>
+</table>
+<?php endif; ?>

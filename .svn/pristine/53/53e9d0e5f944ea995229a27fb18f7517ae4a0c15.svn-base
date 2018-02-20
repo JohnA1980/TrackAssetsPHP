@@ -1,0 +1,65 @@
+<?php 
+	require_once BLOGIC."/BLogic.php"; 
+	require_once ROOT.'/Components/Controllers/PageWrapper.php';
+	 
+	class IncomeSourceEdit extends PageWrapper 
+	{ 
+        public $currentView;
+        
+		public function __construct($formData) 
+		{ 
+			$templateName = $this->templateNameBasedOnDevice("IncomeSourceEdit", array());
+			parent::__construct($formData, $templateName);
+           
+		} 
+        
+        protected $asset;
+        
+        public function asset()
+        {
+            if (! $this->asset)
+            {
+                $id = doDecrypt($this->formValueForKey("selectedID"));
+                if ($id) {
+                    $this->asset = BLGenericRecord::recordMatchingKeyAndValue("Asset", "assetID", $id);
+                }
+                else {
+                    $this->asset = BLGenericRecord::newRecordOfType("Asset");
+                }
+            }
+            return $this->asset;
+        }
+        
+        public function save()
+        {
+            $this->processFormValueKeyPathsForSave();
+            try {
+                $this->asset()->save();
+                
+                $page = $this->pageWithName("AssetList");
+                $page->alertMessage = "Asset saved.";
+                return $page;
+            }
+            catch (Exception $error) {
+                debugln($error->getMessage());
+                $this->errorMessage = "There was a problem saving the asset, please try again.";
+            }
+        }
+	} 
+	
+	/*
+	public function editIncomeSources(){
+		$this->processFormValueKeyPathsForSave();
+            try {
+                $this->asset()->save();
+                
+                $page = $this->pageWithName("IncomeSourceEdit");
+                $page->alertMessage = "Asset saved.";
+                return $page;
+            }
+            catch (Exception $error) {
+                debugln($error->getMessage());
+                $this->errorMessage = "There was a problem saving the asset, please try again.";
+            }
+	}*/
+?>

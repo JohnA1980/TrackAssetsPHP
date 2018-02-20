@@ -1,0 +1,48 @@
+<style type="text/css" media="screen">
+#edit {
+    margin-left:auto;
+    margin-right:auto;
+    width:75%;
+    margin-top:20px;
+}
+#edit td {
+    padding:5px;
+}
+#edit td input[type=text], textarea {
+    width:300px;
+    color:#333;
+    border:1px solid #ddd;
+    padding:5px;
+}
+#edit td textarea {
+    height:40px;
+}
+#edit td.label {
+    text-align:right;
+    font-weight:bold;
+    color:#444;
+}
+</style>
+
+<div style="margin-left:auto;margin-right:auto;width:75%;text-align:center;border-bottom:1px solid #eee;margin-top:50px;padding-bottom:10px;">
+    
+    <?php addSubmitButtonWithActions("Back", array("page" => "AssetList", "action" => "doNothing")); ?>
+    
+    <?php addSubmitButtonWithActions("Save", array("page" => "AssetDetails", "action" => "save")); ?>
+    
+</div>    
+
+<input type="hidden" name="selectedID" value="<?php echo $controller->formValueForKey("selectedID"); ?>" id="selectedID">
+
+
+<table id="edit">
+
+    <?php printEditForm(array(
+        
+    "Name" => array("type" => "text", "keypath" => "asset.name"),
+    "Address" => array("type" => "textarea", "keypath" => "asset.address"),
+    "Description" => array("type" => "textarea", "keypath" => "asset.descText")
+        
+    ), $controller, array("labelClass" => "label")); ?>
+
+</table>

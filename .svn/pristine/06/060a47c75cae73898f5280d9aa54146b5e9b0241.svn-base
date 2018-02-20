@@ -1,0 +1,48 @@
+<table>
+	<tr>
+		<td style="width:60px;">
+			
+		</td>
+		<td style="">
+			Name
+		</td>
+		<td style="">
+			Address
+		</td>
+		<td style="width:80px;">
+			Type
+		</td>
+		<td style="width:150px;text-align:center;">
+			Net Income
+		</td>
+		<td style="width:80px">
+		</td>
+	</tr>
+	<?php $assets = $controller->assets(); foreach ($assets as $asset) : ?>
+		<tr class="<?php if ($asset->field("deleted")) echo "deleted"; ?>">
+			<td >
+			<span stlye="padding-left:3px;">
+			<?php addSubmitLinkWithActions("mainForm", array("page" => "AssetDetails", "action" => "doNothing", "selectedID" => $asset->vars["assetID"]), null, "images/write-btn.gif"); ?>
+			</span>
+			
+			</td>
+			<td >
+				<?php echo $asset->field("name"); ?>
+			</td>
+			<td >
+				<?php echo $asset->field("address"); ?>
+			</td>
+			<td >
+				House
+			</td>
+			<td style="text-align:center;">
+				--
+			</td>
+			<td>			
+				<!-- addSubmitLinkWithActionsAndCallback($mainAction, $actions, $label, $img = null, $class = null, $id = null, $terminate = true, $target = null) -->	
+				<?php addSubmitLinkWithActionsAndCallback("confirmDeleteSubmit()", array("page" => "AssetList", "action" => "delete", "selectedID" => $asset->vars["assetID"]), null, "images/iconDelete.png"); ?>
+			</td>
+		</tr>
+    <?php endforeach; ?>
+	
+</table>

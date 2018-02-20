@@ -1,0 +1,17 @@
+<?php 
+	require_once BLOGIC."/BLogic.php"; 
+	
+	 
+	class FileUpload extends PageWrapper 
+	{ 
+		public function __construct($formData) 
+		{ 
+			$templateName = $this->templateNameBasedOnDevice("FileUpload", array());
+			parent::__construct($formData, $templateName);
+		} 
+	}     
+
+	
+	
+	
+?>

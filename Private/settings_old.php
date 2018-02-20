@@ -1,0 +1,103 @@
+<?php
+    /*
+        Place all app config details that do not need to go into the public settings.php
+        into this file.
+    */
+    
+    require_once BLOGIC."/BLogic.php";
+	require_once BLOGIC."/PL/PLRequestResponseHandler.php";
+
+	//include any application specific utility methods and globals.
+	foreach (glob(ROOT.'/Utils/*.php') as $filename)
+	{
+		require_once $filename;
+	}
+	
+	date_default_timezone_set("Australia/Melbourne"); // set the default time zone.
+	
+	PLController::$componentROOT = ROOT."/Components";
+	
+	/*
+		The following two variables contain a black list of registered page 
+		names and actions that will be silently ignored. If the website is
+		being hit by a spam bot or other hacking attempt you can place the 
+		registered data it's trying to submit into these arrays.
+	*/
+	global $bannedPageNames;
+	$bannedPageNames = array();
+	
+	global $bannedActions;
+	$bannedActions = array();
+    
+    // configure allowed perma-links
+    $bl_allowed_urls = array("Login" => "Login", "Home" => "FrontPage", "Assets" => "AssetList", "Portfolio" => "PortfolioList", "PendingSummary" => "PendingIncomeSummary", "PettyCashList" => "PettyCashList");
+
+	// ** Enable this line to connect to a database.
+	require_once ROOT."/dbconnect.php";
+	
+	/* 
+	    Set this to a short string of characters for html obfusication. 
+	    NOTE: The encryption key must remain consistant across all page
+	    reloads. Don't use a runtime randomiser like uniqid() and don't
+	    store differing keys in a user's session. Sessions eventually 
+	    can expire and you will end up with situations where the encrypted
+	    form data will be unreadable to the request-response handler.
+	*/
+	define("ENC_KEY", "8732hfjBH3as");
+
+    // default page and action IDs for form printing routines.
+    define("BL_DEFAULT_PAGE_ID", "page");
+    define("BL_DEFAULT_ACTION_ID", "action");
+    
+	if (DEPLOYED || TESTING)
+	{
+		$level = TESTING ? 1 : 0;
+		setDebugLogging($level);
+		
+		$domain = "http://www.trackassets.com.au";
+        $appName = "Finance Tracker";
+		if (TESTING) {
+		    $appName .= " | Test";
+			$domain .= "/test";
+		}
+
+		
+		// add your developer email address to this array to receive critical 
+		// error reports from the production server.
+		installGeneralErrorHandlers(array("sqonk@sqonk.com.au", "john@sqonk.com.au"), "error.html");
+	}
+	else
+	{
+        $appName = "Finance Tracker Local";
+		$domain = "http://".$_SERVER['SERVER_ADDR']."/~john/trackassets";
+		setDebugLogging(3);
+		error_reporting(E_ALL);
+		
+		// This will gracefully load custom configs from a file with the developer's machine host name,
+		// short circuiting problems caused by certain settings that are different between people.
+		$hostname = php_uname("n");
+		$developer_custom_settings_file = "_$hostname.settings.php";
+		if (file_exists($developer_custom_settings_file))
+		    require_once $developer_custom_settings_file;
+	}
+	
+	/* The app name and domain name the site operates under. The domain name
+	is used in some situations such as error handling where it will auto-forward
+	to an error page at the top level. */
+	setAppInfo($appName, $domain); 
+
+    // Triggered when user tries to request a component or action that does not exist.
+	setNotFoundPage("not_found.html");
+    
+	setLogPath(LOGS."/".str_replace(" ", "_", appName()).".log"); // customise log file name.
+	
+	session_name(str_replace(" ", "_", appName()));
+	session_cache_limiter("nocache");
+	
+	// roll log the file if it exceeds the file limit (5MB is the default limit, which 
+	// can be adjusted with the second parameter of setLogPath()).
+	if (TESTING || DEPLOYED)
+	    rollLogFileIfNeeded();
+?>
+
+

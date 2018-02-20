@@ -1,0 +1,144 @@
+<?php 
+	//
+	// IncomeSource.php
+	// 
+	// Created on 2014-11-01 @ 10:01 am.
+	 
+	require_once BLOGIC."/BLogic.php"; 
+	 
+	class IncomeSource extends BLGenericRecord 
+	{ 
+		public function __construct($dataSource = null) 
+		{ 
+			parent::__construct($dataSource); 
+			
+			$this->defineRelationship(new BLToOneRelationship("asset", $this, "Asset", "assetID", "assetID"));
+			$this->defineRelationship(new BLToOneRelationship("frequencytype", $this, "FrequencyType", "frequencyTypeID", "frequencyTypeID"));
+			$this->defineRelationship(new BLToOneRelationship("occupant", $this, "Occupant", "occupantID", "occupantID"));
+			$this->defineRelationship(new BLToManyRelationship("incomelineitems", $this, "IncomeLineItem", "incomeSourceID", "incomeSourceID"));
+			
+		} 
+	 
+		public function tableName() 
+		{ 
+			return "IncomeSource"; 
+		} 
+		 
+		public function pkNames() 
+		{ 
+			return "incomeSourceID"; 
+		}
+		
+		/*
+			Override this method if you have any database fields which should not
+			be modified or saved back to the server. This provides only 'quiet' protection.
+			It does not pass any errors or warnings back if field data has changed, it merely
+			ommits the fields from the save request.
+		*/
+		
+		public function readOnlyAttributes()
+		{
+			return array("incomeSourceID");
+		}	
+		
+		public function occupant(){
+			return $this->valueForRelationship("occupant");
+		}
+		
+		public function safeOccupantFullName(){
+			$occupant = $this->valueForRelationship("occupant");
+			
+			if(!is_null($occupant) ){
+				return $occupant->fullName();
+			}else{
+				return "No Occupant";
+			}
+		}
+		
+		public function safeName(){
+			
+			if(!is_null($this->vars["name"])){
+				return $this->vars["name"];
+			}
+			else{
+				return "";
+			}
+		}
+		
+		public function safeFrequencyName(){
+			$frequencyType = $this->valueForRelationship("frequencytype");
+				
+			if(!is_null($frequencyType) ){
+				return $frequencyType->vars["name"];
+			}else{
+				return "No Frequency Type";
+			}
+		}
+		
+		public function incomelineItems(){
+			return $this->valueForRelationship("incomelineitems");
+		}
+		
+		//FIXME: filter out income lineitems
+		public function nonDeletedIncomeLineItems(){
+			$qual = new BLAndQualifier(array(
+					new BLKeyValueQualifier("incomeSourceID", OP_EQUAL, $this->vars["incomeSourceID"]),
+					new BLKeyValueQualifier("deleted", OP_EXACT_MATCH, NULL_VALUE),
+					
+			));
+			 $found = BLGenericRecord::find("IncomeLineItem", $qual);
+			 echo "found non deleted: " + count($found);
+			 
+			 return $found;
+			//return $this->incomelineItems();
+		}
+		
+		function unpaidIncomeLineItems()
+		{
+			$qual = new BLAndQualifier(array(
+					new BLKeyValueQualifier("incomeSourceID", OP_EQUAL, $this->vars["incomeSourceID"]),
+					new BLKeyValueQualifier("deleted", OP_EXACT_MATCH, NULL_VALUE),
+					new BLKeyValueQualifier("paymentDate", OP_EXACT_MATCH, NULL_VALUE)
+						
+			));
+			//$order = array("ili.paymentDate" => ORDER_ASCEND);
+			//return BLGenericRecord::find("IncomeLineItem", $qual, $order, array("sqlTableIdentity" => "ili", "joins" => array("IncomeSource ins on ins.incomeSourceID = ili.incomeSourceID")));
+			return $found = BLGenericRecord::find("IncomeLineItem", $qual);
+			//return $found = BLGenericRecord::find("IncomeLineItem");
+				
+		}
+		
+		
+		
+		/* 	Override this method if you have any database fields that deal in
+			raw binary data.
+			WARNING: attributes returned from here do not get escaped when working with the
+			MySQLDataSource so be very very careful on trusting the contents of the data
+			you are working with!
+		*/
+		/* public function binaryAttributes()
+		{
+			return array();
+		}
+		*/
+		/*
+		public function awakeFromFetch()
+		{
+			
+		}	 
+		
+		public function validateForSave()
+		{
+			
+		}
+		*/
+		
+		/*
+		// amount of time any apc auto-caching will store a copy for records of this entity
+		public function cacheTTL()
+		{
+			return 60;
+		}
+		*/
+	} 
+?>

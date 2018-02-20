@@ -1,0 +1,110 @@
+<div class="subSectionTitle">
+	Income Sources for Asset: <?php echo $controller->formValueForKeyPath("asset.name"); ?>
+	  
+</div>
+<div "incomeSourceActionsArea">
+	<webobject name="AddIncomeSourceSubmitButton1"></webobject><webobject name="SaveSubmitButton1"></webobject><webobject name="CancelSubmitButton1"></webobject>
+	<?php addSubmitButtonWithActions("Add Income Source", array("page" => "IncomeSourceEdit", "action" => "createIncomeSource")); ?>
+    <?php addSubmitButtonWithActions("Save", array("page" => "IncomeSourceEdit", "action" => "saveAction")); ?>
+    <?php addSubmitButtonWithActions("Back", array("page" => "IncomeSourceEdit", "action" => "saveAction", "nextPage" => "AssetDetails")); ?>
+    
+</div>
+
+<input type="hidden" name="nextPage" value="<?php echo $controller->formValueForKey("nextPage"); ?>" id="nextPage">
+<input type="hidden" name="selectedID" value="<?php echo $controller->formValueForKey("selectedID"); ?>" id="selectedID">
+<input type="hidden" name="selectedIncomeSourceID" value="<?php echo $controller->formValueForKey("selectedIncomeSourceID"); ?>" id="selectedIncomeSourceID">
+<input type="hidden" name="deleteIncomeSourceID" value="<?php echo $controller->formValueForKey("deleteIncomeSourceID"); ?>" id="deleteIncomeSourceID">
+
+<div class="tabular">
+	<table border="0" cellpadding="0" cellspacing="0">
+		<tr class="tableHead">
+			<td></td>
+			<td>Name</td>
+			<td>Current Tenant</td>
+			<td>Payment Frequency</td>
+			<td>Amount</td>
+            <td></td>
+		</tr>
+		<?php $incomeSources = $controller->asset()->nonDeletedIncomeSources(); 
+            $selectedID = doDecrypt($controller->formValueForKey("selectedIncomeSourceID"));
+            foreach ($incomeSources as $is) : 
+                $editMode = ($selectedID == $is->vars["incomeSourceID"]);
+                if ($editMode) : 
+            ?>
+                <tr style="background-color:#E9F1FF;">
+        			<td>
+                        
+                    </td>
+        			<td>
+        			    <input type="text" name="selectedIncomeSource.name" value="<?php echo $controller->formValueForKeyPath("selectedIncomeSource.name"); ?>" id="selectedIncomeSource.name">
+        			</td>
+        			<td>
+                        <?php echo $controller->selectedIncomeSource()->safeOccupantFullName(); ?>
+        			    <?php addSubmitButtonWithActions("Select Occupant", array("page" => "OccupantDetailsList", "action" => "doNothing")); ?>
+        			</td>
+        			<td>
+        				<select name="selectedIncomeSource.frequencyTypeID" style="font-size:1.2em;">
+        				
+    						<?php 
+                                $frequencyTypes = $controller->frequencyTypes();
+                                $def = $controller->formValueForKeyPath("selectedIncomeSource.frequencyTypeID");
+								foreach ($frequencyTypes as $ft) {
+								    constructSelectOption($def, $ft->vars["frequencyTypeID"], $ft->vars["name"]);
+								}
+							?>
+						</select>	
+        			</td>
+        			<td>
+                        <input type="text" name="selectedIncomeSource.paymentAmount" value="<?php echo $controller->formValueForKeyPath("selectedIncomeSource.paymentAmount"); ?>" style="width:60px;">
+        			</td>
+                    <td>
+                        <?php addSubmitButtonWithActions("Save", array("page" => "IncomeSourceEdit", "action" => "saveSelectedIncomeSource")); ?>
+                    </td>    
+        		</tr>
+            <?php else : ?>
+                <tr>
+        			<td>
+                        <?php addSubmitButtonWithActions("Edit", array("page" => "IncomeSourceEdit", "action" => "resetIncomeSourceForm",  "selectedIncomeSourceID" => $is->vars["incomeSourceID"] )); ?>
+                    </td>
+        			<td><?php echo $is->vars["name"]; ?></td>
+        			<td><?php echo $is->safeOccupantFullName(); ?></td>
+        			<td><?php echo $is->safeFrequencyName(); ?></td>
+        			<td><?php echo $is->vars["paymentAmount"]; ?></td>
+                    <td><?php addSubmitLinkWithActionsAndCallback("confirmDeleteSubmit()", array("page" => "IncomeSourceEdit", "action" => "deleteIncomeSource", "deleteIncomeSourceID" => $is->vars["incomeSourceID"]), null, "images/iconDelete.png"); ?></td>
+        		</tr>
+            <?php endif; ?>
+        <?php endforeach; ?>
+	</table>
+</div>
+<?php /*if (!is_null($controller->selectedIncomeSource()))*/ if (false) : ?>
+<div class="selectedArea" style="border: 1px solid black; height:100px;">
+	<div>
+		<div class="labelAndValue"  style="width:300px">
+			<div class="labels">Name</div> 
+			
+			<!--  <div><?php addTextField("selectedIncomeSource.name", $controller->selectedIncomeSource()->vars["name"], "selectedIncomeSource.name"); ?> -->
+			<input type="text" name="selectedIncomeSource.name" value="<?php echo $controller->formValueForKeyPath("selectedIncomeSource.name"); ?>" placeholder="short description">
+			</div> 
+		</div>
+		<div class="labelAndValue" style="width:400px" >
+			<div class="labels" >Current Tenant</div> <div><?php echo $controller->selectedIncomeSource()->safeOccupantFullName(); ?><?php addSubmitButtonWithActions("Select Occupant", array("page" => "OccupantDetailsList", "action" => "doNothing",  "selectedIncomeSourceID" => $controller->selectedIncomeSource()->vars["incomeSourceID"] )); ?></div>
+		</div>
+		<div class="labelAndValue" style="width:120px">
+			<div class="labels">Frequency: </div>
+			<div>
+				<select name="selectedIncomeSource.frequencyTypeID" style="font-size:1.2em;">
+									<?php $frequencyTypes =  $controller->frequencyTypes();
+									foreach ($frequencyTypes as $frequencyType) : 
+									constructSelectOption($controller->formValueForKeyPath("selectedIncomeSource.frequencytypeID"), $frequencyType->vars["frequencytypeID"], $frequencyType->vars["name"]); ?>
+								<?php endforeach; ?>
+							</select>	
+			</div>
+		
+		</div>
+		<div >
+			<div class="labels">Payment Amount</div> <div style="width:80px; float:left; "><?php addTextField("selectedIncomeSource.paymentAmount", $controller->selectedIncomeSource()->vars["paymentAmount"], $enabled = true, $class = null, $id = "selectedIncomeSource.paymentAmount", $style = null, $addHiddenFieldWhenDisabled = false); ?></div>
+		</div>
+   	 </div>
+</div>
+<?php endif; ?>
+

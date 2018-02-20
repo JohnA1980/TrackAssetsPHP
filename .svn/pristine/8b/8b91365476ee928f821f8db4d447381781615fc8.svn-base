@@ -1,0 +1,14 @@
+<table class="table table-striped">
+  <tr>
+  	<td></td>
+  	<td>ID</td>
+  	<td>name</td>
+  </tr>
+  <?php $investmentPortfolios = $controller->user()->nonDeletedInvestmentPortfolios(); foreach($investmentPortfolios as $investmentPortfolio) : ?>
+  <tr>
+  	<td><?php addSubmitButtonWithActions("Select", array("page" => "PortfolioList", "action" => "selectPortfolioAction",  "selectedID" => $investmentPortfolio->vars["investmentPortfolioID"] )); ?></td>
+  	<td><?php echo $investmentPortfolio->vars["investmentPortfolioID"] ?></td>
+  	<td><?php echo $investmentPortfolio->vars["name"] ?></td>
+  </tr>
+  <?php endforeach; ?>
+</table>
