@@ -5,9 +5,6 @@
     <input type="hidden" name="action" value="" id="action">
 	<input type="hidden" name="transactionID" value="<?php echo safeValue($_SESSION, "transactionID"); ?>" id="transactionID">
 	<div style="width:90%; margin-left: auto; margin-right: auto;">
-	<div>
-		Current Investment Portfolio: <?php echo $controller->currentInvestmentPortfolio()->field("name"); ?>
-	</div>
 	<?php if ($controller->errorMessage) : ?>
 		<div id="errorMessage">
 			<?php echo $controller->errorMessage; ?>

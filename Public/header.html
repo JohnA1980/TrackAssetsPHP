@@ -1,27 +1,39 @@
-<div id="header" >
-    <span style="color:#CDE2F7;">Finance</span> TRACKER
-    
-    
-</div>    
+<style>
+    .navbar.navbar-main{
+        background-color:#D3CFD3;
+        min-height:40px;
+        height:40px;
+    }
 
+    .navbar.navbar-main li{
+        text-transform: uppercase;
+    }
 
-<div id="navbar">
+    .nav.navbar-nav > li > a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+</style>
+
+    <div id="header" >
+        <span style="padding-top:10px;  color:#CDE2F7;">Finance</span> TRACKER
+    </div>
 <?php if (safeValue($_SESSION, "userID")) : ?>
-    <span style="float:left;padding-left:10px;">
-        <a href="AssetList">Assets</a>
-        &nbsp;|&nbsp;
-        <a href="PendingIncomeSummary">Pending Summary</a>
-        &nbsp;|&nbsp;
-        <a href="PettyCashList">Petty Cash</a>
-        &nbsp;|&nbsp;
-        <a href="PortfolioList">Investment Portfolio</a>
-    </span>    
-    <?php addSubmitLinkWithActions("mainForm", array("page" => "Pending Summary", "page" => "AssetList", "action" => "logout"), "Logout"); ?>
-<?php else : ?>
-    
-    <a href="Home">Home</a>
-    &nbsp;|&nbsp;
-    <a href="Login">Login</a>
-    
-<?php endif; ?>    
+<nav class="navbar navbar-main">
+    <div class="container-fluid">
+        <ul class="nav navbar-nav navbar-centre">
+            <li class="active"><a href="AssetList">Assets</a></li>
+            <li style="text-transform: uppercase;"><a href="PendingIncomeSummary">Pending Summary</a></li>
+            <li><a href="PettyCashList">Petty Cash</a></li>
+            <li><a href="PortfolioList">Investment Portfolio</a></li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right" style="padding-top:10px; padding-right:10px;">
+            <?php addSubmitLinkWithActions("mainForm", array("page" => "Pending Summary", "page" => "AssetList", "action" => "LOGOUT"), "Logout", null, "glyphicon glyphicon-log-out"); ?>
+        </ul>
+
+    </div>
+</nav>
+<?php endif ?>
+
 </div>

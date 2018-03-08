@@ -30,6 +30,9 @@
             addJS("js/jquery/jquery-ui.js");
             addCSS("js/jquery/jquery-ui.css");
             addCSS("js/jquery/jquery-ui.theme.css");
+
+            addCSS("css/bootstrap.min.css");
+            addCSS("css/layout.css");
             
             
 		} 

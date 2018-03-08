@@ -22,6 +22,7 @@
         This will gracefully load custom configs from a file with the developer's machine host name, short circuiting problems caused by certain settings that are different between people.
         */
         $hostname = php_uname("n");
+
 		$developer_custom_settings_file = DEV."/_$hostname.settings.php";
 		if (file_exists($developer_custom_settings_file))
 		    require_once $developer_custom_settings_file;

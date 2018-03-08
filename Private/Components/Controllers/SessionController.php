@@ -4,6 +4,7 @@
 		
 	class SessionController extends PLController
 	{
+	    protected $rowFlipper;
 		public function __construct($formData, $componentName)
 		{
 			parent::__construct($formData, $componentName);
@@ -61,5 +62,10 @@
             }
 			header("location: Login");
 		}
+
+        public function rowFlipper(){
+            $this->rowFlipper = !$this->rowFlipper;
+            return $this->rowFlipper;
+        }
 	}
 ?>

@@ -94,23 +94,17 @@ function doSearch() {
 
 <input type="hidden" name="selectedID" value="" id="selectedID">
 
-<div id="search">	
-	<table>
-		<tr>
-			<td style="width:385px;border-right:1px solid #ddd;">
-				<input type="text" name="search" value="" id="searchField" placeholder="name or address" style="padding:5px;font-size:13px;border-radius:16px;width:300px;border:1px solid #aaa;" onkeypress="return filterAssets(event);" autocomplete="off">
-				
-				<input type="button" name="clearButton" value="Reset" id="clearButton" onclick="return resetList();" disabled>
-			</td>	
-			<td style="text-align:left;">
-				<input type="checkbox" name="showDeleted" value="1" id="showDeleted" onclick="return filterAssets(event);"> Show Deleted
-			</td>
-			<td style="text-align:right;">
-				<?php addSubmitButtonWithActions("New Asset", array("mpage" => "PatientList", "maction" => "newPatient")); ?>
-				test <?php echo(ROOT); ?>
-			</td>	
-		</tr>	
-	</table>	
+<div id="search">
+	<div style="display:inline-block">
+		<input type="text" name="search" value="" id="searchField" placeholder="name or address" style="padding:5px;font-size:13px;border-radius:16px;width:300px;border:1px solid #aaa;" onkeypress="return filterAssets(event);" autocomplete="off">
+
+		<input type="button" name="clearButton" value="Reset" id="clearButton" onclick="return resetList();" disabled>
+		<input type="checkbox" name="showDeleted" value="1" id="showDeleted" onclick="return filterAssets(event);"> Show Deleted
+	</div>
+	<div style="float:right;">
+		<!-- addSubmitButtonWithActions($label, $actions, $class = null, $id = null, $callBack = null, $disabled = false)-->
+		<?php addSubmitButtonWithActions("New Asset", array("mpage" => "PatientList", "maction" => "newPatient"), "btn btn-info"); ?>
+	</div>
 </div>
 
 <div class="tabular" id="results">

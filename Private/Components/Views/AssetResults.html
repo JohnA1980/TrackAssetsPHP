@@ -1,4 +1,7 @@
-<table>
+<style>
+
+</style>
+<table class="table">
 	<tr>
 		<td style="width:60px;">
 			
@@ -19,7 +22,7 @@
 		</td>
 	</tr>
 	<?php $assets = $controller->assets(); foreach ($assets as $asset) : ?>
-		<tr class="<?php if ($asset->field("deleted")) echo "deleted"; ?>">
+		<tr class="<?php if ($asset->field("deleted")) echo "deleted"; if ($controller->rowFlipper()) echo "lightGrey";?>">
 			<td >
 			<span stlye="padding-left:3px;">
 			<?php addSubmitLinkWithActions("mainForm", array("page" => "AssetDetails", "action" => "doNothing", "selectedID" => $asset->vars["assetID"]), null, "images/write-btn.gif"); ?>

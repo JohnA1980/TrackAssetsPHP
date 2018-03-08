@@ -10,7 +10,7 @@
 	
     $useHTML = true;
 	session_start();
-	$component = handleRequest("FrontPage");
+	$component = handleRequest("Login");
 if ($useHTML) :
 ?>
 <!DOCTYPE html>
@@ -19,6 +19,7 @@ if ($useHTML) :
 		<title><?php echo appName(); ?> </title>
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
         <base href="<?php echo domainName(); ?>/" />
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 		<link rel="stylesheet" href="css/shared.css" type="text/css" media="screen" title="shared" charset="utf-8"/>
 		<link rel="stylesheet" href="css/components.css" type="text/css" media="screen" title="shared" charset="utf-8"/>
 		<?php foreach ($extraCSS as $css) : ?>
@@ -28,6 +29,8 @@ if ($useHTML) :
 		<?php foreach ($extraJS as $js) : ?>
 			<script type="text/javascript" src="<?php echo $js; ?>"></script>
 		<?php endforeach; ?>
+
+
 
 		  
 		

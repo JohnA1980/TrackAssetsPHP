@@ -706,3 +706,2870 @@
 
 )
 
+[02/03/2018 02:33:11 pm] the First date: 31/01/2015
+[02/03/2018 02:33:11 pm] returning date is 03/03/15
+[02/03/2018 02:33:11 pm] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
+[02/03/2018 02:33:11 pm] firstDate: 31/01/15
+[02/03/2018 02:33:14 pm] ID : 7
+[02/03/2018 02:33:14 pm] financial year start Time: 2017-07-01
+[02/03/2018 02:33:14 pm] financial year end Time: 2018-06-30
+[02/03/2018 02:33:14 pm] incoming enddate is: 30/06/18
+[02/03/2018 02:33:14 pm] before incomeLineItem search
+[02/03/2018 02:33:14 pm] before expenseLineItem search
+[02/03/2018 02:33:14 pm] Returning Summary: 250,0,250
+[02/03/2018 02:33:17 pm] the First date: 31/01/2015
+[02/03/2018 02:33:17 pm] returning date is 03/03/15
+[02/03/2018 02:33:17 pm] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
+[02/03/2018 02:33:17 pm] firstDate: 31/01/15
+[02/03/2018 02:33:26 pm] ID : 9
+[02/03/2018 02:33:26 pm] financial year start Time: 2017-07-01
+[02/03/2018 02:33:26 pm] financial year end Time: 2018-06-30
+[02/03/2018 02:33:26 pm] incoming enddate is: 30/06/18
+[02/03/2018 02:33:26 pm] before incomeLineItem search
+[02/03/2018 02:33:26 pm] before expenseLineItem search
+[02/03/2018 02:33:26 pm] Returning Summary: 0,0,0
+[02/03/2018 02:33:27 pm] ID : 9
+[02/03/2018 02:33:27 pm] selectedIncomeSource baby: 
+[02/03/2018 02:33:29 pm] ID : 9
+[02/03/2018 02:33:29 pm] financial year start Time: 2017-07-01
+[02/03/2018 02:33:29 pm] financial year end Time: 2018-06-30
+[02/03/2018 02:33:29 pm] incoming enddate is: 30/06/18
+[02/03/2018 02:33:29 pm] before incomeLineItem search
+[02/03/2018 02:33:29 pm] before expenseLineItem search
+[02/03/2018 02:33:29 pm] Returning Summary: 0,0,0
+[02/03/2018 04:41:17 pm] the First date: 31/01/2015
+[02/03/2018 04:41:17 pm] returning date is 03/03/15
+[02/03/2018 04:41:17 pm] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
+[02/03/2018 04:41:17 pm] firstDate: 31/01/15
+[02/03/2018 04:41:59 pm] the First date: 31/01/2015
+[02/03/2018 04:41:59 pm] returning date is 03/03/15
+[02/03/2018 04:41:59 pm] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
+[02/03/2018 04:41:59 pm] firstDate: 31/01/15
+[02/03/2018 04:42:11 pm] the First date: 31/01/2015
+[02/03/2018 04:42:11 pm] returning date is 03/03/15
+[02/03/2018 04:42:11 pm] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
+[02/03/2018 04:42:11 pm] firstDate: 31/01/15
+[02/03/2018 04:42:16 pm] the First date: 31/01/2015
+[02/03/2018 04:42:16 pm] returning date is 03/03/15
+[02/03/2018 04:42:16 pm] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
+[02/03/2018 04:42:16 pm] firstDate: 31/01/15
+[02/03/2018 04:42:27 pm] 2
+[02/03/2018 04:42:27 pm] 2
+[02/03/2018 04:42:27 pm] 1 PettyCash ID 
+[02/03/2018 04:42:27 pm] 0
+[02/03/2018 04:42:30 pm] the First date: 31/01/2015
+[02/03/2018 04:42:30 pm] returning date is 03/03/15
+[02/03/2018 04:42:30 pm] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
+[02/03/2018 04:42:30 pm] firstDate: 31/01/15
+[02/03/2018 04:42:32 pm] ID : 9
+[02/03/2018 04:42:32 pm] financial year start Time: 2017-07-01
+[02/03/2018 04:42:32 pm] financial year end Time: 2018-06-30
+[02/03/2018 04:42:32 pm] incoming enddate is: 30/06/18
+[02/03/2018 04:42:32 pm] before incomeLineItem search
+[02/03/2018 04:42:32 pm] before expenseLineItem search
+[02/03/2018 04:42:32 pm] Returning Summary: 0,0,0
+[02/03/2018 04:42:43 pm] ID : 9
+[02/03/2018 04:42:43 pm] selectedIncomeSource baby: 
+[02/03/2018 04:42:45 pm] the First date: 31/01/2015
+[02/03/2018 04:42:45 pm] returning date is 03/03/15
+[02/03/2018 04:42:45 pm] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
+[02/03/2018 04:42:45 pm] firstDate: 31/01/15
+[02/03/2018 04:43:06 pm] ID : 7
+[02/03/2018 04:43:06 pm] financial year start Time: 2017-07-01
+[02/03/2018 04:43:06 pm] financial year end Time: 2018-06-30
+[02/03/2018 04:43:06 pm] incoming enddate is: 30/06/18
+[02/03/2018 04:43:06 pm] before incomeLineItem search
+[02/03/2018 04:43:06 pm] before expenseLineItem search
+[02/03/2018 04:43:06 pm] Returning Summary: 250,0,250
+[02/03/2018 04:43:13 pm] ID : 7
+[02/03/2018 04:43:13 pm] selectedIncomeSource baby: 
+[02/03/2018 04:43:13 pm] firstIncomeSource: 10
+[02/03/2018 04:43:17 pm] ID : 7
+[02/03/2018 04:43:17 pm] 24
+[02/03/2018 04:43:18 pm] startDateExpenseSummary: 2018-03-02 endDateExpenseSummary2018-03-02
+[02/03/2018 04:43:18 pm] startDateExpenseSummary: 2018-03-02 endDateExpenseSummary2018-03-02
+[02/03/2018 04:43:18 pm] ID : 7
+[02/03/2018 04:43:18 pm] expenseSummaryJSON : startdate: 18-03 endDate: 18-03
+[02/03/2018 04:43:18 pm] before expenseLineItem search
+[02/03/2018 04:43:18 pm] count in expenseLineItems: 0
+[02/03/2018 04:43:18 pm] number in expense summary array: 0
+[02/03/2018 04:43:18 pm] Not Set
+[02/03/2018 04:43:18 pm] arraykeys : startend
+[02/03/2018 04:43:18 pm] incoming enddate is: 31/07/17
+[02/03/2018 04:43:18 pm] before incomeLineItem search
+[02/03/2018 04:43:18 pm] before expenseLineItem search
+[02/03/2018 04:43:18 pm] Returning Summary: 0,0,0
+[02/03/2018 04:43:18 pm] arraykeys : startend
+[02/03/2018 04:43:18 pm] incoming enddate is: 31/08/17
+[02/03/2018 04:43:18 pm] before incomeLineItem search
+[02/03/2018 04:43:18 pm] before expenseLineItem search
+[02/03/2018 04:43:18 pm] Returning Summary: 0,0,0
+[02/03/2018 04:43:18 pm] arraykeys : startend
+[02/03/2018 04:43:18 pm] incoming enddate is: 30/09/17
+[02/03/2018 04:43:18 pm] before incomeLineItem search
+[02/03/2018 04:43:18 pm] before expenseLineItem search
+[02/03/2018 04:43:18 pm] Returning Summary: 0,0,0
+[02/03/2018 04:43:18 pm] arraykeys : startend
+[02/03/2018 04:43:18 pm] incoming enddate is: 31/10/17
+[02/03/2018 04:43:18 pm] before incomeLineItem search
+[02/03/2018 04:43:18 pm] before expenseLineItem search
+[02/03/2018 04:43:18 pm] Returning Summary: 0,0,0
+[02/03/2018 04:43:18 pm] arraykeys : startend
+[02/03/2018 04:43:18 pm] incoming enddate is: 30/11/17
+[02/03/2018 04:43:18 pm] before incomeLineItem search
+[02/03/2018 04:43:18 pm] before expenseLineItem search
+[02/03/2018 04:43:18 pm] Returning Summary: 0,0,0
+[02/03/2018 04:43:18 pm] arraykeys : startend
+[02/03/2018 04:43:18 pm] incoming enddate is: 31/12/17
+[02/03/2018 04:43:18 pm] before incomeLineItem search
+[02/03/2018 04:43:18 pm] before expenseLineItem search
+[02/03/2018 04:43:18 pm] Returning Summary: 0,0,0
+[02/03/2018 04:43:18 pm] arraykeys : startend
+[02/03/2018 04:43:18 pm] incoming enddate is: 31/01/18
+[02/03/2018 04:43:18 pm] before incomeLineItem search
+[02/03/2018 04:43:18 pm] before expenseLineItem search
+[02/03/2018 04:43:18 pm] Returning Summary: 0,0,0
+[02/03/2018 04:43:18 pm] arraykeys : startend
+[02/03/2018 04:43:18 pm] incoming enddate is: 28/02/18
+[02/03/2018 04:43:18 pm] before incomeLineItem search
+[02/03/2018 04:43:19 pm] before expenseLineItem search
+[02/03/2018 04:43:19 pm] Returning Summary: 250,0,250
+[02/03/2018 04:43:19 pm] arraykeys : startend
+[02/03/2018 04:43:19 pm] incoming enddate is: 31/03/18
+[02/03/2018 04:43:19 pm] before incomeLineItem search
+[02/03/2018 04:43:19 pm] before expenseLineItem search
+[02/03/2018 04:43:19 pm] Returning Summary: 0,0,0
+[02/03/2018 04:43:19 pm] arraykeys : startend
+[02/03/2018 04:43:19 pm] incoming enddate is: 30/04/18
+[02/03/2018 04:43:19 pm] before incomeLineItem search
+[02/03/2018 04:43:19 pm] before expenseLineItem search
+[02/03/2018 04:43:19 pm] Returning Summary: 0,0,0
+[02/03/2018 04:43:19 pm] arraykeys : startend
+[02/03/2018 04:43:19 pm] incoming enddate is: 31/05/18
+[02/03/2018 04:43:19 pm] before incomeLineItem search
+[02/03/2018 04:43:19 pm] before expenseLineItem search
+[02/03/2018 04:43:19 pm] Returning Summary: 0,0,0
+[02/03/2018 04:43:19 pm] arraykeys : startend
+[02/03/2018 04:43:19 pm] incoming enddate is: 30/06/18
+[02/03/2018 04:43:19 pm] before incomeLineItem search
+[02/03/2018 04:43:19 pm] before expenseLineItem search
+[02/03/2018 04:43:19 pm] Returning Summary: 0,0,0
+[02/03/2018 04:43:19 pm] arraykeys : startend
+[02/03/2018 04:43:19 pm] incoming enddate is: 31/07/18
+[02/03/2018 04:43:19 pm] before incomeLineItem search
+[02/03/2018 04:43:19 pm] before expenseLineItem search
+[02/03/2018 04:43:19 pm] Returning Summary: 0,0,0
+[02/03/2018 04:43:19 pm] json data: [["Month","Rent","Expenses","Profit"],["Jul-17",0,0,0],["Aug-17",0,0,0],["Sep-17",0,0,0],["Oct-17",0,0,0],["Nov-17",0,0,0],["Dec-17",0,0,0],["Jan-18",0,0,0],["Feb-18",250,0,250],["Mar-18",0,0,0],["Apr-18",0,0,0],["May-18",0,0,0],["Jun-18",0,0,0],["Jul-18",0,0,0]]
+[02/03/2018 04:43:19 pm] number of report charts?? 2
+[02/03/2018 04:43:19 pm] ID : 7
+[02/03/2018 04:43:19 pm] 24
+[02/03/2018 04:43:26 pm] startDateExpenseSummary: 2018-03-02 endDateExpenseSummary2018-03-02
+[02/03/2018 04:43:26 pm] startDateExpenseSummary: 2018-03-02 endDateExpenseSummary2018-03-02
+[02/03/2018 04:43:26 pm] ID : 7
+[02/03/2018 04:43:26 pm] expenseSummaryJSON : startdate: 18-03 endDate: 18-03
+[02/03/2018 04:43:26 pm] before expenseLineItem search
+[02/03/2018 04:43:26 pm] count in expenseLineItems: 0
+[02/03/2018 04:43:26 pm] number in expense summary array: 0
+[02/03/2018 04:43:26 pm] Not Set
+[02/03/2018 04:43:26 pm] arraykeys : startend
+[02/03/2018 04:43:26 pm] incoming enddate is: 31/07/17
+[02/03/2018 04:43:26 pm] before incomeLineItem search
+[02/03/2018 04:43:26 pm] before expenseLineItem search
+[02/03/2018 04:43:26 pm] Returning Summary: 0,0,0
+[02/03/2018 04:43:26 pm] arraykeys : startend
+[02/03/2018 04:43:26 pm] incoming enddate is: 31/08/17
+[02/03/2018 04:43:26 pm] before incomeLineItem search
+[02/03/2018 04:43:26 pm] before expenseLineItem search
+[02/03/2018 04:43:26 pm] Returning Summary: 0,0,0
+[02/03/2018 04:43:26 pm] arraykeys : startend
+[02/03/2018 04:43:26 pm] incoming enddate is: 30/09/17
+[02/03/2018 04:43:26 pm] before incomeLineItem search
+[02/03/2018 04:43:26 pm] before expenseLineItem search
+[02/03/2018 04:43:26 pm] Returning Summary: 0,0,0
+[02/03/2018 04:43:26 pm] arraykeys : startend
+[02/03/2018 04:43:26 pm] incoming enddate is: 31/10/17
+[02/03/2018 04:43:26 pm] before incomeLineItem search
+[02/03/2018 04:43:26 pm] before expenseLineItem search
+[02/03/2018 04:43:26 pm] Returning Summary: 0,0,0
+[02/03/2018 04:43:26 pm] arraykeys : startend
+[02/03/2018 04:43:26 pm] incoming enddate is: 30/11/17
+[02/03/2018 04:43:26 pm] before incomeLineItem search
+[02/03/2018 04:43:26 pm] before expenseLineItem search
+[02/03/2018 04:43:26 pm] Returning Summary: 0,0,0
+[02/03/2018 04:43:26 pm] arraykeys : startend
+[02/03/2018 04:43:26 pm] incoming enddate is: 31/12/17
+[02/03/2018 04:43:26 pm] before incomeLineItem search
+[02/03/2018 04:43:26 pm] before expenseLineItem search
+[02/03/2018 04:43:26 pm] Returning Summary: 0,0,0
+[02/03/2018 04:43:26 pm] arraykeys : startend
+[02/03/2018 04:43:26 pm] incoming enddate is: 31/01/18
+[02/03/2018 04:43:26 pm] before incomeLineItem search
+[02/03/2018 04:43:26 pm] before expenseLineItem search
+[02/03/2018 04:43:26 pm] Returning Summary: 0,0,0
+[02/03/2018 04:43:26 pm] arraykeys : startend
+[02/03/2018 04:43:26 pm] incoming enddate is: 28/02/18
+[02/03/2018 04:43:26 pm] before incomeLineItem search
+[02/03/2018 04:43:26 pm] before expenseLineItem search
+[02/03/2018 04:43:26 pm] Returning Summary: 250,0,250
+[02/03/2018 04:43:26 pm] arraykeys : startend
+[02/03/2018 04:43:26 pm] incoming enddate is: 31/03/18
+[02/03/2018 04:43:26 pm] before incomeLineItem search
+[02/03/2018 04:43:26 pm] before expenseLineItem search
+[02/03/2018 04:43:26 pm] Returning Summary: 0,0,0
+[02/03/2018 04:43:26 pm] arraykeys : startend
+[02/03/2018 04:43:26 pm] incoming enddate is: 30/04/18
+[02/03/2018 04:43:26 pm] before incomeLineItem search
+[02/03/2018 04:43:26 pm] before expenseLineItem search
+[02/03/2018 04:43:26 pm] Returning Summary: 0,0,0
+[02/03/2018 04:43:26 pm] arraykeys : startend
+[02/03/2018 04:43:26 pm] incoming enddate is: 31/05/18
+[02/03/2018 04:43:26 pm] before incomeLineItem search
+[02/03/2018 04:43:26 pm] before expenseLineItem search
+[02/03/2018 04:43:26 pm] Returning Summary: 0,0,0
+[02/03/2018 04:43:26 pm] arraykeys : startend
+[02/03/2018 04:43:26 pm] incoming enddate is: 30/06/18
+[02/03/2018 04:43:26 pm] before incomeLineItem search
+[02/03/2018 04:43:26 pm] before expenseLineItem search
+[02/03/2018 04:43:26 pm] Returning Summary: 0,0,0
+[02/03/2018 04:43:26 pm] arraykeys : startend
+[02/03/2018 04:43:26 pm] incoming enddate is: 31/07/18
+[02/03/2018 04:43:26 pm] before incomeLineItem search
+[02/03/2018 04:43:26 pm] before expenseLineItem search
+[02/03/2018 04:43:26 pm] Returning Summary: 0,0,0
+[02/03/2018 04:43:26 pm] json data: [["Month","Rent","Expenses","Profit"],["Jul-17",0,0,0],["Aug-17",0,0,0],["Sep-17",0,0,0],["Oct-17",0,0,0],["Nov-17",0,0,0],["Dec-17",0,0,0],["Jan-18",0,0,0],["Feb-18",250,0,250],["Mar-18",0,0,0],["Apr-18",0,0,0],["May-18",0,0,0],["Jun-18",0,0,0],["Jul-18",0,0,0]]
+[02/03/2018 04:43:26 pm] number of report charts?? 2
+[02/03/2018 04:43:27 pm] this is the currentChart selection: Net Income Chart
+[02/03/2018 04:43:27 pm] startDateExpenseSummary: 2018-03-02 endDateExpenseSummary2018-03-02
+[02/03/2018 04:43:27 pm] startDateExpenseSummary: 2018-03-02 endDateExpenseSummary2018-03-02
+[02/03/2018 04:43:27 pm] ID : 7
+[02/03/2018 04:43:27 pm] expenseSummaryJSON : startdate: 18-03 endDate: 18-03
+[02/03/2018 04:43:27 pm] before expenseLineItem search
+[02/03/2018 04:43:27 pm] count in expenseLineItems: 0
+[02/03/2018 04:43:27 pm] number in expense summary array: 0
+[02/03/2018 04:43:27 pm] Not Set
+[02/03/2018 04:43:27 pm] arraykeys : startend
+[02/03/2018 04:43:27 pm] incoming enddate is: 31/07/17
+[02/03/2018 04:43:27 pm] before incomeLineItem search
+[02/03/2018 04:43:27 pm] before expenseLineItem search
+[02/03/2018 04:43:27 pm] Returning Summary: 0,0,0
+[02/03/2018 04:43:27 pm] arraykeys : startend
+[02/03/2018 04:43:27 pm] incoming enddate is: 31/08/17
+[02/03/2018 04:43:27 pm] before incomeLineItem search
+[02/03/2018 04:43:27 pm] before expenseLineItem search
+[02/03/2018 04:43:27 pm] Returning Summary: 0,0,0
+[02/03/2018 04:43:27 pm] arraykeys : startend
+[02/03/2018 04:43:27 pm] incoming enddate is: 30/09/17
+[02/03/2018 04:43:27 pm] before incomeLineItem search
+[02/03/2018 04:43:27 pm] before expenseLineItem search
+[02/03/2018 04:43:27 pm] Returning Summary: 0,0,0
+[02/03/2018 04:43:27 pm] arraykeys : startend
+[02/03/2018 04:43:27 pm] incoming enddate is: 31/10/17
+[02/03/2018 04:43:27 pm] before incomeLineItem search
+[02/03/2018 04:43:27 pm] before expenseLineItem search
+[02/03/2018 04:43:27 pm] Returning Summary: 0,0,0
+[02/03/2018 04:43:27 pm] arraykeys : startend
+[02/03/2018 04:43:27 pm] incoming enddate is: 30/11/17
+[02/03/2018 04:43:27 pm] before incomeLineItem search
+[02/03/2018 04:43:27 pm] before expenseLineItem search
+[02/03/2018 04:43:27 pm] Returning Summary: 0,0,0
+[02/03/2018 04:43:27 pm] arraykeys : startend
+[02/03/2018 04:43:27 pm] incoming enddate is: 31/12/17
+[02/03/2018 04:43:27 pm] before incomeLineItem search
+[02/03/2018 04:43:27 pm] before expenseLineItem search
+[02/03/2018 04:43:27 pm] Returning Summary: 0,0,0
+[02/03/2018 04:43:27 pm] arraykeys : startend
+[02/03/2018 04:43:27 pm] incoming enddate is: 31/01/18
+[02/03/2018 04:43:27 pm] before incomeLineItem search
+[02/03/2018 04:43:27 pm] before expenseLineItem search
+[02/03/2018 04:43:27 pm] Returning Summary: 0,0,0
+[02/03/2018 04:43:27 pm] arraykeys : startend
+[02/03/2018 04:43:27 pm] incoming enddate is: 28/02/18
+[02/03/2018 04:43:27 pm] before incomeLineItem search
+[02/03/2018 04:43:27 pm] before expenseLineItem search
+[02/03/2018 04:43:27 pm] Returning Summary: 250,0,250
+[02/03/2018 04:43:27 pm] arraykeys : startend
+[02/03/2018 04:43:27 pm] incoming enddate is: 31/03/18
+[02/03/2018 04:43:27 pm] before incomeLineItem search
+[02/03/2018 04:43:27 pm] before expenseLineItem search
+[02/03/2018 04:43:27 pm] Returning Summary: 0,0,0
+[02/03/2018 04:43:27 pm] arraykeys : startend
+[02/03/2018 04:43:27 pm] incoming enddate is: 30/04/18
+[02/03/2018 04:43:27 pm] before incomeLineItem search
+[02/03/2018 04:43:27 pm] before expenseLineItem search
+[02/03/2018 04:43:27 pm] Returning Summary: 0,0,0
+[02/03/2018 04:43:27 pm] arraykeys : startend
+[02/03/2018 04:43:27 pm] incoming enddate is: 31/05/18
+[02/03/2018 04:43:27 pm] before incomeLineItem search
+[02/03/2018 04:43:27 pm] before expenseLineItem search
+[02/03/2018 04:43:27 pm] Returning Summary: 0,0,0
+[02/03/2018 04:43:27 pm] arraykeys : startend
+[02/03/2018 04:43:27 pm] incoming enddate is: 30/06/18
+[02/03/2018 04:43:27 pm] before incomeLineItem search
+[02/03/2018 04:43:27 pm] before expenseLineItem search
+[02/03/2018 04:43:27 pm] Returning Summary: 0,0,0
+[02/03/2018 04:43:27 pm] arraykeys : startend
+[02/03/2018 04:43:27 pm] incoming enddate is: 31/07/18
+[02/03/2018 04:43:27 pm] before incomeLineItem search
+[02/03/2018 04:43:27 pm] before expenseLineItem search
+[02/03/2018 04:43:27 pm] Returning Summary: 0,0,0
+[02/03/2018 04:43:27 pm] json data: [["Month","Rent","Expenses","Profit"],["Jul-17",0,0,0],["Aug-17",0,0,0],["Sep-17",0,0,0],["Oct-17",0,0,0],["Nov-17",0,0,0],["Dec-17",0,0,0],["Jan-18",0,0,0],["Feb-18",250,0,250],["Mar-18",0,0,0],["Apr-18",0,0,0],["May-18",0,0,0],["Jun-18",0,0,0],["Jul-18",0,0,0]]
+[02/03/2018 04:43:27 pm] number of report charts?? 2
+[02/03/2018 04:43:30 pm] this is the currentChart selection: Expenses Summary Chart
+[02/03/2018 04:43:30 pm] startDateExpenseSummary: 2018-03-02 endDateExpenseSummary2018-03-02
+[02/03/2018 04:43:30 pm] startDateExpenseSummary: 2018-03-02 endDateExpenseSummary2018-03-02
+[02/03/2018 04:43:30 pm] ID : 7
+[02/03/2018 04:43:30 pm] expenseSummaryJSON : startdate: 18-03 endDate: 18-03
+[02/03/2018 04:43:30 pm] before expenseLineItem search
+[02/03/2018 04:43:30 pm] count in expenseLineItems: 0
+[02/03/2018 04:43:30 pm] number in expense summary array: 0
+[02/03/2018 04:43:30 pm] Not Set
+[02/03/2018 04:43:30 pm] arraykeys : startend
+[02/03/2018 04:43:30 pm] incoming enddate is: 31/07/17
+[02/03/2018 04:43:30 pm] before incomeLineItem search
+[02/03/2018 04:43:30 pm] before expenseLineItem search
+[02/03/2018 04:43:30 pm] Returning Summary: 0,0,0
+[02/03/2018 04:43:30 pm] arraykeys : startend
+[02/03/2018 04:43:30 pm] incoming enddate is: 31/08/17
+[02/03/2018 04:43:30 pm] before incomeLineItem search
+[02/03/2018 04:43:30 pm] before expenseLineItem search
+[02/03/2018 04:43:30 pm] Returning Summary: 0,0,0
+[02/03/2018 04:43:30 pm] arraykeys : startend
+[02/03/2018 04:43:30 pm] incoming enddate is: 30/09/17
+[02/03/2018 04:43:30 pm] before incomeLineItem search
+[02/03/2018 04:43:30 pm] before expenseLineItem search
+[02/03/2018 04:43:30 pm] Returning Summary: 0,0,0
+[02/03/2018 04:43:30 pm] arraykeys : startend
+[02/03/2018 04:43:30 pm] incoming enddate is: 31/10/17
+[02/03/2018 04:43:30 pm] before incomeLineItem search
+[02/03/2018 04:43:30 pm] before expenseLineItem search
+[02/03/2018 04:43:30 pm] Returning Summary: 0,0,0
+[02/03/2018 04:43:30 pm] arraykeys : startend
+[02/03/2018 04:43:30 pm] incoming enddate is: 30/11/17
+[02/03/2018 04:43:30 pm] before incomeLineItem search
+[02/03/2018 04:43:30 pm] before expenseLineItem search
+[02/03/2018 04:43:30 pm] Returning Summary: 0,0,0
+[02/03/2018 04:43:30 pm] arraykeys : startend
+[02/03/2018 04:43:30 pm] incoming enddate is: 31/12/17
+[02/03/2018 04:43:30 pm] before incomeLineItem search
+[02/03/2018 04:43:30 pm] before expenseLineItem search
+[02/03/2018 04:43:30 pm] Returning Summary: 0,0,0
+[02/03/2018 04:43:30 pm] arraykeys : startend
+[02/03/2018 04:43:30 pm] incoming enddate is: 31/01/18
+[02/03/2018 04:43:30 pm] before incomeLineItem search
+[02/03/2018 04:43:30 pm] before expenseLineItem search
+[02/03/2018 04:43:30 pm] Returning Summary: 0,0,0
+[02/03/2018 04:43:30 pm] arraykeys : startend
+[02/03/2018 04:43:30 pm] incoming enddate is: 28/02/18
+[02/03/2018 04:43:30 pm] before incomeLineItem search
+[02/03/2018 04:43:30 pm] before expenseLineItem search
+[02/03/2018 04:43:30 pm] Returning Summary: 250,0,250
+[02/03/2018 04:43:30 pm] arraykeys : startend
+[02/03/2018 04:43:30 pm] incoming enddate is: 31/03/18
+[02/03/2018 04:43:30 pm] before incomeLineItem search
+[02/03/2018 04:43:30 pm] before expenseLineItem search
+[02/03/2018 04:43:30 pm] Returning Summary: 0,0,0
+[02/03/2018 04:43:30 pm] arraykeys : startend
+[02/03/2018 04:43:30 pm] incoming enddate is: 30/04/18
+[02/03/2018 04:43:30 pm] before incomeLineItem search
+[02/03/2018 04:43:30 pm] before expenseLineItem search
+[02/03/2018 04:43:30 pm] Returning Summary: 0,0,0
+[02/03/2018 04:43:30 pm] arraykeys : startend
+[02/03/2018 04:43:30 pm] incoming enddate is: 31/05/18
+[02/03/2018 04:43:30 pm] before incomeLineItem search
+[02/03/2018 04:43:30 pm] before expenseLineItem search
+[02/03/2018 04:43:30 pm] Returning Summary: 0,0,0
+[02/03/2018 04:43:30 pm] arraykeys : startend
+[02/03/2018 04:43:30 pm] incoming enddate is: 30/06/18
+[02/03/2018 04:43:30 pm] before incomeLineItem search
+[02/03/2018 04:43:30 pm] before expenseLineItem search
+[02/03/2018 04:43:30 pm] Returning Summary: 0,0,0
+[02/03/2018 04:43:30 pm] arraykeys : startend
+[02/03/2018 04:43:30 pm] incoming enddate is: 31/07/18
+[02/03/2018 04:43:30 pm] before incomeLineItem search
+[02/03/2018 04:43:30 pm] before expenseLineItem search
+[02/03/2018 04:43:30 pm] Returning Summary: 0,0,0
+[02/03/2018 04:43:30 pm] json data: [["Month","Rent","Expenses","Profit"],["Jul-17",0,0,0],["Aug-17",0,0,0],["Sep-17",0,0,0],["Oct-17",0,0,0],["Nov-17",0,0,0],["Dec-17",0,0,0],["Jan-18",0,0,0],["Feb-18",250,0,250],["Mar-18",0,0,0],["Apr-18",0,0,0],["May-18",0,0,0],["Jun-18",0,0,0],["Jul-18",0,0,0]]
+[02/03/2018 04:43:30 pm] number of report charts?? 2
+[02/03/2018 04:43:30 pm] number in financial array: 13
+[02/03/2018 04:43:30 pm] startDateExpenseSummary: 2018-03-02 endDateExpenseSummary2018-03-02
+[02/03/2018 04:43:30 pm] startDateExpenseSummary: 2018-03-02 endDateExpenseSummary2018-03-02
+[02/03/2018 04:43:30 pm] expenseSummaryJSON : startdate: 18-03 endDate: 18-03
+[02/03/2018 04:43:30 pm] before expenseLineItem search
+[02/03/2018 04:43:30 pm] count in expenseLineItems: 0
+[02/03/2018 04:43:30 pm] number in expense summary array: 0
+[02/03/2018 04:43:30 pm] Not Set
+[02/03/2018 04:43:32 pm] startDateExpenseSummary: 2017-08-01 endDateExpenseSummary2017-08-31
+[02/03/2018 04:43:32 pm] startDateExpenseSummary: 2017-08-01 endDateExpenseSummary2017-08-31
+[02/03/2018 04:43:32 pm] ID : 7
+[02/03/2018 04:43:32 pm] expenseSummaryJSON : startdate: 17-08 endDate: 17-08
+[02/03/2018 04:43:32 pm] before expenseLineItem search
+[02/03/2018 04:43:32 pm] count in expenseLineItems: 0
+[02/03/2018 04:43:32 pm] number in expense summary array: 0
+[02/03/2018 04:43:32 pm] Not Set
+[02/03/2018 04:43:32 pm] arraykeys : startend
+[02/03/2018 04:43:32 pm] incoming enddate is: 31/07/17
+[02/03/2018 04:43:32 pm] before incomeLineItem search
+[02/03/2018 04:43:32 pm] before expenseLineItem search
+[02/03/2018 04:43:32 pm] Returning Summary: 0,0,0
+[02/03/2018 04:43:32 pm] arraykeys : startend
+[02/03/2018 04:43:32 pm] incoming enddate is: 31/08/17
+[02/03/2018 04:43:32 pm] before incomeLineItem search
+[02/03/2018 04:43:32 pm] before expenseLineItem search
+[02/03/2018 04:43:32 pm] Returning Summary: 0,0,0
+[02/03/2018 04:43:32 pm] arraykeys : startend
+[02/03/2018 04:43:32 pm] incoming enddate is: 30/09/17
+[02/03/2018 04:43:32 pm] before incomeLineItem search
+[02/03/2018 04:43:32 pm] before expenseLineItem search
+[02/03/2018 04:43:32 pm] Returning Summary: 0,0,0
+[02/03/2018 04:43:32 pm] arraykeys : startend
+[02/03/2018 04:43:32 pm] incoming enddate is: 31/10/17
+[02/03/2018 04:43:32 pm] before incomeLineItem search
+[02/03/2018 04:43:32 pm] before expenseLineItem search
+[02/03/2018 04:43:32 pm] Returning Summary: 0,0,0
+[02/03/2018 04:43:32 pm] arraykeys : startend
+[02/03/2018 04:43:32 pm] incoming enddate is: 30/11/17
+[02/03/2018 04:43:32 pm] before incomeLineItem search
+[02/03/2018 04:43:32 pm] before expenseLineItem search
+[02/03/2018 04:43:32 pm] Returning Summary: 0,0,0
+[02/03/2018 04:43:32 pm] arraykeys : startend
+[02/03/2018 04:43:32 pm] incoming enddate is: 31/12/17
+[02/03/2018 04:43:32 pm] before incomeLineItem search
+[02/03/2018 04:43:32 pm] before expenseLineItem search
+[02/03/2018 04:43:32 pm] Returning Summary: 0,0,0
+[02/03/2018 04:43:32 pm] arraykeys : startend
+[02/03/2018 04:43:32 pm] incoming enddate is: 31/01/18
+[02/03/2018 04:43:32 pm] before incomeLineItem search
+[02/03/2018 04:43:32 pm] before expenseLineItem search
+[02/03/2018 04:43:32 pm] Returning Summary: 0,0,0
+[02/03/2018 04:43:32 pm] arraykeys : startend
+[02/03/2018 04:43:32 pm] incoming enddate is: 28/02/18
+[02/03/2018 04:43:32 pm] before incomeLineItem search
+[02/03/2018 04:43:32 pm] before expenseLineItem search
+[02/03/2018 04:43:32 pm] Returning Summary: 250,0,250
+[02/03/2018 04:43:32 pm] arraykeys : startend
+[02/03/2018 04:43:32 pm] incoming enddate is: 31/03/18
+[02/03/2018 04:43:32 pm] before incomeLineItem search
+[02/03/2018 04:43:32 pm] before expenseLineItem search
+[02/03/2018 04:43:32 pm] Returning Summary: 0,0,0
+[02/03/2018 04:43:32 pm] arraykeys : startend
+[02/03/2018 04:43:32 pm] incoming enddate is: 30/04/18
+[02/03/2018 04:43:32 pm] before incomeLineItem search
+[02/03/2018 04:43:32 pm] before expenseLineItem search
+[02/03/2018 04:43:32 pm] Returning Summary: 0,0,0
+[02/03/2018 04:43:32 pm] arraykeys : startend
+[02/03/2018 04:43:32 pm] incoming enddate is: 31/05/18
+[02/03/2018 04:43:32 pm] before incomeLineItem search
+[02/03/2018 04:43:32 pm] before expenseLineItem search
+[02/03/2018 04:43:32 pm] Returning Summary: 0,0,0
+[02/03/2018 04:43:32 pm] arraykeys : startend
+[02/03/2018 04:43:32 pm] incoming enddate is: 30/06/18
+[02/03/2018 04:43:32 pm] before incomeLineItem search
+[02/03/2018 04:43:32 pm] before expenseLineItem search
+[02/03/2018 04:43:32 pm] Returning Summary: 0,0,0
+[02/03/2018 04:43:32 pm] arraykeys : startend
+[02/03/2018 04:43:32 pm] incoming enddate is: 31/07/18
+[02/03/2018 04:43:32 pm] before incomeLineItem search
+[02/03/2018 04:43:32 pm] before expenseLineItem search
+[02/03/2018 04:43:32 pm] Returning Summary: 0,0,0
+[02/03/2018 04:43:32 pm] json data: [["Month","Rent","Expenses","Profit"],["Jul-17",0,0,0],["Aug-17",0,0,0],["Sep-17",0,0,0],["Oct-17",0,0,0],["Nov-17",0,0,0],["Dec-17",0,0,0],["Jan-18",0,0,0],["Feb-18",250,0,250],["Mar-18",0,0,0],["Apr-18",0,0,0],["May-18",0,0,0],["Jun-18",0,0,0],["Jul-18",0,0,0]]
+[02/03/2018 04:43:32 pm] number of report charts?? 2
+[02/03/2018 04:43:40 pm] 2
+[02/03/2018 04:43:40 pm] 2
+[02/03/2018 04:43:40 pm] 1 PettyCash ID 
+[02/03/2018 04:43:40 pm] 0
+[02/03/2018 04:43:42 pm] 2
+[02/03/2018 04:43:42 pm] 2
+[02/03/2018 04:43:42 pm] 1 PettyCash ID 
+[02/03/2018 04:43:42 pm] 0
+[02/03/2018 04:43:44 pm] the First date: 31/01/2015
+[02/03/2018 04:43:44 pm] returning date is 03/03/15
+[02/03/2018 04:43:44 pm] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
+[02/03/2018 04:43:44 pm] firstDate: 31/01/15
+[02/03/2018 04:43:46 pm] ID : 7
+[02/03/2018 04:43:46 pm] financial year start Time: 2017-07-01
+[02/03/2018 04:43:46 pm] financial year end Time: 2018-06-30
+[02/03/2018 04:43:46 pm] incoming enddate is: 30/06/18
+[02/03/2018 04:43:46 pm] before incomeLineItem search
+[02/03/2018 04:43:46 pm] before expenseLineItem search
+[02/03/2018 04:43:46 pm] Returning Summary: 250,0,250
+[02/03/2018 04:43:54 pm] ID : 7
+[02/03/2018 04:43:54 pm] selectedIncomeSource baby: 
+[02/03/2018 04:43:54 pm] firstIncomeSource: 10
+[02/03/2018 04:44:03 pm] the First date: 31/01/2015
+[02/03/2018 04:44:03 pm] returning date is 03/03/15
+[02/03/2018 04:44:03 pm] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
+[02/03/2018 04:44:03 pm] firstDate: 31/01/15
+[02/03/2018 04:44:05 pm] ID : 7
+[02/03/2018 04:44:05 pm] financial year start Time: 2017-07-01
+[02/03/2018 04:44:05 pm] financial year end Time: 2018-06-30
+[02/03/2018 04:44:05 pm] incoming enddate is: 30/06/18
+[02/03/2018 04:44:05 pm] before incomeLineItem search
+[02/03/2018 04:44:05 pm] before expenseLineItem search
+[02/03/2018 04:44:05 pm] Returning Summary: 250,0,250
+[02/03/2018 04:44:11 pm] the First date: 31/01/2015
+[02/03/2018 04:44:11 pm] returning date is 03/03/15
+[02/03/2018 04:44:11 pm] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
+[02/03/2018 04:44:11 pm] firstDate: 31/01/15
+[02/03/2018 04:44:14 pm] ID : 9
+[02/03/2018 04:44:14 pm] financial year start Time: 2017-07-01
+[02/03/2018 04:44:14 pm] financial year end Time: 2018-06-30
+[02/03/2018 04:44:14 pm] incoming enddate is: 30/06/18
+[02/03/2018 04:44:14 pm] before incomeLineItem search
+[02/03/2018 04:44:14 pm] before expenseLineItem search
+[02/03/2018 04:44:14 pm] Returning Summary: 0,0,0
+[02/03/2018 04:44:18 pm] ID : 9
+[02/03/2018 04:44:18 pm] the First date: 31/01/2015
+[02/03/2018 04:44:18 pm] returning date is 03/03/15
+[02/03/2018 04:44:18 pm] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
+[02/03/2018 04:44:18 pm] firstDate: 31/01/15
+[02/03/2018 04:44:18 pm] financial year start Time: 2017-07-01
+[02/03/2018 04:44:18 pm] financial year end Time: 2018-06-30
+[02/03/2018 04:44:18 pm] incoming enddate is: 30/06/18
+[02/03/2018 04:44:18 pm] before incomeLineItem search
+[02/03/2018 04:44:18 pm] before expenseLineItem search
+[02/03/2018 04:44:18 pm] Returning Summary: 0,0,0
+[02/03/2018 04:44:26 pm] ID : 9
+[02/03/2018 04:44:26 pm] selectedIncomeSource baby: 
+[02/03/2018 04:44:42 pm] the First date: 31/01/2015
+[02/03/2018 04:44:42 pm] returning date is 03/03/15
+[02/03/2018 04:44:42 pm] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
+[02/03/2018 04:44:42 pm] firstDate: 31/01/15
+[02/03/2018 04:44:44 pm] ID : 7
+[02/03/2018 04:44:44 pm] financial year start Time: 2017-07-01
+[02/03/2018 04:44:44 pm] financial year end Time: 2018-06-30
+[02/03/2018 04:44:44 pm] incoming enddate is: 30/06/18
+[02/03/2018 04:44:44 pm] before incomeLineItem search
+[02/03/2018 04:44:44 pm] before expenseLineItem search
+[02/03/2018 04:44:44 pm] Returning Summary: 250,0,250
+[02/03/2018 04:44:45 pm] ID : 7
+[02/03/2018 04:44:45 pm] selectedIncomeSource baby: 
+[02/03/2018 04:44:45 pm] firstIncomeSource: 10
+[02/03/2018 04:44:53 pm] selected Income source is null
+[02/03/2018 04:44:53 pm] ID : 7
+[02/03/2018 04:44:53 pm] financial year start Time: 2017-07-01
+[02/03/2018 04:44:53 pm] financial year end Time: 2018-06-30
+[02/03/2018 04:44:53 pm] incoming enddate is: 30/06/18
+[02/03/2018 04:44:53 pm] before incomeLineItem search
+[02/03/2018 04:44:53 pm] before expenseLineItem search
+[02/03/2018 04:44:53 pm] Returning Summary: 250,0,250
+[02/03/2018 04:44:55 pm] ID : 7
+[02/03/2018 04:44:55 pm] selectedIncomeSource baby: 
+[02/03/2018 04:44:55 pm] firstIncomeSource: 10
+[02/03/2018 04:45:01 pm] ID : 7
+[02/03/2018 04:45:01 pm] 24
+[02/03/2018 04:45:02 pm] startDateExpenseSummary: 2018-03-02 endDateExpenseSummary2018-03-02
+[02/03/2018 04:45:02 pm] startDateExpenseSummary: 2018-03-02 endDateExpenseSummary2018-03-02
+[02/03/2018 04:45:02 pm] ID : 7
+[02/03/2018 04:45:02 pm] expenseSummaryJSON : startdate: 18-03 endDate: 18-03
+[02/03/2018 04:45:02 pm] before expenseLineItem search
+[02/03/2018 04:45:02 pm] count in expenseLineItems: 0
+[02/03/2018 04:45:02 pm] number in expense summary array: 0
+[02/03/2018 04:45:02 pm] Not Set
+[02/03/2018 04:45:02 pm] arraykeys : startend
+[02/03/2018 04:45:02 pm] incoming enddate is: 31/07/17
+[02/03/2018 04:45:02 pm] before incomeLineItem search
+[02/03/2018 04:45:02 pm] before expenseLineItem search
+[02/03/2018 04:45:02 pm] Returning Summary: 0,0,0
+[02/03/2018 04:45:02 pm] arraykeys : startend
+[02/03/2018 04:45:02 pm] incoming enddate is: 31/08/17
+[02/03/2018 04:45:02 pm] before incomeLineItem search
+[02/03/2018 04:45:02 pm] before expenseLineItem search
+[02/03/2018 04:45:02 pm] Returning Summary: 0,0,0
+[02/03/2018 04:45:02 pm] arraykeys : startend
+[02/03/2018 04:45:02 pm] incoming enddate is: 30/09/17
+[02/03/2018 04:45:02 pm] before incomeLineItem search
+[02/03/2018 04:45:02 pm] before expenseLineItem search
+[02/03/2018 04:45:02 pm] Returning Summary: 0,0,0
+[02/03/2018 04:45:02 pm] arraykeys : startend
+[02/03/2018 04:45:02 pm] incoming enddate is: 31/10/17
+[02/03/2018 04:45:02 pm] before incomeLineItem search
+[02/03/2018 04:45:02 pm] before expenseLineItem search
+[02/03/2018 04:45:02 pm] Returning Summary: 0,0,0
+[02/03/2018 04:45:02 pm] arraykeys : startend
+[02/03/2018 04:45:02 pm] incoming enddate is: 30/11/17
+[02/03/2018 04:45:02 pm] before incomeLineItem search
+[02/03/2018 04:45:02 pm] before expenseLineItem search
+[02/03/2018 04:45:02 pm] Returning Summary: 0,0,0
+[02/03/2018 04:45:02 pm] arraykeys : startend
+[02/03/2018 04:45:02 pm] incoming enddate is: 31/12/17
+[02/03/2018 04:45:02 pm] before incomeLineItem search
+[02/03/2018 04:45:02 pm] before expenseLineItem search
+[02/03/2018 04:45:02 pm] Returning Summary: 0,0,0
+[02/03/2018 04:45:02 pm] arraykeys : startend
+[02/03/2018 04:45:02 pm] incoming enddate is: 31/01/18
+[02/03/2018 04:45:02 pm] before incomeLineItem search
+[02/03/2018 04:45:02 pm] before expenseLineItem search
+[02/03/2018 04:45:02 pm] Returning Summary: 0,0,0
+[02/03/2018 04:45:02 pm] arraykeys : startend
+[02/03/2018 04:45:02 pm] incoming enddate is: 28/02/18
+[02/03/2018 04:45:02 pm] before incomeLineItem search
+[02/03/2018 04:45:02 pm] before expenseLineItem search
+[02/03/2018 04:45:02 pm] Returning Summary: 250,0,250
+[02/03/2018 04:45:02 pm] arraykeys : startend
+[02/03/2018 04:45:02 pm] incoming enddate is: 31/03/18
+[02/03/2018 04:45:02 pm] before incomeLineItem search
+[02/03/2018 04:45:02 pm] before expenseLineItem search
+[02/03/2018 04:45:02 pm] Returning Summary: 0,0,0
+[02/03/2018 04:45:02 pm] arraykeys : startend
+[02/03/2018 04:45:02 pm] incoming enddate is: 30/04/18
+[02/03/2018 04:45:02 pm] before incomeLineItem search
+[02/03/2018 04:45:02 pm] before expenseLineItem search
+[02/03/2018 04:45:02 pm] Returning Summary: 0,0,0
+[02/03/2018 04:45:02 pm] arraykeys : startend
+[02/03/2018 04:45:02 pm] incoming enddate is: 31/05/18
+[02/03/2018 04:45:02 pm] before incomeLineItem search
+[02/03/2018 04:45:02 pm] before expenseLineItem search
+[02/03/2018 04:45:02 pm] Returning Summary: 0,0,0
+[02/03/2018 04:45:02 pm] arraykeys : startend
+[02/03/2018 04:45:02 pm] incoming enddate is: 30/06/18
+[02/03/2018 04:45:02 pm] before incomeLineItem search
+[02/03/2018 04:45:02 pm] before expenseLineItem search
+[02/03/2018 04:45:02 pm] Returning Summary: 0,0,0
+[02/03/2018 04:45:02 pm] arraykeys : startend
+[02/03/2018 04:45:02 pm] incoming enddate is: 31/07/18
+[02/03/2018 04:45:02 pm] before incomeLineItem search
+[02/03/2018 04:45:02 pm] before expenseLineItem search
+[02/03/2018 04:45:02 pm] Returning Summary: 0,0,0
+[02/03/2018 04:45:02 pm] json data: [["Month","Rent","Expenses","Profit"],["Jul-17",0,0,0],["Aug-17",0,0,0],["Sep-17",0,0,0],["Oct-17",0,0,0],["Nov-17",0,0,0],["Dec-17",0,0,0],["Jan-18",0,0,0],["Feb-18",250,0,250],["Mar-18",0,0,0],["Apr-18",0,0,0],["May-18",0,0,0],["Jun-18",0,0,0],["Jul-18",0,0,0]]
+[02/03/2018 04:45:02 pm] number of report charts?? 2
+[02/03/2018 04:45:06 pm] ID : 7
+[02/03/2018 04:45:06 pm] 24
+[02/03/2018 04:45:50 pm] ID : 7
+[02/03/2018 04:45:50 pm] 24
+[02/03/2018 04:46:03 pm] ID : 7
+[02/03/2018 04:46:03 pm] selectedIncomeSource baby: 
+[02/03/2018 04:46:03 pm] firstIncomeSource: 10
+[02/03/2018 04:46:05 pm] ID : 7
+[02/03/2018 04:46:05 pm] 24
+[02/03/2018 04:46:12 pm] ID : 7
+[02/03/2018 04:46:12 pm] financial year start Time: 2017-07-01
+[02/03/2018 04:46:12 pm] financial year end Time: 2018-06-30
+[02/03/2018 04:46:12 pm] incoming enddate is: 30/06/18
+[02/03/2018 04:46:12 pm] before incomeLineItem search
+[02/03/2018 04:46:12 pm] before expenseLineItem search
+[02/03/2018 04:46:12 pm] Returning Summary: 250,0,250
+[02/03/2018 04:46:20 pm] the First date: 31/01/2015
+[02/03/2018 04:46:20 pm] returning date is 03/03/15
+[02/03/2018 04:46:20 pm] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
+[02/03/2018 04:46:20 pm] firstDate: 31/01/15
+[02/03/2018 04:46:48 pm] the First date: 31/01/2015
+[02/03/2018 04:46:48 pm] returning date is 03/03/15
+[02/03/2018 04:46:48 pm] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
+[02/03/2018 04:46:48 pm] firstDate: 31/01/15
+[02/03/2018 04:47:25 pm] the First date: 31/01/2015
+[02/03/2018 04:47:25 pm] returning date is 03/03/15
+[02/03/2018 04:47:25 pm] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
+[02/03/2018 04:47:25 pm] firstDate: 31/01/15
+[02/03/2018 04:47:59 pm] the First date: 31/01/2015
+[02/03/2018 04:47:59 pm] returning date is 03/03/15
+[02/03/2018 04:47:59 pm] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
+[02/03/2018 04:47:59 pm] firstDate: 31/01/15
+[02/03/2018 04:48:26 pm] the First date: 31/01/2015
+[02/03/2018 04:48:26 pm] returning date is 03/03/15
+[02/03/2018 04:48:26 pm] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
+[02/03/2018 04:48:26 pm] firstDate: 31/01/15
+[02/03/2018 04:48:28 pm] ID : 9
+[02/03/2018 04:48:28 pm] financial year start Time: 2017-07-01
+[02/03/2018 04:48:28 pm] financial year end Time: 2018-06-30
+[02/03/2018 04:48:28 pm] incoming enddate is: 30/06/18
+[02/03/2018 04:48:28 pm] before incomeLineItem search
+[02/03/2018 04:48:28 pm] before expenseLineItem search
+[02/03/2018 04:48:28 pm] Returning Summary: 0,0,0
+[02/03/2018 04:48:55 pm] ID : 9
+[02/03/2018 04:48:55 pm] selectedIncomeSource baby: 
+[02/03/2018 04:48:57 pm] ID : 9
+[02/03/2018 04:48:57 pm] financial year start Time: 2017-07-01
+[02/03/2018 04:48:57 pm] financial year end Time: 2018-06-30
+[02/03/2018 04:48:57 pm] incoming enddate is: 30/06/18
+[02/03/2018 04:48:57 pm] before incomeLineItem search
+[02/03/2018 04:48:57 pm] before expenseLineItem search
+[02/03/2018 04:48:57 pm] Returning Summary: 0,0,0
+[02/03/2018 04:49:22 pm] ID : 9
+[02/03/2018 04:49:22 pm] financial year start Time: 2017-07-01
+[02/03/2018 04:49:22 pm] financial year end Time: 2018-06-30
+[02/03/2018 04:49:22 pm] incoming enddate is: 30/06/18
+[02/03/2018 04:49:22 pm] before incomeLineItem search
+[02/03/2018 04:49:22 pm] before expenseLineItem search
+[02/03/2018 04:49:22 pm] Returning Summary: 0,0,0
+[02/03/2018 04:49:23 pm] the First date: 31/01/2015
+[02/03/2018 04:49:23 pm] returning date is 03/03/15
+[02/03/2018 04:49:23 pm] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
+[02/03/2018 04:49:23 pm] firstDate: 31/01/15
+[02/03/2018 04:52:14 pm] the First date: 31/01/2015
+[02/03/2018 04:52:14 pm] returning date is 03/03/15
+[02/03/2018 04:52:14 pm] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
+[02/03/2018 04:52:14 pm] firstDate: 31/01/15
+[02/03/2018 04:53:46 pm] the First date: 31/01/2015
+[02/03/2018 04:53:46 pm] returning date is 03/03/15
+[02/03/2018 04:53:46 pm] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
+[02/03/2018 04:53:46 pm] firstDate: 31/01/15
+[02/03/2018 04:54:21 pm] the First date: 31/01/2015
+[02/03/2018 04:54:21 pm] returning date is 03/03/15
+[02/03/2018 04:54:21 pm] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
+[02/03/2018 04:54:21 pm] firstDate: 31/01/15
+[02/03/2018 04:58:26 pm] the First date: 31/01/2015
+[02/03/2018 04:58:26 pm] returning date is 03/03/15
+[02/03/2018 04:58:26 pm] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
+[02/03/2018 04:58:26 pm] firstDate: 31/01/15
+[02/03/2018 05:00:01 pm] the First date: 31/01/2015
+[02/03/2018 05:00:01 pm] returning date is 03/03/15
+[02/03/2018 05:00:01 pm] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
+[02/03/2018 05:00:01 pm] firstDate: 31/01/15
+[02/03/2018 05:00:38 pm] the First date: 31/01/2015
+[02/03/2018 05:00:38 pm] returning date is 03/03/15
+[02/03/2018 05:00:38 pm] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
+[02/03/2018 05:00:38 pm] firstDate: 31/01/15
+[02/03/2018 05:02:40 pm] the First date: 31/01/2015
+[02/03/2018 05:02:40 pm] returning date is 03/03/15
+[02/03/2018 05:02:40 pm] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
+[02/03/2018 05:02:40 pm] firstDate: 31/01/15
+[02/03/2018 05:03:34 pm] the First date: 31/01/2015
+[02/03/2018 05:03:34 pm] returning date is 03/03/15
+[02/03/2018 05:03:34 pm] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
+[02/03/2018 05:03:34 pm] firstDate: 31/01/15
+[02/03/2018 05:04:17 pm] the First date: 31/01/2015
+[02/03/2018 05:04:17 pm] returning date is 03/03/15
+[02/03/2018 05:04:17 pm] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
+[02/03/2018 05:04:17 pm] firstDate: 31/01/15
+[02/03/2018 05:04:35 pm] the First date: 31/01/2015
+[02/03/2018 05:04:35 pm] returning date is 03/03/15
+[02/03/2018 05:04:35 pm] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
+[02/03/2018 05:04:35 pm] firstDate: 31/01/15
+[02/03/2018 05:04:39 pm] the First date: 31/01/2015
+[02/03/2018 05:04:39 pm] returning date is 03/03/15
+[02/03/2018 05:04:39 pm] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
+[02/03/2018 05:04:39 pm] firstDate: 31/01/15
+[02/03/2018 05:04:59 pm] the First date: 31/01/2015
+[02/03/2018 05:04:59 pm] returning date is 03/03/15
+[02/03/2018 05:04:59 pm] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
+[02/03/2018 05:04:59 pm] firstDate: 31/01/15
+[02/03/2018 05:05:20 pm] the First date: 31/01/2015
+[02/03/2018 05:05:20 pm] returning date is 03/03/15
+[02/03/2018 05:05:20 pm] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
+[02/03/2018 05:05:20 pm] firstDate: 31/01/15
+[02/03/2018 05:05:55 pm] the First date: 31/01/2015
+[02/03/2018 05:05:55 pm] returning date is 03/03/15
+[02/03/2018 05:05:55 pm] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
+[02/03/2018 05:05:55 pm] firstDate: 31/01/15
+[02/03/2018 05:06:23 pm] the First date: 31/01/2015
+[02/03/2018 05:06:23 pm] returning date is 03/03/15
+[02/03/2018 05:06:23 pm] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
+[02/03/2018 05:06:23 pm] firstDate: 31/01/15
+[02/03/2018 05:06:27 pm] the First date: 31/01/2015
+[02/03/2018 05:06:27 pm] returning date is 03/03/15
+[02/03/2018 05:06:27 pm] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
+[02/03/2018 05:06:27 pm] firstDate: 31/01/15
+[02/03/2018 05:07:27 pm] the First date: 31/01/2015
+[02/03/2018 05:07:27 pm] returning date is 03/03/15
+[02/03/2018 05:07:27 pm] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
+[02/03/2018 05:07:27 pm] firstDate: 31/01/15
+[02/03/2018 05:08:15 pm] the First date: 31/01/2015
+[02/03/2018 05:08:15 pm] returning date is 03/03/15
+[02/03/2018 05:08:15 pm] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
+[02/03/2018 05:08:15 pm] firstDate: 31/01/15
+[02/03/2018 05:08:47 pm] the First date: 31/01/2015
+[02/03/2018 05:08:47 pm] returning date is 03/03/15
+[02/03/2018 05:08:47 pm] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
+[02/03/2018 05:08:47 pm] firstDate: 31/01/15
+[02/03/2018 05:09:04 pm] the First date: 31/01/2015
+[02/03/2018 05:09:04 pm] returning date is 03/03/15
+[02/03/2018 05:09:04 pm] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
+[02/03/2018 05:09:04 pm] firstDate: 31/01/15
+[02/03/2018 05:09:06 pm] 2
+[02/03/2018 05:09:06 pm] 2
+[02/03/2018 05:09:06 pm] 1 PettyCash ID 
+[02/03/2018 05:09:06 pm] 0
+[02/03/2018 05:09:10 pm] the First date: 31/01/2015
+[02/03/2018 05:09:10 pm] returning date is 03/03/15
+[02/03/2018 05:09:10 pm] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
+[02/03/2018 05:09:10 pm] firstDate: 31/01/15
+[02/03/2018 05:09:11 pm] ID : 7
+[02/03/2018 05:09:11 pm] financial year start Time: 2017-07-01
+[02/03/2018 05:09:11 pm] financial year end Time: 2018-06-30
+[02/03/2018 05:09:11 pm] incoming enddate is: 30/06/18
+[02/03/2018 05:09:11 pm] before incomeLineItem search
+[02/03/2018 05:09:11 pm] before expenseLineItem search
+[02/03/2018 05:09:11 pm] Returning Summary: 250,0,250
+[02/03/2018 05:09:21 pm] ID : 7
+[02/03/2018 05:09:21 pm] financial year start Time: 2017-07-01
+[02/03/2018 05:09:21 pm] financial year end Time: 2018-06-30
+[02/03/2018 05:09:21 pm] incoming enddate is: 30/06/18
+[02/03/2018 05:09:21 pm] before incomeLineItem search
+[02/03/2018 05:09:21 pm] before expenseLineItem search
+[02/03/2018 05:09:21 pm] Returning Summary: 250,0,250
+[02/03/2018 05:09:24 pm] the First date: 31/01/2015
+[02/03/2018 05:09:24 pm] returning date is 03/03/15
+[02/03/2018 05:09:24 pm] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
+[02/03/2018 05:09:24 pm] firstDate: 31/01/15
+[02/03/2018 05:09:29 pm] ID : 7
+[02/03/2018 05:09:29 pm] financial year start Time: 2017-07-01
+[02/03/2018 05:09:29 pm] financial year end Time: 2018-06-30
+[02/03/2018 05:09:29 pm] incoming enddate is: 30/06/18
+[02/03/2018 05:09:29 pm] before incomeLineItem search
+[02/03/2018 05:09:29 pm] before expenseLineItem search
+[02/03/2018 05:09:29 pm] Returning Summary: 250,0,250
+[02/03/2018 05:09:41 pm] ID : 7
+[02/03/2018 05:09:41 pm] selectedIncomeSource baby: 
+[02/03/2018 05:09:41 pm] firstIncomeSource: 10
+[02/03/2018 05:09:42 pm] ID : 7
+[02/03/2018 05:09:42 pm] 24
+[02/03/2018 05:09:45 pm] startDateExpenseSummary: 2018-03-02 endDateExpenseSummary2018-03-02
+[02/03/2018 05:09:45 pm] startDateExpenseSummary: 2018-03-02 endDateExpenseSummary2018-03-02
+[02/03/2018 05:09:45 pm] ID : 7
+[02/03/2018 05:09:45 pm] expenseSummaryJSON : startdate: 18-03 endDate: 18-03
+[02/03/2018 05:09:45 pm] before expenseLineItem search
+[02/03/2018 05:09:45 pm] count in expenseLineItems: 0
+[02/03/2018 05:09:45 pm] number in expense summary array: 0
+[02/03/2018 05:09:45 pm] Not Set
+[02/03/2018 05:09:45 pm] arraykeys : startend
+[02/03/2018 05:09:45 pm] incoming enddate is: 31/07/17
+[02/03/2018 05:09:45 pm] before incomeLineItem search
+[02/03/2018 05:09:45 pm] before expenseLineItem search
+[02/03/2018 05:09:45 pm] Returning Summary: 0,0,0
+[02/03/2018 05:09:45 pm] arraykeys : startend
+[02/03/2018 05:09:45 pm] incoming enddate is: 31/08/17
+[02/03/2018 05:09:45 pm] before incomeLineItem search
+[02/03/2018 05:09:45 pm] before expenseLineItem search
+[02/03/2018 05:09:45 pm] Returning Summary: 0,0,0
+[02/03/2018 05:09:45 pm] arraykeys : startend
+[02/03/2018 05:09:45 pm] incoming enddate is: 30/09/17
+[02/03/2018 05:09:45 pm] before incomeLineItem search
+[02/03/2018 05:09:45 pm] before expenseLineItem search
+[02/03/2018 05:09:45 pm] Returning Summary: 0,0,0
+[02/03/2018 05:09:45 pm] arraykeys : startend
+[02/03/2018 05:09:45 pm] incoming enddate is: 31/10/17
+[02/03/2018 05:09:45 pm] before incomeLineItem search
+[02/03/2018 05:09:45 pm] before expenseLineItem search
+[02/03/2018 05:09:45 pm] Returning Summary: 0,0,0
+[02/03/2018 05:09:45 pm] arraykeys : startend
+[02/03/2018 05:09:45 pm] incoming enddate is: 30/11/17
+[02/03/2018 05:09:45 pm] before incomeLineItem search
+[02/03/2018 05:09:45 pm] before expenseLineItem search
+[02/03/2018 05:09:45 pm] Returning Summary: 0,0,0
+[02/03/2018 05:09:45 pm] arraykeys : startend
+[02/03/2018 05:09:45 pm] incoming enddate is: 31/12/17
+[02/03/2018 05:09:45 pm] before incomeLineItem search
+[02/03/2018 05:09:45 pm] before expenseLineItem search
+[02/03/2018 05:09:45 pm] Returning Summary: 0,0,0
+[02/03/2018 05:09:45 pm] arraykeys : startend
+[02/03/2018 05:09:45 pm] incoming enddate is: 31/01/18
+[02/03/2018 05:09:45 pm] before incomeLineItem search
+[02/03/2018 05:09:45 pm] before expenseLineItem search
+[02/03/2018 05:09:45 pm] Returning Summary: 0,0,0
+[02/03/2018 05:09:45 pm] arraykeys : startend
+[02/03/2018 05:09:45 pm] incoming enddate is: 28/02/18
+[02/03/2018 05:09:45 pm] before incomeLineItem search
+[02/03/2018 05:09:45 pm] before expenseLineItem search
+[02/03/2018 05:09:45 pm] Returning Summary: 250,0,250
+[02/03/2018 05:09:45 pm] arraykeys : startend
+[02/03/2018 05:09:45 pm] incoming enddate is: 31/03/18
+[02/03/2018 05:09:45 pm] before incomeLineItem search
+[02/03/2018 05:09:45 pm] before expenseLineItem search
+[02/03/2018 05:09:45 pm] Returning Summary: 0,0,0
+[02/03/2018 05:09:45 pm] arraykeys : startend
+[02/03/2018 05:09:45 pm] incoming enddate is: 30/04/18
+[02/03/2018 05:09:45 pm] before incomeLineItem search
+[02/03/2018 05:09:45 pm] before expenseLineItem search
+[02/03/2018 05:09:45 pm] Returning Summary: 0,0,0
+[02/03/2018 05:09:45 pm] arraykeys : startend
+[02/03/2018 05:09:45 pm] incoming enddate is: 31/05/18
+[02/03/2018 05:09:45 pm] before incomeLineItem search
+[02/03/2018 05:09:45 pm] before expenseLineItem search
+[02/03/2018 05:09:45 pm] Returning Summary: 0,0,0
+[02/03/2018 05:09:45 pm] arraykeys : startend
+[02/03/2018 05:09:45 pm] incoming enddate is: 30/06/18
+[02/03/2018 05:09:45 pm] before incomeLineItem search
+[02/03/2018 05:09:45 pm] before expenseLineItem search
+[02/03/2018 05:09:45 pm] Returning Summary: 0,0,0
+[02/03/2018 05:09:45 pm] arraykeys : startend
+[02/03/2018 05:09:45 pm] incoming enddate is: 31/07/18
+[02/03/2018 05:09:45 pm] before incomeLineItem search
+[02/03/2018 05:09:45 pm] before expenseLineItem search
+[02/03/2018 05:09:45 pm] Returning Summary: 0,0,0
+[02/03/2018 05:09:45 pm] json data: [["Month","Rent","Expenses","Profit"],["Jul-17",0,0,0],["Aug-17",0,0,0],["Sep-17",0,0,0],["Oct-17",0,0,0],["Nov-17",0,0,0],["Dec-17",0,0,0],["Jan-18",0,0,0],["Feb-18",250,0,250],["Mar-18",0,0,0],["Apr-18",0,0,0],["May-18",0,0,0],["Jun-18",0,0,0],["Jul-18",0,0,0]]
+[02/03/2018 05:09:45 pm] number of report charts?? 2
+[02/03/2018 05:09:47 pm] ID : 7
+[02/03/2018 05:09:47 pm] 24
+[02/03/2018 11:39:35 pm] perma link part count for / 1
+[02/03/2018 11:39:35 pm] examining permalink path...
+[02/03/2018 11:39:35 pm] ip address: fe80::c6b3:1ff:fec3:e76d
+[02/03/2018 11:39:35 pm] request page: 
+[02/03/2018 11:39:35 pm] page=FrontPage
+[02/03/2018 11:39:35 pm] loading controller ../Private/Components/Controllers/FrontPage.php
+[02/03/2018 11:39:35 pm] letComponentHandleRequest: FrontPage
+[02/03/2018 11:39:35 pm] starting component: FrontPage, final: FrontPage
+[02/03/2018 11:39:35 pm] fe80::c6b3:1ff:fec3:e76d: no action given
+[02/03/2018 11:52:21 pm] settings file: ../dev/_jpado1-6.local.settings.php
+[02/03/2018 11:52:21 pm] perma link part count for / 1
+[02/03/2018 11:52:21 pm] examining permalink path...
+[02/03/2018 11:52:21 pm] ip address: fe80::c6b3:1ff:fec3:e76d
+[02/03/2018 11:52:21 pm] request page: 
+[02/03/2018 11:52:21 pm] page=FrontPage
+[02/03/2018 11:52:21 pm] loading controller ../Private/Components/Controllers/FrontPage.php
+[02/03/2018 11:52:21 pm] letComponentHandleRequest: FrontPage
+[02/03/2018 11:52:21 pm] starting component: FrontPage, final: FrontPage
+[02/03/2018 11:52:21 pm] fe80::c6b3:1ff:fec3:e76d: no action given
+[03/03/2018 12:03:05 am] settings file: ../dev/_192-168-1-103.tpgi.com.au.settings.php
+[03/03/2018 12:03:05 am] perma link part count for / 1
+[03/03/2018 12:03:05 am] examining permalink path...
+[03/03/2018 12:03:05 am] ip address: fe80::c6b3:1ff:fec3:e76d
+[03/03/2018 12:03:05 am] request page: 
+[03/03/2018 12:03:05 am] page=FrontPage
+[03/03/2018 12:03:05 am] loading controller ../Private/Components/Controllers/FrontPage.php
+[03/03/2018 12:03:05 am] letComponentHandleRequest: FrontPage
+[03/03/2018 12:03:05 am] starting component: FrontPage, final: FrontPage
+[03/03/2018 12:03:05 am] fe80::c6b3:1ff:fec3:e76d: no action given
+[03/03/2018 12:03:28 am] perma link part count for / 1
+[03/03/2018 12:03:28 am] examining permalink path...
+[03/03/2018 12:03:28 am] ip address: fe80::c6b3:1ff:fec3:e76d
+[03/03/2018 12:03:28 am] request page: 
+[03/03/2018 12:03:28 am] page=FrontPage
+[03/03/2018 12:03:28 am] loading controller ../Private/Components/Controllers/FrontPage.php
+[03/03/2018 12:03:28 am] letComponentHandleRequest: FrontPage
+[03/03/2018 12:03:28 am] starting component: FrontPage, final: FrontPage
+[03/03/2018 12:03:28 am] fe80::c6b3:1ff:fec3:e76d: no action given
+[03/03/2018 12:03:45 am] perma link part count for / 1
+[03/03/2018 12:03:45 am] examining permalink path...
+[03/03/2018 12:03:45 am] ip address: fe80::c6b3:1ff:fec3:e76d
+[03/03/2018 12:03:45 am] request page: 
+[03/03/2018 12:03:45 am] page=FrontPage
+[03/03/2018 12:03:45 am] loading controller ../Private/Components/Controllers/FrontPage.php
+[03/03/2018 12:03:45 am] letComponentHandleRequest: FrontPage
+[03/03/2018 12:03:45 am] starting component: FrontPage, final: FrontPage
+[03/03/2018 12:03:45 am] fe80::c6b3:1ff:fec3:e76d: no action given
+[03/03/2018 12:03:46 am] perma link part count for / 1
+[03/03/2018 12:03:46 am] examining permalink path...
+[03/03/2018 12:03:46 am] ip address: fe80::c6b3:1ff:fec3:e76d
+[03/03/2018 12:03:46 am] request page: 
+[03/03/2018 12:03:46 am] page=FrontPage
+[03/03/2018 12:03:46 am] loading controller ../Private/Components/Controllers/FrontPage.php
+[03/03/2018 12:03:46 am] letComponentHandleRequest: FrontPage
+[03/03/2018 12:03:46 am] starting component: FrontPage, final: FrontPage
+[03/03/2018 12:03:46 am] fe80::c6b3:1ff:fec3:e76d: no action given
+[03/03/2018 12:10:07 am] the First date: 31/01/2015
+[03/03/2018 12:10:07 am] returning date is 03/03/15
+[03/03/2018 12:10:07 am] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
+[03/03/2018 12:10:07 am] firstDate: 31/01/15
+[03/03/2018 12:10:28 am] ID : 7
+[03/03/2018 12:10:28 am] financial year start Time: 2017-07-01
+[03/03/2018 12:10:28 am] financial year end Time: 2018-06-30
+[03/03/2018 12:10:28 am] incoming enddate is: 30/06/18
+[03/03/2018 12:10:28 am] before incomeLineItem search
+[03/03/2018 12:10:28 am] before expenseLineItem search
+[03/03/2018 12:10:28 am] Returning Summary: 250,0,250
+[03/03/2018 12:12:04 am] ID : 7
+[03/03/2018 12:12:04 am] financial year start Time: 2017-07-01
+[03/03/2018 12:12:04 am] financial year end Time: 2018-06-30
+[03/03/2018 12:12:04 am] incoming enddate is: 30/06/18
+[03/03/2018 12:12:04 am] before incomeLineItem search
+[03/03/2018 12:12:04 am] before expenseLineItem search
+[03/03/2018 12:12:04 am] Returning Summary: 250,0,250
+[03/03/2018 12:12:11 am] the First date: 31/01/2015
+[03/03/2018 12:12:11 am] returning date is 03/03/15
+[03/03/2018 12:12:11 am] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
+[03/03/2018 12:12:11 am] firstDate: 31/01/15
+[03/03/2018 12:12:44 am] the First date: 31/01/2015
+[03/03/2018 12:12:44 am] returning date is 03/03/15
+[03/03/2018 12:12:44 am] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
+[03/03/2018 12:12:44 am] firstDate: 31/01/15
+[03/03/2018 12:13:05 am] the First date: 31/01/2015
+[03/03/2018 12:13:05 am] returning date is 03/03/15
+[03/03/2018 12:13:05 am] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
+[03/03/2018 12:13:05 am] firstDate: 31/01/15
+[03/03/2018 12:14:42 am] the First date: 31/01/2015
+[03/03/2018 12:14:42 am] returning date is 03/03/15
+[03/03/2018 12:14:42 am] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
+[03/03/2018 12:14:42 am] firstDate: 31/01/15
+[03/03/2018 12:15:03 am] ID : 7
+[03/03/2018 12:15:03 am] financial year start Time: 2017-07-01
+[03/03/2018 12:15:03 am] financial year end Time: 2018-06-30
+[03/03/2018 12:15:03 am] incoming enddate is: 30/06/18
+[03/03/2018 12:15:03 am] before incomeLineItem search
+[03/03/2018 12:15:03 am] before expenseLineItem search
+[03/03/2018 12:15:03 am] Returning Summary: 250,0,250
+[03/03/2018 12:15:07 am] ID : 7
+[03/03/2018 12:15:07 am] selectedIncomeSource baby: 
+[03/03/2018 12:15:07 am] firstIncomeSource: 10
+[03/03/2018 12:15:14 am] ID : 7
+[03/03/2018 12:15:14 am] 24
+[03/03/2018 12:15:16 am] ID : 7
+[03/03/2018 12:15:16 am] selectedIncomeSource baby: 
+[03/03/2018 12:15:16 am] firstIncomeSource: 10
+[03/03/2018 12:15:21 am] ID : 7
+[03/03/2018 12:15:21 am] financial year start Time: 2017-07-01
+[03/03/2018 12:15:21 am] financial year end Time: 2018-06-30
+[03/03/2018 12:15:21 am] incoming enddate is: 30/06/18
+[03/03/2018 12:15:21 am] before incomeLineItem search
+[03/03/2018 12:15:21 am] before expenseLineItem search
+[03/03/2018 12:15:21 am] Returning Summary: 250,0,250
+[03/03/2018 12:17:58 am] ID : 7
+[03/03/2018 12:17:58 am] financial year start Time: 2017-07-01
+[03/03/2018 12:17:58 am] financial year end Time: 2018-06-30
+[03/03/2018 12:17:58 am] incoming enddate is: 30/06/18
+[03/03/2018 12:17:58 am] before incomeLineItem search
+[03/03/2018 12:17:58 am] before expenseLineItem search
+[03/03/2018 12:17:58 am] Returning Summary: 250,0,250
+[03/03/2018 12:18:29 am] ID : 7
+[03/03/2018 12:18:29 am] financial year start Time: 2017-07-01
+[03/03/2018 12:18:29 am] financial year end Time: 2018-06-30
+[03/03/2018 12:18:29 am] incoming enddate is: 30/06/18
+[03/03/2018 12:18:29 am] before incomeLineItem search
+[03/03/2018 12:18:29 am] before expenseLineItem search
+[03/03/2018 12:18:29 am] Returning Summary: 250,0,250
+[03/03/2018 12:19:02 am] ID : 7
+[03/03/2018 12:19:02 am] financial year start Time: 2017-07-01
+[03/03/2018 12:19:02 am] financial year end Time: 2018-06-30
+[03/03/2018 12:19:02 am] incoming enddate is: 30/06/18
+[03/03/2018 12:19:02 am] before incomeLineItem search
+[03/03/2018 12:19:02 am] before expenseLineItem search
+[03/03/2018 12:19:02 am] Returning Summary: 250,0,250
+[03/03/2018 12:19:35 am] ID : 7
+[03/03/2018 12:19:35 am] financial year start Time: 2017-07-01
+[03/03/2018 12:19:35 am] financial year end Time: 2018-06-30
+[03/03/2018 12:19:35 am] incoming enddate is: 30/06/18
+[03/03/2018 12:19:35 am] before incomeLineItem search
+[03/03/2018 12:19:35 am] before expenseLineItem search
+[03/03/2018 12:19:35 am] Returning Summary: 250,0,250
+[03/03/2018 12:21:21 am] the First date: 31/01/2015
+[03/03/2018 12:21:21 am] returning date is 03/03/15
+[03/03/2018 12:21:21 am] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
+[03/03/2018 12:21:21 am] firstDate: 31/01/15
+[04/03/2018 12:34:27 pm] perma link part count for /AssetList 1
+[04/03/2018 12:34:27 pm] examining permalink path...
+[04/03/2018 12:34:27 pm] ip address: fe80::c6b3:1ff:fec3:e76d
+[04/03/2018 12:34:27 pm] request page: AssetDetails
+[04/03/2018 12:34:27 pm] page=AssetDetails
+[04/03/2018 12:34:27 pm] loading controller ../Private/Components/Controllers/AssetDetails.php
+[04/03/2018 12:34:27 pm] choosing template AssetDetails
+[04/03/2018 12:34:27 pm] letComponentHandleRequest: AssetDetails
+[04/03/2018 12:34:27 pm] starting component: AssetDetails, final: AssetDetails
+[04/03/2018 12:34:27 pm] decoding action '%98%15%09W%E3K%3C%D9%B2%A9%E5%A0%26%5CK%B4'
+[04/03/2018 12:34:27 pm] action=doNothing
+[04/03/2018 12:34:27 pm] ID : 7
+[04/03/2018 12:34:27 pm] financial year start Time: 2017-07-01
+[04/03/2018 12:34:27 pm] financial year end Time: 2018-06-30
+[04/03/2018 12:34:27 pm] incoming enddate is: 30/06/18
+[04/03/2018 12:34:27 pm] before incomeLineItem search
+[04/03/2018 12:34:27 pm] before expenseLineItem search
+[04/03/2018 12:34:27 pm] Returning Summary: 250,0,250
+[04/03/2018 12:34:27 pm] fetching toMany relationship: incomesources from entity: Asset
+[04/03/2018 12:34:27 pm] perma link part count for /Login 1
+[04/03/2018 12:34:27 pm] examining permalink path...
+[04/03/2018 12:34:27 pm] url page = Login
+[04/03/2018 12:34:27 pm] ip address: fe80::c6b3:1ff:fec3:e76d
+[04/03/2018 12:34:27 pm] request page: Login
+[04/03/2018 12:34:27 pm] page=Login
+[04/03/2018 12:34:27 pm] loading controller ../Private/Components/Controllers/Login.php
+[04/03/2018 12:34:27 pm] choosing template Login
+[04/03/2018 12:34:27 pm] letComponentHandleRequest: Login
+[04/03/2018 12:34:27 pm] starting component: Login, final: Login
+[04/03/2018 12:34:27 pm] fe80::c6b3:1ff:fec3:e76d: no action given
+[04/03/2018 12:35:40 pm] perma link part count for /Login 1
+[04/03/2018 12:35:40 pm] examining permalink path...
+[04/03/2018 12:35:40 pm] url page = Login
+[04/03/2018 12:35:40 pm] ip address: fe80::c6b3:1ff:fec3:e76d
+[04/03/2018 12:35:40 pm] request page: Login
+[04/03/2018 12:35:40 pm] page=Login
+[04/03/2018 12:35:40 pm] loading controller ../Private/Components/Controllers/Login.php
+[04/03/2018 12:35:40 pm] choosing template Login
+[04/03/2018 12:35:40 pm] letComponentHandleRequest: Login
+[04/03/2018 12:35:40 pm] starting component: Login, final: Login
+[04/03/2018 12:35:40 pm] fe80::c6b3:1ff:fec3:e76d: no action given
+[04/03/2018 12:36:30 pm] the First date: 31/01/2015
+[04/03/2018 12:36:30 pm] returning date is 03/03/15
+[04/03/2018 12:36:30 pm] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
+[04/03/2018 12:36:30 pm] firstDate: 31/01/15
+[04/03/2018 12:37:58 pm] the First date: 31/01/2015
+[04/03/2018 12:37:58 pm] returning date is 03/03/15
+[04/03/2018 12:37:58 pm] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
+[04/03/2018 12:37:58 pm] firstDate: 31/01/15
+[04/03/2018 12:38:49 pm] the First date: 31/01/2015
+[04/03/2018 12:38:49 pm] returning date is 03/03/15
+[04/03/2018 12:38:49 pm] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
+[04/03/2018 12:38:49 pm] firstDate: 31/01/15
+[04/03/2018 12:39:12 pm] the First date: 31/01/2015
+[04/03/2018 12:39:12 pm] returning date is 03/03/15
+[04/03/2018 12:39:12 pm] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
+[04/03/2018 12:39:12 pm] firstDate: 31/01/15
+[04/03/2018 12:39:52 pm] the First date: 31/01/2015
+[04/03/2018 12:39:52 pm] returning date is 03/03/15
+[04/03/2018 12:39:52 pm] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
+[04/03/2018 12:39:52 pm] firstDate: 31/01/15
+[04/03/2018 12:39:56 pm] the First date: 31/01/2015
+[04/03/2018 12:39:56 pm] returning date is 03/03/15
+[04/03/2018 12:39:56 pm] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
+[04/03/2018 12:39:56 pm] firstDate: 31/01/15
+[04/03/2018 12:40:02 pm] the First date: 31/01/2015
+[04/03/2018 12:40:02 pm] returning date is 03/03/15
+[04/03/2018 12:40:02 pm] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
+[04/03/2018 12:40:02 pm] firstDate: 31/01/15
+[04/03/2018 12:40:10 pm] the First date: 31/01/2015
+[04/03/2018 12:40:10 pm] returning date is 03/03/15
+[04/03/2018 12:40:10 pm] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
+[04/03/2018 12:40:10 pm] firstDate: 31/01/15
+[04/03/2018 12:40:19 pm] the First date: 31/01/2015
+[04/03/2018 12:40:19 pm] returning date is 03/03/15
+[04/03/2018 12:40:19 pm] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
+[04/03/2018 12:40:19 pm] firstDate: 31/01/15
+[04/03/2018 12:41:22 pm] the First date: 31/01/2015
+[04/03/2018 12:41:22 pm] returning date is 03/03/15
+[04/03/2018 12:41:22 pm] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
+[04/03/2018 12:41:22 pm] firstDate: 31/01/15
+[04/03/2018 12:41:49 pm] the First date: 31/01/2015
+[04/03/2018 12:41:49 pm] returning date is 03/03/15
+[04/03/2018 12:41:49 pm] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
+[04/03/2018 12:41:49 pm] firstDate: 31/01/15
+[04/03/2018 12:42:00 pm] the First date: 31/01/2015
+[04/03/2018 12:42:00 pm] returning date is 03/03/15
+[04/03/2018 12:42:00 pm] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
+[04/03/2018 12:42:00 pm] firstDate: 31/01/15
+[04/03/2018 12:42:26 pm] the First date: 31/01/2015
+[04/03/2018 12:42:26 pm] returning date is 03/03/15
+[04/03/2018 12:42:26 pm] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
+[04/03/2018 12:42:26 pm] firstDate: 31/01/15
+[04/03/2018 01:07:10 pm] the First date: 31/01/2015
+[04/03/2018 01:07:10 pm] returning date is 03/03/15
+[04/03/2018 01:07:10 pm] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
+[04/03/2018 01:07:10 pm] firstDate: 31/01/15
+[04/03/2018 01:08:31 pm] the First date: 31/01/2015
+[04/03/2018 01:08:31 pm] returning date is 03/03/15
+[04/03/2018 01:08:31 pm] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
+[04/03/2018 01:08:31 pm] firstDate: 31/01/15
+[04/03/2018 01:09:54 pm] the First date: 31/01/2015
+[04/03/2018 01:09:54 pm] returning date is 03/03/15
+[04/03/2018 01:09:54 pm] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
+[04/03/2018 01:09:54 pm] firstDate: 31/01/15
+[04/03/2018 01:09:56 pm] the First date: 31/01/2015
+[04/03/2018 01:09:56 pm] returning date is 03/03/15
+[04/03/2018 01:09:56 pm] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
+[04/03/2018 01:09:56 pm] firstDate: 31/01/15
+[04/03/2018 01:11:04 pm] the First date: 31/01/2015
+[04/03/2018 01:11:04 pm] returning date is 03/03/15
+[04/03/2018 01:11:04 pm] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
+[04/03/2018 01:11:04 pm] firstDate: 31/01/15
+[04/03/2018 01:14:52 pm] the First date: 31/01/2015
+[04/03/2018 01:14:52 pm] returning date is 03/03/15
+[04/03/2018 01:14:52 pm] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
+[04/03/2018 01:14:52 pm] firstDate: 31/01/15
+[04/03/2018 01:15:33 pm] the First date: 31/01/2015
+[04/03/2018 01:15:33 pm] returning date is 03/03/15
+[04/03/2018 01:15:33 pm] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
+[04/03/2018 01:15:33 pm] firstDate: 31/01/15
+[04/03/2018 01:16:05 pm] the First date: 31/01/2015
+[04/03/2018 01:16:05 pm] returning date is 03/03/15
+[04/03/2018 01:16:05 pm] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
+[04/03/2018 01:16:05 pm] firstDate: 31/01/15
+[04/03/2018 01:16:27 pm] the First date: 31/01/2015
+[04/03/2018 01:16:27 pm] returning date is 03/03/15
+[04/03/2018 01:16:27 pm] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
+[04/03/2018 01:16:27 pm] firstDate: 31/01/15
+[04/03/2018 01:16:37 pm] the First date: 31/01/2015
+[04/03/2018 01:16:37 pm] returning date is 03/03/15
+[04/03/2018 01:16:37 pm] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
+[04/03/2018 01:16:37 pm] firstDate: 31/01/15
+[04/03/2018 01:17:25 pm] the First date: 31/01/2015
+[04/03/2018 01:17:25 pm] returning date is 03/03/15
+[04/03/2018 01:17:25 pm] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
+[04/03/2018 01:17:25 pm] firstDate: 31/01/15
+[04/03/2018 01:17:41 pm] the First date: 31/01/2015
+[04/03/2018 01:17:41 pm] returning date is 03/03/15
+[04/03/2018 01:17:41 pm] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
+[04/03/2018 01:17:41 pm] firstDate: 31/01/15
+[04/03/2018 01:20:33 pm] the First date: 31/01/2015
+[04/03/2018 01:20:33 pm] returning date is 03/03/15
+[04/03/2018 01:20:33 pm] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
+[04/03/2018 01:20:33 pm] firstDate: 31/01/15
+[04/03/2018 01:20:44 pm] the First date: 31/01/2015
+[04/03/2018 01:20:44 pm] returning date is 03/03/15
+[04/03/2018 01:20:44 pm] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
+[04/03/2018 01:20:44 pm] firstDate: 31/01/15
+[04/03/2018 01:21:27 pm] the First date: 31/01/2015
+[04/03/2018 01:21:27 pm] returning date is 03/03/15
+[04/03/2018 01:21:27 pm] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
+[04/03/2018 01:21:27 pm] firstDate: 31/01/15
+[04/03/2018 01:23:15 pm] the First date: 31/01/2015
+[04/03/2018 01:23:15 pm] returning date is 03/03/15
+[04/03/2018 01:23:15 pm] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
+[04/03/2018 01:23:15 pm] firstDate: 31/01/15
+[04/03/2018 01:24:44 pm] the First date: 31/01/2015
+[04/03/2018 01:24:44 pm] returning date is 03/03/15
+[04/03/2018 01:24:44 pm] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
+[04/03/2018 01:24:44 pm] firstDate: 31/01/15
+[04/03/2018 01:25:02 pm] the First date: 31/01/2015
+[04/03/2018 01:25:02 pm] returning date is 03/03/15
+[04/03/2018 01:25:02 pm] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
+[04/03/2018 01:25:02 pm] firstDate: 31/01/15
+[04/03/2018 01:25:21 pm] the First date: 31/01/2015
+[04/03/2018 01:25:21 pm] returning date is 03/03/15
+[04/03/2018 01:25:21 pm] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
+[04/03/2018 01:25:21 pm] firstDate: 31/01/15
+[04/03/2018 01:25:54 pm] the First date: 31/01/2015
+[04/03/2018 01:25:54 pm] returning date is 03/03/15
+[04/03/2018 01:25:54 pm] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
+[04/03/2018 01:25:54 pm] firstDate: 31/01/15
+[04/03/2018 01:26:07 pm] the First date: 31/01/2015
+[04/03/2018 01:26:07 pm] returning date is 03/03/15
+[04/03/2018 01:26:07 pm] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
+[04/03/2018 01:26:07 pm] firstDate: 31/01/15
+[04/03/2018 01:27:25 pm] the First date: 31/01/2015
+[04/03/2018 01:27:25 pm] returning date is 03/03/15
+[04/03/2018 01:27:25 pm] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
+[04/03/2018 01:27:25 pm] firstDate: 31/01/15
+[04/03/2018 01:28:03 pm] the First date: 31/01/2015
+[04/03/2018 01:28:03 pm] returning date is 03/03/15
+[04/03/2018 01:28:03 pm] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
+[04/03/2018 01:28:03 pm] firstDate: 31/01/15
+[04/03/2018 01:28:06 pm] ID : 7
+[04/03/2018 01:28:06 pm] financial year start Time: 2017-07-01
+[04/03/2018 01:28:06 pm] financial year end Time: 2018-06-30
+[04/03/2018 01:28:06 pm] incoming enddate is: 30/06/18
+[04/03/2018 01:28:06 pm] before incomeLineItem search
+[04/03/2018 01:28:06 pm] before expenseLineItem search
+[04/03/2018 01:28:06 pm] Returning Summary: 250,0,250
+[04/03/2018 01:28:11 pm] ID : 7
+[04/03/2018 01:28:11 pm] selectedIncomeSource baby: 
+[04/03/2018 01:28:11 pm] firstIncomeSource: 10
+[04/03/2018 01:28:14 pm] ID : 7
+[04/03/2018 01:28:14 pm] financial year start Time: 2017-07-01
+[04/03/2018 01:28:14 pm] financial year end Time: 2018-06-30
+[04/03/2018 01:28:14 pm] incoming enddate is: 30/06/18
+[04/03/2018 01:28:14 pm] before incomeLineItem search
+[04/03/2018 01:28:14 pm] before expenseLineItem search
+[04/03/2018 01:28:14 pm] Returning Summary: 250,0,250
+[04/03/2018 01:28:18 pm] the First date: 31/01/2015
+[04/03/2018 01:28:18 pm] returning date is 03/03/15
+[04/03/2018 01:28:18 pm] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
+[04/03/2018 01:28:18 pm] firstDate: 31/01/15
+[04/03/2018 01:28:22 pm] the First date: 31/01/2015
+[04/03/2018 01:28:22 pm] returning date is 03/03/15
+[04/03/2018 01:28:22 pm] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
+[04/03/2018 01:28:22 pm] firstDate: 31/01/15
+[04/03/2018 01:28:33 pm] the First date: 31/01/2015
+[04/03/2018 01:28:33 pm] returning date is 03/03/15
+[04/03/2018 01:28:33 pm] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
+[04/03/2018 01:28:33 pm] firstDate: 31/01/15
+[04/03/2018 01:28:36 pm] ID : 10
+[04/03/2018 01:28:36 pm] financial year start Time: 2017-07-01
+[04/03/2018 01:28:36 pm] financial year end Time: 2018-06-30
+[04/03/2018 01:28:36 pm] incoming enddate is: 30/06/18
+[04/03/2018 01:28:36 pm] before incomeLineItem search
+[04/03/2018 01:28:36 pm] before expenseLineItem search
+[04/03/2018 01:28:36 pm] Returning Summary: 0,0,0
+[04/03/2018 01:28:53 pm] ID : 10
+[04/03/2018 01:28:53 pm] selectedIncomeSource baby: 
+[04/03/2018 01:28:55 pm] ID : 10
+[04/03/2018 01:28:55 pm] financial year start Time: 2017-07-01
+[04/03/2018 01:28:55 pm] financial year end Time: 2018-06-30
+[04/03/2018 01:28:55 pm] incoming enddate is: 30/06/18
+[04/03/2018 01:28:55 pm] before incomeLineItem search
+[04/03/2018 01:28:55 pm] before expenseLineItem search
+[04/03/2018 01:28:55 pm] Returning Summary: 0,0,0
+[04/03/2018 01:29:11 pm] ID : 10
+[04/03/2018 01:29:11 pm] financial year start Time: 2017-07-01
+[04/03/2018 01:29:11 pm] financial year end Time: 2018-06-30
+[04/03/2018 01:29:11 pm] incoming enddate is: 30/06/18
+[04/03/2018 01:29:11 pm] before incomeLineItem search
+[04/03/2018 01:29:11 pm] before expenseLineItem search
+[04/03/2018 01:29:11 pm] Returning Summary: 0,0,0
+[04/03/2018 01:29:17 pm] ID : 10
+[04/03/2018 01:29:17 pm] financial year start Time: 2017-07-01
+[04/03/2018 01:29:17 pm] financial year end Time: 2018-06-30
+[04/03/2018 01:29:17 pm] incoming enddate is: 30/06/18
+[04/03/2018 01:29:17 pm] before incomeLineItem search
+[04/03/2018 01:29:17 pm] before expenseLineItem search
+[04/03/2018 01:29:17 pm] Returning Summary: 0,0,0
+[04/03/2018 01:30:10 pm] ID : 10
+[04/03/2018 01:30:10 pm] financial year start Time: 2017-07-01
+[04/03/2018 01:30:10 pm] financial year end Time: 2018-06-30
+[04/03/2018 01:30:10 pm] incoming enddate is: 30/06/18
+[04/03/2018 01:30:10 pm] before incomeLineItem search
+[04/03/2018 01:30:10 pm] before expenseLineItem search
+[04/03/2018 01:30:10 pm] Returning Summary: 0,0,0
+[04/03/2018 01:30:28 pm] ID : 10
+[04/03/2018 01:30:28 pm] financial year start Time: 2017-07-01
+[04/03/2018 01:30:28 pm] financial year end Time: 2018-06-30
+[04/03/2018 01:30:28 pm] incoming enddate is: 30/06/18
+[04/03/2018 01:30:28 pm] before incomeLineItem search
+[04/03/2018 01:30:28 pm] before expenseLineItem search
+[04/03/2018 01:30:28 pm] Returning Summary: 0,0,0
+[04/03/2018 01:30:35 pm] ID : 10
+[04/03/2018 01:30:35 pm] financial year start Time: 2017-07-01
+[04/03/2018 01:30:35 pm] financial year end Time: 2018-06-30
+[04/03/2018 01:30:35 pm] incoming enddate is: 30/06/18
+[04/03/2018 01:30:35 pm] before incomeLineItem search
+[04/03/2018 01:30:35 pm] before expenseLineItem search
+[04/03/2018 01:30:35 pm] Returning Summary: 0,0,0
+[04/03/2018 01:31:14 pm] ID : 10
+[04/03/2018 01:31:14 pm] financial year start Time: 2017-07-01
+[04/03/2018 01:31:14 pm] financial year end Time: 2018-06-30
+[04/03/2018 01:31:14 pm] incoming enddate is: 30/06/18
+[04/03/2018 01:31:14 pm] before incomeLineItem search
+[04/03/2018 01:31:14 pm] before expenseLineItem search
+[04/03/2018 01:31:14 pm] Returning Summary: 0,0,0
+[04/03/2018 01:31:35 pm] ID : 10
+[04/03/2018 01:31:35 pm] financial year start Time: 2017-07-01
+[04/03/2018 01:31:35 pm] financial year end Time: 2018-06-30
+[04/03/2018 01:31:35 pm] incoming enddate is: 30/06/18
+[04/03/2018 01:31:35 pm] before incomeLineItem search
+[04/03/2018 01:31:35 pm] before expenseLineItem search
+[04/03/2018 01:31:35 pm] Returning Summary: 0,0,0
+[04/03/2018 01:32:10 pm] ID : 10
+[04/03/2018 01:32:10 pm] financial year start Time: 2017-07-01
+[04/03/2018 01:32:10 pm] financial year end Time: 2018-06-30
+[04/03/2018 01:32:10 pm] incoming enddate is: 30/06/18
+[04/03/2018 01:32:10 pm] before incomeLineItem search
+[04/03/2018 01:32:10 pm] before expenseLineItem search
+[04/03/2018 01:32:10 pm] Returning Summary: 0,0,0
+[04/03/2018 01:32:16 pm] ID : 10
+[04/03/2018 01:32:16 pm] financial year start Time: 2017-07-01
+[04/03/2018 01:32:16 pm] financial year end Time: 2018-06-30
+[04/03/2018 01:32:16 pm] incoming enddate is: 30/06/18
+[04/03/2018 01:32:16 pm] before incomeLineItem search
+[04/03/2018 01:32:16 pm] before expenseLineItem search
+[04/03/2018 01:32:16 pm] Returning Summary: 0,0,0
+[04/03/2018 01:32:27 pm] ID : 10
+[04/03/2018 01:32:27 pm] financial year start Time: 2017-07-01
+[04/03/2018 01:32:27 pm] financial year end Time: 2018-06-30
+[04/03/2018 01:32:27 pm] incoming enddate is: 30/06/18
+[04/03/2018 01:32:27 pm] before incomeLineItem search
+[04/03/2018 01:32:27 pm] before expenseLineItem search
+[04/03/2018 01:32:27 pm] Returning Summary: 0,0,0
+[04/03/2018 01:33:37 pm] ID : 10
+[04/03/2018 01:33:37 pm] financial year start Time: 2017-07-01
+[04/03/2018 01:33:37 pm] financial year end Time: 2018-06-30
+[04/03/2018 01:33:37 pm] incoming enddate is: 30/06/18
+[04/03/2018 01:33:37 pm] before incomeLineItem search
+[04/03/2018 01:33:37 pm] before expenseLineItem search
+[04/03/2018 01:33:37 pm] Returning Summary: 0,0,0
+[04/03/2018 01:33:47 pm] ID : 10
+[04/03/2018 01:33:47 pm] financial year start Time: 2017-07-01
+[04/03/2018 01:33:47 pm] financial year end Time: 2018-06-30
+[04/03/2018 01:33:47 pm] incoming enddate is: 30/06/18
+[04/03/2018 01:33:47 pm] before incomeLineItem search
+[04/03/2018 01:33:47 pm] before expenseLineItem search
+[04/03/2018 01:33:47 pm] Returning Summary: 0,0,0
+[04/03/2018 01:35:43 pm] the First date: 31/01/2015
+[04/03/2018 01:35:43 pm] returning date is 03/03/15
+[04/03/2018 01:35:43 pm] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
+[04/03/2018 01:35:43 pm] firstDate: 31/01/15
+[04/03/2018 01:35:46 pm] 2
+[04/03/2018 01:35:46 pm] 2
+[04/03/2018 01:35:46 pm] 1 PettyCash ID 
+[04/03/2018 01:35:46 pm] 0
+[04/03/2018 01:35:49 pm] the First date: 31/01/2015
+[04/03/2018 01:35:49 pm] returning date is 03/03/15
+[04/03/2018 01:35:49 pm] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
+[04/03/2018 01:35:49 pm] firstDate: 31/01/15
+[04/03/2018 01:36:00 pm] the First date: 31/01/2015
+[04/03/2018 01:36:00 pm] returning date is 03/03/15
+[04/03/2018 01:36:00 pm] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
+[04/03/2018 01:36:00 pm] firstDate: 31/01/15
+[04/03/2018 01:36:11 pm] the First date: 31/01/2015
+[04/03/2018 01:36:11 pm] returning date is 03/03/15
+[04/03/2018 01:36:11 pm] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
+[04/03/2018 01:36:11 pm] firstDate: 31/01/15
+[04/03/2018 01:37:42 pm] the First date: 31/01/2015
+[04/03/2018 01:37:42 pm] returning date is 03/03/15
+[04/03/2018 01:37:42 pm] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
+[04/03/2018 01:37:42 pm] firstDate: 31/01/15
+[04/03/2018 01:39:08 pm] the First date: 31/01/2015
+[04/03/2018 01:39:08 pm] returning date is 03/03/15
+[04/03/2018 01:39:08 pm] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
+[04/03/2018 01:39:08 pm] firstDate: 31/01/15
+[04/03/2018 01:39:39 pm] the First date: 31/01/2015
+[04/03/2018 01:39:39 pm] returning date is 03/03/15
+[04/03/2018 01:39:39 pm] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
+[04/03/2018 01:39:39 pm] firstDate: 31/01/15
+[04/03/2018 01:41:20 pm] the First date: 31/01/2015
+[04/03/2018 01:41:20 pm] returning date is 03/03/15
+[04/03/2018 01:41:20 pm] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
+[04/03/2018 01:41:20 pm] firstDate: 31/01/15
+[04/03/2018 01:42:03 pm] the First date: 31/01/2015
+[04/03/2018 01:42:03 pm] returning date is 03/03/15
+[04/03/2018 01:42:03 pm] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
+[04/03/2018 01:42:03 pm] firstDate: 31/01/15
+[04/03/2018 01:42:24 pm] the First date: 31/01/2015
+[04/03/2018 01:42:24 pm] returning date is 03/03/15
+[04/03/2018 01:42:24 pm] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
+[04/03/2018 01:42:24 pm] firstDate: 31/01/15
+[04/03/2018 01:44:18 pm] the First date: 31/01/2015
+[04/03/2018 01:44:18 pm] returning date is 03/03/15
+[04/03/2018 01:44:18 pm] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
+[04/03/2018 01:44:18 pm] firstDate: 31/01/15
+[04/03/2018 01:44:42 pm] the First date: 31/01/2015
+[04/03/2018 01:44:42 pm] returning date is 03/03/15
+[04/03/2018 01:44:42 pm] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
+[04/03/2018 01:44:42 pm] firstDate: 31/01/15
+[04/03/2018 01:45:25 pm] the First date: 31/01/2015
+[04/03/2018 01:45:25 pm] returning date is 03/03/15
+[04/03/2018 01:45:25 pm] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
+[04/03/2018 01:45:25 pm] firstDate: 31/01/15
+[04/03/2018 01:46:50 pm] the First date: 31/01/2015
+[04/03/2018 01:46:50 pm] returning date is 03/03/15
+[04/03/2018 01:46:50 pm] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
+[04/03/2018 01:46:50 pm] firstDate: 31/01/15
+[04/03/2018 01:50:48 pm] the First date: 31/01/2015
+[04/03/2018 01:50:48 pm] returning date is 03/03/15
+[04/03/2018 01:50:48 pm] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
+[04/03/2018 01:50:48 pm] firstDate: 31/01/15
+[04/03/2018 01:51:00 pm] the First date: 31/01/2015
+[04/03/2018 01:51:00 pm] returning date is 03/03/15
+[04/03/2018 01:51:00 pm] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
+[04/03/2018 01:51:00 pm] firstDate: 31/01/15
+[04/03/2018 01:52:19 pm] the First date: 31/01/2015
+[04/03/2018 01:52:19 pm] returning date is 03/03/15
+[04/03/2018 01:52:19 pm] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
+[04/03/2018 01:52:19 pm] firstDate: 31/01/15
+[04/03/2018 01:53:13 pm] the First date: 31/01/2015
+[04/03/2018 01:53:13 pm] returning date is 03/03/15
+[04/03/2018 01:53:13 pm] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
+[04/03/2018 01:53:13 pm] firstDate: 31/01/15
+[04/03/2018 01:53:23 pm] the First date: 31/01/2015
+[04/03/2018 01:53:23 pm] returning date is 03/03/15
+[04/03/2018 01:53:23 pm] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
+[04/03/2018 01:53:23 pm] firstDate: 31/01/15
+[04/03/2018 01:53:35 pm] the First date: 31/01/2015
+[04/03/2018 01:53:35 pm] returning date is 03/03/15
+[04/03/2018 01:53:35 pm] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
+[04/03/2018 01:53:35 pm] firstDate: 31/01/15
+[04/03/2018 01:53:58 pm] the First date: 31/01/2015
+[04/03/2018 01:53:58 pm] returning date is 03/03/15
+[04/03/2018 01:53:58 pm] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
+[04/03/2018 01:53:58 pm] firstDate: 31/01/15
+[04/03/2018 01:55:01 pm] the First date: 31/01/2015
+[04/03/2018 01:55:01 pm] returning date is 03/03/15
+[04/03/2018 01:55:01 pm] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
+[04/03/2018 01:55:01 pm] firstDate: 31/01/15
+[04/03/2018 01:55:13 pm] the First date: 31/01/2015
+[04/03/2018 01:55:13 pm] returning date is 03/03/15
+[04/03/2018 01:55:13 pm] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
+[04/03/2018 01:55:13 pm] firstDate: 31/01/15
+[04/03/2018 01:55:37 pm] the First date: 31/01/2015
+[04/03/2018 01:55:37 pm] returning date is 03/03/15
+[04/03/2018 01:55:37 pm] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
+[04/03/2018 01:55:37 pm] firstDate: 31/01/15
+[04/03/2018 01:57:41 pm] the First date: 31/01/2015
+[04/03/2018 01:57:41 pm] returning date is 03/03/15
+[04/03/2018 01:57:41 pm] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
+[04/03/2018 01:57:41 pm] firstDate: 31/01/15
+[04/03/2018 01:59:09 pm] the First date: 31/01/2015
+[04/03/2018 01:59:09 pm] returning date is 03/03/15
+[04/03/2018 01:59:09 pm] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
+[04/03/2018 01:59:09 pm] firstDate: 31/01/15
+[04/03/2018 01:59:33 pm] the First date: 31/01/2015
+[04/03/2018 01:59:33 pm] returning date is 03/03/15
+[04/03/2018 01:59:33 pm] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
+[04/03/2018 01:59:33 pm] firstDate: 31/01/15
+[04/03/2018 01:59:44 pm] the First date: 31/01/2015
+[04/03/2018 01:59:44 pm] returning date is 03/03/15
+[04/03/2018 01:59:44 pm] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
+[04/03/2018 01:59:44 pm] firstDate: 31/01/15
+[04/03/2018 02:00:41 pm] the First date: 31/01/2015
+[04/03/2018 02:00:41 pm] returning date is 03/03/15
+[04/03/2018 02:00:41 pm] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
+[04/03/2018 02:00:41 pm] firstDate: 31/01/15
+[04/03/2018 02:00:48 pm] the First date: 31/01/2015
+[04/03/2018 02:00:48 pm] returning date is 03/03/15
+[04/03/2018 02:00:48 pm] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
+[04/03/2018 02:00:48 pm] firstDate: 31/01/15
+[04/03/2018 02:02:03 pm] the First date: 31/01/2015
+[04/03/2018 02:02:03 pm] returning date is 03/03/15
+[04/03/2018 02:02:03 pm] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
+[04/03/2018 02:02:03 pm] firstDate: 31/01/15
+[04/03/2018 02:03:37 pm] the First date: 31/01/2015
+[04/03/2018 02:03:37 pm] returning date is 03/03/15
+[04/03/2018 02:03:37 pm] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
+[04/03/2018 02:03:37 pm] firstDate: 31/01/15
+[04/03/2018 02:03:46 pm] the First date: 31/01/2015
+[04/03/2018 02:03:46 pm] returning date is 03/03/15
+[04/03/2018 02:03:46 pm] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
+[04/03/2018 02:03:46 pm] firstDate: 31/01/15
+[04/03/2018 02:03:56 pm] the First date: 31/01/2015
+[04/03/2018 02:03:56 pm] returning date is 03/03/15
+[04/03/2018 02:03:56 pm] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
+[04/03/2018 02:03:56 pm] firstDate: 31/01/15
+[04/03/2018 02:05:12 pm] the First date: 31/01/2015
+[04/03/2018 02:05:12 pm] returning date is 03/03/15
+[04/03/2018 02:05:12 pm] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
+[04/03/2018 02:05:12 pm] firstDate: 31/01/15
+[04/03/2018 02:05:22 pm] the First date: 31/01/2015
+[04/03/2018 02:05:22 pm] returning date is 03/03/15
+[04/03/2018 02:05:22 pm] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
+[04/03/2018 02:05:22 pm] firstDate: 31/01/15
+[04/03/2018 02:06:03 pm] the First date: 31/01/2015
+[04/03/2018 02:06:03 pm] returning date is 03/03/15
+[04/03/2018 02:06:03 pm] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
+[04/03/2018 02:06:03 pm] firstDate: 31/01/15
+[04/03/2018 02:06:08 pm] the First date: 31/01/2015
+[04/03/2018 02:06:08 pm] returning date is 03/03/15
+[04/03/2018 02:06:08 pm] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
+[04/03/2018 02:06:08 pm] firstDate: 31/01/15
+[04/03/2018 02:08:46 pm] 2
+[04/03/2018 02:08:46 pm] 2
+[04/03/2018 02:08:46 pm] 1 PettyCash ID 
+[04/03/2018 02:08:46 pm] 0
+[04/03/2018 02:08:48 pm] the First date: 31/01/2015
+[04/03/2018 02:08:48 pm] returning date is 03/03/15
+[04/03/2018 02:08:48 pm] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
+[04/03/2018 02:08:48 pm] firstDate: 31/01/15
+[04/03/2018 02:09:19 pm] ID : 8
+[04/03/2018 02:09:19 pm] selectedIncomeSource baby: 21
+[04/03/2018 02:09:36 pm] ID : 8
+[04/03/2018 02:09:36 pm] financial year start Time: 2017-07-01
+[04/03/2018 02:09:36 pm] financial year end Time: 2018-06-30
+[04/03/2018 02:09:36 pm] incoming enddate is: 30/06/18
+[04/03/2018 02:09:36 pm] before incomeLineItem search
+[04/03/2018 02:09:36 pm] before expenseLineItem search
+[04/03/2018 02:09:36 pm] Returning Summary: 0,0,0
+[04/03/2018 02:09:54 pm] ID : 8
+[04/03/2018 02:09:54 pm] selectedIncomeSource baby: 21
+[04/03/2018 02:09:56 pm] ID : 8
+[04/03/2018 02:09:56 pm] 13
+[04/03/2018 02:10:01 pm] ID : 8
+[04/03/2018 02:10:01 pm] financial year start Time: 2017-07-01
+[04/03/2018 02:10:01 pm] financial year end Time: 2018-06-30
+[04/03/2018 02:10:01 pm] incoming enddate is: 30/06/18
+[04/03/2018 02:10:01 pm] before incomeLineItem search
+[04/03/2018 02:10:01 pm] before expenseLineItem search
+[04/03/2018 02:10:01 pm] Returning Summary: 0,0,0
+[04/03/2018 02:10:02 pm] ID : 8
+[04/03/2018 02:10:02 pm] selectedIncomeSource baby: 21
+[04/03/2018 02:11:20 pm] marked As Paid ID: 369
+[04/03/2018 02:11:20 pm] this is the ID 369
+[04/03/2018 02:11:20 pm] selectedIncomeSource baby: 21
+[04/03/2018 02:11:20 pm] this is the sourceID: 21
+[04/03/2018 02:11:20 pm] Name of the object: 369
+[04/03/2018 02:11:20 pm] blah here 1 
+[04/03/2018 02:11:20 pm] goat here 1 
+[04/03/2018 02:11:20 pm] laste Date on incomelineItem: 25/09/15
+[04/03/2018 02:11:20 pm] returning date is 26/09/15
+[04/03/2018 02:11:20 pm] goat here: start date is : 26/09/15
+[04/03/2018 02:11:20 pm] returning date is 26/10/15
+[04/03/2018 02:11:20 pm] maximum day of month is : 30
+[04/03/2018 02:11:20 pm] dayForEnddate: 26
+[04/03/2018 02:11:20 pm] returning date is 25/10/15
+[04/03/2018 02:11:20 pm] Start Day: 26/09/15 EndDay set is : 25/10/15
+[04/03/2018 02:11:20 pm] this is the new incomelineItemID: 411
+[04/03/2018 02:11:20 pm] ID : 8
+[04/03/2018 02:11:25 pm] marked As Paid ID: 411
+[04/03/2018 02:11:25 pm] this is the ID 411
+[04/03/2018 02:11:25 pm] selectedIncomeSource baby: 21
+[04/03/2018 02:11:25 pm] this is the sourceID: 21
+[04/03/2018 02:11:25 pm] Name of the object: 411
+[04/03/2018 02:11:25 pm] blah here 1 
+[04/03/2018 02:11:25 pm] goat here 1 
+[04/03/2018 02:11:25 pm] laste Date on incomelineItem: 25/10/15
+[04/03/2018 02:11:25 pm] returning date is 26/10/15
+[04/03/2018 02:11:25 pm] goat here: start date is : 26/10/15
+[04/03/2018 02:11:25 pm] returning date is 26/11/15
+[04/03/2018 02:11:25 pm] maximum day of month is : 31
+[04/03/2018 02:11:25 pm] dayForEnddate: 26
+[04/03/2018 02:11:25 pm] returning date is 25/11/15
+[04/03/2018 02:11:25 pm] Start Day: 26/10/15 EndDay set is : 25/11/15
+[04/03/2018 02:11:25 pm] this is the new incomelineItemID: 412
+[04/03/2018 02:11:25 pm] Restting form value to null : selectedIncomeLineItem.paymentDateFormatted
+[04/03/2018 02:11:25 pm] Restting form value to null : selectedIncomeLineItem.descText
+[04/03/2018 02:11:25 pm] Restting form value to null : selectedIncomeLineItem.amount
+[04/03/2018 02:11:25 pm] Restting form value to null : selectedIncomeLineItem.amountPaid
+[04/03/2018 02:11:25 pm] Restting form value to null : selectedIncomeLineItem.fromDateFormatted
+[04/03/2018 02:11:25 pm] Restting form value to null : selectedIncomeLineItem.toDateFormatted
+[04/03/2018 02:11:25 pm] ID : 8
+[04/03/2018 02:11:26 pm] marked As Paid ID: 412
+[04/03/2018 02:11:26 pm] this is the ID 412
+[04/03/2018 02:11:26 pm] selectedIncomeSource baby: 21
+[04/03/2018 02:11:26 pm] this is the sourceID: 21
+[04/03/2018 02:11:26 pm] Name of the object: 412
+[04/03/2018 02:11:26 pm] blah here 1 
+[04/03/2018 02:11:26 pm] goat here 1 
+[04/03/2018 02:11:26 pm] laste Date on incomelineItem: 25/11/15
+[04/03/2018 02:11:26 pm] returning date is 26/11/15
+[04/03/2018 02:11:26 pm] goat here: start date is : 26/11/15
+[04/03/2018 02:11:26 pm] returning date is 26/12/15
+[04/03/2018 02:11:26 pm] maximum day of month is : 30
+[04/03/2018 02:11:26 pm] dayForEnddate: 26
+[04/03/2018 02:11:26 pm] returning date is 25/12/15
+[04/03/2018 02:11:26 pm] Start Day: 26/11/15 EndDay set is : 25/12/15
+[04/03/2018 02:11:26 pm] this is the new incomelineItemID: 413
+[04/03/2018 02:11:26 pm] Restting form value to null : selectedIncomeLineItem.paymentDateFormatted
+[04/03/2018 02:11:26 pm] Restting form value to null : selectedIncomeLineItem.descText
+[04/03/2018 02:11:26 pm] Restting form value to null : selectedIncomeLineItem.amount
+[04/03/2018 02:11:26 pm] Restting form value to null : selectedIncomeLineItem.amountPaid
+[04/03/2018 02:11:26 pm] Restting form value to null : selectedIncomeLineItem.fromDateFormatted
+[04/03/2018 02:11:26 pm] Restting form value to null : selectedIncomeLineItem.toDateFormatted
+[04/03/2018 02:11:26 pm] ID : 8
+[04/03/2018 02:11:27 pm] marked As Paid ID: 413
+[04/03/2018 02:11:27 pm] this is the ID 413
+[04/03/2018 02:11:27 pm] selectedIncomeSource baby: 21
+[04/03/2018 02:11:27 pm] this is the sourceID: 21
+[04/03/2018 02:11:27 pm] Name of the object: 413
+[04/03/2018 02:11:27 pm] blah here 1 
+[04/03/2018 02:11:27 pm] goat here 1 
+[04/03/2018 02:11:27 pm] laste Date on incomelineItem: 25/12/15
+[04/03/2018 02:11:27 pm] returning date is 26/12/15
+[04/03/2018 02:11:27 pm] goat here: start date is : 26/12/15
+[04/03/2018 02:11:27 pm] returning date is 26/01/16
+[04/03/2018 02:11:27 pm] maximum day of month is : 31
+[04/03/2018 02:11:27 pm] dayForEnddate: 26
+[04/03/2018 02:11:27 pm] returning date is 25/01/16
+[04/03/2018 02:11:27 pm] Start Day: 26/12/15 EndDay set is : 25/01/16
+[04/03/2018 02:11:27 pm] this is the new incomelineItemID: 414
+[04/03/2018 02:11:27 pm] Restting form value to null : selectedIncomeLineItem.paymentDateFormatted
+[04/03/2018 02:11:27 pm] Restting form value to null : selectedIncomeLineItem.descText
+[04/03/2018 02:11:27 pm] Restting form value to null : selectedIncomeLineItem.amount
+[04/03/2018 02:11:27 pm] Restting form value to null : selectedIncomeLineItem.amountPaid
+[04/03/2018 02:11:27 pm] Restting form value to null : selectedIncomeLineItem.fromDateFormatted
+[04/03/2018 02:11:27 pm] Restting form value to null : selectedIncomeLineItem.toDateFormatted
+[04/03/2018 02:11:27 pm] ID : 8
+[04/03/2018 02:11:27 pm] marked As Paid ID: 414
+[04/03/2018 02:11:27 pm] this is the ID 414
+[04/03/2018 02:11:27 pm] selectedIncomeSource baby: 21
+[04/03/2018 02:11:27 pm] this is the sourceID: 21
+[04/03/2018 02:11:27 pm] Name of the object: 414
+[04/03/2018 02:11:27 pm] blah here 1 
+[04/03/2018 02:11:27 pm] goat here 1 
+[04/03/2018 02:11:27 pm] laste Date on incomelineItem: 25/01/16
+[04/03/2018 02:11:27 pm] returning date is 26/01/16
+[04/03/2018 02:11:27 pm] goat here: start date is : 26/01/16
+[04/03/2018 02:11:27 pm] returning date is 26/02/16
+[04/03/2018 02:11:27 pm] maximum day of month is : 31
+[04/03/2018 02:11:27 pm] dayForEnddate: 26
+[04/03/2018 02:11:27 pm] returning date is 25/02/16
+[04/03/2018 02:11:27 pm] Start Day: 26/01/16 EndDay set is : 25/02/16
+[04/03/2018 02:11:27 pm] this is the new incomelineItemID: 415
+[04/03/2018 02:11:27 pm] Restting form value to null : selectedIncomeLineItem.paymentDateFormatted
+[04/03/2018 02:11:27 pm] Restting form value to null : selectedIncomeLineItem.descText
+[04/03/2018 02:11:27 pm] Restting form value to null : selectedIncomeLineItem.amount
+[04/03/2018 02:11:27 pm] Restting form value to null : selectedIncomeLineItem.amountPaid
+[04/03/2018 02:11:27 pm] Restting form value to null : selectedIncomeLineItem.fromDateFormatted
+[04/03/2018 02:11:27 pm] Restting form value to null : selectedIncomeLineItem.toDateFormatted
+[04/03/2018 02:11:27 pm] ID : 8
+[04/03/2018 02:11:28 pm] marked As Paid ID: 415
+[04/03/2018 02:11:28 pm] this is the ID 415
+[04/03/2018 02:11:28 pm] selectedIncomeSource baby: 21
+[04/03/2018 02:11:28 pm] this is the sourceID: 21
+[04/03/2018 02:11:28 pm] Name of the object: 415
+[04/03/2018 02:11:28 pm] blah here 1 
+[04/03/2018 02:11:28 pm] goat here 1 
+[04/03/2018 02:11:28 pm] laste Date on incomelineItem: 25/02/16
+[04/03/2018 02:11:28 pm] returning date is 26/02/16
+[04/03/2018 02:11:28 pm] goat here: start date is : 26/02/16
+[04/03/2018 02:11:28 pm] returning date is 26/03/16
+[04/03/2018 02:11:28 pm] maximum day of month is : 29
+[04/03/2018 02:11:28 pm] dayForEnddate: 26
+[04/03/2018 02:11:28 pm] returning date is 25/03/16
+[04/03/2018 02:11:28 pm] Start Day: 26/02/16 EndDay set is : 25/03/16
+[04/03/2018 02:11:28 pm] this is the new incomelineItemID: 416
+[04/03/2018 02:11:28 pm] Restting form value to null : selectedIncomeLineItem.paymentDateFormatted
+[04/03/2018 02:11:28 pm] Restting form value to null : selectedIncomeLineItem.descText
+[04/03/2018 02:11:28 pm] Restting form value to null : selectedIncomeLineItem.amount
+[04/03/2018 02:11:28 pm] Restting form value to null : selectedIncomeLineItem.amountPaid
+[04/03/2018 02:11:28 pm] Restting form value to null : selectedIncomeLineItem.fromDateFormatted
+[04/03/2018 02:11:28 pm] Restting form value to null : selectedIncomeLineItem.toDateFormatted
+[04/03/2018 02:11:28 pm] ID : 8
+[04/03/2018 02:11:29 pm] marked As Paid ID: 416
+[04/03/2018 02:11:29 pm] this is the ID 416
+[04/03/2018 02:11:29 pm] selectedIncomeSource baby: 21
+[04/03/2018 02:11:29 pm] this is the sourceID: 21
+[04/03/2018 02:11:29 pm] Name of the object: 416
+[04/03/2018 02:11:29 pm] blah here 1 
+[04/03/2018 02:11:29 pm] goat here 1 
+[04/03/2018 02:11:29 pm] laste Date on incomelineItem: 25/03/16
+[04/03/2018 02:11:29 pm] returning date is 26/03/16
+[04/03/2018 02:11:29 pm] goat here: start date is : 26/03/16
+[04/03/2018 02:11:29 pm] returning date is 26/04/16
+[04/03/2018 02:11:29 pm] maximum day of month is : 31
+[04/03/2018 02:11:29 pm] dayForEnddate: 26
+[04/03/2018 02:11:29 pm] returning date is 25/04/16
+[04/03/2018 02:11:29 pm] Start Day: 26/03/16 EndDay set is : 25/04/16
+[04/03/2018 02:11:29 pm] this is the new incomelineItemID: 417
+[04/03/2018 02:11:29 pm] Restting form value to null : selectedIncomeLineItem.paymentDateFormatted
+[04/03/2018 02:11:29 pm] Restting form value to null : selectedIncomeLineItem.descText
+[04/03/2018 02:11:29 pm] Restting form value to null : selectedIncomeLineItem.amount
+[04/03/2018 02:11:29 pm] Restting form value to null : selectedIncomeLineItem.amountPaid
+[04/03/2018 02:11:29 pm] Restting form value to null : selectedIncomeLineItem.fromDateFormatted
+[04/03/2018 02:11:29 pm] Restting form value to null : selectedIncomeLineItem.toDateFormatted
+[04/03/2018 02:11:29 pm] ID : 8
+[04/03/2018 02:11:30 pm] marked As Paid ID: 417
+[04/03/2018 02:11:30 pm] this is the ID 417
+[04/03/2018 02:11:30 pm] selectedIncomeSource baby: 21
+[04/03/2018 02:11:30 pm] this is the sourceID: 21
+[04/03/2018 02:11:30 pm] Name of the object: 417
+[04/03/2018 02:11:30 pm] blah here 1 
+[04/03/2018 02:11:30 pm] goat here 1 
+[04/03/2018 02:11:30 pm] laste Date on incomelineItem: 25/04/16
+[04/03/2018 02:11:30 pm] returning date is 26/04/16
+[04/03/2018 02:11:30 pm] goat here: start date is : 26/04/16
+[04/03/2018 02:11:30 pm] returning date is 26/05/16
+[04/03/2018 02:11:30 pm] maximum day of month is : 30
+[04/03/2018 02:11:30 pm] dayForEnddate: 26
+[04/03/2018 02:11:30 pm] returning date is 25/05/16
+[04/03/2018 02:11:30 pm] Start Day: 26/04/16 EndDay set is : 25/05/16
+[04/03/2018 02:11:30 pm] this is the new incomelineItemID: 418
+[04/03/2018 02:11:30 pm] Restting form value to null : selectedIncomeLineItem.paymentDateFormatted
+[04/03/2018 02:11:30 pm] Restting form value to null : selectedIncomeLineItem.descText
+[04/03/2018 02:11:30 pm] Restting form value to null : selectedIncomeLineItem.amount
+[04/03/2018 02:11:30 pm] Restting form value to null : selectedIncomeLineItem.amountPaid
+[04/03/2018 02:11:30 pm] Restting form value to null : selectedIncomeLineItem.fromDateFormatted
+[04/03/2018 02:11:30 pm] Restting form value to null : selectedIncomeLineItem.toDateFormatted
+[04/03/2018 02:11:30 pm] ID : 8
+[04/03/2018 02:11:31 pm] marked As Paid ID: 418
+[04/03/2018 02:11:31 pm] this is the ID 418
+[04/03/2018 02:11:31 pm] selectedIncomeSource baby: 21
+[04/03/2018 02:11:31 pm] this is the sourceID: 21
+[04/03/2018 02:11:31 pm] Name of the object: 418
+[04/03/2018 02:11:31 pm] blah here 1 
+[04/03/2018 02:11:31 pm] goat here 1 
+[04/03/2018 02:11:31 pm] laste Date on incomelineItem: 25/05/16
+[04/03/2018 02:11:31 pm] returning date is 26/05/16
+[04/03/2018 02:11:31 pm] goat here: start date is : 26/05/16
+[04/03/2018 02:11:31 pm] returning date is 26/06/16
+[04/03/2018 02:11:31 pm] maximum day of month is : 31
+[04/03/2018 02:11:31 pm] dayForEnddate: 26
+[04/03/2018 02:11:31 pm] returning date is 25/06/16
+[04/03/2018 02:11:31 pm] Start Day: 26/05/16 EndDay set is : 25/06/16
+[04/03/2018 02:11:31 pm] this is the new incomelineItemID: 419
+[04/03/2018 02:11:31 pm] Restting form value to null : selectedIncomeLineItem.paymentDateFormatted
+[04/03/2018 02:11:31 pm] Restting form value to null : selectedIncomeLineItem.descText
+[04/03/2018 02:11:31 pm] Restting form value to null : selectedIncomeLineItem.amount
+[04/03/2018 02:11:31 pm] Restting form value to null : selectedIncomeLineItem.amountPaid
+[04/03/2018 02:11:31 pm] Restting form value to null : selectedIncomeLineItem.fromDateFormatted
+[04/03/2018 02:11:31 pm] Restting form value to null : selectedIncomeLineItem.toDateFormatted
+[04/03/2018 02:11:31 pm] ID : 8
+[04/03/2018 02:11:31 pm] marked As Paid ID: 419
+[04/03/2018 02:11:31 pm] this is the ID 419
+[04/03/2018 02:11:31 pm] selectedIncomeSource baby: 21
+[04/03/2018 02:11:31 pm] this is the sourceID: 21
+[04/03/2018 02:11:31 pm] Name of the object: 419
+[04/03/2018 02:11:31 pm] blah here 1 
+[04/03/2018 02:11:31 pm] goat here 1 
+[04/03/2018 02:11:31 pm] laste Date on incomelineItem: 25/06/16
+[04/03/2018 02:11:31 pm] returning date is 26/06/16
+[04/03/2018 02:11:31 pm] goat here: start date is : 26/06/16
+[04/03/2018 02:11:31 pm] returning date is 26/07/16
+[04/03/2018 02:11:31 pm] maximum day of month is : 30
+[04/03/2018 02:11:31 pm] dayForEnddate: 26
+[04/03/2018 02:11:31 pm] returning date is 25/07/16
+[04/03/2018 02:11:31 pm] Start Day: 26/06/16 EndDay set is : 25/07/16
+[04/03/2018 02:11:31 pm] this is the new incomelineItemID: 420
+[04/03/2018 02:11:31 pm] Restting form value to null : selectedIncomeLineItem.paymentDateFormatted
+[04/03/2018 02:11:31 pm] Restting form value to null : selectedIncomeLineItem.descText
+[04/03/2018 02:11:31 pm] Restting form value to null : selectedIncomeLineItem.amount
+[04/03/2018 02:11:31 pm] Restting form value to null : selectedIncomeLineItem.amountPaid
+[04/03/2018 02:11:31 pm] Restting form value to null : selectedIncomeLineItem.fromDateFormatted
+[04/03/2018 02:11:31 pm] Restting form value to null : selectedIncomeLineItem.toDateFormatted
+[04/03/2018 02:11:31 pm] ID : 8
+[04/03/2018 02:11:32 pm] marked As Paid ID: 420
+[04/03/2018 02:11:32 pm] this is the ID 420
+[04/03/2018 02:11:32 pm] selectedIncomeSource baby: 21
+[04/03/2018 02:11:32 pm] this is the sourceID: 21
+[04/03/2018 02:11:32 pm] Name of the object: 420
+[04/03/2018 02:11:32 pm] blah here 1 
+[04/03/2018 02:11:32 pm] goat here 1 
+[04/03/2018 02:11:32 pm] laste Date on incomelineItem: 25/07/16
+[04/03/2018 02:11:32 pm] returning date is 26/07/16
+[04/03/2018 02:11:32 pm] goat here: start date is : 26/07/16
+[04/03/2018 02:11:32 pm] returning date is 26/08/16
+[04/03/2018 02:11:32 pm] maximum day of month is : 31
+[04/03/2018 02:11:32 pm] dayForEnddate: 26
+[04/03/2018 02:11:32 pm] returning date is 25/08/16
+[04/03/2018 02:11:32 pm] Start Day: 26/07/16 EndDay set is : 25/08/16
+[04/03/2018 02:11:32 pm] this is the new incomelineItemID: 421
+[04/03/2018 02:11:32 pm] Restting form value to null : selectedIncomeLineItem.paymentDateFormatted
+[04/03/2018 02:11:32 pm] Restting form value to null : selectedIncomeLineItem.descText
+[04/03/2018 02:11:32 pm] Restting form value to null : selectedIncomeLineItem.amount
+[04/03/2018 02:11:32 pm] Restting form value to null : selectedIncomeLineItem.amountPaid
+[04/03/2018 02:11:32 pm] Restting form value to null : selectedIncomeLineItem.fromDateFormatted
+[04/03/2018 02:11:32 pm] Restting form value to null : selectedIncomeLineItem.toDateFormatted
+[04/03/2018 02:11:32 pm] ID : 8
+[04/03/2018 02:11:33 pm] marked As Paid ID: 421
+[04/03/2018 02:11:33 pm] this is the ID 421
+[04/03/2018 02:11:33 pm] selectedIncomeSource baby: 21
+[04/03/2018 02:11:33 pm] this is the sourceID: 21
+[04/03/2018 02:11:33 pm] Name of the object: 421
+[04/03/2018 02:11:33 pm] blah here 1 
+[04/03/2018 02:11:33 pm] goat here 1 
+[04/03/2018 02:11:33 pm] laste Date on incomelineItem: 25/08/16
+[04/03/2018 02:11:33 pm] returning date is 26/08/16
+[04/03/2018 02:11:33 pm] goat here: start date is : 26/08/16
+[04/03/2018 02:11:33 pm] returning date is 26/09/16
+[04/03/2018 02:11:33 pm] maximum day of month is : 31
+[04/03/2018 02:11:33 pm] dayForEnddate: 26
+[04/03/2018 02:11:33 pm] returning date is 25/09/16
+[04/03/2018 02:11:33 pm] Start Day: 26/08/16 EndDay set is : 25/09/16
+[04/03/2018 02:11:33 pm] this is the new incomelineItemID: 422
+[04/03/2018 02:11:33 pm] Restting form value to null : selectedIncomeLineItem.paymentDateFormatted
+[04/03/2018 02:11:33 pm] Restting form value to null : selectedIncomeLineItem.descText
+[04/03/2018 02:11:33 pm] Restting form value to null : selectedIncomeLineItem.amount
+[04/03/2018 02:11:33 pm] Restting form value to null : selectedIncomeLineItem.amountPaid
+[04/03/2018 02:11:33 pm] Restting form value to null : selectedIncomeLineItem.fromDateFormatted
+[04/03/2018 02:11:33 pm] Restting form value to null : selectedIncomeLineItem.toDateFormatted
+[04/03/2018 02:11:33 pm] ID : 8
+[04/03/2018 02:11:33 pm] marked As Paid ID: 422
+[04/03/2018 02:11:33 pm] this is the ID 422
+[04/03/2018 02:11:33 pm] selectedIncomeSource baby: 21
+[04/03/2018 02:11:33 pm] this is the sourceID: 21
+[04/03/2018 02:11:33 pm] Name of the object: 422
+[04/03/2018 02:11:33 pm] blah here 1 
+[04/03/2018 02:11:33 pm] goat here 1 
+[04/03/2018 02:11:33 pm] laste Date on incomelineItem: 25/09/16
+[04/03/2018 02:11:33 pm] returning date is 26/09/16
+[04/03/2018 02:11:33 pm] goat here: start date is : 26/09/16
+[04/03/2018 02:11:33 pm] returning date is 26/10/16
+[04/03/2018 02:11:33 pm] maximum day of month is : 30
+[04/03/2018 02:11:33 pm] dayForEnddate: 26
+[04/03/2018 02:11:33 pm] returning date is 25/10/16
+[04/03/2018 02:11:33 pm] Start Day: 26/09/16 EndDay set is : 25/10/16
+[04/03/2018 02:11:33 pm] this is the new incomelineItemID: 423
+[04/03/2018 02:11:33 pm] Restting form value to null : selectedIncomeLineItem.paymentDateFormatted
+[04/03/2018 02:11:33 pm] Restting form value to null : selectedIncomeLineItem.descText
+[04/03/2018 02:11:33 pm] Restting form value to null : selectedIncomeLineItem.amount
+[04/03/2018 02:11:33 pm] Restting form value to null : selectedIncomeLineItem.amountPaid
+[04/03/2018 02:11:33 pm] Restting form value to null : selectedIncomeLineItem.fromDateFormatted
+[04/03/2018 02:11:33 pm] Restting form value to null : selectedIncomeLineItem.toDateFormatted
+[04/03/2018 02:11:34 pm] ID : 8
+[04/03/2018 02:11:35 pm] marked As Paid ID: 423
+[04/03/2018 02:11:35 pm] this is the ID 423
+[04/03/2018 02:11:35 pm] selectedIncomeSource baby: 21
+[04/03/2018 02:11:35 pm] this is the sourceID: 21
+[04/03/2018 02:11:35 pm] Name of the object: 423
+[04/03/2018 02:11:35 pm] blah here 1 
+[04/03/2018 02:11:35 pm] goat here 1 
+[04/03/2018 02:11:35 pm] laste Date on incomelineItem: 25/10/16
+[04/03/2018 02:11:35 pm] returning date is 26/10/16
+[04/03/2018 02:11:35 pm] goat here: start date is : 26/10/16
+[04/03/2018 02:11:35 pm] returning date is 26/11/16
+[04/03/2018 02:11:35 pm] maximum day of month is : 31
+[04/03/2018 02:11:35 pm] dayForEnddate: 26
+[04/03/2018 02:11:35 pm] returning date is 25/11/16
+[04/03/2018 02:11:35 pm] Start Day: 26/10/16 EndDay set is : 25/11/16
+[04/03/2018 02:11:35 pm] this is the new incomelineItemID: 424
+[04/03/2018 02:11:35 pm] Restting form value to null : selectedIncomeLineItem.paymentDateFormatted
+[04/03/2018 02:11:35 pm] Restting form value to null : selectedIncomeLineItem.descText
+[04/03/2018 02:11:35 pm] Restting form value to null : selectedIncomeLineItem.amount
+[04/03/2018 02:11:35 pm] Restting form value to null : selectedIncomeLineItem.amountPaid
+[04/03/2018 02:11:35 pm] Restting form value to null : selectedIncomeLineItem.fromDateFormatted
+[04/03/2018 02:11:35 pm] Restting form value to null : selectedIncomeLineItem.toDateFormatted
+[04/03/2018 02:11:35 pm] ID : 8
+[04/03/2018 02:11:36 pm] marked As Paid ID: 424
+[04/03/2018 02:11:36 pm] this is the ID 424
+[04/03/2018 02:11:36 pm] selectedIncomeSource baby: 21
+[04/03/2018 02:11:36 pm] this is the sourceID: 21
+[04/03/2018 02:11:36 pm] Name of the object: 424
+[04/03/2018 02:11:36 pm] blah here 1 
+[04/03/2018 02:11:36 pm] goat here 1 
+[04/03/2018 02:11:36 pm] laste Date on incomelineItem: 25/11/16
+[04/03/2018 02:11:36 pm] returning date is 26/11/16
+[04/03/2018 02:11:36 pm] goat here: start date is : 26/11/16
+[04/03/2018 02:11:36 pm] returning date is 26/12/16
+[04/03/2018 02:11:36 pm] maximum day of month is : 30
+[04/03/2018 02:11:36 pm] dayForEnddate: 26
+[04/03/2018 02:11:36 pm] returning date is 25/12/16
+[04/03/2018 02:11:36 pm] Start Day: 26/11/16 EndDay set is : 25/12/16
+[04/03/2018 02:11:36 pm] this is the new incomelineItemID: 425
+[04/03/2018 02:11:36 pm] Restting form value to null : selectedIncomeLineItem.paymentDateFormatted
+[04/03/2018 02:11:36 pm] Restting form value to null : selectedIncomeLineItem.descText
+[04/03/2018 02:11:36 pm] Restting form value to null : selectedIncomeLineItem.amount
+[04/03/2018 02:11:36 pm] Restting form value to null : selectedIncomeLineItem.amountPaid
+[04/03/2018 02:11:36 pm] Restting form value to null : selectedIncomeLineItem.fromDateFormatted
+[04/03/2018 02:11:36 pm] Restting form value to null : selectedIncomeLineItem.toDateFormatted
+[04/03/2018 02:11:36 pm] ID : 8
+[04/03/2018 02:11:37 pm] marked As Paid ID: 425
+[04/03/2018 02:11:37 pm] this is the ID 425
+[04/03/2018 02:11:37 pm] selectedIncomeSource baby: 21
+[04/03/2018 02:11:37 pm] this is the sourceID: 21
+[04/03/2018 02:11:37 pm] Name of the object: 425
+[04/03/2018 02:11:37 pm] blah here 1 
+[04/03/2018 02:11:37 pm] goat here 1 
+[04/03/2018 02:11:37 pm] laste Date on incomelineItem: 25/12/16
+[04/03/2018 02:11:37 pm] returning date is 26/12/16
+[04/03/2018 02:11:37 pm] goat here: start date is : 26/12/16
+[04/03/2018 02:11:37 pm] returning date is 26/01/17
+[04/03/2018 02:11:37 pm] maximum day of month is : 31
+[04/03/2018 02:11:37 pm] dayForEnddate: 26
+[04/03/2018 02:11:37 pm] returning date is 25/01/17
+[04/03/2018 02:11:37 pm] Start Day: 26/12/16 EndDay set is : 25/01/17
+[04/03/2018 02:11:37 pm] this is the new incomelineItemID: 426
+[04/03/2018 02:11:37 pm] Restting form value to null : selectedIncomeLineItem.paymentDateFormatted
+[04/03/2018 02:11:37 pm] Restting form value to null : selectedIncomeLineItem.descText
+[04/03/2018 02:11:37 pm] Restting form value to null : selectedIncomeLineItem.amount
+[04/03/2018 02:11:37 pm] Restting form value to null : selectedIncomeLineItem.amountPaid
+[04/03/2018 02:11:37 pm] Restting form value to null : selectedIncomeLineItem.fromDateFormatted
+[04/03/2018 02:11:37 pm] Restting form value to null : selectedIncomeLineItem.toDateFormatted
+[04/03/2018 02:11:37 pm] ID : 8
+[04/03/2018 02:11:38 pm] marked As Paid ID: 426
+[04/03/2018 02:11:38 pm] this is the ID 426
+[04/03/2018 02:11:38 pm] selectedIncomeSource baby: 21
+[04/03/2018 02:11:38 pm] this is the sourceID: 21
+[04/03/2018 02:11:38 pm] Name of the object: 426
+[04/03/2018 02:11:38 pm] blah here 1 
+[04/03/2018 02:11:38 pm] goat here 1 
+[04/03/2018 02:11:38 pm] laste Date on incomelineItem: 25/01/17
+[04/03/2018 02:11:38 pm] returning date is 26/01/17
+[04/03/2018 02:11:38 pm] goat here: start date is : 26/01/17
+[04/03/2018 02:11:38 pm] returning date is 26/02/17
+[04/03/2018 02:11:38 pm] maximum day of month is : 31
+[04/03/2018 02:11:38 pm] dayForEnddate: 26
+[04/03/2018 02:11:38 pm] returning date is 25/02/17
+[04/03/2018 02:11:38 pm] Start Day: 26/01/17 EndDay set is : 25/02/17
+[04/03/2018 02:11:38 pm] this is the new incomelineItemID: 427
+[04/03/2018 02:11:38 pm] Restting form value to null : selectedIncomeLineItem.paymentDateFormatted
+[04/03/2018 02:11:38 pm] Restting form value to null : selectedIncomeLineItem.descText
+[04/03/2018 02:11:38 pm] Restting form value to null : selectedIncomeLineItem.amount
+[04/03/2018 02:11:38 pm] Restting form value to null : selectedIncomeLineItem.amountPaid
+[04/03/2018 02:11:38 pm] Restting form value to null : selectedIncomeLineItem.fromDateFormatted
+[04/03/2018 02:11:38 pm] Restting form value to null : selectedIncomeLineItem.toDateFormatted
+[04/03/2018 02:11:38 pm] ID : 8
+[04/03/2018 02:11:39 pm] marked As Paid ID: 427
+[04/03/2018 02:11:39 pm] this is the ID 427
+[04/03/2018 02:11:39 pm] selectedIncomeSource baby: 21
+[04/03/2018 02:11:39 pm] this is the sourceID: 21
+[04/03/2018 02:11:39 pm] Name of the object: 427
+[04/03/2018 02:11:39 pm] blah here 1 
+[04/03/2018 02:11:39 pm] goat here 1 
+[04/03/2018 02:11:39 pm] laste Date on incomelineItem: 25/02/17
+[04/03/2018 02:11:39 pm] returning date is 26/02/17
+[04/03/2018 02:11:39 pm] goat here: start date is : 26/02/17
+[04/03/2018 02:11:39 pm] returning date is 26/03/17
+[04/03/2018 02:11:39 pm] maximum day of month is : 28
+[04/03/2018 02:11:39 pm] dayForEnddate: 26
+[04/03/2018 02:11:39 pm] returning date is 25/03/17
+[04/03/2018 02:11:39 pm] Start Day: 26/02/17 EndDay set is : 25/03/17
+[04/03/2018 02:11:39 pm] this is the new incomelineItemID: 428
+[04/03/2018 02:11:39 pm] Restting form value to null : selectedIncomeLineItem.paymentDateFormatted
+[04/03/2018 02:11:39 pm] Restting form value to null : selectedIncomeLineItem.descText
+[04/03/2018 02:11:39 pm] Restting form value to null : selectedIncomeLineItem.amount
+[04/03/2018 02:11:39 pm] Restting form value to null : selectedIncomeLineItem.amountPaid
+[04/03/2018 02:11:39 pm] Restting form value to null : selectedIncomeLineItem.fromDateFormatted
+[04/03/2018 02:11:39 pm] Restting form value to null : selectedIncomeLineItem.toDateFormatted
+[04/03/2018 02:11:39 pm] ID : 8
+[04/03/2018 02:11:39 pm] marked As Paid ID: 428
+[04/03/2018 02:11:39 pm] this is the ID 428
+[04/03/2018 02:11:39 pm] selectedIncomeSource baby: 21
+[04/03/2018 02:11:39 pm] this is the sourceID: 21
+[04/03/2018 02:11:39 pm] Name of the object: 428
+[04/03/2018 02:11:39 pm] blah here 1 
+[04/03/2018 02:11:39 pm] goat here 1 
+[04/03/2018 02:11:39 pm] laste Date on incomelineItem: 25/03/17
+[04/03/2018 02:11:39 pm] returning date is 26/03/17
+[04/03/2018 02:11:39 pm] goat here: start date is : 26/03/17
+[04/03/2018 02:11:39 pm] returning date is 26/04/17
+[04/03/2018 02:11:39 pm] maximum day of month is : 31
+[04/03/2018 02:11:39 pm] dayForEnddate: 26
+[04/03/2018 02:11:39 pm] returning date is 25/04/17
+[04/03/2018 02:11:39 pm] Start Day: 26/03/17 EndDay set is : 25/04/17
+[04/03/2018 02:11:39 pm] this is the new incomelineItemID: 429
+[04/03/2018 02:11:39 pm] Restting form value to null : selectedIncomeLineItem.paymentDateFormatted
+[04/03/2018 02:11:39 pm] Restting form value to null : selectedIncomeLineItem.descText
+[04/03/2018 02:11:39 pm] Restting form value to null : selectedIncomeLineItem.amount
+[04/03/2018 02:11:39 pm] Restting form value to null : selectedIncomeLineItem.amountPaid
+[04/03/2018 02:11:39 pm] Restting form value to null : selectedIncomeLineItem.fromDateFormatted
+[04/03/2018 02:11:39 pm] Restting form value to null : selectedIncomeLineItem.toDateFormatted
+[04/03/2018 02:11:39 pm] ID : 8
+[04/03/2018 02:11:40 pm] marked As Paid ID: 429
+[04/03/2018 02:11:40 pm] this is the ID 429
+[04/03/2018 02:11:40 pm] selectedIncomeSource baby: 21
+[04/03/2018 02:11:40 pm] this is the sourceID: 21
+[04/03/2018 02:11:40 pm] Name of the object: 429
+[04/03/2018 02:11:40 pm] blah here 1 
+[04/03/2018 02:11:40 pm] goat here 1 
+[04/03/2018 02:11:40 pm] laste Date on incomelineItem: 25/04/17
+[04/03/2018 02:11:40 pm] returning date is 26/04/17
+[04/03/2018 02:11:40 pm] goat here: start date is : 26/04/17
+[04/03/2018 02:11:40 pm] returning date is 26/05/17
+[04/03/2018 02:11:40 pm] maximum day of month is : 30
+[04/03/2018 02:11:40 pm] dayForEnddate: 26
+[04/03/2018 02:11:40 pm] returning date is 25/05/17
+[04/03/2018 02:11:40 pm] Start Day: 26/04/17 EndDay set is : 25/05/17
+[04/03/2018 02:11:40 pm] this is the new incomelineItemID: 430
+[04/03/2018 02:11:40 pm] Restting form value to null : selectedIncomeLineItem.paymentDateFormatted
+[04/03/2018 02:11:40 pm] Restting form value to null : selectedIncomeLineItem.descText
+[04/03/2018 02:11:40 pm] Restting form value to null : selectedIncomeLineItem.amount
+[04/03/2018 02:11:40 pm] Restting form value to null : selectedIncomeLineItem.amountPaid
+[04/03/2018 02:11:40 pm] Restting form value to null : selectedIncomeLineItem.fromDateFormatted
+[04/03/2018 02:11:40 pm] Restting form value to null : selectedIncomeLineItem.toDateFormatted
+[04/03/2018 02:11:40 pm] ID : 8
+[04/03/2018 02:11:41 pm] marked As Paid ID: 430
+[04/03/2018 02:11:41 pm] this is the ID 430
+[04/03/2018 02:11:41 pm] selectedIncomeSource baby: 21
+[04/03/2018 02:11:41 pm] this is the sourceID: 21
+[04/03/2018 02:11:41 pm] Name of the object: 430
+[04/03/2018 02:11:41 pm] blah here 1 
+[04/03/2018 02:11:41 pm] goat here 1 
+[04/03/2018 02:11:41 pm] laste Date on incomelineItem: 25/05/17
+[04/03/2018 02:11:41 pm] returning date is 26/05/17
+[04/03/2018 02:11:41 pm] goat here: start date is : 26/05/17
+[04/03/2018 02:11:41 pm] returning date is 26/06/17
+[04/03/2018 02:11:41 pm] maximum day of month is : 31
+[04/03/2018 02:11:41 pm] dayForEnddate: 26
+[04/03/2018 02:11:41 pm] returning date is 25/06/17
+[04/03/2018 02:11:41 pm] Start Day: 26/05/17 EndDay set is : 25/06/17
+[04/03/2018 02:11:41 pm] this is the new incomelineItemID: 431
+[04/03/2018 02:11:41 pm] Restting form value to null : selectedIncomeLineItem.paymentDateFormatted
+[04/03/2018 02:11:41 pm] Restting form value to null : selectedIncomeLineItem.descText
+[04/03/2018 02:11:41 pm] Restting form value to null : selectedIncomeLineItem.amount
+[04/03/2018 02:11:41 pm] Restting form value to null : selectedIncomeLineItem.amountPaid
+[04/03/2018 02:11:41 pm] Restting form value to null : selectedIncomeLineItem.fromDateFormatted
+[04/03/2018 02:11:41 pm] Restting form value to null : selectedIncomeLineItem.toDateFormatted
+[04/03/2018 02:11:41 pm] ID : 8
+[04/03/2018 02:11:41 pm] marked As Paid ID: 431
+[04/03/2018 02:11:41 pm] this is the ID 431
+[04/03/2018 02:11:41 pm] selectedIncomeSource baby: 21
+[04/03/2018 02:11:41 pm] this is the sourceID: 21
+[04/03/2018 02:11:41 pm] Name of the object: 431
+[04/03/2018 02:11:41 pm] blah here 1 
+[04/03/2018 02:11:41 pm] goat here 1 
+[04/03/2018 02:11:41 pm] laste Date on incomelineItem: 25/06/17
+[04/03/2018 02:11:41 pm] returning date is 26/06/17
+[04/03/2018 02:11:41 pm] goat here: start date is : 26/06/17
+[04/03/2018 02:11:41 pm] returning date is 26/07/17
+[04/03/2018 02:11:41 pm] maximum day of month is : 30
+[04/03/2018 02:11:41 pm] dayForEnddate: 26
+[04/03/2018 02:11:41 pm] returning date is 25/07/17
+[04/03/2018 02:11:41 pm] Start Day: 26/06/17 EndDay set is : 25/07/17
+[04/03/2018 02:11:41 pm] this is the new incomelineItemID: 432
+[04/03/2018 02:11:41 pm] Restting form value to null : selectedIncomeLineItem.paymentDateFormatted
+[04/03/2018 02:11:41 pm] Restting form value to null : selectedIncomeLineItem.descText
+[04/03/2018 02:11:41 pm] Restting form value to null : selectedIncomeLineItem.amount
+[04/03/2018 02:11:41 pm] Restting form value to null : selectedIncomeLineItem.amountPaid
+[04/03/2018 02:11:41 pm] Restting form value to null : selectedIncomeLineItem.fromDateFormatted
+[04/03/2018 02:11:41 pm] Restting form value to null : selectedIncomeLineItem.toDateFormatted
+[04/03/2018 02:11:41 pm] ID : 8
+[04/03/2018 02:11:42 pm] marked As Paid ID: 432
+[04/03/2018 02:11:42 pm] this is the ID 432
+[04/03/2018 02:11:42 pm] selectedIncomeSource baby: 21
+[04/03/2018 02:11:42 pm] this is the sourceID: 21
+[04/03/2018 02:11:42 pm] Name of the object: 432
+[04/03/2018 02:11:42 pm] blah here 1 
+[04/03/2018 02:11:42 pm] goat here 1 
+[04/03/2018 02:11:42 pm] laste Date on incomelineItem: 25/07/17
+[04/03/2018 02:11:42 pm] returning date is 26/07/17
+[04/03/2018 02:11:42 pm] goat here: start date is : 26/07/17
+[04/03/2018 02:11:42 pm] returning date is 26/08/17
+[04/03/2018 02:11:42 pm] maximum day of month is : 31
+[04/03/2018 02:11:42 pm] dayForEnddate: 26
+[04/03/2018 02:11:42 pm] returning date is 25/08/17
+[04/03/2018 02:11:42 pm] Start Day: 26/07/17 EndDay set is : 25/08/17
+[04/03/2018 02:11:42 pm] this is the new incomelineItemID: 433
+[04/03/2018 02:11:42 pm] Restting form value to null : selectedIncomeLineItem.paymentDateFormatted
+[04/03/2018 02:11:42 pm] Restting form value to null : selectedIncomeLineItem.descText
+[04/03/2018 02:11:42 pm] Restting form value to null : selectedIncomeLineItem.amount
+[04/03/2018 02:11:42 pm] Restting form value to null : selectedIncomeLineItem.amountPaid
+[04/03/2018 02:11:42 pm] Restting form value to null : selectedIncomeLineItem.fromDateFormatted
+[04/03/2018 02:11:42 pm] Restting form value to null : selectedIncomeLineItem.toDateFormatted
+[04/03/2018 02:11:42 pm] ID : 8
+[04/03/2018 02:11:42 pm] marked As Paid ID: 433
+[04/03/2018 02:11:42 pm] this is the ID 433
+[04/03/2018 02:11:42 pm] selectedIncomeSource baby: 21
+[04/03/2018 02:11:42 pm] this is the sourceID: 21
+[04/03/2018 02:11:42 pm] Name of the object: 433
+[04/03/2018 02:11:42 pm] blah here 1 
+[04/03/2018 02:11:42 pm] goat here 1 
+[04/03/2018 02:11:42 pm] laste Date on incomelineItem: 25/08/17
+[04/03/2018 02:11:42 pm] returning date is 26/08/17
+[04/03/2018 02:11:42 pm] goat here: start date is : 26/08/17
+[04/03/2018 02:11:42 pm] returning date is 26/09/17
+[04/03/2018 02:11:42 pm] maximum day of month is : 31
+[04/03/2018 02:11:42 pm] dayForEnddate: 26
+[04/03/2018 02:11:42 pm] returning date is 25/09/17
+[04/03/2018 02:11:42 pm] Start Day: 26/08/17 EndDay set is : 25/09/17
+[04/03/2018 02:11:42 pm] this is the new incomelineItemID: 434
+[04/03/2018 02:11:42 pm] Restting form value to null : selectedIncomeLineItem.paymentDateFormatted
+[04/03/2018 02:11:42 pm] Restting form value to null : selectedIncomeLineItem.descText
+[04/03/2018 02:11:42 pm] Restting form value to null : selectedIncomeLineItem.amount
+[04/03/2018 02:11:42 pm] Restting form value to null : selectedIncomeLineItem.amountPaid
+[04/03/2018 02:11:42 pm] Restting form value to null : selectedIncomeLineItem.fromDateFormatted
+[04/03/2018 02:11:42 pm] Restting form value to null : selectedIncomeLineItem.toDateFormatted
+[04/03/2018 02:11:42 pm] ID : 8
+[04/03/2018 02:11:43 pm] marked As Paid ID: 434
+[04/03/2018 02:11:43 pm] this is the ID 434
+[04/03/2018 02:11:43 pm] selectedIncomeSource baby: 21
+[04/03/2018 02:11:43 pm] this is the sourceID: 21
+[04/03/2018 02:11:43 pm] Name of the object: 434
+[04/03/2018 02:11:43 pm] blah here 1 
+[04/03/2018 02:11:43 pm] goat here 1 
+[04/03/2018 02:11:43 pm] laste Date on incomelineItem: 25/09/17
+[04/03/2018 02:11:43 pm] returning date is 26/09/17
+[04/03/2018 02:11:43 pm] goat here: start date is : 26/09/17
+[04/03/2018 02:11:43 pm] returning date is 26/10/17
+[04/03/2018 02:11:43 pm] maximum day of month is : 30
+[04/03/2018 02:11:43 pm] dayForEnddate: 26
+[04/03/2018 02:11:43 pm] returning date is 25/10/17
+[04/03/2018 02:11:43 pm] Start Day: 26/09/17 EndDay set is : 25/10/17
+[04/03/2018 02:11:43 pm] this is the new incomelineItemID: 435
+[04/03/2018 02:11:43 pm] Restting form value to null : selectedIncomeLineItem.paymentDateFormatted
+[04/03/2018 02:11:43 pm] Restting form value to null : selectedIncomeLineItem.descText
+[04/03/2018 02:11:43 pm] Restting form value to null : selectedIncomeLineItem.amount
+[04/03/2018 02:11:43 pm] Restting form value to null : selectedIncomeLineItem.amountPaid
+[04/03/2018 02:11:43 pm] Restting form value to null : selectedIncomeLineItem.fromDateFormatted
+[04/03/2018 02:11:43 pm] Restting form value to null : selectedIncomeLineItem.toDateFormatted
+[04/03/2018 02:11:43 pm] ID : 8
+[04/03/2018 02:11:43 pm] marked As Paid ID: 435
+[04/03/2018 02:11:43 pm] this is the ID 435
+[04/03/2018 02:11:43 pm] selectedIncomeSource baby: 21
+[04/03/2018 02:11:43 pm] this is the sourceID: 21
+[04/03/2018 02:11:44 pm] Name of the object: 435
+[04/03/2018 02:11:44 pm] blah here 1 
+[04/03/2018 02:11:44 pm] goat here 1 
+[04/03/2018 02:11:44 pm] laste Date on incomelineItem: 25/10/17
+[04/03/2018 02:11:44 pm] returning date is 26/10/17
+[04/03/2018 02:11:44 pm] goat here: start date is : 26/10/17
+[04/03/2018 02:11:44 pm] returning date is 26/11/17
+[04/03/2018 02:11:44 pm] maximum day of month is : 31
+[04/03/2018 02:11:44 pm] dayForEnddate: 26
+[04/03/2018 02:11:44 pm] returning date is 25/11/17
+[04/03/2018 02:11:44 pm] Start Day: 26/10/17 EndDay set is : 25/11/17
+[04/03/2018 02:11:44 pm] this is the new incomelineItemID: 436
+[04/03/2018 02:11:44 pm] Restting form value to null : selectedIncomeLineItem.paymentDateFormatted
+[04/03/2018 02:11:44 pm] Restting form value to null : selectedIncomeLineItem.descText
+[04/03/2018 02:11:44 pm] Restting form value to null : selectedIncomeLineItem.amount
+[04/03/2018 02:11:44 pm] Restting form value to null : selectedIncomeLineItem.amountPaid
+[04/03/2018 02:11:44 pm] Restting form value to null : selectedIncomeLineItem.fromDateFormatted
+[04/03/2018 02:11:44 pm] Restting form value to null : selectedIncomeLineItem.toDateFormatted
+[04/03/2018 02:11:44 pm] ID : 8
+[04/03/2018 02:11:44 pm] marked As Paid ID: 436
+[04/03/2018 02:11:44 pm] this is the ID 436
+[04/03/2018 02:11:44 pm] selectedIncomeSource baby: 21
+[04/03/2018 02:11:44 pm] this is the sourceID: 21
+[04/03/2018 02:11:44 pm] Name of the object: 436
+[04/03/2018 02:11:44 pm] blah here 1 
+[04/03/2018 02:11:44 pm] goat here 1 
+[04/03/2018 02:11:44 pm] laste Date on incomelineItem: 25/11/17
+[04/03/2018 02:11:44 pm] returning date is 26/11/17
+[04/03/2018 02:11:44 pm] goat here: start date is : 26/11/17
+[04/03/2018 02:11:44 pm] returning date is 26/12/17
+[04/03/2018 02:11:44 pm] maximum day of month is : 30
+[04/03/2018 02:11:44 pm] dayForEnddate: 26
+[04/03/2018 02:11:44 pm] returning date is 25/12/17
+[04/03/2018 02:11:44 pm] Start Day: 26/11/17 EndDay set is : 25/12/17
+[04/03/2018 02:11:44 pm] this is the new incomelineItemID: 437
+[04/03/2018 02:11:44 pm] Restting form value to null : selectedIncomeLineItem.paymentDateFormatted
+[04/03/2018 02:11:44 pm] Restting form value to null : selectedIncomeLineItem.descText
+[04/03/2018 02:11:44 pm] Restting form value to null : selectedIncomeLineItem.amount
+[04/03/2018 02:11:44 pm] Restting form value to null : selectedIncomeLineItem.amountPaid
+[04/03/2018 02:11:44 pm] Restting form value to null : selectedIncomeLineItem.fromDateFormatted
+[04/03/2018 02:11:44 pm] Restting form value to null : selectedIncomeLineItem.toDateFormatted
+[04/03/2018 02:11:44 pm] ID : 8
+[04/03/2018 02:11:49 pm] selectedIncomeSourceID: 19
+[04/03/2018 02:11:49 pm] ID : 8
+[04/03/2018 02:11:49 pm] selectedIncomeSource baby: 19
+[04/03/2018 02:12:03 pm] ID : 8
+[04/03/2018 02:12:03 pm] the First date: 31/01/2015
+[04/03/2018 02:12:03 pm] returning date is 03/03/15
+[04/03/2018 02:12:03 pm] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
+[04/03/2018 02:12:03 pm] firstDate: 31/01/15
+[04/03/2018 02:12:03 pm] selectedIncomeSource baby: 19
+[04/03/2018 02:12:05 pm] the First date: 31/01/2015
+[04/03/2018 02:12:05 pm] returning date is 03/03/15
+[04/03/2018 02:12:05 pm] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
+[04/03/2018 02:12:05 pm] firstDate: 31/01/15
+[04/03/2018 02:12:08 pm] ID : 13
+[04/03/2018 02:12:08 pm] financial year start Time: 2017-07-01
+[04/03/2018 02:12:08 pm] financial year end Time: 2018-06-30
+[04/03/2018 02:12:08 pm] incoming enddate is: 30/06/18
+[04/03/2018 02:12:08 pm] before incomeLineItem search
+[04/03/2018 02:12:08 pm] before expenseLineItem search
+[04/03/2018 02:12:08 pm] Returning Summary: 0,0,0
+[04/03/2018 02:12:10 pm] ID : 13
+[04/03/2018 02:12:10 pm] selectedIncomeSource baby: 
+[04/03/2018 02:12:10 pm] firstIncomeSource: 52
+[04/03/2018 02:12:13 pm] marked As Paid ID: 375
+[04/03/2018 02:12:13 pm] this is the ID 375
+[04/03/2018 02:12:13 pm] selectedIncomeSource baby: 
+[04/03/2018 02:12:13 pm] ID : 13
+[04/03/2018 02:12:13 pm] firstIncomeSource: 52
+[04/03/2018 02:12:13 pm] this is the sourceID: 52
+[04/03/2018 02:12:13 pm] Name of the object: 375
+[04/03/2018 02:12:13 pm] blah here 1 
+[04/03/2018 02:12:13 pm] goat here 1 
+[04/03/2018 02:12:13 pm] laste Date on incomelineItem: 04/10/15
+[04/03/2018 02:12:13 pm] returning date is 05/10/15
+[04/03/2018 02:12:13 pm] goat here: start date is : 05/10/15
+[04/03/2018 02:12:13 pm] returning date is 05/11/15
+[04/03/2018 02:12:13 pm] maximum day of month is : 31
+[04/03/2018 02:12:13 pm] dayForEnddate: 05
+[04/03/2018 02:12:13 pm] returning date is 04/11/15
+[04/03/2018 02:12:13 pm] Start Day: 05/10/15 EndDay set is : 04/11/15
+[04/03/2018 02:12:13 pm] this is the new incomelineItemID: 438
+[04/03/2018 02:12:14 pm] marked As Paid ID: 438
+[04/03/2018 02:12:14 pm] this is the ID 438
+[04/03/2018 02:12:14 pm] selectedIncomeSource baby: 52
+[04/03/2018 02:12:14 pm] this is the sourceID: 52
+[04/03/2018 02:12:14 pm] Name of the object: 438
+[04/03/2018 02:12:14 pm] blah here 1 
+[04/03/2018 02:12:14 pm] goat here 1 
+[04/03/2018 02:12:14 pm] laste Date on incomelineItem: 04/11/15
+[04/03/2018 02:12:14 pm] returning date is 05/11/15
+[04/03/2018 02:12:14 pm] goat here: start date is : 05/11/15
+[04/03/2018 02:12:14 pm] returning date is 05/12/15
+[04/03/2018 02:12:14 pm] maximum day of month is : 30
+[04/03/2018 02:12:14 pm] dayForEnddate: 05
+[04/03/2018 02:12:14 pm] returning date is 04/12/15
+[04/03/2018 02:12:14 pm] Start Day: 05/11/15 EndDay set is : 04/12/15
+[04/03/2018 02:12:14 pm] this is the new incomelineItemID: 439
+[04/03/2018 02:12:14 pm] Restting form value to null : selectedIncomeLineItem.paymentDateFormatted
+[04/03/2018 02:12:14 pm] Restting form value to null : selectedIncomeLineItem.descText
+[04/03/2018 02:12:14 pm] Restting form value to null : selectedIncomeLineItem.amount
+[04/03/2018 02:12:14 pm] Restting form value to null : selectedIncomeLineItem.amountPaid
+[04/03/2018 02:12:14 pm] Restting form value to null : selectedIncomeLineItem.fromDateFormatted
+[04/03/2018 02:12:14 pm] Restting form value to null : selectedIncomeLineItem.toDateFormatted
+[04/03/2018 02:12:14 pm] ID : 13
+[04/03/2018 02:12:15 pm] marked As Paid ID: 439
+[04/03/2018 02:12:15 pm] this is the ID 439
+[04/03/2018 02:12:15 pm] selectedIncomeSource baby: 52
+[04/03/2018 02:12:15 pm] this is the sourceID: 52
+[04/03/2018 02:12:15 pm] Name of the object: 439
+[04/03/2018 02:12:15 pm] blah here 1 
+[04/03/2018 02:12:15 pm] goat here 1 
+[04/03/2018 02:12:15 pm] laste Date on incomelineItem: 04/12/15
+[04/03/2018 02:12:15 pm] returning date is 05/12/15
+[04/03/2018 02:12:15 pm] goat here: start date is : 05/12/15
+[04/03/2018 02:12:15 pm] returning date is 05/01/16
+[04/03/2018 02:12:15 pm] maximum day of month is : 31
+[04/03/2018 02:12:15 pm] dayForEnddate: 05
+[04/03/2018 02:12:15 pm] returning date is 04/01/16
+[04/03/2018 02:12:15 pm] Start Day: 05/12/15 EndDay set is : 04/01/16
+[04/03/2018 02:12:15 pm] this is the new incomelineItemID: 440
+[04/03/2018 02:12:15 pm] Restting form value to null : selectedIncomeLineItem.paymentDateFormatted
+[04/03/2018 02:12:15 pm] Restting form value to null : selectedIncomeLineItem.descText
+[04/03/2018 02:12:15 pm] Restting form value to null : selectedIncomeLineItem.amount
+[04/03/2018 02:12:15 pm] Restting form value to null : selectedIncomeLineItem.amountPaid
+[04/03/2018 02:12:15 pm] Restting form value to null : selectedIncomeLineItem.fromDateFormatted
+[04/03/2018 02:12:15 pm] Restting form value to null : selectedIncomeLineItem.toDateFormatted
+[04/03/2018 02:12:15 pm] ID : 13
+[04/03/2018 02:12:16 pm] marked As Paid ID: 440
+[04/03/2018 02:12:16 pm] this is the ID 440
+[04/03/2018 02:12:16 pm] selectedIncomeSource baby: 52
+[04/03/2018 02:12:16 pm] this is the sourceID: 52
+[04/03/2018 02:12:16 pm] Name of the object: 440
+[04/03/2018 02:12:16 pm] blah here 1 
+[04/03/2018 02:12:16 pm] goat here 1 
+[04/03/2018 02:12:16 pm] laste Date on incomelineItem: 04/01/16
+[04/03/2018 02:12:16 pm] returning date is 05/01/16
+[04/03/2018 02:12:16 pm] goat here: start date is : 05/01/16
+[04/03/2018 02:12:16 pm] returning date is 05/02/16
+[04/03/2018 02:12:16 pm] maximum day of month is : 31
+[04/03/2018 02:12:16 pm] dayForEnddate: 05
+[04/03/2018 02:12:16 pm] returning date is 04/02/16
+[04/03/2018 02:12:16 pm] Start Day: 05/01/16 EndDay set is : 04/02/16
+[04/03/2018 02:12:16 pm] this is the new incomelineItemID: 441
+[04/03/2018 02:12:16 pm] Restting form value to null : selectedIncomeLineItem.paymentDateFormatted
+[04/03/2018 02:12:16 pm] Restting form value to null : selectedIncomeLineItem.descText
+[04/03/2018 02:12:16 pm] Restting form value to null : selectedIncomeLineItem.amount
+[04/03/2018 02:12:16 pm] Restting form value to null : selectedIncomeLineItem.amountPaid
+[04/03/2018 02:12:16 pm] Restting form value to null : selectedIncomeLineItem.fromDateFormatted
+[04/03/2018 02:12:16 pm] Restting form value to null : selectedIncomeLineItem.toDateFormatted
+[04/03/2018 02:12:16 pm] ID : 13
+[04/03/2018 02:12:17 pm] marked As Paid ID: 441
+[04/03/2018 02:12:17 pm] this is the ID 441
+[04/03/2018 02:12:17 pm] selectedIncomeSource baby: 52
+[04/03/2018 02:12:17 pm] this is the sourceID: 52
+[04/03/2018 02:12:17 pm] Name of the object: 441
+[04/03/2018 02:12:17 pm] blah here 1 
+[04/03/2018 02:12:17 pm] goat here 1 
+[04/03/2018 02:12:17 pm] laste Date on incomelineItem: 04/02/16
+[04/03/2018 02:12:17 pm] returning date is 05/02/16
+[04/03/2018 02:12:17 pm] goat here: start date is : 05/02/16
+[04/03/2018 02:12:17 pm] returning date is 05/03/16
+[04/03/2018 02:12:17 pm] maximum day of month is : 29
+[04/03/2018 02:12:17 pm] dayForEnddate: 05
+[04/03/2018 02:12:17 pm] returning date is 04/03/16
+[04/03/2018 02:12:17 pm] Start Day: 05/02/16 EndDay set is : 04/03/16
+[04/03/2018 02:12:17 pm] this is the new incomelineItemID: 442
+[04/03/2018 02:12:17 pm] Restting form value to null : selectedIncomeLineItem.paymentDateFormatted
+[04/03/2018 02:12:17 pm] Restting form value to null : selectedIncomeLineItem.descText
+[04/03/2018 02:12:17 pm] Restting form value to null : selectedIncomeLineItem.amount
+[04/03/2018 02:12:17 pm] Restting form value to null : selectedIncomeLineItem.amountPaid
+[04/03/2018 02:12:17 pm] Restting form value to null : selectedIncomeLineItem.fromDateFormatted
+[04/03/2018 02:12:17 pm] Restting form value to null : selectedIncomeLineItem.toDateFormatted
+[04/03/2018 02:12:17 pm] ID : 13
+[04/03/2018 02:12:18 pm] marked As Paid ID: 442
+[04/03/2018 02:12:18 pm] this is the ID 442
+[04/03/2018 02:12:18 pm] selectedIncomeSource baby: 52
+[04/03/2018 02:12:18 pm] this is the sourceID: 52
+[04/03/2018 02:12:18 pm] Name of the object: 442
+[04/03/2018 02:12:18 pm] blah here 1 
+[04/03/2018 02:12:18 pm] goat here 1 
+[04/03/2018 02:12:18 pm] laste Date on incomelineItem: 04/03/16
+[04/03/2018 02:12:18 pm] returning date is 05/03/16
+[04/03/2018 02:12:18 pm] goat here: start date is : 05/03/16
+[04/03/2018 02:12:18 pm] returning date is 05/04/16
+[04/03/2018 02:12:18 pm] maximum day of month is : 31
+[04/03/2018 02:12:18 pm] dayForEnddate: 05
+[04/03/2018 02:12:18 pm] returning date is 04/04/16
+[04/03/2018 02:12:18 pm] Start Day: 05/03/16 EndDay set is : 04/04/16
+[04/03/2018 02:12:18 pm] this is the new incomelineItemID: 443
+[04/03/2018 02:12:18 pm] Restting form value to null : selectedIncomeLineItem.paymentDateFormatted
+[04/03/2018 02:12:18 pm] Restting form value to null : selectedIncomeLineItem.descText
+[04/03/2018 02:12:18 pm] Restting form value to null : selectedIncomeLineItem.amount
+[04/03/2018 02:12:18 pm] Restting form value to null : selectedIncomeLineItem.amountPaid
+[04/03/2018 02:12:18 pm] Restting form value to null : selectedIncomeLineItem.fromDateFormatted
+[04/03/2018 02:12:18 pm] Restting form value to null : selectedIncomeLineItem.toDateFormatted
+[04/03/2018 02:12:18 pm] ID : 13
+[04/03/2018 02:12:19 pm] marked As Paid ID: 443
+[04/03/2018 02:12:19 pm] this is the ID 443
+[04/03/2018 02:12:19 pm] selectedIncomeSource baby: 52
+[04/03/2018 02:12:19 pm] this is the sourceID: 52
+[04/03/2018 02:12:19 pm] Name of the object: 443
+[04/03/2018 02:12:19 pm] blah here 1 
+[04/03/2018 02:12:19 pm] goat here 1 
+[04/03/2018 02:12:19 pm] laste Date on incomelineItem: 04/04/16
+[04/03/2018 02:12:19 pm] returning date is 05/04/16
+[04/03/2018 02:12:19 pm] goat here: start date is : 05/04/16
+[04/03/2018 02:12:19 pm] returning date is 05/05/16
+[04/03/2018 02:12:19 pm] maximum day of month is : 30
+[04/03/2018 02:12:19 pm] dayForEnddate: 05
+[04/03/2018 02:12:19 pm] returning date is 04/05/16
+[04/03/2018 02:12:19 pm] Start Day: 05/04/16 EndDay set is : 04/05/16
+[04/03/2018 02:12:19 pm] this is the new incomelineItemID: 444
+[04/03/2018 02:12:19 pm] Restting form value to null : selectedIncomeLineItem.paymentDateFormatted
+[04/03/2018 02:12:19 pm] Restting form value to null : selectedIncomeLineItem.descText
+[04/03/2018 02:12:19 pm] Restting form value to null : selectedIncomeLineItem.amount
+[04/03/2018 02:12:19 pm] Restting form value to null : selectedIncomeLineItem.amountPaid
+[04/03/2018 02:12:19 pm] Restting form value to null : selectedIncomeLineItem.fromDateFormatted
+[04/03/2018 02:12:19 pm] Restting form value to null : selectedIncomeLineItem.toDateFormatted
+[04/03/2018 02:12:19 pm] ID : 13
+[04/03/2018 02:12:19 pm] marked As Paid ID: 444
+[04/03/2018 02:12:19 pm] this is the ID 444
+[04/03/2018 02:12:19 pm] selectedIncomeSource baby: 52
+[04/03/2018 02:12:19 pm] this is the sourceID: 52
+[04/03/2018 02:12:19 pm] Name of the object: 444
+[04/03/2018 02:12:19 pm] blah here 1 
+[04/03/2018 02:12:19 pm] goat here 1 
+[04/03/2018 02:12:19 pm] laste Date on incomelineItem: 04/05/16
+[04/03/2018 02:12:19 pm] returning date is 05/05/16
+[04/03/2018 02:12:19 pm] goat here: start date is : 05/05/16
+[04/03/2018 02:12:19 pm] returning date is 05/06/16
+[04/03/2018 02:12:19 pm] maximum day of month is : 31
+[04/03/2018 02:12:19 pm] dayForEnddate: 05
+[04/03/2018 02:12:19 pm] returning date is 04/06/16
+[04/03/2018 02:12:19 pm] Start Day: 05/05/16 EndDay set is : 04/06/16
+[04/03/2018 02:12:19 pm] this is the new incomelineItemID: 445
+[04/03/2018 02:12:19 pm] Restting form value to null : selectedIncomeLineItem.paymentDateFormatted
+[04/03/2018 02:12:19 pm] Restting form value to null : selectedIncomeLineItem.descText
+[04/03/2018 02:12:19 pm] Restting form value to null : selectedIncomeLineItem.amount
+[04/03/2018 02:12:19 pm] Restting form value to null : selectedIncomeLineItem.amountPaid
+[04/03/2018 02:12:19 pm] Restting form value to null : selectedIncomeLineItem.fromDateFormatted
+[04/03/2018 02:12:19 pm] Restting form value to null : selectedIncomeLineItem.toDateFormatted
+[04/03/2018 02:12:19 pm] ID : 13
+[04/03/2018 02:12:20 pm] marked As Paid ID: 445
+[04/03/2018 02:12:20 pm] this is the ID 445
+[04/03/2018 02:12:20 pm] selectedIncomeSource baby: 52
+[04/03/2018 02:12:20 pm] this is the sourceID: 52
+[04/03/2018 02:12:20 pm] Name of the object: 445
+[04/03/2018 02:12:20 pm] blah here 1 
+[04/03/2018 02:12:20 pm] goat here 1 
+[04/03/2018 02:12:20 pm] laste Date on incomelineItem: 04/06/16
+[04/03/2018 02:12:20 pm] returning date is 05/06/16
+[04/03/2018 02:12:20 pm] goat here: start date is : 05/06/16
+[04/03/2018 02:12:20 pm] returning date is 05/07/16
+[04/03/2018 02:12:20 pm] maximum day of month is : 30
+[04/03/2018 02:12:20 pm] dayForEnddate: 05
+[04/03/2018 02:12:20 pm] returning date is 04/07/16
+[04/03/2018 02:12:20 pm] Start Day: 05/06/16 EndDay set is : 04/07/16
+[04/03/2018 02:12:20 pm] this is the new incomelineItemID: 446
+[04/03/2018 02:12:20 pm] Restting form value to null : selectedIncomeLineItem.paymentDateFormatted
+[04/03/2018 02:12:20 pm] Restting form value to null : selectedIncomeLineItem.descText
+[04/03/2018 02:12:20 pm] Restting form value to null : selectedIncomeLineItem.amount
+[04/03/2018 02:12:20 pm] Restting form value to null : selectedIncomeLineItem.amountPaid
+[04/03/2018 02:12:20 pm] Restting form value to null : selectedIncomeLineItem.fromDateFormatted
+[04/03/2018 02:12:20 pm] Restting form value to null : selectedIncomeLineItem.toDateFormatted
+[04/03/2018 02:12:20 pm] ID : 13
+[04/03/2018 02:12:21 pm] marked As Paid ID: 446
+[04/03/2018 02:12:21 pm] this is the ID 446
+[04/03/2018 02:12:21 pm] selectedIncomeSource baby: 52
+[04/03/2018 02:12:21 pm] this is the sourceID: 52
+[04/03/2018 02:12:21 pm] Name of the object: 446
+[04/03/2018 02:12:21 pm] blah here 1 
+[04/03/2018 02:12:21 pm] goat here 1 
+[04/03/2018 02:12:21 pm] laste Date on incomelineItem: 04/07/16
+[04/03/2018 02:12:21 pm] returning date is 05/07/16
+[04/03/2018 02:12:21 pm] goat here: start date is : 05/07/16
+[04/03/2018 02:12:21 pm] returning date is 05/08/16
+[04/03/2018 02:12:21 pm] maximum day of month is : 31
+[04/03/2018 02:12:21 pm] dayForEnddate: 05
+[04/03/2018 02:12:21 pm] returning date is 04/08/16
+[04/03/2018 02:12:21 pm] Start Day: 05/07/16 EndDay set is : 04/08/16
+[04/03/2018 02:12:21 pm] this is the new incomelineItemID: 447
+[04/03/2018 02:12:21 pm] Restting form value to null : selectedIncomeLineItem.paymentDateFormatted
+[04/03/2018 02:12:21 pm] Restting form value to null : selectedIncomeLineItem.descText
+[04/03/2018 02:12:21 pm] Restting form value to null : selectedIncomeLineItem.amount
+[04/03/2018 02:12:21 pm] Restting form value to null : selectedIncomeLineItem.amountPaid
+[04/03/2018 02:12:21 pm] Restting form value to null : selectedIncomeLineItem.fromDateFormatted
+[04/03/2018 02:12:21 pm] Restting form value to null : selectedIncomeLineItem.toDateFormatted
+[04/03/2018 02:12:21 pm] ID : 13
+[04/03/2018 02:12:22 pm] marked As Paid ID: 447
+[04/03/2018 02:12:22 pm] this is the ID 447
+[04/03/2018 02:12:22 pm] selectedIncomeSource baby: 52
+[04/03/2018 02:12:22 pm] this is the sourceID: 52
+[04/03/2018 02:12:22 pm] Name of the object: 447
+[04/03/2018 02:12:22 pm] blah here 1 
+[04/03/2018 02:12:22 pm] goat here 1 
+[04/03/2018 02:12:22 pm] laste Date on incomelineItem: 04/08/16
+[04/03/2018 02:12:22 pm] returning date is 05/08/16
+[04/03/2018 02:12:22 pm] goat here: start date is : 05/08/16
+[04/03/2018 02:12:22 pm] returning date is 05/09/16
+[04/03/2018 02:12:22 pm] maximum day of month is : 31
+[04/03/2018 02:12:22 pm] dayForEnddate: 05
+[04/03/2018 02:12:22 pm] returning date is 04/09/16
+[04/03/2018 02:12:22 pm] Start Day: 05/08/16 EndDay set is : 04/09/16
+[04/03/2018 02:12:22 pm] this is the new incomelineItemID: 448
+[04/03/2018 02:12:22 pm] Restting form value to null : selectedIncomeLineItem.paymentDateFormatted
+[04/03/2018 02:12:22 pm] Restting form value to null : selectedIncomeLineItem.descText
+[04/03/2018 02:12:22 pm] Restting form value to null : selectedIncomeLineItem.amount
+[04/03/2018 02:12:22 pm] Restting form value to null : selectedIncomeLineItem.amountPaid
+[04/03/2018 02:12:22 pm] Restting form value to null : selectedIncomeLineItem.fromDateFormatted
+[04/03/2018 02:12:22 pm] Restting form value to null : selectedIncomeLineItem.toDateFormatted
+[04/03/2018 02:12:22 pm] ID : 13
+[04/03/2018 02:12:22 pm] marked As Paid ID: 448
+[04/03/2018 02:12:23 pm] this is the ID 448
+[04/03/2018 02:12:23 pm] selectedIncomeSource baby: 52
+[04/03/2018 02:12:23 pm] this is the sourceID: 52
+[04/03/2018 02:12:23 pm] Name of the object: 448
+[04/03/2018 02:12:23 pm] blah here 1 
+[04/03/2018 02:12:23 pm] goat here 1 
+[04/03/2018 02:12:23 pm] laste Date on incomelineItem: 04/09/16
+[04/03/2018 02:12:23 pm] returning date is 05/09/16
+[04/03/2018 02:12:23 pm] goat here: start date is : 05/09/16
+[04/03/2018 02:12:23 pm] returning date is 05/10/16
+[04/03/2018 02:12:23 pm] maximum day of month is : 30
+[04/03/2018 02:12:23 pm] dayForEnddate: 05
+[04/03/2018 02:12:23 pm] returning date is 04/10/16
+[04/03/2018 02:12:23 pm] Start Day: 05/09/16 EndDay set is : 04/10/16
+[04/03/2018 02:12:23 pm] this is the new incomelineItemID: 449
+[04/03/2018 02:12:23 pm] Restting form value to null : selectedIncomeLineItem.paymentDateFormatted
+[04/03/2018 02:12:23 pm] Restting form value to null : selectedIncomeLineItem.descText
+[04/03/2018 02:12:23 pm] Restting form value to null : selectedIncomeLineItem.amount
+[04/03/2018 02:12:23 pm] Restting form value to null : selectedIncomeLineItem.amountPaid
+[04/03/2018 02:12:23 pm] Restting form value to null : selectedIncomeLineItem.fromDateFormatted
+[04/03/2018 02:12:23 pm] Restting form value to null : selectedIncomeLineItem.toDateFormatted
+[04/03/2018 02:12:23 pm] ID : 13
+[04/03/2018 02:12:23 pm] marked As Paid ID: 449
+[04/03/2018 02:12:23 pm] this is the ID 449
+[04/03/2018 02:12:23 pm] selectedIncomeSource baby: 52
+[04/03/2018 02:12:23 pm] this is the sourceID: 52
+[04/03/2018 02:12:23 pm] Name of the object: 449
+[04/03/2018 02:12:23 pm] blah here 1 
+[04/03/2018 02:12:23 pm] goat here 1 
+[04/03/2018 02:12:23 pm] laste Date on incomelineItem: 04/10/16
+[04/03/2018 02:12:23 pm] returning date is 05/10/16
+[04/03/2018 02:12:23 pm] goat here: start date is : 05/10/16
+[04/03/2018 02:12:23 pm] returning date is 05/11/16
+[04/03/2018 02:12:23 pm] maximum day of month is : 31
+[04/03/2018 02:12:23 pm] dayForEnddate: 05
+[04/03/2018 02:12:23 pm] returning date is 04/11/16
+[04/03/2018 02:12:23 pm] Start Day: 05/10/16 EndDay set is : 04/11/16
+[04/03/2018 02:12:23 pm] this is the new incomelineItemID: 450
+[04/03/2018 02:12:23 pm] Restting form value to null : selectedIncomeLineItem.paymentDateFormatted
+[04/03/2018 02:12:23 pm] Restting form value to null : selectedIncomeLineItem.descText
+[04/03/2018 02:12:23 pm] Restting form value to null : selectedIncomeLineItem.amount
+[04/03/2018 02:12:23 pm] Restting form value to null : selectedIncomeLineItem.amountPaid
+[04/03/2018 02:12:23 pm] Restting form value to null : selectedIncomeLineItem.fromDateFormatted
+[04/03/2018 02:12:23 pm] Restting form value to null : selectedIncomeLineItem.toDateFormatted
+[04/03/2018 02:12:23 pm] ID : 13
+[04/03/2018 02:13:32 pm] ID : 13
+[04/03/2018 02:13:32 pm] the First date: 31/01/2015
+[04/03/2018 02:13:32 pm] returning date is 03/03/15
+[04/03/2018 02:13:32 pm] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
+[04/03/2018 02:13:32 pm] firstDate: 31/01/15
+[04/03/2018 02:13:32 pm] selectedIncomeSource baby: 52
+[04/03/2018 02:20:37 pm] ID : 7
+[04/03/2018 02:20:37 pm] financial year start Time: 2017-07-01
+[04/03/2018 02:20:37 pm] financial year end Time: 2018-06-30
+[04/03/2018 02:20:37 pm] incoming enddate is: 30/06/18
+[04/03/2018 02:20:37 pm] before incomeLineItem search
+[04/03/2018 02:20:37 pm] before expenseLineItem search
+[04/03/2018 02:20:37 pm] Returning Summary: 250,0,250
+[04/03/2018 02:21:07 pm] ID : 7
+[04/03/2018 02:21:07 pm] the First date: 31/01/2015
+[04/03/2018 02:21:07 pm] returning date is 03/03/15
+[04/03/2018 02:21:07 pm] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
+[04/03/2018 02:21:07 pm] firstDate: 31/01/15
+[04/03/2018 02:21:07 pm] financial year start Time: 2017-07-01
+[04/03/2018 02:21:07 pm] financial year end Time: 2018-06-30
+[04/03/2018 02:21:07 pm] incoming enddate is: 30/06/18
+[04/03/2018 02:21:07 pm] before incomeLineItem search
+[04/03/2018 02:21:07 pm] before expenseLineItem search
+[04/03/2018 02:21:07 pm] Returning Summary: 250,0,250
+[04/03/2018 02:21:09 pm] the First date: 31/01/2015
+[04/03/2018 02:21:09 pm] returning date is 03/03/15
+[04/03/2018 02:21:09 pm] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
+[04/03/2018 02:21:09 pm] firstDate: 31/01/15
+[04/03/2018 02:22:25 pm] the First date: 31/01/2015
+[04/03/2018 02:22:25 pm] returning date is 03/03/15
+[04/03/2018 02:22:25 pm] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
+[04/03/2018 02:22:25 pm] firstDate: 31/01/15
+[04/03/2018 02:23:06 pm] ID : 7
+[04/03/2018 02:23:06 pm] financial year start Time: 2017-07-01
+[04/03/2018 02:23:06 pm] financial year end Time: 2018-06-30
+[04/03/2018 02:23:06 pm] incoming enddate is: 30/06/18
+[04/03/2018 02:23:06 pm] before incomeLineItem search
+[04/03/2018 02:23:06 pm] before expenseLineItem search
+[04/03/2018 02:23:06 pm] Returning Summary: 250,0,250
+[04/03/2018 02:23:20 pm] ID : 7
+[04/03/2018 02:23:20 pm] selectedIncomeSource baby: 
+[04/03/2018 02:23:20 pm] firstIncomeSource: 10
+[04/03/2018 02:23:25 pm] ID : 7
+[04/03/2018 02:23:25 pm] 24
+[04/03/2018 02:29:47 pm] ID : 7
+[04/03/2018 02:29:47 pm] 24
+[04/03/2018 02:30:37 pm] ID : 7
+[04/03/2018 02:30:37 pm] 24
+[04/03/2018 02:30:57 pm] the First date: 31/01/2015
+[04/03/2018 02:30:57 pm] returning date is 03/03/15
+[04/03/2018 02:30:57 pm] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
+[04/03/2018 02:30:57 pm] firstDate: 31/01/15
+[04/03/2018 02:31:39 pm] the First date: 31/01/2015
+[04/03/2018 02:31:39 pm] returning date is 03/03/15
+[04/03/2018 02:31:39 pm] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
+[04/03/2018 02:31:39 pm] firstDate: 31/01/15
+[04/03/2018 02:32:16 pm] the First date: 31/01/2015
+[04/03/2018 02:32:16 pm] returning date is 03/03/15
+[04/03/2018 02:32:16 pm] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
+[04/03/2018 02:32:16 pm] firstDate: 31/01/15
+[04/03/2018 02:32:52 pm] the First date: 31/01/2015
+[04/03/2018 02:32:52 pm] returning date is 03/03/15
+[04/03/2018 02:32:52 pm] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
+[04/03/2018 02:32:52 pm] firstDate: 31/01/15
+[04/03/2018 02:33:10 pm] the First date: 31/01/2015
+[04/03/2018 02:33:10 pm] returning date is 03/03/15
+[04/03/2018 02:33:10 pm] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
+[04/03/2018 02:33:10 pm] firstDate: 31/01/15
+[04/03/2018 02:34:35 pm] ID : 7
+[04/03/2018 02:34:35 pm] financial year start Time: 2017-07-01
+[04/03/2018 02:34:35 pm] financial year end Time: 2018-06-30
+[04/03/2018 02:34:35 pm] incoming enddate is: 30/06/18
+[04/03/2018 02:34:35 pm] before incomeLineItem search
+[04/03/2018 02:34:35 pm] before expenseLineItem search
+[04/03/2018 02:34:35 pm] Returning Summary: 250,0,250
+[04/03/2018 02:36:23 pm] ID : 7
+[04/03/2018 02:36:23 pm] financial year start Time: 2017-07-01
+[04/03/2018 02:36:23 pm] financial year end Time: 2018-06-30
+[04/03/2018 02:36:23 pm] incoming enddate is: 30/06/18
+[04/03/2018 02:36:23 pm] before incomeLineItem search
+[04/03/2018 02:36:23 pm] before expenseLineItem search
+[04/03/2018 02:36:23 pm] Returning Summary: 250,0,250
+[04/03/2018 02:37:58 pm] ID : 7
+[04/03/2018 02:37:58 pm] financial year start Time: 2017-07-01
+[04/03/2018 02:37:58 pm] financial year end Time: 2018-06-30
+[04/03/2018 02:37:58 pm] incoming enddate is: 30/06/18
+[04/03/2018 02:37:58 pm] before incomeLineItem search
+[04/03/2018 02:37:58 pm] before expenseLineItem search
+[04/03/2018 02:37:58 pm] Returning Summary: 250,0,250
+[04/03/2018 02:39:32 pm] ID : 7
+[04/03/2018 02:39:32 pm] financial year start Time: 2017-07-01
+[04/03/2018 02:39:32 pm] financial year end Time: 2018-06-30
+[04/03/2018 02:39:32 pm] incoming enddate is: 30/06/18
+[04/03/2018 02:39:32 pm] before incomeLineItem search
+[04/03/2018 02:39:32 pm] before expenseLineItem search
+[04/03/2018 02:39:32 pm] Returning Summary: 250,0,250
+[04/03/2018 02:39:40 pm] ID : 7
+[04/03/2018 02:39:40 pm] selectedIncomeSource baby: 
+[04/03/2018 02:39:40 pm] firstIncomeSource: 10
+[04/03/2018 02:39:56 pm] ID : 7
+[04/03/2018 02:39:56 pm] selectedIncomeSource baby: 
+[04/03/2018 02:39:56 pm] firstIncomeSource: 10
+[04/03/2018 02:40:00 pm] ID : 7
+[04/03/2018 02:40:00 pm] 24
+[04/03/2018 02:40:19 pm] ID : 7
+[04/03/2018 02:40:19 pm] 24
+[04/03/2018 02:40:31 pm] ID : 7
+[04/03/2018 02:40:31 pm] 24
+[04/03/2018 02:40:54 pm] ID : 7
+[04/03/2018 02:40:54 pm] 24
+[04/03/2018 02:40:59 pm] startDateExpenseSummary: 2018-03-04 endDateExpenseSummary2018-03-04
+[04/03/2018 02:40:59 pm] startDateExpenseSummary: 2018-03-04 endDateExpenseSummary2018-03-04
+[04/03/2018 02:40:59 pm] ID : 7
+[04/03/2018 02:40:59 pm] expenseSummaryJSON : startdate: 18-03 endDate: 18-03
+[04/03/2018 02:40:59 pm] before expenseLineItem search
+[04/03/2018 02:40:59 pm] count in expenseLineItems: 0
+[04/03/2018 02:40:59 pm] number in expense summary array: 0
+[04/03/2018 02:40:59 pm] Not Set
+[04/03/2018 02:40:59 pm] arraykeys : startend
+[04/03/2018 02:40:59 pm] incoming enddate is: 31/07/17
+[04/03/2018 02:40:59 pm] before incomeLineItem search
+[04/03/2018 02:40:59 pm] before expenseLineItem search
+[04/03/2018 02:40:59 pm] Returning Summary: 0,0,0
+[04/03/2018 02:40:59 pm] arraykeys : startend
+[04/03/2018 02:40:59 pm] incoming enddate is: 31/08/17
+[04/03/2018 02:40:59 pm] before incomeLineItem search
+[04/03/2018 02:40:59 pm] before expenseLineItem search
+[04/03/2018 02:40:59 pm] Returning Summary: 0,0,0
+[04/03/2018 02:40:59 pm] arraykeys : startend
+[04/03/2018 02:40:59 pm] incoming enddate is: 30/09/17
+[04/03/2018 02:40:59 pm] before incomeLineItem search
+[04/03/2018 02:40:59 pm] before expenseLineItem search
+[04/03/2018 02:40:59 pm] Returning Summary: 0,0,0
+[04/03/2018 02:40:59 pm] arraykeys : startend
+[04/03/2018 02:40:59 pm] incoming enddate is: 31/10/17
+[04/03/2018 02:40:59 pm] before incomeLineItem search
+[04/03/2018 02:40:59 pm] before expenseLineItem search
+[04/03/2018 02:40:59 pm] Returning Summary: 0,0,0
+[04/03/2018 02:40:59 pm] arraykeys : startend
+[04/03/2018 02:40:59 pm] incoming enddate is: 30/11/17
+[04/03/2018 02:40:59 pm] before incomeLineItem search
+[04/03/2018 02:40:59 pm] before expenseLineItem search
+[04/03/2018 02:40:59 pm] Returning Summary: 0,0,0
+[04/03/2018 02:40:59 pm] arraykeys : startend
+[04/03/2018 02:40:59 pm] incoming enddate is: 31/12/17
+[04/03/2018 02:40:59 pm] before incomeLineItem search
+[04/03/2018 02:40:59 pm] before expenseLineItem search
+[04/03/2018 02:40:59 pm] Returning Summary: 0,0,0
+[04/03/2018 02:40:59 pm] arraykeys : startend
+[04/03/2018 02:40:59 pm] incoming enddate is: 31/01/18
+[04/03/2018 02:40:59 pm] before incomeLineItem search
+[04/03/2018 02:40:59 pm] before expenseLineItem search
+[04/03/2018 02:40:59 pm] Returning Summary: 0,0,0
+[04/03/2018 02:40:59 pm] arraykeys : startend
+[04/03/2018 02:40:59 pm] incoming enddate is: 28/02/18
+[04/03/2018 02:40:59 pm] before incomeLineItem search
+[04/03/2018 02:41:00 pm] before expenseLineItem search
+[04/03/2018 02:41:00 pm] Returning Summary: 250,0,250
+[04/03/2018 02:41:00 pm] arraykeys : startend
+[04/03/2018 02:41:00 pm] incoming enddate is: 31/03/18
+[04/03/2018 02:41:00 pm] before incomeLineItem search
+[04/03/2018 02:41:00 pm] before expenseLineItem search
+[04/03/2018 02:41:00 pm] Returning Summary: 0,0,0
+[04/03/2018 02:41:00 pm] arraykeys : startend
+[04/03/2018 02:41:00 pm] incoming enddate is: 30/04/18
+[04/03/2018 02:41:00 pm] before incomeLineItem search
+[04/03/2018 02:41:00 pm] before expenseLineItem search
+[04/03/2018 02:41:00 pm] Returning Summary: 0,0,0
+[04/03/2018 02:41:00 pm] arraykeys : startend
+[04/03/2018 02:41:00 pm] incoming enddate is: 31/05/18
+[04/03/2018 02:41:00 pm] before incomeLineItem search
+[04/03/2018 02:41:00 pm] before expenseLineItem search
+[04/03/2018 02:41:00 pm] Returning Summary: 0,0,0
+[04/03/2018 02:41:00 pm] arraykeys : startend
+[04/03/2018 02:41:00 pm] incoming enddate is: 30/06/18
+[04/03/2018 02:41:00 pm] before incomeLineItem search
+[04/03/2018 02:41:00 pm] before expenseLineItem search
+[04/03/2018 02:41:00 pm] Returning Summary: 0,0,0
+[04/03/2018 02:41:00 pm] arraykeys : startend
+[04/03/2018 02:41:00 pm] incoming enddate is: 31/07/18
+[04/03/2018 02:41:00 pm] before incomeLineItem search
+[04/03/2018 02:41:00 pm] before expenseLineItem search
+[04/03/2018 02:41:00 pm] Returning Summary: 0,0,0
+[04/03/2018 02:41:00 pm] json data: [["Month","Rent","Expenses","Profit"],["Jul-17",0,0,0],["Aug-17",0,0,0],["Sep-17",0,0,0],["Oct-17",0,0,0],["Nov-17",0,0,0],["Dec-17",0,0,0],["Jan-18",0,0,0],["Feb-18",250,0,250],["Mar-18",0,0,0],["Apr-18",0,0,0],["May-18",0,0,0],["Jun-18",0,0,0],["Jul-18",0,0,0]]
+[04/03/2018 02:41:00 pm] number of report charts?? 2
+[04/03/2018 02:41:01 pm] ID : 7
+[04/03/2018 02:41:01 pm] 24
+[04/03/2018 02:41:15 pm] ID : 7
+[04/03/2018 02:41:15 pm] selectedIncomeSource baby: 
+[04/03/2018 02:41:15 pm] firstIncomeSource: 10
+[04/03/2018 02:41:17 pm] ID : 7
+[04/03/2018 02:41:17 pm] financial year start Time: 2017-07-01
+[04/03/2018 02:41:17 pm] financial year end Time: 2018-06-30
+[04/03/2018 02:41:17 pm] incoming enddate is: 30/06/18
+[04/03/2018 02:41:17 pm] before incomeLineItem search
+[04/03/2018 02:41:17 pm] before expenseLineItem search
+[04/03/2018 02:41:17 pm] Returning Summary: 250,0,250
+[04/03/2018 02:41:20 pm] ID : 7
+[04/03/2018 02:41:20 pm] selectedIncomeSource baby: 
+[04/03/2018 02:41:20 pm] firstIncomeSource: 10
+[04/03/2018 02:41:21 pm] the First date: 31/01/2015
+[04/03/2018 02:41:21 pm] returning date is 03/03/15
+[04/03/2018 02:41:21 pm] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
+[04/03/2018 02:41:21 pm] firstDate: 31/01/15
+[04/03/2018 02:41:35 pm] the First date: 31/01/2015
+[04/03/2018 02:41:35 pm] returning date is 03/03/15
+[04/03/2018 02:41:35 pm] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
+[04/03/2018 02:41:35 pm] firstDate: 31/01/15
+[04/03/2018 02:42:16 pm] the First date: 31/01/2015
+[04/03/2018 02:42:16 pm] returning date is 03/03/15
+[04/03/2018 02:42:16 pm] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
+[04/03/2018 02:42:16 pm] firstDate: 31/01/15
+[04/03/2018 02:43:14 pm] the First date: 31/01/2015
+[04/03/2018 02:43:14 pm] returning date is 03/03/15
+[04/03/2018 02:43:14 pm] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
+[04/03/2018 02:43:14 pm] firstDate: 31/01/15
+[04/03/2018 02:43:16 pm] 2
+[04/03/2018 02:43:16 pm] 2
+[04/03/2018 02:43:16 pm] 1 PettyCash ID 
+[04/03/2018 02:43:16 pm] 0
+[04/03/2018 02:43:22 pm] the First date: 31/01/2015
+[04/03/2018 02:43:22 pm] returning date is 03/03/15
+[04/03/2018 02:43:22 pm] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
+[04/03/2018 02:43:22 pm] firstDate: 31/01/15
+[04/03/2018 02:57:31 pm] the First date: 31/01/2015
+[04/03/2018 02:57:31 pm] returning date is 03/03/15
+[04/03/2018 02:57:31 pm] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
+[04/03/2018 02:57:31 pm] firstDate: 31/01/15
+[04/03/2018 02:57:32 pm] ID : 9
+[04/03/2018 02:57:32 pm] financial year start Time: 2017-07-01
+[04/03/2018 02:57:32 pm] financial year end Time: 2018-06-30
+[04/03/2018 02:57:32 pm] incoming enddate is: 30/06/18
+[04/03/2018 02:57:32 pm] before incomeLineItem search
+[04/03/2018 02:57:32 pm] before expenseLineItem search
+[04/03/2018 02:57:32 pm] Returning Summary: 0,0,0
+[04/03/2018 02:57:34 pm] ID : 9
+[04/03/2018 02:57:34 pm] selectedIncomeSource baby: 
+[04/03/2018 02:59:37 pm] ID : 9
+[04/03/2018 02:59:37 pm] selectedIncomeSource baby: 
+[04/03/2018 02:59:51 pm] ID : 9
+[04/03/2018 02:59:51 pm] financial year start Time: 2017-07-01
+[04/03/2018 02:59:51 pm] financial year end Time: 2018-06-30
+[04/03/2018 02:59:51 pm] incoming enddate is: 30/06/18
+[04/03/2018 02:59:51 pm] before incomeLineItem search
+[04/03/2018 02:59:51 pm] before expenseLineItem search
+[04/03/2018 02:59:51 pm] Returning Summary: 0,0,0
+[04/03/2018 02:59:55 pm] the First date: 31/01/2015
+[04/03/2018 02:59:55 pm] returning date is 03/03/15
+[04/03/2018 02:59:55 pm] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
+[04/03/2018 02:59:55 pm] firstDate: 31/01/15
+[04/03/2018 02:59:57 pm] ID : 22
+[04/03/2018 02:59:57 pm] financial year start Time: 2017-07-01
+[04/03/2018 02:59:57 pm] financial year end Time: 2018-06-30
+[04/03/2018 02:59:57 pm] incoming enddate is: 30/06/18
+[04/03/2018 02:59:57 pm] before incomeLineItem search
+[04/03/2018 02:59:57 pm] before expenseLineItem search
+[04/03/2018 02:59:57 pm] Returning Summary: 0,0,0
+[04/03/2018 02:59:59 pm] ID : 22
+[04/03/2018 02:59:59 pm] selectedIncomeSource baby: 
+[04/03/2018 02:59:59 pm] firstIncomeSource: 58
+[04/03/2018 03:00:54 pm] ID : 22
+[04/03/2018 03:00:54 pm] selectedIncomeSource baby: 
+[04/03/2018 03:00:54 pm] firstIncomeSource: 58
+[04/03/2018 03:01:16 pm] ID : 22
+[04/03/2018 03:01:16 pm] selectedIncomeSource baby: 
+[04/03/2018 03:01:16 pm] firstIncomeSource: 58
+[04/03/2018 03:01:26 pm] ID : 22
+[04/03/2018 03:01:26 pm] selectedIncomeSource baby: 
+[04/03/2018 03:01:26 pm] firstIncomeSource: 58
+[04/03/2018 03:01:33 pm] ID : 22
+[04/03/2018 03:01:33 pm] selectedIncomeSource baby: 
+[04/03/2018 03:01:33 pm] firstIncomeSource: 58
+[04/03/2018 03:02:21 pm] ID : 22
+[04/03/2018 03:02:21 pm] selectedIncomeSource baby: 
+[04/03/2018 03:02:21 pm] firstIncomeSource: 58
+[04/03/2018 03:02:35 pm] ID : 22
+[04/03/2018 03:02:35 pm] selectedIncomeSource baby: 
+[04/03/2018 03:02:35 pm] firstIncomeSource: 58
+[04/03/2018 03:02:44 pm] ID : 22
+[04/03/2018 03:02:44 pm] selectedIncomeSource baby: 
+[04/03/2018 03:02:44 pm] firstIncomeSource: 58
+[04/03/2018 03:03:01 pm] ID : 22
+[04/03/2018 03:03:01 pm] selectedIncomeSource baby: 
+[04/03/2018 03:03:01 pm] firstIncomeSource: 58
+[04/03/2018 03:03:10 pm] ID : 22
+[04/03/2018 03:03:10 pm] selectedIncomeSource baby: 
+[04/03/2018 03:03:10 pm] firstIncomeSource: 58
+[04/03/2018 03:04:11 pm] ID : 22
+[04/03/2018 03:04:11 pm] selectedIncomeSource baby: 
+[04/03/2018 03:04:11 pm] firstIncomeSource: 58
+[04/03/2018 03:04:50 pm] ID : 22
+[04/03/2018 03:04:50 pm] 4
+[04/03/2018 03:04:53 pm] ID : 22
+[04/03/2018 03:04:53 pm] selectedIncomeSource baby: 
+[04/03/2018 03:04:53 pm] firstIncomeSource: 58
+[04/03/2018 03:04:54 pm] ID : 22
+[04/03/2018 03:04:54 pm] financial year start Time: 2017-07-01
+[04/03/2018 03:04:54 pm] financial year end Time: 2018-06-30
+[04/03/2018 03:04:54 pm] incoming enddate is: 30/06/18
+[04/03/2018 03:04:54 pm] before incomeLineItem search
+[04/03/2018 03:04:54 pm] before expenseLineItem search
+[04/03/2018 03:04:54 pm] Returning Summary: 0,0,0
+[04/03/2018 03:04:56 pm] ID : 22
+[04/03/2018 03:04:56 pm] 4
+[04/03/2018 03:04:59 pm] ID : 22
+[04/03/2018 03:04:59 pm] selectedIncomeSource baby: 
+[04/03/2018 03:04:59 pm] firstIncomeSource: 58
+[04/03/2018 03:05:03 pm] ID : 22
+[04/03/2018 03:05:03 pm] financial year start Time: 2017-07-01
+[04/03/2018 03:05:03 pm] financial year end Time: 2018-06-30
+[04/03/2018 03:05:03 pm] incoming enddate is: 30/06/18
+[04/03/2018 03:05:03 pm] before incomeLineItem search
+[04/03/2018 03:05:03 pm] before expenseLineItem search
+[04/03/2018 03:05:03 pm] Returning Summary: 0,0,0
+[04/03/2018 03:05:54 pm] ID : 22
+[04/03/2018 03:05:54 pm] financial year start Time: 2017-07-01
+[04/03/2018 03:05:54 pm] financial year end Time: 2018-06-30
+[04/03/2018 03:05:54 pm] incoming enddate is: 30/06/18
+[04/03/2018 03:05:54 pm] before incomeLineItem search
+[04/03/2018 03:05:54 pm] before expenseLineItem search
+[04/03/2018 03:05:54 pm] Returning Summary: 0,0,0
+[08/03/2018 04:18:23 pm] ** ERROR: could not find component with name: mrinfo, ../Private/Components/mrinfo.php
+[08/03/2018 04:18:23 pm] Array
+(
+    [0] => Array
+        (
+            [file] => /usr/local/sqonk/BLogic/Framework/PL/PLRequestResponseHandler.php
+            [line] => 149
+            [function] => componentWithName
+            [class] => PLController
+            [type] => ::
+            [args] => Array
+                (
+                    [0] => mrinfo
+                    [1] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [1] => Array
+        (
+            [file] => /Automaton/TrackAssets/Public/index.php
+            [line] => 13
+            [function] => handleRequest
+            [args] => Array
+                (
+                    [0] => FrontPage
+                )
+
+        )
+
+)
+
+[08/03/2018 04:18:24 pm] ** ERROR: could not find component with name: main, ../Private/Components/main.php
+[08/03/2018 04:18:24 pm] Array
+(
+    [0] => Array
+        (
+            [file] => /usr/local/sqonk/BLogic/Framework/PL/PLRequestResponseHandler.php
+            [line] => 149
+            [function] => componentWithName
+            [class] => PLController
+            [type] => ::
+            [args] => Array
+                (
+                    [0] => main
+                    [1] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [1] => Array
+        (
+            [file] => /Automaton/TrackAssets/Public/index.php
+            [line] => 13
+            [function] => handleRequest
+            [args] => Array
+                (
+                    [0] => FrontPage
+                )
+
+        )
+
+)
+
+[08/03/2018 04:19:31 pm] the First date: 31/01/2015
+[08/03/2018 04:19:31 pm] returning date is 03/03/15
+[08/03/2018 04:19:31 pm] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
+[08/03/2018 04:19:31 pm] firstDate: 31/01/15
+[08/03/2018 04:20:19 pm] the First date: 31/01/2015
+[08/03/2018 04:20:19 pm] returning date is 03/03/15
+[08/03/2018 04:20:19 pm] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
+[08/03/2018 04:20:19 pm] firstDate: 31/01/15
+[08/03/2018 04:20:19 pm] the First date: 31/01/2015
+[08/03/2018 04:20:19 pm] returning date is 03/03/15
+[08/03/2018 04:20:19 pm] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
+[08/03/2018 04:20:19 pm] firstDate: 31/01/15
+[08/03/2018 04:20:21 pm] the First date: 31/01/2015
+[08/03/2018 04:20:21 pm] returning date is 03/03/15
+[08/03/2018 04:20:21 pm] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
+[08/03/2018 04:20:21 pm] firstDate: 31/01/15

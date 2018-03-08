@@ -3,7 +3,7 @@
 <input type="hidden" name="currentView" value="<?php echo $controller->formValueForKey("currentView"); ?>" id="currentView">
 <input type="hidden" name="selectedIncomeSourceID" value="<?php echo $controller->formValueForKey("selectedIncomeSourceID"); ?>" id="selectedIncomeSourceID">
 	<div class="tabular scrollableArea" style="height:600px;">
-					<table class="table table-bordered" border="0" cellpadding="0" cellspacing="0">
+					<table class="table " border="0" cellpadding="0" cellspacing="0">
 						<tr class="tableHead">
 							<td style="width:60px"></td>
 							<td style="width:120px">Payment Status</td>
@@ -13,7 +13,7 @@
 							<td style="width:200px">Occupant</td>
 						</tr>
 						<?php $unpaidIncomeLineItems = $controller->investmentPortfolio()->unpaidIncomeLineItems(); foreach($unpaidIncomeLineItems as $incomeLineItem) : ?>
-						<tr class="<?php echo $incomeLineItem->cssString() ?>">
+						<tr class="<?php echo $incomeLineItem->cssString() ?> <?php if ($controller->rowFlipper()) echo "lightGrey";?>">
 							<td><?php 
 								addSubmitButtonWithActions("View", array("page" => "AssetDetails", "action" => "doNothing", "selectedID" => $incomeLineItem->valueForKeyPath("incomesource.assetID"), "currentView" => "Income", "selectedIncomeSourceID" =>$incomeLineItem->valueForKeyPath("incomesource.incomeSourceID"))); ?></td>
 							<td class="status"><?php echo $incomeLineItem->status(); ?></td>

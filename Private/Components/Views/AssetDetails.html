@@ -66,9 +66,16 @@
 		margin-bottom: 5px;
 		margin-top:5px;
 	}
-	
-	
-	
+
+	.innerActionsBar{
+		background-color: lightgrey;
+		height:35px;
+	}
+	.creationBar{
+		float:right;
+		padding-top:6px;
+		padding-right:5px;"
+	}
 
 </style>
 
@@ -170,7 +177,7 @@
 							<td style="width:300px">Occupant</td>
 						</tr>
 						<?php $nonDeletedIncomeLineItems = $controller->asset()->unpaidIncomeLineItems(); foreach($nonDeletedIncomeLineItems as $incomeLineItem) : ?>
-						<tr class="<?php echo $incomeLineItem->cssString() ?>">
+						<tr class="<?php echo $incomeLineItem->cssString() ?> <?php if ($controller->rowFlipper()) echo "lightGrey";?>" >
 							<td class="status"><?php echo $incomeLineItem->status(); ?></td>
 							<td><?php echo $incomeLineItem->fromDateFormatted(); ?></td>
 							<td><?php echo $incomeLineItem->toAndFromString(); ?></td>
@@ -208,16 +215,10 @@
    	 </div>
    	   
    	 <div class="innerActionsBar">
-   	 	<div>
-   	 		
-   	 	<div>
-   	 	<div class="actionsArea">
-     		<?php addSubmitButtonWithActions("Create Income Item", array("page" => "AssetDetails", "action" => "createIncomeLineItem")); ?>
-     	</div>
-     	<div class="leftBarArea">
-   	 		
-   	 	</div>
-     </div> 
+		 <div class="creationBar" >
+		 	<?php addSubmitButtonWithActions("Create Income Item", array("page" => "AssetDetails", "action" => "createIncomeLineItem")); ?>
+		 </div>
+	</div>
    	<div>
    	
    <?php if($controller->selectedIncomeSource()) : ?>
@@ -271,7 +272,7 @@
 				<td style="width:5%"></td>
          	</tr>
          <?php $incomeLineItems = $controller->selectedIncomeSource()->nonDeletedIncomeLineItems(); foreach($incomeLineItems as $incomeLineItem) : ?>
-         <tr class="<?php echo $incomeLineItem->cssString() ?>">
+         <tr class="<?php echo $incomeLineItem->cssString() ?> <?php if ($controller->rowFlipper()) echo "lightGrey";?>">
          		<td>
          		<?php addSubmitLinkWithActions("mainForm", array("page" => "AssetDetails", "action" => "resetIncomeLineItemForm", "selectedIncomeLineItemID" => $incomeLineItem->vars["incomeLineItemID"]), null ,"images/write-btn.gif"); ?>
          		&nbsp<?php if(!$incomeLineItem->isPaid())addSubmitLinkWithActions("mainForm", array("page" => "AssetDetails", "action" => "markAsPaid", "incomeToBeMarkedAsPaidID" => $incomeLineItem->vars["incomeLineItemID"]), null ,"images/dollarSign.jpeg"); ?>
@@ -304,12 +305,9 @@
     <div id="ExpenditureDiv">    
 	<div class="innerActionsBar">
    	 	
-   	 	<div class="actionsArea">
+   	 	<div class="creationBar">
      		<?php addSubmitButtonWithActions("Create Expense Item", array("page" => "AssetDetails", "action" => "createExpenseLineItem", "selectedID" => $controller->asset()->vars["assetID"])); ?>
      	</div>
-     	<div class="leftBarArea">
-   	 		
-   	 	</div>
    	<?php if($controller->hasSelectedExpenseLineItem()) : ?><div class="eliDetails selectedArea">  
 	
 		 <div class="labelAndValue"><div class="header">Payment Date:</div><div><input type="text" name="selectedExpenseLineItem.expenseDateFormatted" value="<?php echo $controller->formValueForKeyPath("selectedExpenseLineItem.expenseDateFormatted") ?>" placeholder="dd/mm/yyyy" id="expenseDateID"></div></div>
@@ -329,7 +327,7 @@
 	</div>
 	<div class="tabular scrollableArea">               
 		<table>            
-			<tr class="tableHead">
+			<tr class="tableHead ">
 				<td style="width:5%"></td>
 				<td style="width:20%">Payment Date</td>
 				<td style="width:20%">Type</td>
@@ -338,7 +336,7 @@
 				<td style="width:5%"></td>           
 			</tr>             
 			<?php $expenseLineItems = $controller->asset()->sortedExpenseLineitemsBasedOnPaymentDate(); foreach($expenseLineItems as $expenseLineItem) : ?>
-				<tr>   
+				<tr class="<?php if ($controller->rowFlipper()) echo "lightGrey";?>">
 					<td style="text-align:center"><?php addSubmitButtonWithActions("Edit", array("page" => "AssetDetails", "action" => "resetExpenseLineItemForm", "selectedExpenseLineItemID" => $expenseLineItem->vars["expenseLineItemID"])); ?></td>         
 					<td><?php echo $expenseLineItem->expenseDateFormatted(); ?></td>
 					            

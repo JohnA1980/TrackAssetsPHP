@@ -1,7 +1,6 @@
 <?php 
 	require_once BLOGIC."/BLogic.php"; 
-	
-	 
+
 	class AssetResults extends PLController 
 	{ 
 		public function __construct($formData) 
@@ -11,7 +10,7 @@
 		} 
         
         protected $assets;
-        
+        protected $rowFlipper = true;
         public function assets()
         {
             if (! $this->assets)
@@ -56,5 +55,12 @@
             }
             return $this->assets;
         }
-	} 
+
+        public function rowFlipper(){
+            $this->rowFlipper = !$this->rowFlipper;
+            return $this->rowFlipper;
+        }
+	}
+
+
 ?>

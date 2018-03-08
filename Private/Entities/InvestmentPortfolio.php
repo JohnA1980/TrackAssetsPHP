@@ -64,7 +64,7 @@
 				}
 			}
 		
-			echo ("number of income : " . count($allIncomeLineItems));
+			//echo ("number of income : " . count($allIncomeLineItems));
 			return $allIncomeLineItems;
 				
 		}
@@ -80,7 +80,7 @@
 				}
 			}
 		
-			echo ("number of income : " . count($allIncomeLineItems));
+			//echo ("number of income : " . count($allIncomeLineItems));
 			return $allIncomeLineItems;
 		
 		}
