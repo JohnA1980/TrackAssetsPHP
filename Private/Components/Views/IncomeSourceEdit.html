@@ -22,6 +22,7 @@
 			<td>Name</td>
 			<td>Current Tenant</td>
 			<td>Payment Frequency</td>
+			<td>Post Paid</td>
 			<td>Amount</td>
             <td></td>
 		</tr>
@@ -55,6 +56,16 @@
 						</select>	
         			</td>
         			<td>
+        				<select name="selectedIncomeSource.postPaidNum" style="font-size:1.2em;">
+        					<?php 
+        					$def = $controller->formValueForKeyPath("selectedIncomeSource.postPaidNum");
+        					constructSelectOption($def, 1, " ");
+        					constructSelectOption($def, 1, "Yes");
+        					constructSelectOption($def, 0, "No");
+        					?>
+						</select>	
+        			</td>
+        			<td>
                         <input type="text" name="selectedIncomeSource.paymentAmount" value="<?php echo $controller->formValueForKeyPath("selectedIncomeSource.paymentAmount"); ?>" style="width:60px;">
         			</td>
                     <td>
@@ -71,6 +82,7 @@
         			<td><?php echo $is->vars["name"]; ?></td>
         			<td><?php echo $is->safeOccupantFullName(); ?></td>
         			<td><?php echo $is->safeFrequencyName(); ?></td>
+        			<td><?php echo $is-> isPostPaidString(); ?></td>
         			<td><?php echo $is->vars["paymentAmount"]; ?></td>
                     <td><?php addSubmitLinkWithActionsAndCallback("confirmDeleteSubmit()", array("page" => "IncomeSourceEdit", "action" => "deleteIncomeSource", "deleteIncomeSourceID" => $is->vars["incomeSourceID"]), null, "images/iconDelete.png"); ?></td>
         		</tr>

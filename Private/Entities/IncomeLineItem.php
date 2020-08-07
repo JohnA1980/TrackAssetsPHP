@@ -10,8 +10,13 @@
 	{ 
 		public static $PENDING = "Pending";
 		public static $PAID = "Paid";
+		public static $DUE_TODAY = "Due Today";
 		public static $OVERDUE = "Overdue";
+		
 		public static $DATE_FORMAT = "d/m/Y";
+		
+		private static $ONE_INTEGER = 1;
+		private static $ZERO_INTEGER = 0;
 		
 		public function __construct($dataSource = null) 
 		{ 
@@ -52,13 +57,22 @@
 			
 			if(is_null($this->vars["paymentDate"])){
 				$fromDate = $this->fromDateObject(); 
+				$toDate = $this->toDateObject(); 
 				$currentDate = new DateTime();
 				
 				//echo "From Date is " . $fromDate->format("Y-m-d") . " Current Date: " . $currentDate->format("Y-m-d");
 				
-				if($fromDate < $currentDate){
+				$comparatorDate = $this->isPostPaid() ? $toDate : $fromDate;
+				
+				debugln("comparatorDate " . $comparatorDate->format(IncomeLineItem::$DATE_FORMAT) . " this is currentDate: " . $currentDate->format(IncomeLineItem::$DATE_FORMAT) . " is equal?? " + ($comparatorDate == $currentDate));
+				
+				if($comparatorDate->format(IncomeLineItem::$DATE_FORMAT) == $currentDate->format(IncomeLineItem::$DATE_FORMAT)) {
+					return IncomeLineItem::$DUE_TODAY;
+				}
+				else if($comparatorDate < $currentDate){
 					return IncomeLineItem::$OVERDUE;
 				}
+				
 				else
 					return IncomeLineItem::$PENDING;
 				
@@ -66,6 +80,10 @@
 			else{
 				return IncomeLineItem::$PAID;
 			}
+		}
+		
+		public function isDueToday(){
+			return $this->status() == IncomeLineItem::$DUE_TODAY;
 		}
 		
 		public function isOverDue(){
@@ -80,10 +98,15 @@
 			return $this->status() == IncomeLineItem::$PAID;
 		}
 		
+		public function isPostPaid(){
+			//debugln("this is the ID " . $this->vars["incomeLineItemID"] . " this is post paid: " . $this->vars["postPaidNum"]);
+			return !is_null($this->vars["postPaidNum"]) ? $this->vars["postPaidNum"]  == IncomeLineItem::$ONE_INTEGER: false;
+		}
+		
 		public function cssString(){
 			if($this->isOverDue())
 				return "overdue";
-			else if($this->isPending())
+			else if($this->isPending() || $this->isDueToday())
 				return "pending";
 			else
 				return "paid";
@@ -199,7 +222,7 @@
 			$toAndFromDates = $toAndFromDates . ($this->fromDate() != null ? $this->fromDateFormatted() : "N/A");
 			$toAndFromDates = $toAndFromDates. " to ";
 			$toAndFromDates = $toAndFromDates. ($this->toDate() != null ? $this->toDateFormatted() : "N/A");
-			 
+			$toAndFromDates = $toAndFromDates. ($this->isPostPaid() ? " (P)" : ""); 
 			return $toAndFromDates;
 		}
 		
@@ -212,7 +235,6 @@
 		
 		public function markAsPaid(){
 			$todaysDate = new DateTime();
-			debugln("this is the ID " . $this->vars["incomeLineItemID"]);
 			$this->vars["paymentDate"] = $todaysDate->format('Y-m-d');
 			$this->vars["amountPaid"] = $this->vars["amount"];
 		}

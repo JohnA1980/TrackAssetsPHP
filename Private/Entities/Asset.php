@@ -424,6 +424,7 @@
 		function incomeLineItemsBetweenDates($startDate, $endDate)
 		{
 			debugln("incoming enddate is: " . $endDate->format("d/m/y"));
+			
 			$qual = new BLAndQualifier(array(
 					//new BLKeyValueQualifier("ins.assetID", OP_EQUAL, $this->vars["assetID"]),
 					//new BLKeyValueQualifier("ili.paymentDate", OP_GREATER_EQUAL, $startDate->format("Y-m-d")),
@@ -439,10 +440,7 @@
 			//$order = array("ili.paymentDate" => ORDER_ASCEND);
 			debugln("before incomeLineItem search");
 			return BLGenericRecord::find("IncomeLineItem", $qual, null, array("sqlTableIdentity" => "ili", "joins" => array("IncomeSource ins on ins.incomeSourceID = ili.incomeSourceID")));
-			debugln("after incomeLineItem search");
-			//return $found = BLGenericRecord::find("IncomeLineItem", $qual);
-			//return $found = BLGenericRecord::find("IncomeLineItem");
-			
+
 		}
 		
 		function expensesBetweenDates($startDate, $endDate){

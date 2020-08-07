@@ -10,6 +10,9 @@
 	 
 	class IncomeSource extends BLGenericRecord 
 	{ 
+		private static $ONE_INTEGER = 1;
+		private static $ZERO_INTEGER = 0;
+	
 		public function __construct($dataSource = null) 
 		{ 
 			parent::__construct($dataSource); 
@@ -31,6 +34,7 @@
 			return "incomeSourceID"; 
 		}
 		
+		
 		/*
 			Override this method if you have any database fields which should not
 			be modified or saved back to the server. This provides only 'quiet' protection.
@@ -45,6 +49,15 @@
 		
 		public function occupant(){
 			return $this->valueForRelationship("occupant");
+		}
+		
+		public function isPostPaid(){
+			//debugln("this is the ID " . $this->vars["incomeLineItemID"] . " this is post paid: " . $this->vars["postPaidNum"]);
+			return !is_null($this->vars["postPaidNum"]) ? $this->vars["postPaidNum"]  == IncomeSource::$ONE_INTEGER: false;
+		}
+		
+		public function isPostPaidString(){
+			return $this->isPostPaid() ? "Yes" : "No";
 		}
 		
 		public function safeOccupantFullName() {
@@ -166,6 +179,7 @@
 			$lineItem->vars["incomeSourceID"] = $this->vars["incomeSourceID"];
 			$lineItem->vars["descText"] = "Rent";
 			$lineItem->vars["amount"] = $this->vars["paymentAmount"];
+			$lineItem->vars["postPaidNum"] = $this->vars["postPaidNum"];
 			
 			$lineItem->vars["occupantID"] = $this->valueForKeyPath("occupant.occupantID");
 			

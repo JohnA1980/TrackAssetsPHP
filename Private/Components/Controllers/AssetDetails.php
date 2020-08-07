@@ -43,6 +43,8 @@
                 }
                 else {
                     $this->asset = BLGenericRecord::newRecordOfType("Asset");
+                    $this->asset->vars["investmentPortfolioID"] = $_SESSION["investmentPortfolioID"];
+                    $this->asset->save();
                 }
             }
             return $this->asset;
@@ -53,6 +55,10 @@
             $this->processFormValueKeyPathsForSave();
             try {
                 $this->asset()->save();
+                
+                if($this->selectedIncomeSource){
+                	$this->selectedIncomeSource()->save();
+                }
                 
                 if($this->selectedIncomeLineItem){
                 	$this->selectedIncomeLineItem()->save();

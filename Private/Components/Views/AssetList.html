@@ -103,7 +103,8 @@ function doSearch() {
 	</div>
 	<div style="float:right;">
 		<!-- addSubmitButtonWithActions($label, $actions, $class = null, $id = null, $callBack = null, $disabled = false)-->
-		<?php addSubmitButtonWithActions("New Asset", array("mpage" => "PatientList", "maction" => "newPatient"), "btn btn-info"); ?>
+		<?php addSubmitButtonWithActions("New Asset", array("page" => "AssetDetails", "action" => "doNothing"), "btn btn-info"); ?>
+		
 	</div>
 </div>
 

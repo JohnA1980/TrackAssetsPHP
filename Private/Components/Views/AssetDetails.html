@@ -138,13 +138,13 @@
 		<div style="width:100%; overflow:hidden;">
 			<div style="width:49%; float:left;">
 				<div class="detailsHeading">Name</div>
-				<input style="width:97%;" type="text" name="asset.name" value= "<?php echo $controller->asset()->vars["name"] ?>" id="asset.name" class="textEntry">
+				<input style="width:97%;" type="text" name="asset.name" value= "<?php echo $controller->asset()->field('name') ?>" id="asset.name" class="textEntry">
 				<div class="detailsHeading">Address</div>
-				<textarea style="width:95%; height:100px;" name="asset.address" id="asset.address" placeholder="Enter Address Here" ><?php echo $controller->asset()->vars["address"] ?></textarea>
+				<textarea style="width:95%; height:100px;" name="asset.address" id="asset.address" placeholder="Enter Address Here" ><?php echo $controller->asset()->field("address") ?></textarea>
 			</div>
 			<div style="width:49%; float:left; ">
 				<div class="detailsHeading">Details</div>
-				<textarea style="width:95%; height:149px;" name="asset.descText" id="asset.descText" placeholder="Enter Description Here" ><?php echo $controller->asset()->vars["descText"] ?></textarea>
+				<textarea style="width:95%; height:149px;" name="asset.descText" id="asset.descText" placeholder="Enter Description Here" ><?php echo $controller->asset()->field("descText") ?></textarea>
 			</div>
 		</div>
 			
@@ -213,7 +213,6 @@
    	 		<?php addSubmitButtonWithActions("Edit Rooms", array("page" => "IncomeSourceEdit", "action" => "doNothing", "selectedID" => $controller->asset()->vars["assetID"])); ?>
    	 		<?php addSubmitButtonWithActions("Edit Occupants", array("page" => "OccupantDetailsList", "action" => "doNothing", "selectedID" => $controller->asset()->vars["assetID"])); ?>
    	 </div>
-   	   
    	 <div class="innerActionsBar">
 		 <div class="creationBar" >
 		 	<?php addSubmitButtonWithActions("Create Income Item", array("page" => "AssetDetails", "action" => "createIncomeLineItem")); ?>
@@ -225,7 +224,13 @@
    	<div class="subSectionTitle" >
    		Bedroom: <?php echo $controller->safeNameAndOccupant(); ?>
    	</div>	
-    
+     <div class="selectedIncomeSourceArea">
+   	 	<div>
+   	 	<textarea placeholder="Notes" id="selectedIncomeSource.notes" name="selectedIncomeSource.notes" class="incomeSourceNotes">
+<?php echo $controller->formValueForKeyPath("selectedIncomeSource.notes") ?>
+</textarea>
+   	 	</div>
+   	 </div> 
     <?php if ($controller->selectedIncomeLineItem()) : ?>
 	<div class="inliDetails selectedArea" style="height:55px;">     
 		<div class="labelAndValue">
@@ -249,7 +254,7 @@
                 <input type="text" name="selectedIncomeLineItem.descText" value="<?php echo $controller->formValueForKeyPath("selectedIncomeLineItem.descText"); ?>" placeholder="short description">
             </div>
         </div>
-		<div class="labelAndValue" style="width:120px;"><div class="labels">Amount:</div><div><?php addTextField("selectedIncomeLineItem.amount", $controller->selectedIncomeLineItem()->vars["amount"],"selectedIncomeLineItem.amount"); ?></div></div>
+		<div class="labelAndValue" style="width:120px;"><div class="labels">Amount:</div><div><?php addTextField("selectedIncomeLineItem.amount", $controller->selectedIncomeLineItem()->field('amount'),"selectedIncomeLineItem.amount"); ?></div></div>
 		<div class="labelAndValue" style="width:120px;"><div class="labels">Amount Paid:</div><div><?php addTextField("selectedIncomeLineItem.amountPaid", $controller->selectedIncomeLineItem()->vars["amountPaid"],"selectedIncomeLineItem.amountPaid"); ?></div></div>
 		<div id="dateField" class="labelAndValue"  style="width:200px;"><div class="labels">From-To Date:</div><div><table><tr><td><?php addTextField("selectedIncomeLineItem.fromDateFormatted", $controller->selectedIncomeLineItem()->fromDateFormatted(),"selectedIncomeLineItem.fromDateFormatted", null ,"incomeFromDateID"); ?></td><td> - </td><td>&nbsp;<?php addTextField("selectedIncomeLineItem.toDateFormatted", $controller->selectedIncomeLineItem()->toDateFormatted(),"selectedIncomeLineItem.toDateFormatted", null, "incomeToDateID"); ?></td></tr></table> </div></div>
         <div class="labelAndValue">

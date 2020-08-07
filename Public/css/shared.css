@@ -24,6 +24,10 @@ img {
 }
 
 
+.occupantDetailsArea{
+	margin-bottom:20px;
+}
+
 
 /********** PETTY CASH List **********/
 
@@ -41,4 +45,14 @@ img {
 
 .lightGrey{
 	background-color: #F1F1F1;
+}
+
+.incomeSourceNotes{
+	height:50px;
+	width:100%;
+}
+
+.selectedOccupantNotes{
+	height:80px;
+	width:90%;
 }

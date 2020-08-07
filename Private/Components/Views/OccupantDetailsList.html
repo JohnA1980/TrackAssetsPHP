@@ -2,14 +2,24 @@
 	.occupantInfoPane{
 		float:left;
 		display:inline;
-		width:400px;
+		width:50%;
 	}
 	
 	.occupantDocumentsPane{
 		float:left;
-		width:400px;
 		padding-left:20px;
 	}
+	
+	
+	table.occupantDetailsTable td{
+		padding:10px;
+		text-align: left;
+	}
+	
+	table.occupantDetailsTable input{
+		width:100%;
+	}
+		
 </style>
 
 <webobject name="PageWrapper">
@@ -66,10 +76,10 @@
 <?php if ($controller->selectedOccupant()) : ?>
 	<div class="occupantDetailsArea">
 		<div class="occupantInfoPane">
-			<table border="0" cellpadding="2" cellspacing="0">
+			<table border="0" class="occupantDetailsTable">
 				<tr>
-					<td class="labels" style="width:200px;">Given:</td>
-					<td style="width:400px;"><?php addTextField("selectedOccupant.given", $controller->selectedOccupant()->vars["given"], $enabled = true, $class = null, $id = "selectedOccupant.given", $style = null, $addHiddenFieldWhenDisabled = false); ?></td>
+					<td class="labels" style="width:250px;">Given:</td>
+					<td style="width:350px;"><?php addTextField("selectedOccupant.given", $controller->selectedOccupant()->vars["given"], $enabled = true, $class = null, $id = "selectedOccupant.given", $style = null, $addHiddenFieldWhenDisabled = false); ?></td>
 				</tr>
 				<tr>
 					<td class="labels">Surname:</td>
@@ -101,7 +111,12 @@
 				</tr>
 				<tr>
 					<td class="labels" >Notes:</td>
-					<td><?php addTextField("selectedOccupant.otherNotes", $controller->selectedOccupant()->vars["otherNotes"], $enabled = true, $class = null, $id = "selectedOccupant.otherNotes", $style = null, $addHiddenFieldWhenDisabled = false); ?></td>
+					<td>
+					<textarea placeholder="Occupant Notes" id="selectedOccupant.otherNotes" name="selectedOccupant.otherNotes" class="selectedOccupantNotes">
+<?php echo $controller->formValueForKeyPath("selectedOccupant.otherNotes") ?>
+</textarea>
+					
+					</td>
 				</tr>
 			</table>
 		</div>

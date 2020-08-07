@@ -3573,3 +3573,2799 @@
 [08/03/2018 04:20:21 pm] returning date is 03/03/15
 [08/03/2018 04:20:21 pm] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
 [08/03/2018 04:20:21 pm] firstDate: 31/01/15
+[04/07/2020 08:34:56 am] perma link part count for / 1
+[04/07/2020 08:34:56 am] examining permalink path...
+[04/07/2020 08:34:56 am] ip address: 127.0.0.1
+[04/07/2020 08:34:56 am] request page: 
+[04/07/2020 08:34:56 am] page=Login
+[04/07/2020 08:34:56 am] loading controller ../Private/Components/Controllers/Login.php
+[04/07/2020 08:34:56 am] choosing template Login
+[04/07/2020 08:34:56 am] letComponentHandleRequest: Login
+[04/07/2020 08:34:56 am] starting component: Login, final: Login
+[04/07/2020 08:34:56 am] 127.0.0.1: no action given
+[04/07/2020 08:41:27 am] perma link part count for / 1
+[04/07/2020 08:41:27 am] examining permalink path...
+[04/07/2020 08:41:27 am] ip address: 127.0.0.1
+[04/07/2020 08:41:27 am] request page: 
+[04/07/2020 08:41:27 am] page=Login
+[04/07/2020 08:41:27 am] loading controller ../Private/Components/Controllers/Login.php
+[04/07/2020 08:41:27 am] choosing template Login
+[04/07/2020 08:41:27 am] letComponentHandleRequest: Login
+[04/07/2020 08:41:27 am] starting component: Login, final: Login
+[04/07/2020 08:41:27 am] 127.0.0.1: no action given
+[05/07/2020 09:51:56 am] the First date: 31/01/2015
+[05/07/2020 09:51:56 am] returning date is 03/03/15
+[05/07/2020 09:51:56 am] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
+[05/07/2020 09:51:56 am] firstDate: 31/01/15
+[05/07/2020 09:56:27 am] Connection to MySQL failed: 
+[05/07/2020 10:00:16 am] Connection to MySQL failed: 
+[05/07/2020 10:01:49 am] Connection to MySQL failed: 
+[05/07/2020 10:03:03 am] the First date: 31/01/2015
+[05/07/2020 10:03:03 am] returning date is 03/03/15
+[05/07/2020 10:03:03 am] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
+[05/07/2020 10:03:03 am] firstDate: 31/01/15
+[05/07/2020 10:03:10 am] ID : 22
+[05/07/2020 10:03:10 am] financial year start Time: 2020-07-01
+[05/07/2020 10:03:10 am] financial year end Time: 2021-06-30
+[05/07/2020 10:03:10 am] incoming enddate is: 30/06/21
+[05/07/2020 10:03:10 am] before incomeLineItem search
+[05/07/2020 10:03:10 am] before expenseLineItem search
+[05/07/2020 10:03:10 am] Returning Summary: 0,0,0
+[05/07/2020 10:06:13 am] the First date: 31/01/2015
+[05/07/2020 10:06:13 am] returning date is 03/03/15
+[05/07/2020 10:06:13 am] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
+[05/07/2020 10:06:13 am] firstDate: 31/01/15
+[05/07/2020 10:06:15 am] ID : 7
+[05/07/2020 10:06:15 am] financial year start Time: 2020-07-01
+[05/07/2020 10:06:15 am] financial year end Time: 2021-06-30
+[05/07/2020 10:06:15 am] incoming enddate is: 30/06/21
+[05/07/2020 10:06:15 am] before incomeLineItem search
+[05/07/2020 10:06:15 am] before expenseLineItem search
+[05/07/2020 10:06:15 am] Returning Summary: 0,0,0
+[05/07/2020 10:06:21 am] ID : 7
+[05/07/2020 10:06:21 am] selectedIncomeSource baby: 
+[05/07/2020 10:06:21 am] firstIncomeSource: 10
+[05/07/2020 10:06:28 am] ID : 7
+[05/07/2020 10:06:28 am] selectedIncomeSource baby: 
+[05/07/2020 10:06:28 am] firstIncomeSource: 10
+[05/07/2020 10:18:36 am] ID : 7
+[05/07/2020 10:18:36 am] selectedIncomeSource baby: 
+[05/07/2020 10:18:36 am] firstIncomeSource: 10
+[05/07/2020 10:21:21 am] ID : 7
+[05/07/2020 10:21:21 am] the First date: 31/01/2015
+[05/07/2020 10:21:21 am] returning date is 03/03/15
+[05/07/2020 10:21:21 am] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
+[05/07/2020 10:21:21 am] firstDate: 31/01/15
+[05/07/2020 10:21:21 am] selectedIncomeSource baby: 
+[05/07/2020 10:21:21 am] firstIncomeSource: 10
+[05/07/2020 10:21:52 am] ID : 7
+[05/07/2020 10:21:52 am] the First date: 31/01/2015
+[05/07/2020 10:21:52 am] returning date is 03/03/15
+[05/07/2020 10:21:52 am] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
+[05/07/2020 10:21:52 am] firstDate: 31/01/15
+[05/07/2020 10:21:52 am] selectedIncomeSource baby: 
+[05/07/2020 10:21:52 am] firstIncomeSource: 10
+[05/07/2020 10:23:17 am] ID : 7
+[05/07/2020 10:23:17 am] the First date: 31/01/2015
+[05/07/2020 10:23:17 am] returning date is 03/03/15
+[05/07/2020 10:23:17 am] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
+[05/07/2020 10:23:17 am] firstDate: 31/01/15
+[05/07/2020 10:23:17 am] selectedIncomeSource baby: 
+[05/07/2020 10:23:17 am] firstIncomeSource: 10
+[05/07/2020 10:24:05 am] ID : 7
+[05/07/2020 10:24:05 am] the First date: 31/01/2015
+[05/07/2020 10:24:05 am] returning date is 03/03/15
+[05/07/2020 10:24:05 am] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
+[05/07/2020 10:24:05 am] firstDate: 31/01/15
+[05/07/2020 10:24:05 am] selectedIncomeSource baby: 
+[05/07/2020 10:24:05 am] firstIncomeSource: 10
+[05/07/2020 10:24:20 am] ID : 7
+[05/07/2020 10:24:20 am] the First date: 31/01/2015
+[05/07/2020 10:24:20 am] returning date is 03/03/15
+[05/07/2020 10:24:20 am] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
+[05/07/2020 10:24:20 am] firstDate: 31/01/15
+[05/07/2020 10:24:20 am] selectedIncomeSource baby: 
+[05/07/2020 10:24:20 am] firstIncomeSource: 10
+[05/07/2020 10:25:08 am] ID : 7
+[05/07/2020 10:25:08 am] the First date: 31/01/2015
+[05/07/2020 10:25:08 am] returning date is 03/03/15
+[05/07/2020 10:25:08 am] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
+[05/07/2020 10:25:08 am] firstDate: 31/01/15
+[05/07/2020 10:25:08 am] selectedIncomeSource baby: 
+[05/07/2020 10:25:08 am] firstIncomeSource: 10
+[05/07/2020 10:25:37 am] ID : 7
+[05/07/2020 10:25:37 am] the First date: 31/01/2015
+[05/07/2020 10:25:37 am] returning date is 03/03/15
+[05/07/2020 10:25:37 am] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
+[05/07/2020 10:25:37 am] firstDate: 31/01/15
+[05/07/2020 10:25:37 am] selectedIncomeSource baby: 
+[05/07/2020 10:25:37 am] firstIncomeSource: 10
+[05/07/2020 10:25:44 am] Restting form value to null : selectedIncomeLineItem.paymentDateFormatted
+[05/07/2020 10:25:44 am] Restting form value to null : selectedIncomeLineItem.descText
+[05/07/2020 10:25:45 am] Restting form value to null : selectedIncomeLineItem.amount
+[05/07/2020 10:25:45 am] Restting form value to null : selectedIncomeLineItem.amountPaid
+[05/07/2020 10:25:45 am] Restting form value to null : selectedIncomeLineItem.fromDateFormatted
+[05/07/2020 10:25:45 am] Restting form value to null : selectedIncomeLineItem.toDateFormatted
+[05/07/2020 10:25:45 am] ID : 7
+[05/07/2020 10:25:45 am] selectedIncomeSource baby: 
+[05/07/2020 10:25:45 am] firstIncomeSource: 10
+[05/07/2020 10:26:05 am] ID : 7
+[05/07/2020 10:26:05 am] the First date: 31/01/2015
+[05/07/2020 10:26:05 am] returning date is 03/03/15
+[05/07/2020 10:26:05 am] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
+[05/07/2020 10:26:05 am] firstDate: 31/01/15
+[05/07/2020 10:26:05 am] selectedIncomeSource baby: 
+[05/07/2020 10:26:05 am] firstIncomeSource: 10
+[05/07/2020 10:26:06 am] ID : 7
+[05/07/2020 10:26:06 am] the First date: 31/01/2015
+[05/07/2020 10:26:06 am] returning date is 03/03/15
+[05/07/2020 10:26:06 am] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
+[05/07/2020 10:26:06 am] firstDate: 31/01/15
+[05/07/2020 10:26:06 am] selectedIncomeSource baby: 
+[05/07/2020 10:26:06 am] firstIncomeSource: 10
+[05/07/2020 10:26:16 am] selectedIncomeSource baby: 
+[05/07/2020 10:26:16 am] ID : 7
+[05/07/2020 10:26:16 am] firstIncomeSource: 10
+[05/07/2020 10:26:16 am] this is the sourceID: 10
+[05/07/2020 10:26:16 am] Name of the object: 2792
+[05/07/2020 10:26:16 am] blah here 1 
+[05/07/2020 10:26:16 am] goat here 1 
+[05/07/2020 10:26:16 am] laste Date on incomelineItem: 12/07/20
+[05/07/2020 10:26:16 am] returning date is 13/07/20
+[05/07/2020 10:26:16 am] goat here: start date is : 13/07/20
+[05/07/2020 10:26:16 am] returning date is 26/07/20
+[05/07/2020 10:26:16 am] Start Day: 13/07/20 EndDay set is : 26/07/20
+[05/07/2020 10:26:16 am] this is the new incomelineItemID: 2801
+[05/07/2020 10:26:16 am] Restting form value to null : selectedIncomeLineItem.paymentDateFormatted
+[05/07/2020 10:26:16 am] Restting form value to null : selectedIncomeLineItem.descText
+[05/07/2020 10:26:16 am] Restting form value to null : selectedIncomeLineItem.amount
+[05/07/2020 10:26:16 am] Restting form value to null : selectedIncomeLineItem.amountPaid
+[05/07/2020 10:26:16 am] Restting form value to null : selectedIncomeLineItem.fromDateFormatted
+[05/07/2020 10:26:16 am] Restting form value to null : selectedIncomeLineItem.toDateFormatted
+[05/07/2020 10:26:29 am] Restting form value to null : selectedIncomeLineItem.paymentDateFormatted
+[05/07/2020 10:26:29 am] Restting form value to null : selectedIncomeLineItem.descText
+[05/07/2020 10:26:29 am] Restting form value to null : selectedIncomeLineItem.amount
+[05/07/2020 10:26:29 am] Restting form value to null : selectedIncomeLineItem.amountPaid
+[05/07/2020 10:26:29 am] Restting form value to null : selectedIncomeLineItem.fromDateFormatted
+[05/07/2020 10:26:29 am] Restting form value to null : selectedIncomeLineItem.toDateFormatted
+[05/07/2020 10:26:29 am] ID : 7
+[05/07/2020 10:26:29 am] selectedIncomeSource baby: 10
+[05/07/2020 10:26:40 am] ID : 7
+[05/07/2020 10:26:40 am] the First date: 31/01/2015
+[05/07/2020 10:26:40 am] returning date is 03/03/15
+[05/07/2020 10:26:40 am] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
+[05/07/2020 10:26:40 am] firstDate: 31/01/15
+[05/07/2020 10:26:40 am] selectedIncomeSource baby: 10
+[05/07/2020 10:26:54 am] ID : 7
+[05/07/2020 10:26:54 am] the First date: 31/01/2015
+[05/07/2020 10:26:54 am] returning date is 03/03/15
+[05/07/2020 10:26:54 am] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
+[05/07/2020 10:26:54 am] firstDate: 31/01/15
+[05/07/2020 10:26:54 am] selectedIncomeSource baby: 10
+[05/07/2020 10:26:55 am] ID : 7
+[05/07/2020 10:26:55 am] the First date: 31/01/2015
+[05/07/2020 10:26:55 am] returning date is 03/03/15
+[05/07/2020 10:26:55 am] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
+[05/07/2020 10:26:55 am] firstDate: 31/01/15
+[05/07/2020 10:26:55 am] selectedIncomeSource baby: 10
+[05/07/2020 10:26:57 am] ID : 7
+[05/07/2020 10:26:57 am] the First date: 31/01/2015
+[05/07/2020 10:26:57 am] returning date is 03/03/15
+[05/07/2020 10:26:57 am] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
+[05/07/2020 10:26:57 am] firstDate: 31/01/15
+[05/07/2020 10:26:57 am] selectedIncomeSource baby: 10
+[05/07/2020 10:27:35 am] Restting form value to null : selectedIncomeLineItem.paymentDateFormatted
+[05/07/2020 10:27:35 am] Restting form value to null : selectedIncomeLineItem.descText
+[05/07/2020 10:27:35 am] Restting form value to null : selectedIncomeLineItem.amount
+[05/07/2020 10:27:35 am] Restting form value to null : selectedIncomeLineItem.amountPaid
+[05/07/2020 10:27:35 am] Restting form value to null : selectedIncomeLineItem.fromDateFormatted
+[05/07/2020 10:27:35 am] Restting form value to null : selectedIncomeLineItem.toDateFormatted
+[05/07/2020 10:27:35 am] ID : 7
+[05/07/2020 10:27:35 am] selectedIncomeSource baby: 10
+[05/07/2020 10:27:36 am] Restting form value to null : selectedIncomeLineItem.paymentDateFormatted
+[05/07/2020 10:27:36 am] Restting form value to null : selectedIncomeLineItem.descText
+[05/07/2020 10:27:36 am] Restting form value to null : selectedIncomeLineItem.amount
+[05/07/2020 10:27:36 am] Restting form value to null : selectedIncomeLineItem.amountPaid
+[05/07/2020 10:27:36 am] Restting form value to null : selectedIncomeLineItem.fromDateFormatted
+[05/07/2020 10:27:36 am] Restting form value to null : selectedIncomeLineItem.toDateFormatted
+[05/07/2020 10:27:36 am] ID : 7
+[05/07/2020 10:27:36 am] selectedIncomeSource baby: 10
+[05/07/2020 10:28:16 am] Restting form value to null : selectedIncomeLineItem.paymentDateFormatted
+[05/07/2020 10:28:16 am] Restting form value to null : selectedIncomeLineItem.descText
+[05/07/2020 10:28:16 am] Restting form value to null : selectedIncomeLineItem.amount
+[05/07/2020 10:28:16 am] Restting form value to null : selectedIncomeLineItem.amountPaid
+[05/07/2020 10:28:16 am] Restting form value to null : selectedIncomeLineItem.fromDateFormatted
+[05/07/2020 10:28:16 am] Restting form value to null : selectedIncomeLineItem.toDateFormatted
+[05/07/2020 10:28:16 am] ID : 7
+[05/07/2020 10:28:16 am] selectedIncomeSource baby: 10
+[05/07/2020 10:34:43 am] Restting form value to null : selectedIncomeLineItem.paymentDateFormatted
+[05/07/2020 10:34:43 am] Restting form value to null : selectedIncomeLineItem.descText
+[05/07/2020 10:34:43 am] Restting form value to null : selectedIncomeLineItem.amount
+[05/07/2020 10:34:43 am] Restting form value to null : selectedIncomeLineItem.amountPaid
+[05/07/2020 10:34:43 am] Restting form value to null : selectedIncomeLineItem.fromDateFormatted
+[05/07/2020 10:34:43 am] Restting form value to null : selectedIncomeLineItem.toDateFormatted
+[05/07/2020 10:34:43 am] ID : 7
+[05/07/2020 10:34:43 am] selectedIncomeSource baby: 10
+[05/07/2020 10:35:15 am] Restting form value to null : selectedIncomeLineItem.paymentDateFormatted
+[05/07/2020 10:35:15 am] Restting form value to null : selectedIncomeLineItem.descText
+[05/07/2020 10:35:15 am] Restting form value to null : selectedIncomeLineItem.amount
+[05/07/2020 10:35:15 am] Restting form value to null : selectedIncomeLineItem.amountPaid
+[05/07/2020 10:35:15 am] Restting form value to null : selectedIncomeLineItem.fromDateFormatted
+[05/07/2020 10:35:15 am] Restting form value to null : selectedIncomeLineItem.toDateFormatted
+[05/07/2020 10:35:15 am] ID : 7
+[05/07/2020 10:35:15 am] selectedIncomeSource baby: 10
+[05/07/2020 10:37:27 am] Restting form value to null : selectedIncomeLineItem.paymentDateFormatted
+[05/07/2020 10:37:27 am] Restting form value to null : selectedIncomeLineItem.descText
+[05/07/2020 10:37:27 am] Restting form value to null : selectedIncomeLineItem.amount
+[05/07/2020 10:37:27 am] Restting form value to null : selectedIncomeLineItem.amountPaid
+[05/07/2020 10:37:27 am] Restting form value to null : selectedIncomeLineItem.fromDateFormatted
+[05/07/2020 10:37:27 am] Restting form value to null : selectedIncomeLineItem.toDateFormatted
+[05/07/2020 10:37:27 am] ID : 7
+[05/07/2020 10:37:27 am] selectedIncomeSource baby: 10
+[05/07/2020 10:38:26 am] Restting form value to null : selectedIncomeLineItem.paymentDateFormatted
+[05/07/2020 10:38:26 am] Restting form value to null : selectedIncomeLineItem.descText
+[05/07/2020 10:38:26 am] Restting form value to null : selectedIncomeLineItem.amount
+[05/07/2020 10:38:26 am] Restting form value to null : selectedIncomeLineItem.amountPaid
+[05/07/2020 10:38:26 am] Restting form value to null : selectedIncomeLineItem.fromDateFormatted
+[05/07/2020 10:38:26 am] Restting form value to null : selectedIncomeLineItem.toDateFormatted
+[05/07/2020 10:38:26 am] ID : 7
+[05/07/2020 10:38:26 am] selectedIncomeSource baby: 10
+[05/07/2020 10:38:36 am] Restting form value to null : selectedIncomeLineItem.paymentDateFormatted
+[05/07/2020 10:38:36 am] Restting form value to null : selectedIncomeLineItem.descText
+[05/07/2020 10:38:36 am] Restting form value to null : selectedIncomeLineItem.amount
+[05/07/2020 10:38:36 am] Restting form value to null : selectedIncomeLineItem.amountPaid
+[05/07/2020 10:38:36 am] Restting form value to null : selectedIncomeLineItem.fromDateFormatted
+[05/07/2020 10:38:36 am] Restting form value to null : selectedIncomeLineItem.toDateFormatted
+[05/07/2020 10:38:36 am] ID : 7
+[05/07/2020 10:38:36 am] selectedIncomeSource baby: 10
+[05/07/2020 10:38:52 am] ID : 7
+[05/07/2020 10:38:52 am] the First date: 31/01/2015
+[05/07/2020 10:38:52 am] returning date is 03/03/15
+[05/07/2020 10:38:52 am] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
+[05/07/2020 10:38:52 am] firstDate: 31/01/15
+[05/07/2020 10:38:52 am] selectedIncomeSource baby: 10
+[05/07/2020 10:40:29 am] ID : 7
+[05/07/2020 10:40:29 am] the First date: 31/01/2015
+[05/07/2020 10:40:29 am] returning date is 03/03/15
+[05/07/2020 10:40:29 am] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
+[05/07/2020 10:40:29 am] firstDate: 31/01/15
+[05/07/2020 10:40:29 am] selectedIncomeSource baby: 10
+[05/07/2020 10:40:29 am] this is the ID 2801 this is post paid: 1
+[05/07/2020 10:40:29 am] this is the ID 2801 this is post paid: 1
+[05/07/2020 10:40:29 am] this is the ID 2801 this is post paid: 1
+[05/07/2020 10:40:29 am] this is the ID 2801 this is post paid: 1
+[05/07/2020 10:40:29 am] this is the ID 2792 this is post paid: 
+[05/07/2020 10:40:29 am] this is the ID 2792 this is post paid: 
+[05/07/2020 10:40:29 am] this is the ID 2792 this is post paid: 
+[05/07/2020 10:40:29 am] this is the ID 2792 this is post paid: 
+[05/07/2020 10:40:29 am] this is the ID 2772 this is post paid: 
+[05/07/2020 10:40:29 am] this is the ID 2719 this is post paid: 
+[05/07/2020 10:40:29 am] this is the ID 2697 this is post paid: 
+[05/07/2020 10:40:29 am] this is the ID 2690 this is post paid: 
+[05/07/2020 10:40:29 am] this is the ID 2663 this is post paid: 
+[05/07/2020 10:40:29 am] this is the ID 2642 this is post paid: 
+[05/07/2020 10:40:29 am] this is the ID 2641 this is post paid: 
+[05/07/2020 10:40:29 am] this is the ID 2607 this is post paid: 
+[05/07/2020 10:40:29 am] this is the ID 2570 this is post paid: 
+[05/07/2020 10:40:29 am] this is the ID 2568 this is post paid: 
+[05/07/2020 10:40:29 am] this is the ID 2517 this is post paid: 
+[05/07/2020 10:40:29 am] this is the ID 2479 this is post paid: 
+[05/07/2020 10:40:29 am] this is the ID 2478 this is post paid: 
+[05/07/2020 10:40:29 am] this is the ID 2448 this is post paid: 
+[05/07/2020 10:40:29 am] this is the ID 2404 this is post paid: 
+[05/07/2020 10:40:29 am] this is the ID 2378 this is post paid: 
+[05/07/2020 10:40:29 am] this is the ID 2377 this is post paid: 
+[05/07/2020 10:40:29 am] this is the ID 2240 this is post paid: 
+[05/07/2020 10:40:29 am] this is the ID 2220 this is post paid: 
+[05/07/2020 10:40:29 am] this is the ID 2219 this is post paid: 
+[05/07/2020 10:40:29 am] this is the ID 2180 this is post paid: 
+[05/07/2020 10:40:29 am] this is the ID 2150 this is post paid: 
+[05/07/2020 10:40:29 am] this is the ID 2149 this is post paid: 
+[05/07/2020 10:40:29 am] this is the ID 2130 this is post paid: 
+[05/07/2020 10:40:29 am] this is the ID 2114 this is post paid: 
+[05/07/2020 10:40:29 am] this is the ID 2084 this is post paid: 
+[05/07/2020 10:40:29 am] this is the ID 2074 this is post paid: 
+[05/07/2020 10:40:29 am] this is the ID 2046 this is post paid: 
+[05/07/2020 10:40:29 am] this is the ID 2033 this is post paid: 
+[05/07/2020 10:40:29 am] this is the ID 2006 this is post paid: 
+[05/07/2020 10:40:29 am] this is the ID 1959 this is post paid: 
+[05/07/2020 10:40:29 am] this is the ID 1926 this is post paid: 
+[05/07/2020 10:40:29 am] this is the ID 1903 this is post paid: 
+[05/07/2020 10:40:29 am] this is the ID 1862 this is post paid: 
+[05/07/2020 10:40:29 am] this is the ID 1861 this is post paid: 
+[05/07/2020 10:40:29 am] this is the ID 1736 this is post paid: 
+[05/07/2020 10:40:29 am] this is the ID 1727 this is post paid: 
+[05/07/2020 10:40:29 am] this is the ID 1726 this is post paid: 
+[05/07/2020 10:40:29 am] this is the ID 1702 this is post paid: 
+[05/07/2020 10:40:29 am] this is the ID 1683 this is post paid: 
+[05/07/2020 10:40:29 am] this is the ID 1682 this is post paid: 
+[05/07/2020 10:40:29 am] this is the ID 1681 this is post paid: 
+[05/07/2020 10:40:29 am] this is the ID 1623 this is post paid: 
+[05/07/2020 10:40:29 am] this is the ID 1622 this is post paid: 
+[05/07/2020 10:40:29 am] this is the ID 1585 this is post paid: 
+[05/07/2020 10:40:29 am] this is the ID 1583 this is post paid: 
+[05/07/2020 10:40:29 am] this is the ID 1541 this is post paid: 
+[05/07/2020 10:40:29 am] this is the ID 1494 this is post paid: 
+[05/07/2020 10:40:29 am] this is the ID 1461 this is post paid: 
+[05/07/2020 10:40:29 am] this is the ID 1454 this is post paid: 
+[05/07/2020 10:40:29 am] this is the ID 1404 this is post paid: 
+[05/07/2020 10:40:30 am] this is the ID 1389 this is post paid: 
+[05/07/2020 10:40:30 am] this is the ID 1369 this is post paid: 
+[05/07/2020 10:40:30 am] this is the ID 1347 this is post paid: 
+[05/07/2020 10:40:30 am] this is the ID 1341 this is post paid: 
+[05/07/2020 10:40:30 am] this is the ID 1282 this is post paid: 
+[05/07/2020 10:40:30 am] this is the ID 1281 this is post paid: 
+[05/07/2020 10:40:30 am] this is the ID 1251 this is post paid: 
+[05/07/2020 10:40:30 am] this is the ID 1250 this is post paid: 
+[05/07/2020 10:40:30 am] this is the ID 1213 this is post paid: 
+[05/07/2020 10:40:30 am] this is the ID 1200 this is post paid: 
+[05/07/2020 10:40:30 am] this is the ID 1199 this is post paid: 
+[05/07/2020 10:40:30 am] this is the ID 1129 this is post paid: 
+[05/07/2020 10:40:30 am] this is the ID 1100 this is post paid: 
+[05/07/2020 10:40:30 am] this is the ID 1034 this is post paid: 
+[05/07/2020 10:40:30 am] this is the ID 1003 this is post paid: 
+[05/07/2020 10:40:30 am] this is the ID 992 this is post paid: 
+[05/07/2020 10:40:30 am] this is the ID 991 this is post paid: 
+[05/07/2020 10:40:30 am] this is the ID 865 this is post paid: 
+[05/07/2020 10:40:30 am] this is the ID 854 this is post paid: 
+[05/07/2020 10:40:30 am] this is the ID 838 this is post paid: 
+[05/07/2020 10:40:30 am] this is the ID 829 this is post paid: 
+[05/07/2020 10:40:30 am] this is the ID 813 this is post paid: 
+[05/07/2020 10:40:30 am] this is the ID 797 this is post paid: 
+[05/07/2020 10:40:30 am] this is the ID 778 this is post paid: 
+[05/07/2020 10:40:30 am] this is the ID 766 this is post paid: 
+[05/07/2020 10:40:30 am] this is the ID 756 this is post paid: 
+[05/07/2020 10:40:30 am] this is the ID 731 this is post paid: 
+[05/07/2020 10:40:30 am] this is the ID 727 this is post paid: 
+[05/07/2020 10:40:30 am] this is the ID 700 this is post paid: 
+[05/07/2020 10:40:30 am] this is the ID 691 this is post paid: 
+[05/07/2020 10:40:30 am] this is the ID 675 this is post paid: 
+[05/07/2020 10:40:30 am] this is the ID 663 this is post paid: 
+[05/07/2020 10:40:30 am] this is the ID 645 this is post paid: 
+[05/07/2020 10:40:30 am] this is the ID 632 this is post paid: 
+[05/07/2020 10:40:30 am] this is the ID 622 this is post paid: 
+[05/07/2020 10:40:30 am] this is the ID 609 this is post paid: 
+[05/07/2020 10:40:30 am] this is the ID 592 this is post paid: 
+[05/07/2020 10:40:30 am] this is the ID 580 this is post paid: 
+[05/07/2020 10:40:30 am] this is the ID 575 this is post paid: 
+[05/07/2020 10:40:30 am] this is the ID 524 this is post paid: 
+[05/07/2020 10:40:30 am] this is the ID 490 this is post paid: 
+[05/07/2020 10:40:30 am] this is the ID 444 this is post paid: 
+[05/07/2020 10:40:30 am] this is the ID 433 this is post paid: 
+[05/07/2020 10:40:30 am] this is the ID 408 this is post paid: 
+[05/07/2020 10:40:30 am] this is the ID 400 this is post paid: 
+[05/07/2020 10:40:30 am] this is the ID 380 this is post paid: 
+[05/07/2020 10:40:30 am] this is the ID 379 this is post paid: 
+[05/07/2020 10:40:30 am] this is the ID 364 this is post paid: 
+[05/07/2020 10:40:30 am] this is the ID 356 this is post paid: 
+[05/07/2020 10:40:30 am] this is the ID 347 this is post paid: 
+[05/07/2020 10:40:30 am] this is the ID 333 this is post paid: 
+[05/07/2020 10:40:30 am] this is the ID 332 this is post paid: 
+[05/07/2020 10:40:30 am] this is the ID 295 this is post paid: 
+[05/07/2020 10:40:30 am] this is the ID 211 this is post paid: 
+[05/07/2020 10:40:30 am] this is the ID 210 this is post paid: 
+[05/07/2020 10:40:30 am] this is the ID 209 this is post paid: 
+[05/07/2020 10:40:30 am] this is the ID 208 this is post paid: 
+[05/07/2020 10:40:30 am] this is the ID 46 this is post paid: 
+[05/07/2020 10:40:30 am] this is the ID 200 this is post paid: 
+[05/07/2020 10:40:30 am] this is the ID 201 this is post paid: 
+[05/07/2020 10:40:31 am] ID : 7
+[05/07/2020 10:40:31 am] the First date: 31/01/2015
+[05/07/2020 10:40:31 am] returning date is 03/03/15
+[05/07/2020 10:40:31 am] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
+[05/07/2020 10:40:31 am] firstDate: 31/01/15
+[05/07/2020 10:40:31 am] selectedIncomeSource baby: 10
+[05/07/2020 10:40:31 am] this is the ID 2801 this is post paid: 1
+[05/07/2020 10:40:31 am] this is the ID 2801 this is post paid: 1
+[05/07/2020 10:40:31 am] this is the ID 2801 this is post paid: 1
+[05/07/2020 10:40:31 am] this is the ID 2801 this is post paid: 1
+[05/07/2020 10:40:31 am] this is the ID 2792 this is post paid: 
+[05/07/2020 10:40:31 am] this is the ID 2792 this is post paid: 
+[05/07/2020 10:40:31 am] this is the ID 2792 this is post paid: 
+[05/07/2020 10:40:31 am] this is the ID 2792 this is post paid: 
+[05/07/2020 10:40:31 am] this is the ID 2772 this is post paid: 
+[05/07/2020 10:40:31 am] this is the ID 2719 this is post paid: 
+[05/07/2020 10:40:31 am] this is the ID 2697 this is post paid: 
+[05/07/2020 10:40:31 am] this is the ID 2690 this is post paid: 
+[05/07/2020 10:40:31 am] this is the ID 2663 this is post paid: 
+[05/07/2020 10:40:31 am] this is the ID 2642 this is post paid: 
+[05/07/2020 10:40:31 am] this is the ID 2641 this is post paid: 
+[05/07/2020 10:40:31 am] this is the ID 2607 this is post paid: 
+[05/07/2020 10:40:31 am] this is the ID 2570 this is post paid: 
+[05/07/2020 10:40:31 am] this is the ID 2568 this is post paid: 
+[05/07/2020 10:40:31 am] this is the ID 2517 this is post paid: 
+[05/07/2020 10:40:31 am] this is the ID 2479 this is post paid: 
+[05/07/2020 10:40:31 am] this is the ID 2478 this is post paid: 
+[05/07/2020 10:40:31 am] this is the ID 2448 this is post paid: 
+[05/07/2020 10:40:31 am] this is the ID 2404 this is post paid: 
+[05/07/2020 10:40:31 am] this is the ID 2378 this is post paid: 
+[05/07/2020 10:40:31 am] this is the ID 2377 this is post paid: 
+[05/07/2020 10:40:31 am] this is the ID 2240 this is post paid: 
+[05/07/2020 10:40:31 am] this is the ID 2220 this is post paid: 
+[05/07/2020 10:40:31 am] this is the ID 2219 this is post paid: 
+[05/07/2020 10:40:31 am] this is the ID 2180 this is post paid: 
+[05/07/2020 10:40:31 am] this is the ID 2150 this is post paid: 
+[05/07/2020 10:40:31 am] this is the ID 2149 this is post paid: 
+[05/07/2020 10:40:31 am] this is the ID 2130 this is post paid: 
+[05/07/2020 10:40:31 am] this is the ID 2114 this is post paid: 
+[05/07/2020 10:40:31 am] this is the ID 2084 this is post paid: 
+[05/07/2020 10:40:31 am] this is the ID 2074 this is post paid: 
+[05/07/2020 10:40:31 am] this is the ID 2046 this is post paid: 
+[05/07/2020 10:40:31 am] this is the ID 2033 this is post paid: 
+[05/07/2020 10:40:31 am] this is the ID 2006 this is post paid: 
+[05/07/2020 10:40:31 am] this is the ID 1959 this is post paid: 
+[05/07/2020 10:40:31 am] this is the ID 1926 this is post paid: 
+[05/07/2020 10:40:31 am] this is the ID 1903 this is post paid: 
+[05/07/2020 10:40:31 am] this is the ID 1862 this is post paid: 
+[05/07/2020 10:40:31 am] this is the ID 1861 this is post paid: 
+[05/07/2020 10:40:31 am] this is the ID 1736 this is post paid: 
+[05/07/2020 10:40:31 am] this is the ID 1727 this is post paid: 
+[05/07/2020 10:40:31 am] this is the ID 1726 this is post paid: 
+[05/07/2020 10:40:32 am] this is the ID 1702 this is post paid: 
+[05/07/2020 10:40:32 am] this is the ID 1683 this is post paid: 
+[05/07/2020 10:40:32 am] this is the ID 1682 this is post paid: 
+[05/07/2020 10:40:32 am] this is the ID 1681 this is post paid: 
+[05/07/2020 10:40:32 am] this is the ID 1623 this is post paid: 
+[05/07/2020 10:40:32 am] this is the ID 1622 this is post paid: 
+[05/07/2020 10:40:32 am] this is the ID 1585 this is post paid: 
+[05/07/2020 10:40:32 am] this is the ID 1583 this is post paid: 
+[05/07/2020 10:40:32 am] this is the ID 1541 this is post paid: 
+[05/07/2020 10:40:32 am] this is the ID 1494 this is post paid: 
+[05/07/2020 10:40:32 am] this is the ID 1461 this is post paid: 
+[05/07/2020 10:40:32 am] this is the ID 1454 this is post paid: 
+[05/07/2020 10:40:32 am] this is the ID 1404 this is post paid: 
+[05/07/2020 10:40:32 am] this is the ID 1389 this is post paid: 
+[05/07/2020 10:40:32 am] this is the ID 1369 this is post paid: 
+[05/07/2020 10:40:32 am] this is the ID 1347 this is post paid: 
+[05/07/2020 10:40:32 am] this is the ID 1341 this is post paid: 
+[05/07/2020 10:40:32 am] this is the ID 1282 this is post paid: 
+[05/07/2020 10:40:32 am] this is the ID 1281 this is post paid: 
+[05/07/2020 10:40:32 am] this is the ID 1251 this is post paid: 
+[05/07/2020 10:40:32 am] this is the ID 1250 this is post paid: 
+[05/07/2020 10:40:32 am] this is the ID 1213 this is post paid: 
+[05/07/2020 10:40:32 am] this is the ID 1200 this is post paid: 
+[05/07/2020 10:40:32 am] this is the ID 1199 this is post paid: 
+[05/07/2020 10:40:32 am] this is the ID 1129 this is post paid: 
+[05/07/2020 10:40:32 am] this is the ID 1100 this is post paid: 
+[05/07/2020 10:40:32 am] this is the ID 1034 this is post paid: 
+[05/07/2020 10:40:32 am] this is the ID 1003 this is post paid: 
+[05/07/2020 10:40:32 am] this is the ID 992 this is post paid: 
+[05/07/2020 10:40:32 am] this is the ID 991 this is post paid: 
+[05/07/2020 10:40:32 am] this is the ID 865 this is post paid: 
+[05/07/2020 10:40:32 am] this is the ID 854 this is post paid: 
+[05/07/2020 10:40:32 am] this is the ID 838 this is post paid: 
+[05/07/2020 10:40:32 am] this is the ID 829 this is post paid: 
+[05/07/2020 10:40:32 am] this is the ID 813 this is post paid: 
+[05/07/2020 10:40:32 am] this is the ID 797 this is post paid: 
+[05/07/2020 10:40:32 am] this is the ID 778 this is post paid: 
+[05/07/2020 10:40:32 am] this is the ID 766 this is post paid: 
+[05/07/2020 10:40:32 am] this is the ID 756 this is post paid: 
+[05/07/2020 10:40:32 am] this is the ID 731 this is post paid: 
+[05/07/2020 10:40:32 am] this is the ID 727 this is post paid: 
+[05/07/2020 10:40:32 am] this is the ID 700 this is post paid: 
+[05/07/2020 10:40:32 am] this is the ID 691 this is post paid: 
+[05/07/2020 10:40:32 am] this is the ID 675 this is post paid: 
+[05/07/2020 10:40:32 am] this is the ID 663 this is post paid: 
+[05/07/2020 10:40:32 am] this is the ID 645 this is post paid: 
+[05/07/2020 10:40:32 am] this is the ID 632 this is post paid: 
+[05/07/2020 10:40:32 am] this is the ID 622 this is post paid: 
+[05/07/2020 10:40:32 am] this is the ID 609 this is post paid: 
+[05/07/2020 10:40:32 am] this is the ID 592 this is post paid: 
+[05/07/2020 10:40:32 am] this is the ID 580 this is post paid: 
+[05/07/2020 10:40:32 am] this is the ID 575 this is post paid: 
+[05/07/2020 10:40:32 am] this is the ID 524 this is post paid: 
+[05/07/2020 10:40:32 am] this is the ID 490 this is post paid: 
+[05/07/2020 10:40:32 am] this is the ID 444 this is post paid: 
+[05/07/2020 10:40:32 am] this is the ID 433 this is post paid: 
+[05/07/2020 10:40:32 am] this is the ID 408 this is post paid: 
+[05/07/2020 10:40:32 am] this is the ID 400 this is post paid: 
+[05/07/2020 10:40:32 am] this is the ID 380 this is post paid: 
+[05/07/2020 10:40:32 am] this is the ID 379 this is post paid: 
+[05/07/2020 10:40:32 am] this is the ID 364 this is post paid: 
+[05/07/2020 10:40:32 am] this is the ID 356 this is post paid: 
+[05/07/2020 10:40:32 am] this is the ID 347 this is post paid: 
+[05/07/2020 10:40:32 am] this is the ID 333 this is post paid: 
+[05/07/2020 10:40:32 am] this is the ID 332 this is post paid: 
+[05/07/2020 10:40:32 am] this is the ID 295 this is post paid: 
+[05/07/2020 10:40:32 am] this is the ID 211 this is post paid: 
+[05/07/2020 10:40:32 am] this is the ID 210 this is post paid: 
+[05/07/2020 10:40:32 am] this is the ID 209 this is post paid: 
+[05/07/2020 10:40:32 am] this is the ID 208 this is post paid: 
+[05/07/2020 10:40:32 am] this is the ID 46 this is post paid: 
+[05/07/2020 10:40:32 am] this is the ID 200 this is post paid: 
+[05/07/2020 10:40:32 am] this is the ID 201 this is post paid: 
+[05/07/2020 10:41:09 am] ID : 7
+[05/07/2020 10:41:09 am] the First date: 31/01/2015
+[05/07/2020 10:41:09 am] returning date is 03/03/15
+[05/07/2020 10:41:09 am] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
+[05/07/2020 10:41:09 am] firstDate: 31/01/15
+[05/07/2020 10:41:09 am] selectedIncomeSource baby: 10
+[05/07/2020 10:41:09 am] this is the ID 2801 this is post paid: 1
+[05/07/2020 10:41:09 am] this is the ID 2801 this is post paid: 1
+[05/07/2020 10:41:09 am] this is the ID 2801 this is post paid: 1
+[05/07/2020 10:41:09 am] this is the ID 2801 this is post paid: 1
+[05/07/2020 10:41:09 am] this is the ID 2801 this is post paid: 1
+[05/07/2020 10:41:09 am] this is the ID 2792 this is post paid: 
+[05/07/2020 10:41:09 am] this is the ID 2792 this is post paid: 
+[05/07/2020 10:41:09 am] this is the ID 2792 this is post paid: 
+[05/07/2020 10:41:09 am] this is the ID 2792 this is post paid: 
+[05/07/2020 10:41:09 am] this is the ID 2772 this is post paid: 
+[05/07/2020 10:41:09 am] this is the ID 2719 this is post paid: 
+[05/07/2020 10:41:09 am] this is the ID 2697 this is post paid: 
+[05/07/2020 10:41:09 am] this is the ID 2690 this is post paid: 
+[05/07/2020 10:41:09 am] this is the ID 2663 this is post paid: 
+[05/07/2020 10:41:09 am] this is the ID 2642 this is post paid: 
+[05/07/2020 10:41:09 am] this is the ID 2641 this is post paid: 
+[05/07/2020 10:41:09 am] this is the ID 2607 this is post paid: 
+[05/07/2020 10:41:09 am] this is the ID 2570 this is post paid: 
+[05/07/2020 10:41:09 am] this is the ID 2568 this is post paid: 
+[05/07/2020 10:41:09 am] this is the ID 2517 this is post paid: 
+[05/07/2020 10:41:09 am] this is the ID 2479 this is post paid: 
+[05/07/2020 10:41:09 am] this is the ID 2478 this is post paid: 
+[05/07/2020 10:41:09 am] this is the ID 2448 this is post paid: 
+[05/07/2020 10:41:09 am] this is the ID 2404 this is post paid: 
+[05/07/2020 10:41:09 am] this is the ID 2378 this is post paid: 
+[05/07/2020 10:41:09 am] this is the ID 2377 this is post paid: 
+[05/07/2020 10:41:09 am] this is the ID 2240 this is post paid: 
+[05/07/2020 10:41:09 am] this is the ID 2220 this is post paid: 
+[05/07/2020 10:41:09 am] this is the ID 2219 this is post paid: 
+[05/07/2020 10:41:09 am] this is the ID 2180 this is post paid: 
+[05/07/2020 10:41:09 am] this is the ID 2150 this is post paid: 
+[05/07/2020 10:41:09 am] this is the ID 2149 this is post paid: 
+[05/07/2020 10:41:09 am] this is the ID 2130 this is post paid: 
+[05/07/2020 10:41:09 am] this is the ID 2114 this is post paid: 
+[05/07/2020 10:41:09 am] this is the ID 2084 this is post paid: 
+[05/07/2020 10:41:09 am] this is the ID 2074 this is post paid: 
+[05/07/2020 10:41:09 am] this is the ID 2046 this is post paid: 
+[05/07/2020 10:41:09 am] this is the ID 2033 this is post paid: 
+[05/07/2020 10:41:09 am] this is the ID 2006 this is post paid: 
+[05/07/2020 10:41:09 am] this is the ID 1959 this is post paid: 
+[05/07/2020 10:41:09 am] this is the ID 1926 this is post paid: 
+[05/07/2020 10:41:09 am] this is the ID 1903 this is post paid: 
+[05/07/2020 10:41:09 am] this is the ID 1862 this is post paid: 
+[05/07/2020 10:41:09 am] this is the ID 1861 this is post paid: 
+[05/07/2020 10:41:09 am] this is the ID 1736 this is post paid: 
+[05/07/2020 10:41:09 am] this is the ID 1727 this is post paid: 
+[05/07/2020 10:41:09 am] this is the ID 1726 this is post paid: 
+[05/07/2020 10:41:09 am] this is the ID 1702 this is post paid: 
+[05/07/2020 10:41:09 am] this is the ID 1683 this is post paid: 
+[05/07/2020 10:41:09 am] this is the ID 1682 this is post paid: 
+[05/07/2020 10:41:09 am] this is the ID 1681 this is post paid: 
+[05/07/2020 10:41:09 am] this is the ID 1623 this is post paid: 
+[05/07/2020 10:41:09 am] this is the ID 1622 this is post paid: 
+[05/07/2020 10:41:09 am] this is the ID 1585 this is post paid: 
+[05/07/2020 10:41:09 am] this is the ID 1583 this is post paid: 
+[05/07/2020 10:41:09 am] this is the ID 1541 this is post paid: 
+[05/07/2020 10:41:09 am] this is the ID 1494 this is post paid: 
+[05/07/2020 10:41:09 am] this is the ID 1461 this is post paid: 
+[05/07/2020 10:41:09 am] this is the ID 1454 this is post paid: 
+[05/07/2020 10:41:09 am] this is the ID 1404 this is post paid: 
+[05/07/2020 10:41:09 am] this is the ID 1389 this is post paid: 
+[05/07/2020 10:41:09 am] this is the ID 1369 this is post paid: 
+[05/07/2020 10:41:09 am] this is the ID 1347 this is post paid: 
+[05/07/2020 10:41:09 am] this is the ID 1341 this is post paid: 
+[05/07/2020 10:41:09 am] this is the ID 1282 this is post paid: 
+[05/07/2020 10:41:09 am] this is the ID 1281 this is post paid: 
+[05/07/2020 10:41:09 am] this is the ID 1251 this is post paid: 
+[05/07/2020 10:41:09 am] this is the ID 1250 this is post paid: 
+[05/07/2020 10:41:09 am] this is the ID 1213 this is post paid: 
+[05/07/2020 10:41:09 am] this is the ID 1200 this is post paid: 
+[05/07/2020 10:41:09 am] this is the ID 1199 this is post paid: 
+[05/07/2020 10:41:09 am] this is the ID 1129 this is post paid: 
+[05/07/2020 10:41:09 am] this is the ID 1100 this is post paid: 
+[05/07/2020 10:41:09 am] this is the ID 1034 this is post paid: 
+[05/07/2020 10:41:09 am] this is the ID 1003 this is post paid: 
+[05/07/2020 10:41:09 am] this is the ID 992 this is post paid: 
+[05/07/2020 10:41:09 am] this is the ID 991 this is post paid: 
+[05/07/2020 10:41:09 am] this is the ID 865 this is post paid: 
+[05/07/2020 10:41:09 am] this is the ID 854 this is post paid: 
+[05/07/2020 10:41:09 am] this is the ID 838 this is post paid: 
+[05/07/2020 10:41:09 am] this is the ID 829 this is post paid: 
+[05/07/2020 10:41:09 am] this is the ID 813 this is post paid: 
+[05/07/2020 10:41:09 am] this is the ID 797 this is post paid: 
+[05/07/2020 10:41:09 am] this is the ID 778 this is post paid: 
+[05/07/2020 10:41:09 am] this is the ID 766 this is post paid: 
+[05/07/2020 10:41:09 am] this is the ID 756 this is post paid: 
+[05/07/2020 10:41:09 am] this is the ID 731 this is post paid: 
+[05/07/2020 10:41:09 am] this is the ID 727 this is post paid: 
+[05/07/2020 10:41:09 am] this is the ID 700 this is post paid: 
+[05/07/2020 10:41:09 am] this is the ID 691 this is post paid: 
+[05/07/2020 10:41:09 am] this is the ID 675 this is post paid: 
+[05/07/2020 10:41:09 am] this is the ID 663 this is post paid: 
+[05/07/2020 10:41:09 am] this is the ID 645 this is post paid: 
+[05/07/2020 10:41:09 am] this is the ID 632 this is post paid: 
+[05/07/2020 10:41:09 am] this is the ID 622 this is post paid: 
+[05/07/2020 10:41:09 am] this is the ID 609 this is post paid: 
+[05/07/2020 10:41:09 am] this is the ID 592 this is post paid: 
+[05/07/2020 10:41:09 am] this is the ID 580 this is post paid: 
+[05/07/2020 10:41:09 am] this is the ID 575 this is post paid: 
+[05/07/2020 10:41:09 am] this is the ID 524 this is post paid: 
+[05/07/2020 10:41:09 am] this is the ID 490 this is post paid: 
+[05/07/2020 10:41:09 am] this is the ID 444 this is post paid: 
+[05/07/2020 10:41:09 am] this is the ID 433 this is post paid: 
+[05/07/2020 10:41:09 am] this is the ID 408 this is post paid: 
+[05/07/2020 10:41:09 am] this is the ID 400 this is post paid: 
+[05/07/2020 10:41:09 am] this is the ID 380 this is post paid: 
+[05/07/2020 10:41:09 am] this is the ID 379 this is post paid: 
+[05/07/2020 10:41:09 am] this is the ID 364 this is post paid: 
+[05/07/2020 10:41:09 am] this is the ID 356 this is post paid: 
+[05/07/2020 10:41:09 am] this is the ID 347 this is post paid: 
+[05/07/2020 10:41:09 am] this is the ID 333 this is post paid: 
+[05/07/2020 10:41:09 am] this is the ID 332 this is post paid: 
+[05/07/2020 10:41:09 am] this is the ID 295 this is post paid: 
+[05/07/2020 10:41:09 am] this is the ID 211 this is post paid: 
+[05/07/2020 10:41:09 am] this is the ID 210 this is post paid: 
+[05/07/2020 10:41:09 am] this is the ID 209 this is post paid: 
+[05/07/2020 10:41:09 am] this is the ID 208 this is post paid: 
+[05/07/2020 10:41:09 am] this is the ID 46 this is post paid: 
+[05/07/2020 10:41:09 am] this is the ID 200 this is post paid: 
+[05/07/2020 10:41:09 am] this is the ID 201 this is post paid: 
+[05/07/2020 10:41:25 am] ID : 7
+[05/07/2020 10:41:25 am] the First date: 31/01/2015
+[05/07/2020 10:41:25 am] returning date is 03/03/15
+[05/07/2020 10:41:25 am] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
+[05/07/2020 10:41:25 am] firstDate: 31/01/15
+[05/07/2020 10:41:25 am] selectedIncomeSource baby: 10
+[05/07/2020 10:41:38 am] Restting form value to null : selectedIncomeLineItem.paymentDateFormatted
+[05/07/2020 10:41:38 am] Restting form value to null : selectedIncomeLineItem.descText
+[05/07/2020 10:41:38 am] Restting form value to null : selectedIncomeLineItem.amount
+[05/07/2020 10:41:38 am] Restting form value to null : selectedIncomeLineItem.amountPaid
+[05/07/2020 10:41:38 am] Restting form value to null : selectedIncomeLineItem.fromDateFormatted
+[05/07/2020 10:41:38 am] Restting form value to null : selectedIncomeLineItem.toDateFormatted
+[05/07/2020 10:41:38 am] ID : 7
+[05/07/2020 10:41:38 am] selectedIncomeSource baby: 10
+[05/07/2020 10:41:49 am] ID : 7
+[05/07/2020 10:41:49 am] the First date: 31/01/2015
+[05/07/2020 10:41:49 am] returning date is 03/03/15
+[05/07/2020 10:41:49 am] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
+[05/07/2020 10:41:49 am] firstDate: 31/01/15
+[05/07/2020 10:41:49 am] selectedIncomeSource baby: 10
+[05/07/2020 10:41:53 am] Restting form value to null : selectedIncomeLineItem.paymentDateFormatted
+[05/07/2020 10:41:53 am] Restting form value to null : selectedIncomeLineItem.descText
+[05/07/2020 10:41:53 am] Restting form value to null : selectedIncomeLineItem.amount
+[05/07/2020 10:41:53 am] Restting form value to null : selectedIncomeLineItem.amountPaid
+[05/07/2020 10:41:53 am] Restting form value to null : selectedIncomeLineItem.fromDateFormatted
+[05/07/2020 10:41:53 am] Restting form value to null : selectedIncomeLineItem.toDateFormatted
+[05/07/2020 10:41:53 am] ID : 7
+[05/07/2020 10:41:53 am] selectedIncomeSource baby: 10
+[05/07/2020 10:41:58 am] ID : 7
+[05/07/2020 10:41:58 am] the First date: 31/01/2015
+[05/07/2020 10:41:58 am] returning date is 03/03/15
+[05/07/2020 10:41:58 am] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
+[05/07/2020 10:41:58 am] firstDate: 31/01/15
+[05/07/2020 10:41:58 am] selectedIncomeSource baby: 10
+[05/07/2020 10:42:09 am] ID : 7
+[05/07/2020 10:42:09 am] the First date: 31/01/2015
+[05/07/2020 10:42:09 am] returning date is 03/03/15
+[05/07/2020 10:42:09 am] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
+[05/07/2020 10:42:09 am] firstDate: 31/01/15
+[05/07/2020 10:42:09 am] selectedIncomeSource baby: 10
+[05/07/2020 10:42:10 am] ID : 7
+[05/07/2020 10:42:10 am] the First date: 31/01/2015
+[05/07/2020 10:42:10 am] returning date is 03/03/15
+[05/07/2020 10:42:10 am] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
+[05/07/2020 10:42:10 am] firstDate: 31/01/15
+[05/07/2020 10:42:10 am] selectedIncomeSource baby: 10
+[05/07/2020 10:42:15 am] Restting form value to null : selectedIncomeLineItem.paymentDateFormatted
+[05/07/2020 10:42:15 am] Restting form value to null : selectedIncomeLineItem.descText
+[05/07/2020 10:42:15 am] Restting form value to null : selectedIncomeLineItem.amount
+[05/07/2020 10:42:15 am] Restting form value to null : selectedIncomeLineItem.amountPaid
+[05/07/2020 10:42:15 am] Restting form value to null : selectedIncomeLineItem.fromDateFormatted
+[05/07/2020 10:42:15 am] Restting form value to null : selectedIncomeLineItem.toDateFormatted
+[05/07/2020 10:42:15 am] ID : 7
+[05/07/2020 10:42:15 am] selectedIncomeSource baby: 10
+[05/07/2020 10:42:25 am] ID : 7
+[05/07/2020 10:42:25 am] the First date: 31/01/2015
+[05/07/2020 10:42:25 am] returning date is 03/03/15
+[05/07/2020 10:42:25 am] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
+[05/07/2020 10:42:25 am] firstDate: 31/01/15
+[05/07/2020 10:42:25 am] selectedIncomeSource baby: 10
+[05/07/2020 03:19:34 pm] the First date: 31/01/2015
+[05/07/2020 03:19:34 pm] returning date is 03/03/15
+[05/07/2020 03:19:34 pm] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
+[05/07/2020 03:19:34 pm] firstDate: 31/01/15
+[05/07/2020 03:19:44 pm] the First date: 31/01/2015
+[05/07/2020 03:19:44 pm] returning date is 03/03/15
+[05/07/2020 03:19:44 pm] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
+[05/07/2020 03:19:44 pm] firstDate: 31/01/15
+[05/07/2020 03:20:50 pm] ID : 7
+[05/07/2020 03:20:50 pm] selectedIncomeSource baby: 10
+[05/07/2020 03:20:54 pm] ID : 7
+[05/07/2020 03:20:54 pm] selectedIncomeSource baby: 10
+[05/07/2020 03:21:02 pm] ID : 7
+[05/07/2020 03:21:02 pm] the First date: 31/01/2015
+[05/07/2020 03:21:02 pm] returning date is 03/03/15
+[05/07/2020 03:21:02 pm] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
+[05/07/2020 03:21:02 pm] firstDate: 31/01/15
+[05/07/2020 03:21:02 pm] selectedIncomeSource baby: 10
+[05/07/2020 04:05:33 pm] ID : 7
+[05/07/2020 04:05:33 pm] the First date: 31/01/2015
+[05/07/2020 04:05:33 pm] returning date is 03/03/15
+[05/07/2020 04:05:33 pm] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
+[05/07/2020 04:05:33 pm] firstDate: 31/01/15
+[05/07/2020 04:05:33 pm] selectedIncomeSource baby: 10
+[05/07/2020 04:06:23 pm] ID : 7
+[05/07/2020 04:06:23 pm] the First date: 31/01/2015
+[05/07/2020 04:06:23 pm] returning date is 03/03/15
+[05/07/2020 04:06:23 pm] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
+[05/07/2020 04:06:23 pm] firstDate: 31/01/15
+[05/07/2020 04:06:23 pm] selectedIncomeSource baby: 10
+[05/07/2020 04:06:49 pm] ID : 7
+[05/07/2020 04:06:49 pm] the First date: 31/01/2015
+[05/07/2020 04:06:49 pm] returning date is 03/03/15
+[05/07/2020 04:06:49 pm] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
+[05/07/2020 04:06:49 pm] firstDate: 31/01/15
+[05/07/2020 04:06:49 pm] selectedIncomeSource baby: 10
+[05/07/2020 04:08:25 pm] ID : 7
+[05/07/2020 04:08:25 pm] the First date: 31/01/2015
+[05/07/2020 04:08:25 pm] returning date is 03/03/15
+[05/07/2020 04:08:25 pm] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
+[05/07/2020 04:08:25 pm] firstDate: 31/01/15
+[05/07/2020 04:08:25 pm] selectedIncomeSource baby: 10
+[05/07/2020 04:09:50 pm] ID : 7
+[05/07/2020 04:09:50 pm] the First date: 31/01/2015
+[05/07/2020 04:09:50 pm] returning date is 03/03/15
+[05/07/2020 04:09:50 pm] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
+[05/07/2020 04:09:50 pm] firstDate: 31/01/15
+[05/07/2020 04:09:50 pm] selectedIncomeSource baby: 10
+[05/07/2020 04:09:50 pm] comparatorDate 05/07/2020 this is currentDate: 05/07/2020
+[05/07/2020 04:09:50 pm] comparatorDate 05/07/2020 this is currentDate: 05/07/2020
+[05/07/2020 04:09:50 pm] comparatorDate 05/07/2020 this is currentDate: 05/07/2020
+[05/07/2020 04:09:50 pm] comparatorDate 05/07/2020 this is currentDate: 05/07/2020
+[05/07/2020 04:09:50 pm] comparatorDate 05/07/2020 this is currentDate: 05/07/2020
+[05/07/2020 04:09:50 pm] comparatorDate 05/07/2020 this is currentDate: 05/07/2020
+[05/07/2020 04:11:34 pm] 0
+[05/07/2020 04:11:34 pm] 0
+[05/07/2020 04:11:34 pm] 0
+[05/07/2020 04:11:34 pm] 0
+[05/07/2020 04:11:34 pm] 0
+[05/07/2020 04:11:34 pm] 0
+[05/07/2020 04:11:34 pm] 0
+[05/07/2020 04:11:34 pm] 0
+[05/07/2020 04:11:34 pm] 0
+[05/07/2020 04:11:34 pm] 0
+[05/07/2020 04:11:34 pm] 0
+[05/07/2020 04:11:34 pm] 0
+[05/07/2020 04:11:34 pm] 0
+[05/07/2020 04:11:34 pm] 0
+[05/07/2020 04:11:34 pm] 0
+[05/07/2020 04:11:34 pm] 0
+[05/07/2020 04:11:34 pm] 0
+[05/07/2020 04:11:34 pm] 0
+[05/07/2020 04:11:34 pm] 0
+[05/07/2020 04:11:34 pm] 0
+[05/07/2020 04:11:34 pm] 0
+[05/07/2020 04:11:34 pm] 0
+[05/07/2020 04:11:34 pm] 0
+[05/07/2020 04:11:34 pm] 0
+[05/07/2020 04:11:34 pm] 0
+[05/07/2020 04:11:34 pm] 0
+[05/07/2020 04:11:34 pm] 0
+[05/07/2020 04:11:34 pm] 0
+[05/07/2020 04:11:34 pm] 0
+[05/07/2020 04:11:34 pm] 0
+[05/07/2020 04:11:34 pm] 0
+[05/07/2020 04:11:34 pm] 0
+[05/07/2020 04:11:39 pm] ID : 7
+[05/07/2020 04:11:39 pm] selectedIncomeSource baby: 10
+[05/07/2020 04:11:39 pm] 0
+[05/07/2020 04:11:39 pm] 0
+[05/07/2020 04:11:39 pm] 0
+[05/07/2020 04:11:39 pm] 0
+[05/07/2020 04:11:39 pm] 0
+[05/07/2020 04:11:39 pm] 0
+[05/07/2020 04:11:50 pm] ID : 7
+[05/07/2020 04:11:50 pm] the First date: 31/01/2015
+[05/07/2020 04:11:50 pm] returning date is 03/03/15
+[05/07/2020 04:11:50 pm] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
+[05/07/2020 04:11:50 pm] firstDate: 31/01/15
+[05/07/2020 04:11:50 pm] selectedIncomeSource baby: 10
+[05/07/2020 04:11:50 pm] 0
+[05/07/2020 04:11:50 pm] 0
+[05/07/2020 04:11:50 pm] 0
+[05/07/2020 04:11:50 pm] 0
+[05/07/2020 04:11:50 pm] 0
+[05/07/2020 04:11:50 pm] 0
+[05/07/2020 04:12:10 pm] ID : 7
+[05/07/2020 04:12:10 pm] the First date: 31/01/2015
+[05/07/2020 04:12:10 pm] returning date is 03/03/15
+[05/07/2020 04:12:10 pm] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
+[05/07/2020 04:12:10 pm] firstDate: 31/01/15
+[05/07/2020 04:12:10 pm] selectedIncomeSource baby: 10
+[05/07/2020 04:12:10 pm] 0
+[05/07/2020 04:12:10 pm] 0
+[05/07/2020 04:12:10 pm] 0
+[05/07/2020 04:12:10 pm] 0
+[05/07/2020 04:12:10 pm] 0
+[05/07/2020 04:12:10 pm] 0
+[05/07/2020 04:12:58 pm] ID : 7
+[05/07/2020 04:12:58 pm] the First date: 31/01/2015
+[05/07/2020 04:12:58 pm] returning date is 03/03/15
+[05/07/2020 04:12:58 pm] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
+[05/07/2020 04:12:58 pm] firstDate: 31/01/15
+[05/07/2020 04:12:58 pm] selectedIncomeSource baby: 10
+[05/07/2020 04:12:58 pm] 0
+[05/07/2020 04:12:58 pm] 0
+[05/07/2020 04:12:58 pm] 0
+[05/07/2020 04:12:58 pm] 0
+[05/07/2020 04:12:58 pm] 0
+[05/07/2020 04:12:58 pm] 0
+[05/07/2020 04:12:58 pm] 0
+[05/07/2020 04:12:58 pm] 0
+[05/07/2020 04:12:58 pm] 0
+[05/07/2020 04:12:58 pm] 0
+[05/07/2020 04:13:37 pm] ID : 7
+[05/07/2020 04:13:37 pm] the First date: 31/01/2015
+[05/07/2020 04:13:37 pm] returning date is 03/03/15
+[05/07/2020 04:13:37 pm] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
+[05/07/2020 04:13:37 pm] firstDate: 31/01/15
+[05/07/2020 04:13:37 pm] selectedIncomeSource baby: 10
+[05/07/2020 04:15:10 pm] ID : 7
+[05/07/2020 04:15:10 pm] the First date: 31/01/2015
+[05/07/2020 04:15:10 pm] returning date is 03/03/15
+[05/07/2020 04:15:10 pm] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
+[05/07/2020 04:15:10 pm] firstDate: 31/01/15
+[05/07/2020 04:15:10 pm] selectedIncomeSource baby: 10
+[05/07/2020 04:15:10 pm] 0
+[05/07/2020 04:15:10 pm] 0
+[05/07/2020 04:15:10 pm] 0
+[05/07/2020 04:15:10 pm] 0
+[05/07/2020 04:15:10 pm] 0
+[05/07/2020 04:15:10 pm] 0
+[05/07/2020 04:15:10 pm] 0
+[05/07/2020 04:15:10 pm] 0
+[05/07/2020 04:15:10 pm] 0
+[05/07/2020 04:15:10 pm] 0
+[05/07/2020 04:15:24 pm] 0
+[05/07/2020 04:15:24 pm] 0
+[05/07/2020 04:15:24 pm] 0
+[05/07/2020 04:15:24 pm] 0
+[05/07/2020 04:15:24 pm] 0
+[05/07/2020 04:15:24 pm] 0
+[05/07/2020 04:15:24 pm] 0
+[05/07/2020 04:15:24 pm] 0
+[05/07/2020 04:15:24 pm] 0
+[05/07/2020 04:15:24 pm] 0
+[05/07/2020 04:15:24 pm] 0
+[05/07/2020 04:15:24 pm] 0
+[05/07/2020 04:15:24 pm] 0
+[05/07/2020 04:15:24 pm] 0
+[05/07/2020 04:15:24 pm] 0
+[05/07/2020 04:15:24 pm] 0
+[05/07/2020 04:15:24 pm] 0
+[05/07/2020 04:15:24 pm] 0
+[05/07/2020 04:15:24 pm] 0
+[05/07/2020 04:15:24 pm] 0
+[05/07/2020 04:15:24 pm] 0
+[05/07/2020 04:15:24 pm] 0
+[05/07/2020 04:15:24 pm] 0
+[05/07/2020 04:15:24 pm] 0
+[05/07/2020 04:15:24 pm] 0
+[05/07/2020 04:15:24 pm] 0
+[05/07/2020 04:15:24 pm] 0
+[05/07/2020 04:15:24 pm] 0
+[05/07/2020 04:15:24 pm] 0
+[05/07/2020 04:15:24 pm] 0
+[05/07/2020 04:15:24 pm] 0
+[05/07/2020 04:15:24 pm] 0
+[05/07/2020 04:15:24 pm] 0
+[05/07/2020 04:15:24 pm] 0
+[05/07/2020 04:15:24 pm] 0
+[05/07/2020 04:15:24 pm] 0
+[05/07/2020 04:16:00 pm] the First date: 31/01/2015
+[05/07/2020 04:16:00 pm] returning date is 03/03/15
+[05/07/2020 04:16:00 pm] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
+[05/07/2020 04:16:00 pm] firstDate: 31/01/15
+[05/07/2020 04:16:01 pm] ID : 7
+[05/07/2020 04:16:01 pm] financial year start Time: 2020-07-01
+[05/07/2020 04:16:01 pm] financial year end Time: 2021-06-30
+[05/07/2020 04:16:01 pm] incoming enddate is: 30/06/21
+[05/07/2020 04:16:01 pm] before incomeLineItem search
+[05/07/2020 04:16:01 pm] before expenseLineItem search
+[05/07/2020 04:16:01 pm] Returning Summary: 0,0,0
+[05/07/2020 04:16:01 pm] 0
+[05/07/2020 04:16:01 pm] 0
+[05/07/2020 04:16:01 pm] 0
+[05/07/2020 04:16:01 pm] 0
+[05/07/2020 04:16:01 pm] 0
+[05/07/2020 04:16:01 pm] 0
+[05/07/2020 04:16:01 pm] 0
+[05/07/2020 04:16:01 pm] 0
+[05/07/2020 04:16:01 pm] 0
+[05/07/2020 04:16:01 pm] 0
+[05/07/2020 04:16:01 pm] 0
+[05/07/2020 04:16:01 pm] 0
+[05/07/2020 04:16:01 pm] 0
+[05/07/2020 04:16:01 pm] 0
+[05/07/2020 04:16:04 pm] ID : 7
+[05/07/2020 04:16:04 pm] selectedIncomeSource baby: 
+[05/07/2020 04:16:04 pm] firstIncomeSource: 10
+[05/07/2020 04:16:04 pm] 0
+[05/07/2020 04:16:04 pm] 0
+[05/07/2020 04:16:04 pm] 0
+[05/07/2020 04:16:04 pm] 0
+[05/07/2020 04:16:04 pm] 0
+[05/07/2020 04:16:04 pm] 0
+[05/07/2020 04:16:04 pm] 0
+[05/07/2020 04:16:04 pm] 0
+[05/07/2020 04:16:04 pm] 0
+[05/07/2020 04:16:04 pm] 0
+[05/07/2020 04:16:13 pm] 0
+[05/07/2020 04:16:13 pm] 0
+[05/07/2020 04:16:13 pm] 0
+[05/07/2020 04:16:13 pm] 0
+[05/07/2020 04:16:13 pm] 0
+[05/07/2020 04:16:13 pm] 0
+[05/07/2020 04:16:13 pm] 0
+[05/07/2020 04:16:13 pm] 0
+[05/07/2020 04:16:13 pm] 0
+[05/07/2020 04:16:13 pm] 0
+[05/07/2020 04:16:13 pm] 0
+[05/07/2020 04:16:13 pm] 0
+[05/07/2020 04:16:13 pm] 0
+[05/07/2020 04:16:13 pm] 0
+[05/07/2020 04:16:13 pm] 0
+[05/07/2020 04:16:13 pm] 0
+[05/07/2020 04:16:13 pm] 0
+[05/07/2020 04:16:13 pm] 0
+[05/07/2020 04:16:13 pm] 0
+[05/07/2020 04:16:13 pm] 0
+[05/07/2020 04:16:13 pm] 0
+[05/07/2020 04:16:13 pm] 0
+[05/07/2020 04:16:13 pm] 0
+[05/07/2020 04:16:13 pm] 0
+[05/07/2020 04:16:13 pm] 0
+[05/07/2020 04:16:13 pm] 0
+[05/07/2020 04:16:13 pm] 0
+[05/07/2020 04:16:13 pm] 0
+[05/07/2020 04:16:13 pm] 0
+[05/07/2020 04:16:13 pm] 0
+[05/07/2020 04:16:13 pm] 0
+[05/07/2020 04:16:13 pm] 0
+[05/07/2020 04:16:13 pm] 0
+[05/07/2020 04:16:13 pm] 0
+[05/07/2020 04:16:13 pm] 0
+[05/07/2020 04:16:13 pm] 0
+[05/07/2020 04:24:37 pm] the First date: 31/01/2015
+[05/07/2020 04:24:37 pm] returning date is 03/03/15
+[05/07/2020 04:24:37 pm] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
+[05/07/2020 04:24:37 pm] firstDate: 31/01/15
+[05/07/2020 04:24:40 pm] ID : 7
+[05/07/2020 04:24:40 pm] financial year start Time: 2020-07-01
+[05/07/2020 04:24:40 pm] financial year end Time: 2021-06-30
+[05/07/2020 04:24:40 pm] incoming enddate is: 30/06/21
+[05/07/2020 04:24:40 pm] before incomeLineItem search
+[05/07/2020 04:24:40 pm] before expenseLineItem search
+[05/07/2020 04:24:40 pm] Returning Summary: 0,0,0
+[05/07/2020 04:24:40 pm] 0
+[05/07/2020 04:24:40 pm] 0
+[05/07/2020 04:24:40 pm] 0
+[05/07/2020 04:24:40 pm] 0
+[05/07/2020 04:24:40 pm] 0
+[05/07/2020 04:24:40 pm] 0
+[05/07/2020 04:24:40 pm] 0
+[05/07/2020 04:24:40 pm] 0
+[05/07/2020 04:24:40 pm] 0
+[05/07/2020 04:24:40 pm] 0
+[05/07/2020 04:24:40 pm] 0
+[05/07/2020 04:24:40 pm] 0
+[05/07/2020 04:24:40 pm] 0
+[05/07/2020 04:24:40 pm] 0
+[05/07/2020 04:24:42 pm] ID : 7
+[05/07/2020 04:24:42 pm] selectedIncomeSource baby: 
+[05/07/2020 04:24:42 pm] firstIncomeSource: 10
+[05/07/2020 04:24:42 pm] 0
+[05/07/2020 04:24:42 pm] 0
+[05/07/2020 04:24:42 pm] 0
+[05/07/2020 04:24:42 pm] 0
+[05/07/2020 04:24:42 pm] 0
+[05/07/2020 04:24:42 pm] 0
+[05/07/2020 04:24:42 pm] 0
+[05/07/2020 04:24:42 pm] 0
+[05/07/2020 04:24:42 pm] 0
+[05/07/2020 04:24:42 pm] 0
+[05/07/2020 04:24:49 pm] selected Income source is not null
+[05/07/2020 04:24:49 pm] selected Income source is not null
+[05/07/2020 04:24:49 pm] selected Income source is not null
+[05/07/2020 04:24:49 pm] selected Income source is not null
+[05/07/2020 04:24:52 pm] selected Income source is not null
+[05/07/2020 04:24:52 pm] selected Income source is not null
+[05/07/2020 04:24:52 pm] selected Income source is not null
+[05/07/2020 04:24:52 pm] selected Income source is not null
+[05/07/2020 04:24:57 pm] selected Income source is not null
+[05/07/2020 04:24:57 pm] selected Income source is not null
+[05/07/2020 04:24:57 pm] selected Income source is not null
+[05/07/2020 04:24:57 pm] selected Income source is not null
+[05/07/2020 04:25:26 pm] selected Income source is not null
+[05/07/2020 04:25:26 pm] selected Income source is not null
+[05/07/2020 04:25:26 pm] selected Income source is not null
+[05/07/2020 04:25:26 pm] selected Income source is not null
+[05/07/2020 06:57:55 pm] the First date: 31/01/2015
+[05/07/2020 06:57:55 pm] returning date is 03/03/15
+[05/07/2020 06:57:55 pm] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
+[05/07/2020 06:57:55 pm] firstDate: 31/01/15
+[05/07/2020 06:58:06 pm] the First date: 31/01/2015
+[05/07/2020 06:58:06 pm] returning date is 03/03/15
+[05/07/2020 06:58:06 pm] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
+[05/07/2020 06:58:06 pm] firstDate: 31/01/15
+[05/07/2020 06:58:08 pm] ID : 7
+[05/07/2020 06:58:08 pm] financial year start Time: 2020-07-01
+[05/07/2020 06:58:08 pm] financial year end Time: 2021-06-30
+[05/07/2020 06:58:08 pm] incoming enddate is: 30/06/21
+[05/07/2020 06:58:08 pm] before incomeLineItem search
+[05/07/2020 06:58:08 pm] before expenseLineItem search
+[05/07/2020 06:58:08 pm] Returning Summary: 0,0,0
+[05/07/2020 06:58:08 pm] 0
+[05/07/2020 06:58:08 pm] 0
+[05/07/2020 06:58:08 pm] 0
+[05/07/2020 06:58:08 pm] 0
+[05/07/2020 06:58:08 pm] 0
+[05/07/2020 06:58:08 pm] 0
+[05/07/2020 06:58:08 pm] 0
+[05/07/2020 06:58:08 pm] 0
+[05/07/2020 06:58:08 pm] 0
+[05/07/2020 06:58:08 pm] 0
+[05/07/2020 06:58:08 pm] 0
+[05/07/2020 06:58:08 pm] 0
+[05/07/2020 06:58:08 pm] 0
+[05/07/2020 06:58:08 pm] 0
+[05/07/2020 06:58:12 pm] ID : 7
+[05/07/2020 06:58:12 pm] selectedIncomeSource baby: 
+[05/07/2020 06:58:12 pm] firstIncomeSource: 10
+[05/07/2020 06:58:12 pm] 0
+[05/07/2020 06:58:12 pm] 0
+[05/07/2020 06:58:12 pm] 0
+[05/07/2020 06:58:12 pm] 0
+[05/07/2020 06:58:12 pm] 0
+[05/07/2020 06:58:12 pm] 0
+[05/07/2020 06:58:12 pm] 0
+[05/07/2020 06:58:12 pm] 0
+[05/07/2020 06:58:12 pm] 0
+[05/07/2020 06:58:12 pm] 0
+[05/07/2020 06:58:17 pm] selected Income source is not null
+[05/07/2020 06:58:17 pm] selected Income source is not null
+[05/07/2020 06:58:17 pm] selected Income source is not null
+[05/07/2020 06:58:17 pm] selected Income source is not null
+[05/07/2020 06:58:17 pm] selected Income source is not null
+[05/07/2020 06:58:25 pm] selected Income source is not null
+[05/07/2020 06:58:25 pm] selected Income source is not null
+[05/07/2020 06:58:25 pm] selected Income source is not null
+[05/07/2020 06:58:25 pm] selected Income source is not null
+[05/07/2020 06:58:25 pm] selected Income source is not null
+[05/07/2020 06:58:28 pm] selected Income source is not null
+[05/07/2020 06:58:28 pm] selected Income source is not null
+[05/07/2020 06:58:28 pm] selected Income source is not null
+[05/07/2020 06:58:28 pm] selected Income source is not null
+[05/07/2020 06:58:28 pm] selected Income source is not null
+[05/07/2020 06:58:33 pm] selected Income source is not null
+[05/07/2020 06:58:33 pm] selected Income source is not null
+[05/07/2020 06:58:33 pm] selected Income source is not null
+[05/07/2020 06:58:33 pm] selected Income source is not null
+[05/07/2020 06:58:33 pm] selected Income source is not null
+[05/07/2020 07:01:31 pm] selected Income source is null
+[05/07/2020 07:01:31 pm] ID : 7
+[05/07/2020 07:01:31 pm] financial year start Time: 2020-07-01
+[05/07/2020 07:01:31 pm] financial year end Time: 2021-06-30
+[05/07/2020 07:01:31 pm] incoming enddate is: 30/06/21
+[05/07/2020 07:01:31 pm] before incomeLineItem search
+[05/07/2020 07:01:31 pm] before expenseLineItem search
+[05/07/2020 07:01:31 pm] Returning Summary: 0,0,0
+[05/07/2020 07:01:31 pm] 0
+[05/07/2020 07:01:31 pm] 0
+[05/07/2020 07:01:31 pm] 0
+[05/07/2020 07:01:31 pm] 0
+[05/07/2020 07:01:31 pm] 0
+[05/07/2020 07:01:31 pm] 0
+[05/07/2020 07:01:31 pm] 0
+[05/07/2020 07:01:31 pm] 0
+[05/07/2020 07:01:31 pm] 0
+[05/07/2020 07:01:31 pm] 0
+[05/07/2020 07:01:31 pm] 0
+[05/07/2020 07:01:31 pm] 0
+[05/07/2020 07:01:31 pm] 0
+[05/07/2020 07:01:31 pm] 0
+[05/07/2020 07:01:34 pm] ID : 7
+[05/07/2020 07:01:34 pm] selectedIncomeSource baby: 
+[05/07/2020 07:01:34 pm] firstIncomeSource: 10
+[05/07/2020 07:01:34 pm] 0
+[05/07/2020 07:01:34 pm] 0
+[05/07/2020 07:01:34 pm] 0
+[05/07/2020 07:01:34 pm] 0
+[05/07/2020 07:01:34 pm] 0
+[05/07/2020 07:01:34 pm] 0
+[05/07/2020 07:01:34 pm] 0
+[05/07/2020 07:01:34 pm] 0
+[05/07/2020 07:01:34 pm] 0
+[05/07/2020 07:01:34 pm] 0
+[05/07/2020 07:01:39 pm] selected Income source is not null
+[05/07/2020 07:01:39 pm] selected Income source is not null
+[05/07/2020 07:01:39 pm] selected Income source is not null
+[05/07/2020 07:02:16 pm] selected Income source is not null
+[05/07/2020 07:02:16 pm] selected Income source is not null
+[05/07/2020 07:02:16 pm] selected Income source is not null
+[05/07/2020 07:02:16 pm] selected Income source is not null
+[05/07/2020 07:02:16 pm] selected Income source is not null
+[05/07/2020 07:03:13 pm] selected Income source is not null
+[05/07/2020 07:03:13 pm] selected Income source is not null
+[05/07/2020 07:03:13 pm] selected Income source is not null
+[05/07/2020 07:03:13 pm] selected Income source is not null
+[05/07/2020 07:03:13 pm] selected Income source is not null
+[05/07/2020 07:03:13 pm] selected Income source is not null
+[05/07/2020 07:03:13 pm] selected Income source is not null
+[05/07/2020 07:03:15 pm] selected Income source is not null
+[05/07/2020 07:03:15 pm] selected Income source is not null
+[05/07/2020 07:03:15 pm] selected Income source is not null
+[05/07/2020 07:03:15 pm] selected Income source is not null
+[05/07/2020 07:03:15 pm] selected Income source is not null
+[05/07/2020 07:03:15 pm] selected Income source is not null
+[05/07/2020 07:03:15 pm] selected Income source is not null
+[05/07/2020 07:03:17 pm] selected Income source is not null
+[05/07/2020 07:03:17 pm] selected Income source is not null
+[05/07/2020 07:03:17 pm] selected Income source is not null
+[05/07/2020 07:03:17 pm] selected Income source is not null
+[05/07/2020 07:03:17 pm] selected Income source is not null
+[05/07/2020 07:03:17 pm] selected Income source is not null
+[05/07/2020 07:03:17 pm] ID : 7
+[05/07/2020 07:03:17 pm] financial year start Time: 2020-07-01
+[05/07/2020 07:03:17 pm] financial year end Time: 2021-06-30
+[05/07/2020 07:03:17 pm] incoming enddate is: 30/06/21
+[05/07/2020 07:03:17 pm] before incomeLineItem search
+[05/07/2020 07:03:17 pm] before expenseLineItem search
+[05/07/2020 07:03:17 pm] Returning Summary: 0,0,0
+[05/07/2020 07:03:17 pm] 0
+[05/07/2020 07:03:17 pm] 0
+[05/07/2020 07:03:17 pm] 0
+[05/07/2020 07:03:17 pm] 0
+[05/07/2020 07:03:17 pm] 0
+[05/07/2020 07:03:17 pm] 0
+[05/07/2020 07:03:17 pm] 0
+[05/07/2020 07:03:17 pm] 0
+[05/07/2020 07:03:17 pm] 0
+[05/07/2020 07:03:17 pm] 0
+[05/07/2020 07:03:17 pm] 0
+[05/07/2020 07:03:17 pm] 0
+[05/07/2020 07:03:17 pm] 0
+[05/07/2020 07:03:17 pm] 0
+[05/07/2020 07:03:20 pm] ID : 7
+[05/07/2020 07:03:20 pm] selectedIncomeSource baby: 10
+[05/07/2020 07:03:20 pm] 0
+[05/07/2020 07:03:20 pm] 0
+[05/07/2020 07:03:20 pm] 0
+[05/07/2020 07:03:20 pm] 0
+[05/07/2020 07:03:20 pm] 0
+[05/07/2020 07:03:20 pm] 0
+[05/07/2020 07:03:20 pm] 0
+[05/07/2020 07:03:20 pm] 0
+[05/07/2020 07:03:20 pm] 0
+[05/07/2020 07:03:20 pm] 0
+[05/07/2020 07:03:29 pm] selected Income source is not null
+[05/07/2020 07:03:29 pm] selected Income source is not null
+[05/07/2020 07:03:29 pm] selected Income source is not null
+[05/07/2020 07:03:29 pm] selected Income source is not null
+[05/07/2020 07:03:29 pm] selected Income source is not null
+[05/07/2020 07:06:42 pm] selected Income source is not null
+[05/07/2020 07:06:42 pm] selected Income source is not null
+[05/07/2020 07:06:42 pm] selected Income source is not null
+[05/07/2020 07:06:42 pm] selected Income source is not null
+[05/07/2020 07:06:42 pm] selected Income source is not null
+[05/07/2020 07:06:52 pm] selected Income source is not null
+[05/07/2020 07:06:52 pm] selected Income source is not null
+[05/07/2020 07:06:52 pm] selected Income source is not null
+[05/07/2020 07:06:52 pm] selected Income source is not null
+[05/07/2020 07:06:52 pm] selected Income source is not null
+[05/07/2020 07:08:20 pm] selected Income source is not null
+[05/07/2020 07:08:20 pm] selected Income source is not null
+[05/07/2020 07:08:20 pm] selected Income source is not null
+[05/07/2020 07:08:20 pm] selected Income source is not null
+[05/07/2020 07:08:20 pm] selected Income source is not null
+[05/07/2020 07:11:36 pm] selected Income source is null
+[05/07/2020 07:12:08 pm] selected Income source is null
+[05/07/2020 07:12:16 pm] selected Income source is not null
+[05/07/2020 07:12:16 pm] selected Income source is not null
+[05/07/2020 07:12:16 pm] selected Income source is not null
+[05/07/2020 07:12:16 pm] selected Income source is not null
+[05/07/2020 07:12:16 pm] selected Income source is not null
+[05/07/2020 07:12:39 pm] selected Income source is not null
+[05/07/2020 07:12:39 pm] selected Income source is not null
+[05/07/2020 07:12:39 pm] selected Income source is not null
+[05/07/2020 07:12:39 pm] selected Income source is not null
+[05/07/2020 07:12:39 pm] selected Income source is not null
+[05/07/2020 07:12:39 pm] selected Income source is not null
+[05/07/2020 07:12:39 pm] selected Income source is not null
+[05/07/2020 07:12:45 pm] selected Income source is not null
+[05/07/2020 07:12:45 pm] selected Income source is not null
+[05/07/2020 07:12:45 pm] selected Income source is not null
+[05/07/2020 07:12:45 pm] selected Income source is not null
+[05/07/2020 07:12:45 pm] selected Income source is not null
+[05/07/2020 07:12:48 pm] selected Income source is not null
+[05/07/2020 07:12:48 pm] selected Income source is not null
+[05/07/2020 07:12:48 pm] selected Income source is not null
+[05/07/2020 07:12:48 pm] selected Income source is not null
+[05/07/2020 07:12:48 pm] selected Income source is not null
+[05/07/2020 07:12:53 pm] selected Income source is not null
+[05/07/2020 07:12:53 pm] selected Income source is not null
+[05/07/2020 07:12:53 pm] selected Income source is not null
+[05/07/2020 07:12:53 pm] selected Income source is not null
+[05/07/2020 07:12:53 pm] selected Income source is not null
+[05/07/2020 07:36:54 pm] the First date: 31/01/2015
+[05/07/2020 07:36:54 pm] returning date is 03/03/15
+[05/07/2020 07:36:54 pm] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
+[05/07/2020 07:36:54 pm] firstDate: 31/01/15
+[05/07/2020 07:36:56 pm] ID : 7
+[05/07/2020 07:36:56 pm] financial year start Time: 2020-07-01
+[05/07/2020 07:36:56 pm] financial year end Time: 2021-06-30
+[05/07/2020 07:36:56 pm] incoming enddate is: 30/06/21
+[05/07/2020 07:36:56 pm] before incomeLineItem search
+[05/07/2020 07:36:56 pm] before expenseLineItem search
+[05/07/2020 07:36:56 pm] Returning Summary: 0,0,0
+[05/07/2020 07:36:56 pm] 0
+[05/07/2020 07:36:56 pm] 0
+[05/07/2020 07:36:56 pm] 0
+[05/07/2020 07:36:56 pm] 0
+[05/07/2020 07:36:56 pm] 0
+[05/07/2020 07:36:56 pm] 0
+[05/07/2020 07:36:56 pm] 0
+[05/07/2020 07:36:56 pm] 0
+[05/07/2020 07:36:56 pm] 0
+[05/07/2020 07:36:56 pm] 0
+[05/07/2020 07:36:56 pm] 0
+[05/07/2020 07:36:56 pm] 0
+[05/07/2020 07:36:57 pm] ID : 7
+[05/07/2020 07:36:57 pm] selectedIncomeSource baby: 
+[05/07/2020 07:36:57 pm] firstIncomeSource: 10
+[05/07/2020 07:36:57 pm] 0
+[05/07/2020 07:36:57 pm] 0
+[05/07/2020 07:36:57 pm] 0
+[05/07/2020 07:36:57 pm] 0
+[05/07/2020 07:36:57 pm] 0
+[05/07/2020 07:36:57 pm] 0
+[05/07/2020 07:36:57 pm] 0
+[05/07/2020 07:36:57 pm] 0
+[05/07/2020 07:37:02 pm] selected Income source is null
+[05/07/2020 07:37:02 pm] ID : 7
+[05/07/2020 07:37:02 pm] financial year start Time: 2020-07-01
+[05/07/2020 07:37:02 pm] financial year end Time: 2021-06-30
+[05/07/2020 07:37:02 pm] incoming enddate is: 30/06/21
+[05/07/2020 07:37:02 pm] before incomeLineItem search
+[05/07/2020 07:37:02 pm] before expenseLineItem search
+[05/07/2020 07:37:02 pm] Returning Summary: 0,0,0
+[05/07/2020 07:37:02 pm] 0
+[05/07/2020 07:37:02 pm] 0
+[05/07/2020 07:37:02 pm] 0
+[05/07/2020 07:37:02 pm] 0
+[05/07/2020 07:37:02 pm] 0
+[05/07/2020 07:37:02 pm] 0
+[05/07/2020 07:37:02 pm] 0
+[05/07/2020 07:37:02 pm] 0
+[05/07/2020 07:37:02 pm] 0
+[05/07/2020 07:37:02 pm] 0
+[05/07/2020 07:37:02 pm] 0
+[05/07/2020 07:37:02 pm] 0
+[05/07/2020 07:37:05 pm] ID : 7
+[05/07/2020 07:37:05 pm] selectedIncomeSource baby: 
+[05/07/2020 07:37:05 pm] firstIncomeSource: 10
+[05/07/2020 07:37:05 pm] 0
+[05/07/2020 07:37:05 pm] 0
+[05/07/2020 07:37:05 pm] 0
+[05/07/2020 07:37:05 pm] 0
+[05/07/2020 07:37:05 pm] 0
+[05/07/2020 07:37:05 pm] 0
+[05/07/2020 07:37:05 pm] 0
+[05/07/2020 07:37:05 pm] 0
+[05/07/2020 07:37:06 pm] selected ID is: 7
+[05/07/2020 07:37:08 pm] selected ID is: 7
+[05/07/2020 07:37:08 pm] nonDeletedDocuments
+[05/07/2020 07:37:08 pm] 1
+[05/07/2020 07:37:18 pm] saveAction selectedOccuapnt
+[05/07/2020 07:37:18 pm] selected ID is: 7
+[05/07/2020 07:37:18 pm] nonDeletedDocuments
+[05/07/2020 07:37:18 pm] 1
+[05/07/2020 07:39:36 pm] saveAction selectedOccuapnt
+[05/07/2020 07:39:36 pm] selected ID is: 7
+[05/07/2020 07:39:36 pm] nonDeletedDocuments
+[05/07/2020 07:39:36 pm] 1
+[05/07/2020 07:52:55 pm] the First date: 31/01/2015
+[05/07/2020 07:52:55 pm] returning date is 03/03/15
+[05/07/2020 07:52:55 pm] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
+[05/07/2020 07:52:55 pm] firstDate: 31/01/15
+[05/07/2020 07:52:57 pm] ID : 7
+[05/07/2020 07:52:57 pm] financial year start Time: 2020-07-01
+[05/07/2020 07:52:57 pm] financial year end Time: 2021-06-30
+[05/07/2020 07:52:57 pm] incoming enddate is: 30/06/21
+[05/07/2020 07:52:57 pm] before incomeLineItem search
+[05/07/2020 07:52:57 pm] before expenseLineItem search
+[05/07/2020 07:52:57 pm] Returning Summary: 0,0,0
+[05/07/2020 07:52:57 pm] 0
+[05/07/2020 07:52:57 pm] 0
+[05/07/2020 07:52:57 pm] 0
+[05/07/2020 07:52:57 pm] 0
+[05/07/2020 07:52:57 pm] 0
+[05/07/2020 07:52:57 pm] 0
+[05/07/2020 07:52:57 pm] 0
+[05/07/2020 07:52:57 pm] 0
+[05/07/2020 07:52:57 pm] 0
+[05/07/2020 07:52:57 pm] 0
+[05/07/2020 07:52:57 pm] 0
+[05/07/2020 07:52:57 pm] 0
+[05/07/2020 07:52:58 pm] ID : 7
+[05/07/2020 07:52:58 pm] selectedIncomeSource baby: 
+[05/07/2020 07:52:58 pm] firstIncomeSource: 10
+[05/07/2020 07:52:58 pm] 0
+[05/07/2020 07:52:58 pm] 0
+[05/07/2020 07:52:58 pm] 0
+[05/07/2020 07:52:58 pm] 0
+[05/07/2020 07:52:58 pm] 0
+[05/07/2020 07:52:58 pm] 0
+[05/07/2020 07:52:58 pm] 0
+[05/07/2020 07:52:58 pm] 0
+[05/07/2020 07:53:03 pm] selected Income source is not null
+[05/07/2020 07:53:03 pm] selected Income source is not null
+[05/07/2020 07:53:03 pm] selected Income source is not null
+[05/07/2020 07:53:03 pm] selected Income source is not null
+[05/07/2020 07:53:03 pm] selected Income source is not null
+[05/07/2020 07:53:06 pm] selected Income source is not null
+[05/07/2020 07:53:06 pm] selected Income source is not null
+[05/07/2020 07:53:06 pm] selected Income source is not null
+[05/07/2020 07:53:06 pm] selected Income source is not null
+[05/07/2020 07:53:06 pm] selected Income source is not null
+[05/07/2020 07:53:06 pm] selected Income source is not null
+[05/07/2020 07:53:06 pm] ID : 7
+[05/07/2020 07:53:06 pm] financial year start Time: 2020-07-01
+[05/07/2020 07:53:06 pm] financial year end Time: 2021-06-30
+[05/07/2020 07:53:06 pm] incoming enddate is: 30/06/21
+[05/07/2020 07:53:06 pm] before incomeLineItem search
+[05/07/2020 07:53:06 pm] before expenseLineItem search
+[05/07/2020 07:53:06 pm] Returning Summary: 0,0,0
+[05/07/2020 07:53:06 pm] 0
+[05/07/2020 07:53:06 pm] 0
+[05/07/2020 07:53:06 pm] 0
+[05/07/2020 07:53:06 pm] 0
+[05/07/2020 07:53:06 pm] 0
+[05/07/2020 07:53:06 pm] 0
+[05/07/2020 07:53:06 pm] 0
+[05/07/2020 07:53:06 pm] 0
+[05/07/2020 07:53:06 pm] 0
+[05/07/2020 07:53:06 pm] 0
+[05/07/2020 07:53:06 pm] 0
+[05/07/2020 07:53:06 pm] 0
+[05/07/2020 07:53:08 pm] ID : 7
+[05/07/2020 07:53:08 pm] selectedIncomeSource baby: 11
+[05/07/2020 07:53:08 pm] 0
+[05/07/2020 07:53:08 pm] 0
+[05/07/2020 07:53:08 pm] 0
+[05/07/2020 07:53:09 pm] selected Income source is not null
+[05/07/2020 07:53:09 pm] selected Income source is not null
+[05/07/2020 07:53:09 pm] selected Income source is not null
+[05/07/2020 07:53:09 pm] selected Income source is not null
+[05/07/2020 07:53:09 pm] selected Income source is not null
+[05/07/2020 07:53:12 pm] selected Income source is not null
+[05/07/2020 07:53:12 pm] selected Income source is not null
+[05/07/2020 07:53:12 pm] selected Income source is not null
+[05/07/2020 07:53:12 pm] selected Income source is not null
+[05/07/2020 07:53:12 pm] selected Income source is not null
+[05/07/2020 07:53:12 pm] selected Income source is not null
+[05/07/2020 07:53:12 pm] ID : 7
+[05/07/2020 07:53:12 pm] financial year start Time: 2020-07-01
+[05/07/2020 07:53:12 pm] financial year end Time: 2021-06-30
+[05/07/2020 07:53:12 pm] incoming enddate is: 30/06/21
+[05/07/2020 07:53:12 pm] before incomeLineItem search
+[05/07/2020 07:53:12 pm] before expenseLineItem search
+[05/07/2020 07:53:12 pm] Returning Summary: 0,0,0
+[05/07/2020 07:53:12 pm] 0
+[05/07/2020 07:53:12 pm] 0
+[05/07/2020 07:53:12 pm] 0
+[05/07/2020 07:53:12 pm] 0
+[05/07/2020 07:53:12 pm] 0
+[05/07/2020 07:53:12 pm] 0
+[05/07/2020 07:53:12 pm] 0
+[05/07/2020 07:53:12 pm] 0
+[05/07/2020 07:53:12 pm] 0
+[05/07/2020 07:53:12 pm] 0
+[05/07/2020 07:53:12 pm] 0
+[05/07/2020 07:53:12 pm] 0
+[05/07/2020 07:53:13 pm] ID : 7
+[05/07/2020 07:53:13 pm] selectedIncomeSource baby: 11
+[05/07/2020 07:53:13 pm] 0
+[05/07/2020 07:53:13 pm] 0
+[05/07/2020 07:53:13 pm] 0
+[05/07/2020 07:53:14 pm] selected ID is: 7
+[05/07/2020 07:53:15 pm] selected ID is: 7
+[05/07/2020 07:53:15 pm] nonDeletedDocuments
+[05/07/2020 07:53:15 pm] 1
+[05/07/2020 07:53:55 pm] selected ID is: 7
+[05/07/2020 07:53:55 pm] nonDeletedDocuments
+[05/07/2020 07:53:55 pm] 1
+[05/07/2020 07:54:09 pm] backActionbackActionbackActionbackActionbackAction
+[05/07/2020 07:54:09 pm] backAction selectedID : O%3F%93%CB9.%00%9D
+[05/07/2020 07:54:12 pm] selected Income source is null
+[05/07/2020 07:54:12 pm] ID : 7
+[05/07/2020 07:54:12 pm] financial year start Time: 2020-07-01
+[05/07/2020 07:54:12 pm] financial year end Time: 2021-06-30
+[05/07/2020 07:54:12 pm] incoming enddate is: 30/06/21
+[05/07/2020 07:54:12 pm] before incomeLineItem search
+[05/07/2020 07:54:12 pm] before expenseLineItem search
+[05/07/2020 07:54:12 pm] Returning Summary: 0,0,0
+[05/07/2020 07:54:12 pm] 0
+[05/07/2020 07:54:12 pm] 0
+[05/07/2020 07:54:12 pm] 0
+[05/07/2020 07:54:12 pm] 0
+[05/07/2020 07:54:12 pm] 0
+[05/07/2020 07:54:12 pm] 0
+[05/07/2020 07:54:12 pm] 0
+[05/07/2020 07:54:12 pm] 0
+[05/07/2020 07:54:12 pm] 0
+[05/07/2020 07:54:12 pm] 0
+[05/07/2020 07:54:12 pm] 0
+[05/07/2020 07:54:12 pm] 0
+[05/07/2020 07:54:15 pm] ID : 7
+[05/07/2020 07:54:15 pm] selectedIncomeSource baby: 
+[05/07/2020 07:54:15 pm] firstIncomeSource: 10
+[05/07/2020 07:54:15 pm] 0
+[05/07/2020 07:54:15 pm] 0
+[05/07/2020 07:54:15 pm] 0
+[05/07/2020 07:54:15 pm] 0
+[05/07/2020 07:54:15 pm] 0
+[05/07/2020 07:54:15 pm] 0
+[05/07/2020 07:54:15 pm] 0
+[05/07/2020 07:54:15 pm] 0
+[05/07/2020 08:03:54 pm] ID : 7
+[05/07/2020 08:03:54 pm] selectedIncomeSource baby: 
+[05/07/2020 08:03:54 pm] firstIncomeSource: 10
+[05/07/2020 08:12:18 pm] the First date: 31/01/2015
+[05/07/2020 08:12:18 pm] returning date is 03/03/15
+[05/07/2020 08:12:18 pm] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
+[05/07/2020 08:12:18 pm] firstDate: 31/01/15
+[05/07/2020 08:12:20 pm] ID : 7
+[05/07/2020 08:12:20 pm] financial year start Time: 2020-07-01
+[05/07/2020 08:12:20 pm] financial year end Time: 2021-06-30
+[05/07/2020 08:12:20 pm] incoming enddate is: 30/06/21
+[05/07/2020 08:12:20 pm] before incomeLineItem search
+[05/07/2020 08:12:20 pm] before expenseLineItem search
+[05/07/2020 08:12:20 pm] Returning Summary: 0,0,0
+[05/07/2020 08:12:20 pm] 0
+[05/07/2020 08:12:20 pm] 0
+[05/07/2020 08:12:20 pm] 0
+[05/07/2020 08:12:20 pm] 0
+[05/07/2020 08:12:20 pm] 0
+[05/07/2020 08:12:20 pm] 0
+[05/07/2020 08:12:20 pm] 0
+[05/07/2020 08:12:20 pm] 0
+[05/07/2020 08:12:20 pm] 0
+[05/07/2020 08:12:20 pm] 0
+[05/07/2020 08:12:20 pm] 0
+[05/07/2020 08:12:20 pm] 0
+[05/07/2020 08:12:21 pm] ID : 7
+[05/07/2020 08:12:21 pm] selectedIncomeSource baby: 
+[05/07/2020 08:12:21 pm] firstIncomeSource: 10
+[05/07/2020 08:12:21 pm] selectedIncomeSourceID: %CD%F0bm%F2%DD%D4%DC
+[05/07/2020 08:12:21 pm] 0
+[05/07/2020 08:12:21 pm] 0
+[05/07/2020 08:12:21 pm] 0
+[05/07/2020 08:12:21 pm] 0
+[05/07/2020 08:12:21 pm] 0
+[05/07/2020 08:12:21 pm] 0
+[05/07/2020 08:12:21 pm] 0
+[05/07/2020 08:12:21 pm] 0
+[05/07/2020 08:15:49 pm] selectedIncomeSourceID: 10
+[05/07/2020 08:15:52 pm] the First date: 31/01/2015
+[05/07/2020 08:15:52 pm] returning date is 03/03/15
+[05/07/2020 08:15:52 pm] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
+[05/07/2020 08:15:52 pm] firstDate: 31/01/15
+[05/07/2020 08:15:53 pm] ID : 7
+[05/07/2020 08:15:53 pm] financial year start Time: 2020-07-01
+[05/07/2020 08:15:53 pm] financial year end Time: 2021-06-30
+[05/07/2020 08:15:53 pm] incoming enddate is: 30/06/21
+[05/07/2020 08:15:53 pm] before incomeLineItem search
+[05/07/2020 08:15:53 pm] before expenseLineItem search
+[05/07/2020 08:15:53 pm] Returning Summary: 0,0,0
+[05/07/2020 08:15:53 pm] 0
+[05/07/2020 08:15:53 pm] 0
+[05/07/2020 08:15:53 pm] 0
+[05/07/2020 08:15:53 pm] 0
+[05/07/2020 08:15:53 pm] 0
+[05/07/2020 08:15:53 pm] 0
+[05/07/2020 08:15:53 pm] 0
+[05/07/2020 08:15:53 pm] 0
+[05/07/2020 08:15:53 pm] 0
+[05/07/2020 08:15:53 pm] 0
+[05/07/2020 08:15:53 pm] 0
+[05/07/2020 08:15:53 pm] 0
+[05/07/2020 08:15:55 pm] ID : 7
+[05/07/2020 08:15:55 pm] selectedIncomeSource baby: 
+[05/07/2020 08:15:55 pm] firstIncomeSource: 10
+[05/07/2020 08:15:55 pm] selectedIncomeSourceID: %CD%F0bm%F2%DD%D4%DC
+[05/07/2020 08:15:55 pm] 0
+[05/07/2020 08:15:55 pm] 0
+[05/07/2020 08:15:55 pm] 0
+[05/07/2020 08:15:55 pm] 0
+[05/07/2020 08:15:55 pm] 0
+[05/07/2020 08:15:55 pm] 0
+[05/07/2020 08:15:55 pm] 0
+[05/07/2020 08:15:55 pm] 0
+[05/07/2020 08:17:19 pm] selectedIncomeSourceID: 10
+[05/07/2020 08:17:23 pm] the First date: 31/01/2015
+[05/07/2020 08:17:23 pm] returning date is 03/03/15
+[05/07/2020 08:17:23 pm] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
+[05/07/2020 08:17:23 pm] firstDate: 31/01/15
+[05/07/2020 08:17:24 pm] the First date: 31/01/2015
+[05/07/2020 08:17:24 pm] returning date is 03/03/15
+[05/07/2020 08:17:24 pm] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
+[05/07/2020 08:17:24 pm] firstDate: 31/01/15
+[05/07/2020 08:17:25 pm] ID : 7
+[05/07/2020 08:17:25 pm] financial year start Time: 2020-07-01
+[05/07/2020 08:17:25 pm] financial year end Time: 2021-06-30
+[05/07/2020 08:17:25 pm] incoming enddate is: 30/06/21
+[05/07/2020 08:17:25 pm] before incomeLineItem search
+[05/07/2020 08:17:25 pm] before expenseLineItem search
+[05/07/2020 08:17:25 pm] Returning Summary: 0,0,0
+[05/07/2020 08:17:25 pm] 0
+[05/07/2020 08:17:25 pm] 0
+[05/07/2020 08:17:25 pm] 0
+[05/07/2020 08:17:25 pm] 0
+[05/07/2020 08:17:25 pm] 0
+[05/07/2020 08:17:25 pm] 0
+[05/07/2020 08:17:25 pm] 0
+[05/07/2020 08:17:25 pm] 0
+[05/07/2020 08:17:25 pm] 0
+[05/07/2020 08:17:25 pm] 0
+[05/07/2020 08:17:25 pm] 0
+[05/07/2020 08:17:25 pm] 0
+[05/07/2020 08:17:28 pm] ID : 7
+[05/07/2020 08:17:28 pm] selectedIncomeSource baby: 
+[05/07/2020 08:17:28 pm] firstIncomeSource: 10
+[05/07/2020 08:17:28 pm] 0
+[05/07/2020 08:17:28 pm] 0
+[05/07/2020 08:17:28 pm] 0
+[05/07/2020 08:17:28 pm] 0
+[05/07/2020 08:17:28 pm] 0
+[05/07/2020 08:17:28 pm] 0
+[05/07/2020 08:17:28 pm] 0
+[05/07/2020 08:17:28 pm] 0
+[05/07/2020 08:18:27 pm] ID : 7
+[05/07/2020 08:18:27 pm] the First date: 31/01/2015
+[05/07/2020 08:18:27 pm] returning date is 03/03/15
+[05/07/2020 08:18:27 pm] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
+[05/07/2020 08:18:27 pm] firstDate: 31/01/15
+[05/07/2020 08:18:27 pm] selectedIncomeSource baby: 
+[05/07/2020 08:18:27 pm] firstIncomeSource: 10
+[05/07/2020 08:18:27 pm] 0
+[05/07/2020 08:18:27 pm] 0
+[05/07/2020 08:18:27 pm] 0
+[05/07/2020 08:18:27 pm] 0
+[05/07/2020 08:18:27 pm] 0
+[05/07/2020 08:18:27 pm] 0
+[05/07/2020 08:18:27 pm] 0
+[05/07/2020 08:18:27 pm] 0
+[05/07/2020 08:18:45 pm] ID : 7
+[05/07/2020 08:18:45 pm] the First date: 31/01/2015
+[05/07/2020 08:18:45 pm] returning date is 03/03/15
+[05/07/2020 08:18:45 pm] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
+[05/07/2020 08:18:45 pm] firstDate: 31/01/15
+[05/07/2020 08:18:45 pm] selectedIncomeSource baby: 
+[05/07/2020 08:18:45 pm] firstIncomeSource: 10
+[05/07/2020 08:18:45 pm] 0
+[05/07/2020 08:18:45 pm] 0
+[05/07/2020 08:18:45 pm] 0
+[05/07/2020 08:18:45 pm] 0
+[05/07/2020 08:18:45 pm] 0
+[05/07/2020 08:18:45 pm] 0
+[05/07/2020 08:18:45 pm] 0
+[05/07/2020 08:18:45 pm] 0
+[05/07/2020 08:19:35 pm] selectedIncomeSourceID: 10
+[05/07/2020 08:19:49 pm] selectedIncomeSourceID: 10
+[05/07/2020 08:20:23 pm] selectedIncomeSourceID: 10
+[05/07/2020 08:20:35 pm] the First date: 31/01/2015
+[05/07/2020 08:20:35 pm] returning date is 03/03/15
+[05/07/2020 08:20:35 pm] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
+[05/07/2020 08:20:35 pm] firstDate: 31/01/15
+[05/07/2020 08:20:39 pm] ID : 7
+[05/07/2020 08:20:39 pm] financial year start Time: 2020-07-01
+[05/07/2020 08:20:39 pm] financial year end Time: 2021-06-30
+[05/07/2020 08:20:39 pm] incoming enddate is: 30/06/21
+[05/07/2020 08:20:39 pm] before incomeLineItem search
+[05/07/2020 08:20:39 pm] before expenseLineItem search
+[05/07/2020 08:20:39 pm] Returning Summary: 0,0,0
+[05/07/2020 08:20:39 pm] 0
+[05/07/2020 08:20:39 pm] 0
+[05/07/2020 08:20:39 pm] 0
+[05/07/2020 08:20:39 pm] 0
+[05/07/2020 08:20:39 pm] 0
+[05/07/2020 08:20:39 pm] 0
+[05/07/2020 08:20:39 pm] 0
+[05/07/2020 08:20:39 pm] 0
+[05/07/2020 08:20:39 pm] 0
+[05/07/2020 08:20:39 pm] 0
+[05/07/2020 08:20:39 pm] 0
+[05/07/2020 08:20:39 pm] 0
+[05/07/2020 08:20:40 pm] ID : 7
+[05/07/2020 08:20:40 pm] selectedIncomeSource baby: 
+[05/07/2020 08:20:40 pm] firstIncomeSource: 10
+[05/07/2020 08:20:40 pm] 0
+[05/07/2020 08:20:40 pm] 0
+[05/07/2020 08:20:40 pm] 0
+[05/07/2020 08:20:40 pm] 0
+[05/07/2020 08:20:40 pm] 0
+[05/07/2020 08:20:40 pm] 0
+[05/07/2020 08:20:40 pm] 0
+[05/07/2020 08:20:40 pm] 0
+[05/07/2020 08:20:49 pm] ID : 7
+[05/07/2020 08:20:49 pm] the First date: 31/01/2015
+[05/07/2020 08:20:49 pm] returning date is 03/03/15
+[05/07/2020 08:20:49 pm] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
+[05/07/2020 08:20:49 pm] firstDate: 31/01/15
+[05/07/2020 08:20:49 pm] selectedIncomeSource baby: 
+[05/07/2020 08:20:49 pm] firstIncomeSource: 10
+[05/07/2020 08:20:49 pm] 0
+[05/07/2020 08:20:49 pm] 0
+[05/07/2020 08:20:49 pm] 0
+[05/07/2020 08:20:49 pm] 0
+[05/07/2020 08:20:49 pm] 0
+[05/07/2020 08:20:49 pm] 0
+[05/07/2020 08:20:49 pm] 0
+[05/07/2020 08:20:49 pm] 0
+[05/07/2020 08:20:50 pm] selectedIncomeSourceID: 10
+[05/07/2020 08:21:27 pm] selectedIncomeSourceID: 10
+[05/07/2020 08:21:34 pm] the First date: 31/01/2015
+[05/07/2020 08:21:34 pm] returning date is 03/03/15
+[05/07/2020 08:21:34 pm] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
+[05/07/2020 08:21:34 pm] firstDate: 31/01/15
+[05/07/2020 08:21:36 pm] the First date: 31/01/2015
+[05/07/2020 08:21:36 pm] returning date is 03/03/15
+[05/07/2020 08:21:36 pm] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
+[05/07/2020 08:21:36 pm] firstDate: 31/01/15
+[05/07/2020 08:21:38 pm] ID : 9
+[05/07/2020 08:21:38 pm] financial year start Time: 2020-07-01
+[05/07/2020 08:21:38 pm] financial year end Time: 2021-06-30
+[05/07/2020 08:21:38 pm] incoming enddate is: 30/06/21
+[05/07/2020 08:21:38 pm] before incomeLineItem search
+[05/07/2020 08:21:38 pm] before expenseLineItem search
+[05/07/2020 08:21:38 pm] Returning Summary: 0,0,0
+[05/07/2020 08:21:39 pm] ID : 9
+[05/07/2020 08:21:39 pm] selectedIncomeSource baby: 
+[05/07/2020 08:21:39 pm] selectedIncomeSource baby: 
+[05/07/2020 08:21:41 pm] the First date: 31/01/2015
+[05/07/2020 08:21:41 pm] returning date is 03/03/15
+[05/07/2020 08:21:41 pm] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
+[05/07/2020 08:21:41 pm] firstDate: 31/01/15
+[05/07/2020 08:21:43 pm] ID : 11
+[05/07/2020 08:21:43 pm] financial year start Time: 2020-07-01
+[05/07/2020 08:21:43 pm] financial year end Time: 2021-06-30
+[05/07/2020 08:21:43 pm] incoming enddate is: 30/06/21
+[05/07/2020 08:21:43 pm] before incomeLineItem search
+[05/07/2020 08:21:43 pm] before expenseLineItem search
+[05/07/2020 08:21:43 pm] Returning Summary: 0,0,0
+[05/07/2020 08:21:43 pm] 0
+[05/07/2020 08:21:43 pm] 0
+[05/07/2020 08:21:44 pm] ID : 11
+[05/07/2020 08:21:44 pm] selectedIncomeSource baby: 
+[05/07/2020 08:21:44 pm] firstIncomeSource: 65
+[05/07/2020 08:21:44 pm] 0
+[05/07/2020 08:21:44 pm] 0
+[05/07/2020 08:21:44 pm] 0
+[05/07/2020 08:21:48 pm] selectedIncomeSource baby: 
+[05/07/2020 08:21:48 pm] ID : 11
+[05/07/2020 08:21:48 pm] firstIncomeSource: 65
+[05/07/2020 08:21:48 pm] the First date: 31/01/2015
+[05/07/2020 08:21:48 pm] returning date is 03/03/15
+[05/07/2020 08:21:48 pm] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
+[05/07/2020 08:21:48 pm] firstDate: 31/01/15
+[05/07/2020 08:21:48 pm] 0
+[05/07/2020 08:21:48 pm] 0
+[05/07/2020 08:21:48 pm] 0
+[05/07/2020 08:21:50 pm] the First date: 31/01/2015
+[05/07/2020 08:21:50 pm] returning date is 03/03/15
+[05/07/2020 08:21:50 pm] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
+[05/07/2020 08:21:50 pm] firstDate: 31/01/15
+[05/07/2020 08:21:51 pm] ID : 9
+[05/07/2020 08:21:51 pm] financial year start Time: 2020-07-01
+[05/07/2020 08:21:51 pm] financial year end Time: 2021-06-30
+[05/07/2020 08:21:51 pm] incoming enddate is: 30/06/21
+[05/07/2020 08:21:51 pm] before incomeLineItem search
+[05/07/2020 08:21:51 pm] before expenseLineItem search
+[05/07/2020 08:21:51 pm] Returning Summary: 0,0,0
+[05/07/2020 08:21:54 pm] ID : 9
+[05/07/2020 08:21:54 pm] selectedIncomeSource baby: 
+[05/07/2020 08:21:54 pm] selectedIncomeSource baby: 
+[05/07/2020 08:21:55 pm] the First date: 31/01/2015
+[05/07/2020 08:21:55 pm] returning date is 03/03/15
+[05/07/2020 08:21:55 pm] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
+[05/07/2020 08:21:55 pm] firstDate: 31/01/15
+[05/07/2020 08:21:57 pm] ID : 22
+[05/07/2020 08:21:57 pm] financial year start Time: 2020-07-01
+[05/07/2020 08:21:57 pm] financial year end Time: 2021-06-30
+[05/07/2020 08:21:57 pm] incoming enddate is: 30/06/21
+[05/07/2020 08:21:57 pm] before incomeLineItem search
+[05/07/2020 08:21:57 pm] before expenseLineItem search
+[05/07/2020 08:21:57 pm] Returning Summary: 0,0,0
+[05/07/2020 08:22:00 pm] the First date: 31/01/2015
+[05/07/2020 08:22:00 pm] returning date is 03/03/15
+[05/07/2020 08:22:00 pm] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
+[05/07/2020 08:22:00 pm] firstDate: 31/01/15
+[05/07/2020 08:22:01 pm] ID : 7
+[05/07/2020 08:22:01 pm] financial year start Time: 2020-07-01
+[05/07/2020 08:22:01 pm] financial year end Time: 2021-06-30
+[05/07/2020 08:22:01 pm] incoming enddate is: 30/06/21
+[05/07/2020 08:22:01 pm] before incomeLineItem search
+[05/07/2020 08:22:01 pm] before expenseLineItem search
+[05/07/2020 08:22:01 pm] Returning Summary: 0,0,0
+[05/07/2020 08:22:01 pm] 0
+[05/07/2020 08:22:01 pm] 0
+[05/07/2020 08:22:01 pm] 0
+[05/07/2020 08:22:01 pm] 0
+[05/07/2020 08:22:01 pm] 0
+[05/07/2020 08:22:01 pm] 0
+[05/07/2020 08:22:01 pm] 0
+[05/07/2020 08:22:01 pm] 0
+[05/07/2020 08:22:01 pm] 0
+[05/07/2020 08:22:01 pm] 0
+[05/07/2020 08:22:01 pm] 0
+[05/07/2020 08:22:01 pm] 0
+[05/07/2020 08:22:03 pm] ID : 7
+[05/07/2020 08:22:03 pm] selectedIncomeSource baby: 
+[05/07/2020 08:22:03 pm] firstIncomeSource: 10
+[05/07/2020 08:22:03 pm] 0
+[05/07/2020 08:22:03 pm] 0
+[05/07/2020 08:22:03 pm] 0
+[05/07/2020 08:22:03 pm] 0
+[05/07/2020 08:22:03 pm] 0
+[05/07/2020 08:22:03 pm] 0
+[05/07/2020 08:22:03 pm] 0
+[05/07/2020 08:22:03 pm] 0
+[05/07/2020 08:23:13 pm] selectedIncomeSource baby: 
+[05/07/2020 08:23:13 pm] ID : 7
+[05/07/2020 08:23:13 pm] firstIncomeSource: 10
+[05/07/2020 08:23:13 pm] the First date: 31/01/2015
+[05/07/2020 08:23:13 pm] returning date is 03/03/15
+[05/07/2020 08:23:13 pm] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
+[05/07/2020 08:23:13 pm] firstDate: 31/01/15
+[05/07/2020 08:23:13 pm] 0
+[05/07/2020 08:23:13 pm] 0
+[05/07/2020 08:23:13 pm] 0
+[05/07/2020 08:23:13 pm] 0
+[05/07/2020 08:23:13 pm] 0
+[05/07/2020 08:23:13 pm] 0
+[05/07/2020 08:23:13 pm] 0
+[05/07/2020 08:23:13 pm] 0
+[05/07/2020 08:23:44 pm] selectedIncomeSource baby: 10
+[05/07/2020 08:23:44 pm] ID : 7
+[05/07/2020 08:23:44 pm] the First date: 31/01/2015
+[05/07/2020 08:23:44 pm] returning date is 03/03/15
+[05/07/2020 08:23:44 pm] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
+[05/07/2020 08:23:44 pm] firstDate: 31/01/15
+[05/07/2020 08:23:44 pm] 0
+[05/07/2020 08:23:44 pm] 0
+[05/07/2020 08:23:44 pm] 0
+[05/07/2020 08:23:44 pm] 0
+[05/07/2020 08:23:44 pm] 0
+[05/07/2020 08:23:44 pm] 0
+[05/07/2020 08:23:44 pm] 0
+[05/07/2020 08:23:44 pm] 0
+[05/07/2020 08:24:48 pm] selectedIncomeSource baby: 10
+[05/07/2020 08:24:48 pm] ID : 7
+[05/07/2020 08:24:48 pm] the First date: 31/01/2015
+[05/07/2020 08:24:48 pm] returning date is 03/03/15
+[05/07/2020 08:24:48 pm] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
+[05/07/2020 08:24:48 pm] firstDate: 31/01/15
+[05/07/2020 08:24:48 pm] 0
+[05/07/2020 08:24:48 pm] 0
+[05/07/2020 08:24:48 pm] 0
+[05/07/2020 08:24:48 pm] 0
+[05/07/2020 08:24:48 pm] 0
+[05/07/2020 08:24:48 pm] 0
+[05/07/2020 08:24:48 pm] 0
+[05/07/2020 08:24:48 pm] 0
+[05/07/2020 08:25:24 pm] selectedIncomeSource baby: 10
+[05/07/2020 08:25:24 pm] ID : 7
+[05/07/2020 08:25:24 pm] the First date: 31/01/2015
+[05/07/2020 08:25:24 pm] returning date is 03/03/15
+[05/07/2020 08:25:24 pm] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
+[05/07/2020 08:25:24 pm] firstDate: 31/01/15
+[05/07/2020 08:25:24 pm] 0
+[05/07/2020 08:25:24 pm] 0
+[05/07/2020 08:25:24 pm] 0
+[05/07/2020 08:25:24 pm] 0
+[05/07/2020 08:25:24 pm] 0
+[05/07/2020 08:25:24 pm] 0
+[05/07/2020 08:25:24 pm] 0
+[05/07/2020 08:25:24 pm] 0
+[05/07/2020 08:52:19 pm] ID : 7
+[05/07/2020 08:52:19 pm] selectedIncomeSource baby: 10
+[05/07/2020 08:52:19 pm] 0
+[05/07/2020 08:52:19 pm] 0
+[05/07/2020 08:52:19 pm] 0
+[05/07/2020 08:52:19 pm] 0
+[05/07/2020 08:52:19 pm] 0
+[05/07/2020 08:52:19 pm] 0
+[05/07/2020 08:52:19 pm] 0
+[05/07/2020 08:52:19 pm] 0
+[05/07/2020 08:52:27 pm] selectedIncomeSource baby: 10
+[05/07/2020 08:52:27 pm] ID : 7
+[05/07/2020 08:52:27 pm] the First date: 31/01/2015
+[05/07/2020 08:52:27 pm] returning date is 03/03/15
+[05/07/2020 08:52:27 pm] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
+[05/07/2020 08:52:27 pm] firstDate: 31/01/15
+[05/07/2020 08:52:27 pm] 0
+[05/07/2020 08:52:27 pm] 0
+[05/07/2020 08:52:27 pm] 0
+[05/07/2020 08:52:27 pm] 0
+[05/07/2020 08:52:27 pm] 0
+[05/07/2020 08:52:27 pm] 0
+[05/07/2020 08:52:27 pm] 0
+[05/07/2020 08:52:27 pm] 0
+[05/07/2020 08:52:32 pm] ID : 7
+[05/07/2020 08:52:32 pm] financial year start Time: 2020-07-01
+[05/07/2020 08:52:32 pm] financial year end Time: 2021-06-30
+[05/07/2020 08:52:32 pm] incoming enddate is: 30/06/21
+[05/07/2020 08:52:32 pm] before incomeLineItem search
+[05/07/2020 08:52:32 pm] before expenseLineItem search
+[05/07/2020 08:52:32 pm] Returning Summary: 0,0,0
+[05/07/2020 08:52:32 pm] 0
+[05/07/2020 08:52:32 pm] 0
+[05/07/2020 08:52:32 pm] 0
+[05/07/2020 08:52:32 pm] 0
+[05/07/2020 08:52:32 pm] 0
+[05/07/2020 08:52:32 pm] 0
+[05/07/2020 08:52:32 pm] 0
+[05/07/2020 08:52:32 pm] 0
+[05/07/2020 08:52:32 pm] 0
+[05/07/2020 08:52:32 pm] 0
+[05/07/2020 08:52:32 pm] 0
+[05/07/2020 08:52:32 pm] 0
+[05/07/2020 08:52:35 pm] ID : 7
+[05/07/2020 08:52:35 pm] selectedIncomeSource baby: 10
+[05/07/2020 08:52:35 pm] 0
+[05/07/2020 08:52:35 pm] 0
+[05/07/2020 08:52:35 pm] 0
+[05/07/2020 08:52:35 pm] 0
+[05/07/2020 08:52:35 pm] 0
+[05/07/2020 08:52:35 pm] 0
+[05/07/2020 08:52:35 pm] 0
+[05/07/2020 08:52:35 pm] 0
+[05/07/2020 08:53:19 pm] selectedIncomeSource baby: 10
+[05/07/2020 08:53:19 pm] ID : 7
+[05/07/2020 08:53:19 pm] the First date: 31/01/2015
+[05/07/2020 08:53:19 pm] returning date is 03/03/15
+[05/07/2020 08:53:19 pm] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
+[05/07/2020 08:53:19 pm] firstDate: 31/01/15
+[05/07/2020 08:53:19 pm] 0
+[05/07/2020 08:53:19 pm] 0
+[05/07/2020 08:53:19 pm] 0
+[05/07/2020 08:53:19 pm] 0
+[05/07/2020 08:53:19 pm] 0
+[05/07/2020 08:53:19 pm] 0
+[05/07/2020 08:53:19 pm] 0
+[05/07/2020 08:53:19 pm] 0
+[05/07/2020 08:53:26 pm] selectedIncomeSource baby: 10
+[05/07/2020 08:53:26 pm] ID : 7
+[05/07/2020 08:53:26 pm] the First date: 31/01/2015
+[05/07/2020 08:53:26 pm] returning date is 03/03/15
+[05/07/2020 08:53:26 pm] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
+[05/07/2020 08:53:26 pm] firstDate: 31/01/15
+[05/07/2020 08:53:26 pm] 0
+[05/07/2020 08:53:26 pm] 0
+[05/07/2020 08:53:26 pm] 0
+[05/07/2020 08:53:26 pm] 0
+[05/07/2020 08:53:26 pm] 0
+[05/07/2020 08:53:26 pm] 0
+[05/07/2020 08:53:26 pm] 0
+[05/07/2020 08:53:26 pm] 0
+[05/07/2020 08:53:51 pm] selectedIncomeSource baby: 10
+[05/07/2020 08:53:51 pm] ID : 7
+[05/07/2020 08:53:51 pm] the First date: 31/01/2015
+[05/07/2020 08:53:51 pm] returning date is 03/03/15
+[05/07/2020 08:53:51 pm] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
+[05/07/2020 08:53:51 pm] firstDate: 31/01/15
+[05/07/2020 08:53:51 pm] 0
+[05/07/2020 08:53:51 pm] 0
+[05/07/2020 08:53:51 pm] 0
+[05/07/2020 08:53:51 pm] 0
+[05/07/2020 08:53:51 pm] 0
+[05/07/2020 08:53:51 pm] 0
+[05/07/2020 08:53:51 pm] 0
+[05/07/2020 08:53:51 pm] 0
+[05/07/2020 08:54:05 pm] selectedIncomeSource baby: 10
+[05/07/2020 08:54:05 pm] ID : 7
+[05/07/2020 08:54:05 pm] the First date: 31/01/2015
+[05/07/2020 08:54:05 pm] returning date is 03/03/15
+[05/07/2020 08:54:05 pm] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
+[05/07/2020 08:54:05 pm] firstDate: 31/01/15
+[05/07/2020 08:54:05 pm] 0
+[05/07/2020 08:54:05 pm] 0
+[05/07/2020 08:54:05 pm] 0
+[05/07/2020 08:54:05 pm] 0
+[05/07/2020 08:54:05 pm] 0
+[05/07/2020 08:54:05 pm] 0
+[05/07/2020 08:54:05 pm] 0
+[05/07/2020 08:54:05 pm] 0
+[05/07/2020 08:56:11 pm] selectedIncomeSource baby: 10
+[05/07/2020 08:56:11 pm] ID : 7
+[05/07/2020 08:56:11 pm] the First date: 31/01/2015
+[05/07/2020 08:56:11 pm] returning date is 03/03/15
+[05/07/2020 08:56:11 pm] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
+[05/07/2020 08:56:11 pm] firstDate: 31/01/15
+[05/07/2020 08:56:11 pm] 0
+[05/07/2020 08:56:11 pm] 0
+[05/07/2020 08:56:11 pm] 0
+[05/07/2020 08:56:12 pm] 0
+[05/07/2020 08:56:12 pm] 0
+[05/07/2020 08:56:12 pm] 0
+[05/07/2020 08:56:12 pm] 0
+[05/07/2020 08:56:12 pm] 0
+[05/07/2020 08:56:17 pm] selectedIncomeSource baby: 10
+[05/07/2020 08:56:17 pm] ID : 7
+[05/07/2020 08:56:17 pm] the First date: 31/01/2015
+[05/07/2020 08:56:17 pm] returning date is 03/03/15
+[05/07/2020 08:56:17 pm] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
+[05/07/2020 08:56:17 pm] firstDate: 31/01/15
+[05/07/2020 08:56:17 pm] 0
+[05/07/2020 08:56:17 pm] 0
+[05/07/2020 08:56:17 pm] 0
+[05/07/2020 08:56:17 pm] 0
+[05/07/2020 08:56:17 pm] 0
+[05/07/2020 08:56:17 pm] 0
+[05/07/2020 08:56:17 pm] 0
+[05/07/2020 08:56:17 pm] 0
+[05/07/2020 08:56:20 pm] ID : 7
+[05/07/2020 08:56:20 pm] financial year start Time: 2020-07-01
+[05/07/2020 08:56:20 pm] financial year end Time: 2021-06-30
+[05/07/2020 08:56:20 pm] incoming enddate is: 30/06/21
+[05/07/2020 08:56:20 pm] before incomeLineItem search
+[05/07/2020 08:56:20 pm] before expenseLineItem search
+[05/07/2020 08:56:20 pm] Returning Summary: 0,0,0
+[05/07/2020 08:56:20 pm] 0
+[05/07/2020 08:56:20 pm] 0
+[05/07/2020 08:56:20 pm] 0
+[05/07/2020 08:56:20 pm] 0
+[05/07/2020 08:56:20 pm] 0
+[05/07/2020 08:56:20 pm] 0
+[05/07/2020 08:56:20 pm] 0
+[05/07/2020 08:56:20 pm] 0
+[05/07/2020 08:56:20 pm] 0
+[05/07/2020 08:56:20 pm] 0
+[05/07/2020 08:56:20 pm] 0
+[05/07/2020 08:56:20 pm] 0
+[05/07/2020 08:56:27 pm] the First date: 31/01/2015
+[05/07/2020 08:56:27 pm] returning date is 03/03/15
+[05/07/2020 08:56:27 pm] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
+[05/07/2020 08:56:27 pm] firstDate: 31/01/15
+[05/07/2020 08:56:29 pm] ID : 7
+[05/07/2020 08:56:29 pm] financial year start Time: 2020-07-01
+[05/07/2020 08:56:29 pm] financial year end Time: 2021-06-30
+[05/07/2020 08:56:29 pm] incoming enddate is: 30/06/21
+[05/07/2020 08:56:29 pm] before incomeLineItem search
+[05/07/2020 08:56:29 pm] before expenseLineItem search
+[05/07/2020 08:56:29 pm] Returning Summary: 0,0,0
+[05/07/2020 08:56:29 pm] 0
+[05/07/2020 08:56:29 pm] 0
+[05/07/2020 08:56:29 pm] 0
+[05/07/2020 08:56:29 pm] 0
+[05/07/2020 08:56:29 pm] 0
+[05/07/2020 08:56:29 pm] 0
+[05/07/2020 08:56:29 pm] 0
+[05/07/2020 08:56:29 pm] 0
+[05/07/2020 08:56:29 pm] 0
+[05/07/2020 08:56:29 pm] 0
+[05/07/2020 08:56:29 pm] 0
+[05/07/2020 08:56:29 pm] 0
+[05/07/2020 08:56:30 pm] ID : 7
+[05/07/2020 08:56:30 pm] selectedIncomeSource baby: 
+[05/07/2020 08:56:30 pm] firstIncomeSource: 10
+[05/07/2020 08:56:30 pm] 0
+[05/07/2020 08:56:30 pm] 0
+[05/07/2020 08:56:30 pm] 0
+[05/07/2020 08:56:30 pm] 0
+[05/07/2020 08:56:30 pm] 0
+[05/07/2020 08:56:30 pm] 0
+[05/07/2020 08:56:30 pm] 0
+[05/07/2020 08:56:30 pm] 0
+[05/07/2020 08:56:36 pm] selectedIncomeSource baby: 
+[05/07/2020 08:56:36 pm] ID : 7
+[05/07/2020 08:56:36 pm] firstIncomeSource: 10
+[05/07/2020 08:56:36 pm] the First date: 31/01/2015
+[05/07/2020 08:56:36 pm] returning date is 03/03/15
+[05/07/2020 08:56:36 pm] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
+[05/07/2020 08:56:36 pm] firstDate: 31/01/15
+[05/07/2020 08:56:36 pm] 0
+[05/07/2020 08:56:36 pm] 0
+[05/07/2020 08:56:36 pm] 0
+[05/07/2020 08:56:36 pm] 0
+[05/07/2020 08:56:36 pm] 0
+[05/07/2020 08:56:36 pm] 0
+[05/07/2020 08:56:36 pm] 0
+[05/07/2020 08:56:36 pm] 0
+[05/07/2020 08:56:39 pm] the First date: 31/01/2015
+[05/07/2020 08:56:39 pm] returning date is 03/03/15
+[05/07/2020 08:56:39 pm] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
+[05/07/2020 08:56:39 pm] firstDate: 31/01/15
+[05/07/2020 08:56:40 pm] ID : 7
+[05/07/2020 08:56:40 pm] financial year start Time: 2020-07-01
+[05/07/2020 08:56:40 pm] financial year end Time: 2021-06-30
+[05/07/2020 08:56:40 pm] incoming enddate is: 30/06/21
+[05/07/2020 08:56:40 pm] before incomeLineItem search
+[05/07/2020 08:56:40 pm] before expenseLineItem search
+[05/07/2020 08:56:40 pm] Returning Summary: 0,0,0
+[05/07/2020 08:56:40 pm] 0
+[05/07/2020 08:56:40 pm] 0
+[05/07/2020 08:56:40 pm] 0
+[05/07/2020 08:56:40 pm] 0
+[05/07/2020 08:56:40 pm] 0
+[05/07/2020 08:56:40 pm] 0
+[05/07/2020 08:56:40 pm] 0
+[05/07/2020 08:56:40 pm] 0
+[05/07/2020 08:56:40 pm] 0
+[05/07/2020 08:56:40 pm] 0
+[05/07/2020 08:56:40 pm] 0
+[05/07/2020 08:56:40 pm] 0
+[05/07/2020 08:56:43 pm] ID : 7
+[05/07/2020 08:56:43 pm] selectedIncomeSource baby: 
+[05/07/2020 08:56:43 pm] firstIncomeSource: 10
+[05/07/2020 08:56:43 pm] 0
+[05/07/2020 08:56:43 pm] 0
+[05/07/2020 08:56:43 pm] 0
+[05/07/2020 08:56:43 pm] 0
+[05/07/2020 08:56:43 pm] 0
+[05/07/2020 08:56:43 pm] 0
+[05/07/2020 08:56:43 pm] 0
+[05/07/2020 08:56:43 pm] 0
+[05/07/2020 08:56:46 pm] selectedIncomeSource baby: 
+[05/07/2020 08:56:46 pm] ID : 7
+[05/07/2020 08:56:46 pm] firstIncomeSource: 10
+[05/07/2020 08:56:46 pm] the First date: 31/01/2015
+[05/07/2020 08:56:46 pm] returning date is 03/03/15
+[05/07/2020 08:56:46 pm] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
+[05/07/2020 08:56:46 pm] firstDate: 31/01/15
+[05/07/2020 08:56:46 pm] 0
+[05/07/2020 08:56:46 pm] 0
+[05/07/2020 08:56:46 pm] 0
+[05/07/2020 08:56:46 pm] 0
+[05/07/2020 08:56:46 pm] 0
+[05/07/2020 08:56:46 pm] 0
+[05/07/2020 08:56:46 pm] 0
+[05/07/2020 08:56:46 pm] 0
+[05/07/2020 08:56:49 pm] selectedIncomeSource baby: 10
+[05/07/2020 08:56:49 pm] ID : 7
+[05/07/2020 08:56:49 pm] the First date: 31/01/2015
+[05/07/2020 08:56:49 pm] returning date is 03/03/15
+[05/07/2020 08:56:49 pm] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
+[05/07/2020 08:56:49 pm] firstDate: 31/01/15
+[05/07/2020 08:56:49 pm] 0
+[05/07/2020 08:56:49 pm] 0
+[05/07/2020 08:56:49 pm] 0
+[05/07/2020 08:56:49 pm] 0
+[05/07/2020 08:56:49 pm] 0
+[05/07/2020 08:56:49 pm] 0
+[05/07/2020 08:56:49 pm] 0
+[05/07/2020 08:56:49 pm] 0
+[05/07/2020 08:56:51 pm] selectedIncomeSource baby: 10
+[05/07/2020 08:56:51 pm] ID : 7
+[05/07/2020 08:56:51 pm] the First date: 31/01/2015
+[05/07/2020 08:56:51 pm] returning date is 03/03/15
+[05/07/2020 08:56:51 pm] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
+[05/07/2020 08:56:51 pm] firstDate: 31/01/15
+[05/07/2020 08:56:51 pm] 0
+[05/07/2020 08:56:51 pm] 0
+[05/07/2020 08:56:51 pm] 0
+[05/07/2020 08:56:51 pm] 0
+[05/07/2020 08:56:51 pm] 0
+[05/07/2020 08:56:51 pm] 0
+[05/07/2020 08:56:51 pm] 0
+[05/07/2020 08:56:51 pm] 0
+[05/07/2020 08:56:52 pm] selectedIncomeSource baby: 10
+[05/07/2020 08:56:52 pm] ID : 7
+[05/07/2020 08:56:52 pm] the First date: 31/01/2015
+[05/07/2020 08:56:52 pm] returning date is 03/03/15
+[05/07/2020 08:56:52 pm] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
+[05/07/2020 08:56:52 pm] firstDate: 31/01/15
+[05/07/2020 08:56:52 pm] 0
+[05/07/2020 08:56:52 pm] 0
+[05/07/2020 08:56:52 pm] 0
+[05/07/2020 08:56:52 pm] 0
+[05/07/2020 08:56:52 pm] 0
+[05/07/2020 08:56:52 pm] 0
+[05/07/2020 08:56:52 pm] 0
+[05/07/2020 08:56:52 pm] 0
+[05/07/2020 08:57:01 pm] selectedIncomeSource baby: 10
+[05/07/2020 08:57:01 pm] ID : 7
+[05/07/2020 08:57:01 pm] the First date: 31/01/2015
+[05/07/2020 08:57:01 pm] returning date is 03/03/15
+[05/07/2020 08:57:01 pm] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
+[05/07/2020 08:57:01 pm] firstDate: 31/01/15
+[05/07/2020 08:57:01 pm] 0
+[05/07/2020 08:57:01 pm] 0
+[05/07/2020 08:57:01 pm] 0
+[05/07/2020 08:57:01 pm] 0
+[05/07/2020 08:57:01 pm] 0
+[05/07/2020 08:57:01 pm] 0
+[05/07/2020 08:57:01 pm] 0
+[05/07/2020 08:57:01 pm] 0
+[05/07/2020 08:57:03 pm] selectedIncomeSource baby: 10
+[05/07/2020 08:57:03 pm] ID : 7
+[05/07/2020 08:57:03 pm] the First date: 31/01/2015
+[05/07/2020 08:57:03 pm] returning date is 03/03/15
+[05/07/2020 08:57:03 pm] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
+[05/07/2020 08:57:03 pm] firstDate: 31/01/15
+[05/07/2020 08:57:03 pm] 0
+[05/07/2020 08:57:03 pm] 0
+[05/07/2020 08:57:03 pm] 0
+[05/07/2020 08:57:03 pm] 0
+[05/07/2020 08:57:03 pm] 0
+[05/07/2020 08:57:03 pm] 0
+[05/07/2020 08:57:03 pm] 0
+[05/07/2020 08:57:03 pm] 0
+[05/07/2020 08:57:26 pm] selected ID is: 7
+[05/07/2020 08:57:28 pm] selected ID is: 7
+[05/07/2020 08:57:28 pm] nonDeletedDocuments
+[05/07/2020 08:57:28 pm] 0
+[05/07/2020 09:04:01 pm] selected ID is: 7
+[05/07/2020 09:04:44 pm] selected ID is: 7
+[05/07/2020 09:04:44 pm] nonDeletedDocuments
+[05/07/2020 09:04:44 pm] 0
+[05/07/2020 09:05:15 pm] saveAction selectedOccuapnt
+[05/07/2020 09:05:15 pm] selected ID is: 7
+[05/07/2020 09:05:15 pm] nonDeletedDocuments
+[05/07/2020 09:05:15 pm] 0
+[05/07/2020 09:06:58 pm] saveAction selectedOccuapnt
+[05/07/2020 09:06:58 pm] selected ID is: 7
+[05/07/2020 09:06:58 pm] nonDeletedDocuments
+[05/07/2020 09:06:58 pm] 0
+[05/07/2020 09:07:50 pm] saveAction selectedOccuapnt
+[05/07/2020 09:07:50 pm] selected ID is: 7
+[05/07/2020 09:07:50 pm] nonDeletedDocuments
+[05/07/2020 09:07:50 pm] 0
+[05/07/2020 09:08:42 pm] saveAction selectedOccuapnt
+[05/07/2020 09:08:42 pm] selected ID is: 7
+[05/07/2020 09:08:42 pm] nonDeletedDocuments
+[05/07/2020 09:08:42 pm] 0
+[05/07/2020 09:09:14 pm] saveAction selectedOccuapnt
+[05/07/2020 09:09:14 pm] selected ID is: 7
+[05/07/2020 09:09:14 pm] nonDeletedDocuments
+[05/07/2020 09:09:14 pm] 0
+[05/07/2020 09:11:12 pm] saveAction selectedOccuapnt
+[05/07/2020 09:11:12 pm] selected ID is: 7
+[05/07/2020 09:11:12 pm] nonDeletedDocuments
+[05/07/2020 09:11:12 pm] 0
+[05/07/2020 09:11:29 pm] selected ID is: 7
+[05/07/2020 09:11:29 pm] nonDeletedDocuments
+[05/07/2020 09:11:29 pm] 0
+[05/07/2020 09:15:36 pm] saveAction selectedOccuapnt
+[05/07/2020 09:15:36 pm] selected ID is: 7
+[05/07/2020 09:15:36 pm] nonDeletedDocuments
+[05/07/2020 09:15:36 pm] 0
+[05/07/2020 09:16:09 pm] saveAction selectedOccuapnt
+[05/07/2020 09:16:09 pm] selected ID is: 7
+[05/07/2020 09:16:09 pm] nonDeletedDocuments
+[05/07/2020 09:16:09 pm] 0
+[05/07/2020 09:17:29 pm] saveAction selectedOccuapnt
+[05/07/2020 09:17:29 pm] selected ID is: 7
+[05/07/2020 09:17:29 pm] nonDeletedDocuments
+[05/07/2020 09:17:29 pm] 0
+[05/07/2020 09:20:49 pm] saveAction selectedOccuapnt
+[05/07/2020 09:20:49 pm] selected ID is: 7
+[05/07/2020 09:20:49 pm] nonDeletedDocuments
+[05/07/2020 09:20:49 pm] 0
+[05/07/2020 09:22:16 pm] saveAction selectedOccuapnt
+[05/07/2020 09:22:16 pm] selected ID is: 7
+[05/07/2020 09:22:16 pm] nonDeletedDocuments
+[05/07/2020 09:22:16 pm] 0
+[05/07/2020 09:23:43 pm] saveAction selectedOccuapnt
+[05/07/2020 09:23:43 pm] selected ID is: 7
+[05/07/2020 09:23:43 pm] nonDeletedDocuments
+[05/07/2020 09:23:43 pm] 0
+[05/07/2020 09:31:30 pm] saveAction selectedOccuapnt
+[05/07/2020 09:31:30 pm] selected ID is: 7
+[05/07/2020 09:31:30 pm] nonDeletedDocuments
+[05/07/2020 09:31:30 pm] 0
+[05/07/2020 09:31:59 pm] selected ID is: 7
+[05/07/2020 09:31:59 pm] nonDeletedDocuments
+[05/07/2020 09:31:59 pm] 0
+[05/07/2020 09:33:07 pm] the First date: 31/01/2015
+[05/07/2020 09:33:07 pm] returning date is 03/03/15
+[05/07/2020 09:33:07 pm] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
+[05/07/2020 09:33:07 pm] firstDate: 31/01/15
+[05/07/2020 09:33:11 pm] ID : 7
+[05/07/2020 09:33:11 pm] financial year start Time: 2020-07-01
+[05/07/2020 09:33:11 pm] financial year end Time: 2021-06-30
+[05/07/2020 09:33:11 pm] incoming enddate is: 30/06/21
+[05/07/2020 09:33:11 pm] before incomeLineItem search
+[05/07/2020 09:33:11 pm] before expenseLineItem search
+[05/07/2020 09:33:11 pm] Returning Summary: 0,0,0
+[05/07/2020 09:33:11 pm] 0
+[05/07/2020 09:33:11 pm] 0
+[05/07/2020 09:33:11 pm] 0
+[05/07/2020 09:33:11 pm] 0
+[05/07/2020 09:33:11 pm] 0
+[05/07/2020 09:33:11 pm] 0
+[05/07/2020 09:33:11 pm] 0
+[05/07/2020 09:33:11 pm] 0
+[05/07/2020 09:33:11 pm] 0
+[05/07/2020 09:33:11 pm] 0
+[05/07/2020 09:33:11 pm] 0
+[05/07/2020 09:33:11 pm] 0
+[05/07/2020 09:33:12 pm] ID : 7
+[05/07/2020 09:33:12 pm] selectedIncomeSource baby: 
+[05/07/2020 09:33:12 pm] firstIncomeSource: 10
+[05/07/2020 09:33:12 pm] 0
+[05/07/2020 09:33:12 pm] 0
+[05/07/2020 09:33:12 pm] 0
+[05/07/2020 09:33:12 pm] 0
+[05/07/2020 09:33:12 pm] 0
+[05/07/2020 09:33:12 pm] 0
+[05/07/2020 09:33:12 pm] 0
+[05/07/2020 09:33:12 pm] 0
+[05/07/2020 09:33:18 pm] selected Income source is not null
+[05/07/2020 09:33:18 pm] selected Income source is not null
+[05/07/2020 09:33:18 pm] selected Income source is not null
+[05/07/2020 09:33:18 pm] selected Income source is not null
+[05/07/2020 09:33:18 pm] selected Income source is not null
+[05/07/2020 09:33:20 pm] selected Income source is not null
+[05/07/2020 09:33:20 pm] selected Income source is not null
+[05/07/2020 09:33:20 pm] selected Income source is not null
+[05/07/2020 09:33:20 pm] selected Income source is not null
+[05/07/2020 09:33:20 pm] selected Income source is not null
+[05/07/2020 09:33:20 pm] selected Income source is not null
+[05/07/2020 09:33:20 pm] ID : 7
+[05/07/2020 09:33:20 pm] financial year start Time: 2020-07-01
+[05/07/2020 09:33:20 pm] financial year end Time: 2021-06-30
+[05/07/2020 09:33:20 pm] incoming enddate is: 30/06/21
+[05/07/2020 09:33:20 pm] before incomeLineItem search
+[05/07/2020 09:33:20 pm] before expenseLineItem search
+[05/07/2020 09:33:20 pm] Returning Summary: 0,0,0
+[05/07/2020 09:33:20 pm] 0
+[05/07/2020 09:33:20 pm] 0
+[05/07/2020 09:33:20 pm] 0
+[05/07/2020 09:33:20 pm] 0
+[05/07/2020 09:33:20 pm] 0
+[05/07/2020 09:33:20 pm] 0
+[05/07/2020 09:33:20 pm] 0
+[05/07/2020 09:33:20 pm] 0
+[05/07/2020 09:33:20 pm] 0
+[05/07/2020 09:33:20 pm] 0
+[05/07/2020 09:33:20 pm] 0
+[05/07/2020 09:33:20 pm] 0
+[05/07/2020 09:33:21 pm] ID : 7
+[05/07/2020 09:33:21 pm] selectedIncomeSource baby: 10
+[05/07/2020 09:33:21 pm] 0
+[05/07/2020 09:33:21 pm] 0
+[05/07/2020 09:33:21 pm] 0
+[05/07/2020 09:33:21 pm] 0
+[05/07/2020 09:33:21 pm] 0
+[05/07/2020 09:33:21 pm] 0
+[05/07/2020 09:33:21 pm] 0
+[05/07/2020 09:33:21 pm] 0
+[05/07/2020 09:33:23 pm] selected ID is: 7
+[05/07/2020 09:33:25 pm] selected ID is: 7
+[05/07/2020 09:33:25 pm] nonDeletedDocuments
+[05/07/2020 09:33:25 pm] 0
+[05/07/2020 09:33:53 pm] selected ID is: 7
+[05/07/2020 09:33:53 pm] nonDeletedDocuments
+[05/07/2020 09:33:53 pm] 0
+[05/07/2020 09:34:27 pm] saveAction selectedOccuapnt
+[05/07/2020 09:34:27 pm] selected ID is: 7
+[05/07/2020 09:34:27 pm] nonDeletedDocuments
+[05/07/2020 09:34:27 pm] 0
+[05/07/2020 09:38:45 pm] saveAction selectedOccuapnt
+[05/07/2020 09:38:45 pm] selected ID is: 7
+[05/07/2020 09:38:45 pm] nonDeletedDocuments
+[05/07/2020 09:38:45 pm] 0
+[05/07/2020 09:39:49 pm] selected ID is: 7
+[05/07/2020 09:39:49 pm] nonDeletedDocuments
+[05/07/2020 09:39:49 pm] 0
+[05/07/2020 09:42:13 pm] saveAction selectedOccuapnt
+[05/07/2020 09:42:13 pm] selected ID is: 7
+[05/07/2020 09:42:13 pm] nonDeletedDocuments
+[05/07/2020 09:42:13 pm] 0
+[05/07/2020 09:42:51 pm] selected ID is: 7
+[05/07/2020 09:42:51 pm] nonDeletedDocuments
+[05/07/2020 09:42:51 pm] 1
+[05/07/2020 09:44:01 pm] selected ID is: 7
+[05/07/2020 09:44:01 pm] nonDeletedDocuments
+[05/07/2020 09:44:01 pm] 0
+[05/07/2020 09:44:15 pm] saveAction selectedOccuapnt
+[05/07/2020 09:44:15 pm] selected ID is: 7
+[05/07/2020 09:44:15 pm] nonDeletedDocuments
+[05/07/2020 09:44:15 pm] 0
+[05/07/2020 09:44:21 pm] saveAction selectedOccuapnt
+[05/07/2020 09:44:21 pm] selected ID is: 7
+[05/07/2020 09:44:21 pm] nonDeletedDocuments
+[05/07/2020 09:44:21 pm] 0
+[05/07/2020 09:44:58 pm] saveAction selectedOccuapnt
+[05/07/2020 09:44:58 pm] selected ID is: 7
+[05/07/2020 09:44:58 pm] nonDeletedDocuments
+[05/07/2020 09:44:58 pm] 0
+[05/07/2020 09:48:04 pm] saveAction selectedOccuapnt
+[05/07/2020 09:48:04 pm] selected ID is: 7
+[05/07/2020 09:48:04 pm] nonDeletedDocuments
+[05/07/2020 09:48:04 pm] 0
+[05/07/2020 09:48:14 pm] saveAction selectedOccuapnt
+[05/07/2020 09:48:14 pm] selected ID is: 7
+[05/07/2020 09:48:14 pm] nonDeletedDocuments
+[05/07/2020 09:48:14 pm] 0
+[05/07/2020 09:51:56 pm] saveAction selectedOccuapnt
+[05/07/2020 09:51:56 pm] selected ID is: 7
+[05/07/2020 09:51:56 pm] nonDeletedDocuments
+[05/07/2020 09:51:56 pm] 0
+[05/07/2020 09:52:01 pm] saveAction selectedOccuapnt
+[05/07/2020 09:52:01 pm] selected ID is: 7
+[05/07/2020 09:52:01 pm] nonDeletedDocuments
+[05/07/2020 09:52:01 pm] 0
+[05/07/2020 09:52:10 pm] backActionbackActionbackActionbackActionbackAction
+[05/07/2020 09:52:10 pm] backAction selectedID : O%3F%93%CB9.%00%9D
+[05/07/2020 09:52:16 pm] selected Income source is not null
+[05/07/2020 09:52:16 pm] selected Income source is not null
+[05/07/2020 09:52:16 pm] selected Income source is not null
+[05/07/2020 09:52:16 pm] selected Income source is not null
+[05/07/2020 09:52:16 pm] selected Income source is not null
+[05/07/2020 09:52:20 pm] the First date: 31/01/2015
+[05/07/2020 09:52:20 pm] returning date is 03/03/15
+[05/07/2020 09:52:20 pm] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
+[05/07/2020 09:52:20 pm] firstDate: 31/01/15
+[05/07/2020 09:52:21 pm] ID : 7
+[05/07/2020 09:52:21 pm] financial year start Time: 2020-07-01
+[05/07/2020 09:52:21 pm] financial year end Time: 2021-06-30
+[05/07/2020 09:52:21 pm] incoming enddate is: 30/06/21
+[05/07/2020 09:52:21 pm] before incomeLineItem search
+[05/07/2020 09:52:21 pm] before expenseLineItem search
+[05/07/2020 09:52:21 pm] Returning Summary: 0,0,0
+[05/07/2020 09:52:21 pm] 0
+[05/07/2020 09:52:21 pm] 0
+[05/07/2020 09:52:21 pm] 0
+[05/07/2020 09:52:21 pm] 0
+[05/07/2020 09:52:21 pm] 0
+[05/07/2020 09:52:21 pm] 0
+[05/07/2020 09:52:21 pm] 0
+[05/07/2020 09:52:21 pm] 0
+[05/07/2020 09:52:21 pm] 0
+[05/07/2020 09:52:21 pm] 0
+[05/07/2020 09:52:21 pm] 0
+[05/07/2020 09:52:21 pm] 0
+[05/07/2020 09:52:23 pm] ID : 7
+[05/07/2020 09:52:23 pm] selectedIncomeSource baby: 
+[05/07/2020 09:52:23 pm] firstIncomeSource: 10
+[05/07/2020 09:52:23 pm] 0
+[05/07/2020 09:52:23 pm] 0
+[05/07/2020 09:52:23 pm] 0
+[05/07/2020 09:52:23 pm] 0
+[05/07/2020 09:52:23 pm] 0
+[05/07/2020 09:52:23 pm] 0
+[05/07/2020 09:52:23 pm] 0
+[05/07/2020 09:52:23 pm] 0
+[05/07/2020 10:01:07 pm] the First date: 31/01/2015
+[05/07/2020 10:01:07 pm] returning date is 03/03/15
+[05/07/2020 10:01:07 pm] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
+[05/07/2020 10:01:07 pm] firstDate: 31/01/15
+[05/07/2020 10:01:11 pm] the First date: 31/01/2015
+[05/07/2020 10:01:11 pm] returning date is 03/03/15
+[05/07/2020 10:01:11 pm] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
+[05/07/2020 10:01:11 pm] firstDate: 31/01/15
+[05/07/2020 10:01:22 pm] the First date: 31/01/2015
+[05/07/2020 10:01:22 pm] returning date is 03/03/15
+[05/07/2020 10:01:22 pm] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
+[05/07/2020 10:01:22 pm] firstDate: 31/01/15
+[05/07/2020 10:08:11 pm] the First date: 31/01/2015
+[05/07/2020 10:08:11 pm] returning date is 03/03/15
+[05/07/2020 10:08:11 pm] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
+[05/07/2020 10:08:11 pm] firstDate: 31/01/15
+[05/07/2020 10:08:33 pm] the First date: 31/01/2015
+[05/07/2020 10:08:33 pm] returning date is 03/03/15
+[05/07/2020 10:08:33 pm] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
+[05/07/2020 10:08:33 pm] firstDate: 31/01/15
+[05/07/2020 10:09:03 pm] the First date: 31/01/2015
+[05/07/2020 10:09:03 pm] returning date is 03/03/15
+[05/07/2020 10:09:03 pm] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
+[05/07/2020 10:09:03 pm] firstDate: 31/01/15
+[05/07/2020 10:09:40 pm] the First date: 31/01/2015
+[05/07/2020 10:09:40 pm] returning date is 03/03/15
+[05/07/2020 10:09:40 pm] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
+[05/07/2020 10:09:40 pm] firstDate: 31/01/15
+[05/07/2020 10:09:43 pm] ID : 
+[05/07/2020 10:09:43 pm] financial year start Time: 2020-07-01
+[05/07/2020 10:09:43 pm] financial year end Time: 2021-06-30
+[05/07/2020 10:09:43 pm] incoming enddate is: 30/06/21
+[05/07/2020 10:09:43 pm] before incomeLineItem search
+[05/07/2020 10:12:36 pm] the First date: 31/01/2015
+[05/07/2020 10:12:36 pm] returning date is 03/03/15
+[05/07/2020 10:12:36 pm] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
+[05/07/2020 10:12:36 pm] firstDate: 31/01/15
+[05/07/2020 10:12:38 pm] ID : 7
+[05/07/2020 10:12:38 pm] financial year start Time: 2020-07-01
+[05/07/2020 10:12:38 pm] financial year end Time: 2021-06-30
+[05/07/2020 10:12:38 pm] incoming enddate is: 30/06/21
+[05/07/2020 10:12:38 pm] before incomeLineItem search
+[05/07/2020 10:12:38 pm] before expenseLineItem search
+[05/07/2020 10:12:38 pm] Returning Summary: 0,0,0
+[05/07/2020 10:12:38 pm] 0
+[05/07/2020 10:12:38 pm] 0
+[05/07/2020 10:12:38 pm] 0
+[05/07/2020 10:12:38 pm] 0
+[05/07/2020 10:12:38 pm] 0
+[05/07/2020 10:12:38 pm] 0
+[05/07/2020 10:12:38 pm] 0
+[05/07/2020 10:12:38 pm] 0
+[05/07/2020 10:12:38 pm] 0
+[05/07/2020 10:12:38 pm] 0
+[05/07/2020 10:12:38 pm] 0
+[05/07/2020 10:12:38 pm] 0
+[05/07/2020 10:12:39 pm] the First date: 31/01/2015
+[05/07/2020 10:12:39 pm] returning date is 03/03/15
+[05/07/2020 10:12:39 pm] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
+[05/07/2020 10:12:39 pm] firstDate: 31/01/15
+[05/07/2020 10:12:41 pm] ID : 
+[05/07/2020 10:12:41 pm] 1364 Field 'assetID' doesn't have a default value
+[05/07/2020 10:14:09 pm] the First date: 31/01/2015
+[05/07/2020 10:14:09 pm] returning date is 03/03/15
+[05/07/2020 10:14:09 pm] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
+[05/07/2020 10:14:09 pm] firstDate: 31/01/15
+[05/07/2020 10:14:14 pm] ID : 7
+[05/07/2020 10:14:14 pm] financial year start Time: 2020-07-01
+[05/07/2020 10:14:14 pm] financial year end Time: 2021-06-30
+[05/07/2020 10:14:14 pm] incoming enddate is: 30/06/21
+[05/07/2020 10:14:14 pm] before incomeLineItem search
+[05/07/2020 10:14:14 pm] before expenseLineItem search
+[05/07/2020 10:14:14 pm] Returning Summary: 0,0,0
+[05/07/2020 10:14:14 pm] 0
+[05/07/2020 10:14:14 pm] 0
+[05/07/2020 10:14:14 pm] 0
+[05/07/2020 10:14:14 pm] 0
+[05/07/2020 10:14:14 pm] 0
+[05/07/2020 10:14:14 pm] 0
+[05/07/2020 10:14:14 pm] 0
+[05/07/2020 10:14:14 pm] 0
+[05/07/2020 10:14:14 pm] 0
+[05/07/2020 10:14:14 pm] 0
+[05/07/2020 10:14:14 pm] 0
+[05/07/2020 10:14:14 pm] 0
+[05/07/2020 10:15:28 pm] the First date: 31/01/2015
+[05/07/2020 10:15:28 pm] returning date is 03/03/15
+[05/07/2020 10:15:28 pm] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
+[05/07/2020 10:15:28 pm] firstDate: 31/01/15
+[05/07/2020 10:16:20 pm] ID : 
+[05/07/2020 10:16:20 pm] 1364 Field 'assetID' doesn't have a default value
+[05/07/2020 10:17:14 pm] the First date: 31/01/2015
+[05/07/2020 10:17:14 pm] returning date is 03/03/15
+[05/07/2020 10:17:14 pm] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
+[05/07/2020 10:17:14 pm] firstDate: 31/01/15
+[05/07/2020 10:17:23 pm] ID : 
+[05/07/2020 10:17:23 pm] 1364 Field 'assetID' doesn't have a default value
+[05/07/2020 10:20:53 pm] the First date: 31/01/2015
+[05/07/2020 10:20:53 pm] returning date is 03/03/15
+[05/07/2020 10:20:53 pm] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
+[05/07/2020 10:20:53 pm] firstDate: 31/01/15
+[05/07/2020 10:21:11 pm] ID : 
+[05/07/2020 10:21:11 pm] financial year start Time: 2020-07-01
+[05/07/2020 10:21:11 pm] financial year end Time: 2021-06-30
+[05/07/2020 10:21:11 pm] incoming enddate is: 30/06/21
+[05/07/2020 10:21:11 pm] before incomeLineItem search
+[05/07/2020 10:22:09 pm] ID : 
+[05/07/2020 10:22:09 pm] financial year start Time: 2020-07-01
+[05/07/2020 10:22:09 pm] financial year end Time: 2021-06-30
+[05/07/2020 10:22:09 pm] incoming enddate is: 30/06/21
+[05/07/2020 10:22:09 pm] before incomeLineItem search
+[05/07/2020 10:27:19 pm] the First date: 31/01/2015
+[05/07/2020 10:27:19 pm] returning date is 03/03/15
+[05/07/2020 10:27:19 pm] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
+[05/07/2020 10:27:19 pm] firstDate: 31/01/15
+[05/07/2020 10:27:22 pm] ID : 
+[05/07/2020 10:27:22 pm] financial year start Time: 2020-07-01
+[05/07/2020 10:27:22 pm] financial year end Time: 2021-06-30
+[05/07/2020 10:27:22 pm] incoming enddate is: 30/06/21
+[05/07/2020 10:27:22 pm] before incomeLineItem search
+[05/07/2020 10:29:49 pm] the First date: 31/01/2015
+[05/07/2020 10:29:49 pm] returning date is 03/03/15
+[05/07/2020 10:29:49 pm] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
+[05/07/2020 10:29:49 pm] firstDate: 31/01/15
+[05/07/2020 10:29:51 pm] ID : 
+[05/07/2020 10:29:51 pm] 1364 Field 'assetID' doesn't have a default value
+[05/07/2020 10:39:35 pm] the First date: 31/01/2015
+[05/07/2020 10:39:35 pm] returning date is 03/03/15
+[05/07/2020 10:39:35 pm] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
+[05/07/2020 10:39:35 pm] firstDate: 31/01/15
+[05/07/2020 10:39:37 pm] ID : 
+[05/07/2020 10:39:37 pm] 1364 Field 'investmentPortfolioID' doesn't have a default value
+[05/07/2020 10:42:26 pm] the First date: 31/01/2015
+[05/07/2020 10:42:26 pm] returning date is 03/03/15
+[05/07/2020 10:42:26 pm] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
+[05/07/2020 10:42:26 pm] firstDate: 31/01/15
+[05/07/2020 10:42:28 pm] ID : 
+[05/07/2020 10:42:28 pm] financial year start Time: 2020-07-01
+[05/07/2020 10:42:28 pm] financial year end Time: 2021-06-30
+[05/07/2020 10:42:28 pm] incoming enddate is: 30/06/21
+[05/07/2020 10:42:28 pm] before incomeLineItem search
+[05/07/2020 10:42:28 pm] before expenseLineItem search
+[05/07/2020 10:42:28 pm] Returning Summary: 0,0,0
+[05/07/2020 10:43:23 pm] the First date: 31/01/2015
+[05/07/2020 10:43:23 pm] returning date is 03/03/15
+[05/07/2020 10:43:23 pm] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
+[05/07/2020 10:43:23 pm] firstDate: 31/01/15
+[05/07/2020 10:43:25 pm] ID : 
+[05/07/2020 10:43:25 pm] financial year start Time: 2020-07-01
+[05/07/2020 10:43:25 pm] financial year end Time: 2021-06-30
+[05/07/2020 10:43:25 pm] incoming enddate is: 30/06/21
+[05/07/2020 10:43:25 pm] before incomeLineItem search
+[05/07/2020 10:43:25 pm] before expenseLineItem search
+[05/07/2020 10:43:25 pm] Returning Summary: 0,0,0
+[05/07/2020 10:43:53 pm] the First date: 31/01/2015
+[05/07/2020 10:43:53 pm] returning date is 03/03/15
+[05/07/2020 10:43:53 pm] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
+[05/07/2020 10:43:53 pm] firstDate: 31/01/15
+[05/07/2020 10:43:55 pm] ID : 26
+[05/07/2020 10:43:55 pm] financial year start Time: 2020-07-01
+[05/07/2020 10:43:55 pm] financial year end Time: 2021-06-30
+[05/07/2020 10:43:55 pm] incoming enddate is: 30/06/21
+[05/07/2020 10:43:55 pm] before incomeLineItem search
+[05/07/2020 10:43:55 pm] before expenseLineItem search
+[05/07/2020 10:43:55 pm] Returning Summary: 0,0,0
+[05/07/2020 10:43:59 pm] the First date: 31/01/2015
+[05/07/2020 10:43:59 pm] returning date is 03/03/15
+[05/07/2020 10:43:59 pm] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
+[05/07/2020 10:43:59 pm] firstDate: 31/01/15
+[05/07/2020 10:44:06 pm] the First date: 31/01/2015
+[05/07/2020 10:44:06 pm] returning date is 03/03/15
+[05/07/2020 10:44:06 pm] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
+[05/07/2020 10:44:06 pm] firstDate: 31/01/15
+[05/07/2020 10:44:08 pm] ID : 
+[05/07/2020 10:44:08 pm] financial year start Time: 2020-07-01
+[05/07/2020 10:44:08 pm] financial year end Time: 2021-06-30
+[05/07/2020 10:44:08 pm] incoming enddate is: 30/06/21
+[05/07/2020 10:44:08 pm] before incomeLineItem search
+[05/07/2020 10:44:08 pm] before expenseLineItem search
+[05/07/2020 10:44:08 pm] Returning Summary: 0,0,0
+[05/07/2020 10:46:50 pm] the First date: 31/01/2015
+[05/07/2020 10:46:50 pm] returning date is 03/03/15
+[05/07/2020 10:46:50 pm] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
+[05/07/2020 10:46:50 pm] firstDate: 31/01/15
+[05/07/2020 10:46:52 pm] ID : 
+[05/07/2020 10:46:52 pm] financial year start Time: 2020-07-01
+[05/07/2020 10:46:52 pm] financial year end Time: 2021-06-30
+[05/07/2020 10:46:52 pm] incoming enddate is: 30/06/21
+[05/07/2020 10:46:52 pm] before incomeLineItem search
+[05/07/2020 10:46:52 pm] before expenseLineItem search
+[05/07/2020 10:46:52 pm] Returning Summary: 0,0,0
+[05/07/2020 10:46:57 pm] ID : 
+[05/07/2020 10:46:57 pm] the First date: 31/01/2015
+[05/07/2020 10:46:57 pm] returning date is 03/03/15
+[05/07/2020 10:46:57 pm] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
+[05/07/2020 10:46:57 pm] firstDate: 31/01/15
+[05/07/2020 10:46:57 pm] financial year start Time: 2020-07-01
+[05/07/2020 10:46:57 pm] financial year end Time: 2021-06-30
+[05/07/2020 10:46:57 pm] incoming enddate is: 30/06/21
+[05/07/2020 10:46:57 pm] before incomeLineItem search
+[05/07/2020 10:46:57 pm] before expenseLineItem search
+[05/07/2020 10:46:57 pm] Returning Summary: 0,0,0
+[05/07/2020 10:47:04 pm] ID : 
+[05/07/2020 10:47:04 pm] the First date: 31/01/2015
+[05/07/2020 10:47:04 pm] returning date is 03/03/15
+[05/07/2020 10:47:04 pm] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
+[05/07/2020 10:47:04 pm] firstDate: 31/01/15
+[05/07/2020 10:47:04 pm] financial year start Time: 2020-07-01
+[05/07/2020 10:47:04 pm] financial year end Time: 2021-06-30
+[05/07/2020 10:47:04 pm] incoming enddate is: 30/06/21
+[05/07/2020 10:47:04 pm] before incomeLineItem search
+[05/07/2020 10:47:04 pm] before expenseLineItem search
+[05/07/2020 10:47:04 pm] Returning Summary: 0,0,0
+[05/07/2020 10:47:04 pm] the First date: 31/01/2015
+[05/07/2020 10:47:04 pm] returning date is 03/03/15
+[05/07/2020 10:47:04 pm] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
+[05/07/2020 10:47:04 pm] firstDate: 31/01/15
+[05/07/2020 10:47:08 pm] the First date: 31/01/2015
+[05/07/2020 10:47:08 pm] returning date is 03/03/15
+[05/07/2020 10:47:08 pm] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
+[05/07/2020 10:47:08 pm] firstDate: 31/01/15
+[05/07/2020 10:47:10 pm] ID : 26
+[05/07/2020 10:47:10 pm] financial year start Time: 2020-07-01
+[05/07/2020 10:47:10 pm] financial year end Time: 2021-06-30
+[05/07/2020 10:47:10 pm] incoming enddate is: 30/06/21
+[05/07/2020 10:47:10 pm] before incomeLineItem search
+[05/07/2020 10:47:10 pm] before expenseLineItem search
+[05/07/2020 10:47:10 pm] Returning Summary: 0,0,0
+[05/07/2020 10:47:16 pm] ID : 26
+[05/07/2020 10:47:16 pm] the First date: 31/01/2015
+[05/07/2020 10:47:16 pm] returning date is 03/03/15
+[05/07/2020 10:47:16 pm] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
+[05/07/2020 10:47:16 pm] firstDate: 31/01/15
+[05/07/2020 10:47:16 pm] financial year start Time: 2020-07-01
+[05/07/2020 10:47:16 pm] financial year end Time: 2021-06-30
+[05/07/2020 10:47:16 pm] incoming enddate is: 30/06/21
+[05/07/2020 10:47:16 pm] before incomeLineItem search
+[05/07/2020 10:47:16 pm] before expenseLineItem search
+[05/07/2020 10:47:16 pm] Returning Summary: 0,0,0
+[05/07/2020 10:47:17 pm] the First date: 31/01/2015
+[05/07/2020 10:47:17 pm] returning date is 03/03/15
+[05/07/2020 10:47:17 pm] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
+[05/07/2020 10:47:17 pm] firstDate: 31/01/15
+[05/07/2020 10:47:19 pm] ID : 27
+[05/07/2020 10:47:19 pm] financial year start Time: 2020-07-01
+[05/07/2020 10:47:19 pm] financial year end Time: 2021-06-30
+[05/07/2020 10:47:19 pm] incoming enddate is: 30/06/21
+[05/07/2020 10:47:19 pm] before incomeLineItem search
+[05/07/2020 10:47:19 pm] before expenseLineItem search
+[05/07/2020 10:47:19 pm] Returning Summary: 0,0,0
+[05/07/2020 10:47:25 pm] ID : 27
+[05/07/2020 10:47:25 pm] the First date: 31/01/2015
+[05/07/2020 10:47:25 pm] returning date is 03/03/15
+[05/07/2020 10:47:25 pm] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
+[05/07/2020 10:47:25 pm] firstDate: 31/01/15
+[05/07/2020 10:47:25 pm] financial year start Time: 2020-07-01
+[05/07/2020 10:47:25 pm] financial year end Time: 2021-06-30
+[05/07/2020 10:47:25 pm] incoming enddate is: 30/06/21
+[05/07/2020 10:47:25 pm] before incomeLineItem search
+[05/07/2020 10:47:25 pm] before expenseLineItem search
+[05/07/2020 10:47:25 pm] Returning Summary: 0,0,0
+[05/07/2020 10:47:26 pm] the First date: 31/01/2015
+[05/07/2020 10:47:26 pm] returning date is 03/03/15
+[05/07/2020 10:47:26 pm] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
+[05/07/2020 10:47:26 pm] firstDate: 31/01/15
+[05/07/2020 10:47:29 pm] ID : 30
+[05/07/2020 10:47:29 pm] financial year start Time: 2020-07-01
+[05/07/2020 10:47:29 pm] financial year end Time: 2021-06-30
+[05/07/2020 10:47:29 pm] incoming enddate is: 30/06/21
+[05/07/2020 10:47:29 pm] before incomeLineItem search
+[05/07/2020 10:47:29 pm] before expenseLineItem search
+[05/07/2020 10:47:29 pm] Returning Summary: 0,0,0
+[05/07/2020 10:47:36 pm] ID : 30
+[05/07/2020 10:47:36 pm] the First date: 31/01/2015
+[05/07/2020 10:47:36 pm] returning date is 03/03/15
+[05/07/2020 10:47:36 pm] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
+[05/07/2020 10:47:36 pm] firstDate: 31/01/15
+[05/07/2020 10:47:36 pm] financial year start Time: 2020-07-01
+[05/07/2020 10:47:36 pm] financial year end Time: 2021-06-30
+[05/07/2020 10:47:36 pm] incoming enddate is: 30/06/21
+[05/07/2020 10:47:36 pm] before incomeLineItem search
+[05/07/2020 10:47:36 pm] before expenseLineItem search
+[05/07/2020 10:47:36 pm] Returning Summary: 0,0,0
+[05/07/2020 10:47:37 pm] the First date: 31/01/2015
+[05/07/2020 10:47:37 pm] returning date is 03/03/15
+[05/07/2020 10:47:37 pm] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
+[05/07/2020 10:47:37 pm] firstDate: 31/01/15
+[05/07/2020 10:47:40 pm] ID : 30
+[05/07/2020 10:47:40 pm] financial year start Time: 2020-07-01
+[05/07/2020 10:47:40 pm] financial year end Time: 2021-06-30
+[05/07/2020 10:47:40 pm] incoming enddate is: 30/06/21
+[05/07/2020 10:47:40 pm] before incomeLineItem search
+[05/07/2020 10:47:40 pm] before expenseLineItem search
+[05/07/2020 10:47:40 pm] Returning Summary: 0,0,0
+[05/07/2020 10:47:42 pm] the First date: 31/01/2015
+[05/07/2020 10:47:42 pm] returning date is 03/03/15
+[05/07/2020 10:47:42 pm] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
+[05/07/2020 10:47:42 pm] firstDate: 31/01/15
+[05/07/2020 10:47:45 pm] ID : 
+[05/07/2020 10:47:45 pm] financial year start Time: 2020-07-01
+[05/07/2020 10:47:45 pm] financial year end Time: 2021-06-30
+[05/07/2020 10:47:45 pm] incoming enddate is: 30/06/21
+[05/07/2020 10:47:45 pm] before incomeLineItem search
+[05/07/2020 10:47:45 pm] before expenseLineItem search
+[05/07/2020 10:47:45 pm] Returning Summary: 0,0,0
+[05/07/2020 10:47:53 pm] ID : 
+[05/07/2020 10:47:53 pm] the First date: 31/01/2015
+[05/07/2020 10:47:53 pm] returning date is 03/03/15
+[05/07/2020 10:47:53 pm] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
+[05/07/2020 10:47:53 pm] firstDate: 31/01/15
+[05/07/2020 10:47:53 pm] financial year start Time: 2020-07-01
+[05/07/2020 10:47:53 pm] financial year end Time: 2021-06-30
+[05/07/2020 10:47:53 pm] incoming enddate is: 30/06/21
+[05/07/2020 10:47:53 pm] before incomeLineItem search
+[05/07/2020 10:47:53 pm] before expenseLineItem search
+[05/07/2020 10:47:53 pm] Returning Summary: 0,0,0
+[05/07/2020 10:47:54 pm] ID : 
+[05/07/2020 10:47:54 pm] the First date: 31/01/2015
+[05/07/2020 10:47:54 pm] returning date is 03/03/15
+[05/07/2020 10:47:54 pm] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
+[05/07/2020 10:47:54 pm] firstDate: 31/01/15
+[05/07/2020 10:47:54 pm] financial year start Time: 2020-07-01
+[05/07/2020 10:47:54 pm] financial year end Time: 2021-06-30
+[05/07/2020 10:47:54 pm] incoming enddate is: 30/06/21
+[05/07/2020 10:47:54 pm] before incomeLineItem search
+[05/07/2020 10:47:54 pm] before expenseLineItem search
+[05/07/2020 10:47:54 pm] Returning Summary: 0,0,0
+[05/07/2020 10:47:55 pm] the First date: 31/01/2015
+[05/07/2020 10:47:55 pm] returning date is 03/03/15
+[05/07/2020 10:47:55 pm] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
+[05/07/2020 10:47:55 pm] firstDate: 31/01/15
+[05/07/2020 10:48:05 pm] the First date: 31/01/2015
+[05/07/2020 10:48:05 pm] returning date is 03/03/15
+[05/07/2020 10:48:05 pm] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
+[05/07/2020 10:48:05 pm] firstDate: 31/01/15
+[05/07/2020 10:48:08 pm] the First date: 31/01/2015
+[05/07/2020 10:48:08 pm] returning date is 03/03/15
+[05/07/2020 10:48:08 pm] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
+[05/07/2020 10:48:08 pm] firstDate: 31/01/15
+[05/07/2020 10:48:11 pm] the First date: 31/01/2015
+[05/07/2020 10:48:11 pm] returning date is 03/03/15
+[05/07/2020 10:48:11 pm] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
+[05/07/2020 10:48:11 pm] firstDate: 31/01/15
+[05/07/2020 10:48:14 pm] the First date: 31/01/2015
+[05/07/2020 10:48:14 pm] returning date is 03/03/15
+[05/07/2020 10:48:14 pm] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
+[05/07/2020 10:48:14 pm] firstDate: 31/01/15
+[05/07/2020 10:48:17 pm] the First date: 31/01/2015
+[05/07/2020 10:48:17 pm] returning date is 03/03/15
+[05/07/2020 10:48:17 pm] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
+[05/07/2020 10:48:17 pm] firstDate: 31/01/15
+[05/07/2020 10:48:21 pm] the First date: 31/01/2015
+[05/07/2020 10:48:21 pm] returning date is 03/03/15
+[05/07/2020 10:48:21 pm] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
+[05/07/2020 10:48:21 pm] firstDate: 31/01/15
+[05/07/2020 10:48:24 pm] the First date: 31/01/2015
+[05/07/2020 10:48:24 pm] returning date is 03/03/15
+[05/07/2020 10:48:24 pm] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
+[05/07/2020 10:48:24 pm] firstDate: 31/01/15
+[05/07/2020 10:48:27 pm] ID : 
+[05/07/2020 10:48:27 pm] financial year start Time: 2020-07-01
+[05/07/2020 10:48:27 pm] financial year end Time: 2021-06-30
+[05/07/2020 10:48:27 pm] incoming enddate is: 30/06/21
+[05/07/2020 10:48:27 pm] before incomeLineItem search
+[05/07/2020 10:48:27 pm] before expenseLineItem search
+[05/07/2020 10:48:27 pm] Returning Summary: 0,0,0
+[05/07/2020 10:48:38 pm] ID : 
+[05/07/2020 10:48:38 pm] the First date: 31/01/2015
+[05/07/2020 10:48:38 pm] returning date is 03/03/15
+[05/07/2020 10:48:38 pm] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
+[05/07/2020 10:48:38 pm] firstDate: 31/01/15
+[05/07/2020 10:48:38 pm] financial year start Time: 2020-07-01
+[05/07/2020 10:48:38 pm] financial year end Time: 2021-06-30
+[05/07/2020 10:48:38 pm] incoming enddate is: 30/06/21
+[05/07/2020 10:48:38 pm] before incomeLineItem search
+[05/07/2020 10:48:38 pm] before expenseLineItem search
+[05/07/2020 10:48:38 pm] Returning Summary: 0,0,0
+[05/07/2020 10:48:39 pm] the First date: 31/01/2015
+[05/07/2020 10:48:39 pm] returning date is 03/03/15
+[05/07/2020 10:48:39 pm] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
+[05/07/2020 10:48:39 pm] firstDate: 31/01/15
+[05/07/2020 10:48:44 pm] ID : 36
+[05/07/2020 10:48:44 pm] financial year start Time: 2020-07-01
+[05/07/2020 10:48:44 pm] financial year end Time: 2021-06-30
+[05/07/2020 10:48:44 pm] incoming enddate is: 30/06/21
+[05/07/2020 10:48:44 pm] before incomeLineItem search
+[05/07/2020 10:48:44 pm] before expenseLineItem search
+[05/07/2020 10:48:44 pm] Returning Summary: 0,0,0
+[05/07/2020 10:48:49 pm] ID : 36
+[05/07/2020 10:48:49 pm] selectedIncomeSource baby: 
+[05/07/2020 10:48:51 pm] ID : 36
+[05/07/2020 10:48:51 pm] financial year start Time: 2020-07-01
+[05/07/2020 10:48:51 pm] financial year end Time: 2021-06-30
+[05/07/2020 10:48:51 pm] incoming enddate is: 30/06/21
+[05/07/2020 10:48:51 pm] before incomeLineItem search
+[05/07/2020 10:48:51 pm] before expenseLineItem search
+[05/07/2020 10:48:51 pm] Returning Summary: 0,0,0
+[05/07/2020 10:48:53 pm] ID : 36
+[05/07/2020 10:48:53 pm] selectedIncomeSource baby: 
+[05/07/2020 10:48:55 pm] ID : 36
+[05/07/2020 10:48:55 pm] financial year start Time: 2020-07-01
+[05/07/2020 10:48:55 pm] financial year end Time: 2021-06-30
+[05/07/2020 10:48:55 pm] incoming enddate is: 30/06/21
+[05/07/2020 10:48:55 pm] before incomeLineItem search
+[05/07/2020 10:48:55 pm] before expenseLineItem search
+[05/07/2020 10:48:55 pm] Returning Summary: 0,0,0
+[05/07/2020 10:48:58 pm] the First date: 31/01/2015
+[05/07/2020 10:48:58 pm] returning date is 03/03/15
+[05/07/2020 10:48:58 pm] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
+[05/07/2020 10:48:58 pm] firstDate: 31/01/15
+[05/07/2020 10:49:02 pm] the First date: 31/01/2015
+[05/07/2020 10:49:02 pm] returning date is 03/03/15
+[05/07/2020 10:49:02 pm] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
+[05/07/2020 10:49:02 pm] firstDate: 31/01/15
+[05/07/2020 10:49:05 pm] the First date: 31/01/2015
+[05/07/2020 10:49:05 pm] returning date is 03/03/15
+[05/07/2020 10:49:05 pm] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
+[05/07/2020 10:49:05 pm] firstDate: 31/01/15
+[05/07/2020 10:49:06 pm] ID : 
+[05/07/2020 10:49:06 pm] financial year start Time: 2020-07-01
+[05/07/2020 10:49:06 pm] financial year end Time: 2021-06-30
+[05/07/2020 10:49:06 pm] incoming enddate is: 30/06/21
+[05/07/2020 10:49:06 pm] before incomeLineItem search
+[05/07/2020 10:49:06 pm] before expenseLineItem search
+[05/07/2020 10:49:06 pm] Returning Summary: 0,0,0
+[05/07/2020 10:49:14 pm] ID : 
+[05/07/2020 10:49:14 pm] the First date: 31/01/2015
+[05/07/2020 10:49:14 pm] returning date is 03/03/15
+[05/07/2020 10:49:14 pm] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
+[05/07/2020 10:49:14 pm] firstDate: 31/01/15
+[05/07/2020 10:49:14 pm] financial year start Time: 2020-07-01
+[05/07/2020 10:49:14 pm] financial year end Time: 2021-06-30
+[05/07/2020 10:49:14 pm] incoming enddate is: 30/06/21
+[05/07/2020 10:49:14 pm] before incomeLineItem search
+[05/07/2020 10:49:14 pm] before expenseLineItem search
+[05/07/2020 10:49:14 pm] Returning Summary: 0,0,0
+[05/07/2020 10:49:15 pm] the First date: 31/01/2015
+[05/07/2020 10:49:15 pm] returning date is 03/03/15
+[05/07/2020 10:49:15 pm] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
+[05/07/2020 10:49:15 pm] firstDate: 31/01/15
