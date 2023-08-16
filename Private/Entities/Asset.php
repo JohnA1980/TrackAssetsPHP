@@ -19,12 +19,12 @@
 			$this->defineRelationship(new BLToManyRelationship("occupants", $this, "Occupant", "assetID", "assetID"));
 		} 
 	 
-		public function tableName() 
+		public function tableName() : string
 		{ 
 			return "Asset"; 
 		} 
 		 
-		public function pkNames() 
+		public function pkNames(): array|string
 		{ 
 			return "assetID"; 
 		}
@@ -46,7 +46,7 @@
 						
 			));
 			$found = BLGenericRecord::find("ExpenseLineItem", $qual, ($order ? $order : array("expenseDate" => ORDER_DESCEND)));
-			debugln("found non deleted ExpenseLineItems: " + count($found));
+			debugln("found non deleted ExpenseLineItems: " . count($found));
 			
 			return $found;
 		}
@@ -74,7 +74,7 @@
 						
 			));
 			$found = BLGenericRecord::find("IncomeSource", $qual);
-			echo "found non deleted: " + count($found);
+			echo "found non deleted: " . count($found);
 		
 			return $found;
 			//return $this->incomelineItems();
@@ -258,7 +258,7 @@
 			It does not pass any errors or warnings back if field data has changed, it merely
 			ommits the fields from the save request.
 		*/
-		public function readOnlyAttributes()
+		public function readOnlyAttributes(): array
 		{
 			return array("assetID");
 		}	
@@ -399,7 +399,7 @@
 			$returningSummary["expenses"] = $this->expensesBetweenDates($startDate, $endDate);
 			$returningSummary["netIncome"] = ($returningSummary["income"] - $returningSummary["expenses"]);
 			
-			debugln("Returning Summary: " .  implode($returningSummary, ","));
+			debugln("Returning Summary: " .  implode(",", $returningSummary));
 			return $returningSummary;
 		}
 		//select *
@@ -562,7 +562,6 @@
 					debugln("The Array is : " . implode(", ", $expenseSummary[$expenseTypeKey])); 
 				}
 			}
-			debugln("number in expense summary array: " . sizeof($expenseSummary));
 			return $expenseSummary;
 		}
 		
@@ -583,7 +582,7 @@
 		public function expenseSummaryJSON($startDate, $endDate){
 			debugln("expenseSummaryJSON : startdate: " . $startDate->format("y-m") . " endDate: " . $endDate->format("y-m"));
 			$groupedExpenseLineItemForDateRange = $this->groupedExpenseLineItemForDateRange($startDate, $endDate);
-			$expenseSummaryArray;
+			
 			if($groupedExpenseLineItemForDateRange){
 			
 				//debugln("groupedExpenseLineItemForDateRange class name: ". get_class($groupedExpenseLineItemForDateRange));

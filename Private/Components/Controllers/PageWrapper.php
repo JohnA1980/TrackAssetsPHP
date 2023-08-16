@@ -16,10 +16,7 @@
 		
 		public function __construct($formData, $innerTemplate) 
 		{ 
-			
-			
 			parent::__construct($formData, "PageWrapper"); 
-			
 			
 			$this->innerTemplate = $this->templateForName($innerTemplate);
 			$this->innerTemplate->set("controller", $this);
@@ -38,7 +35,7 @@
 		} 
 		
 		// prevent page reloads and back button from repeating previous actions.
-		public function handleRequest()
+		public function handleRequest(): ?PLController 
 		{
 			$page = parent::handleRequest();
 			if ($page)
@@ -48,6 +45,8 @@
 				$this->hasInvalidTransactionID = true;
 			}
 			$_SESSION["transactionID"] = uniqid();
+
+			return null;
 		}
 		
 		public function renderInnerTemplate()

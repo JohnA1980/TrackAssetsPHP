@@ -6369,3 +6369,43 @@
 [05/07/2020 10:49:15 pm] returning date is 03/03/15
 [05/07/2020 10:49:15 pm] isExactlyOneMonthFromDate: first Date: 31/01/15  second Date String: 28/02/15 calcuatedMonthDateString: 03/03/2015
 [05/07/2020 10:49:15 pm] firstDate: 31/01/15
+[04/05/2023 02:49:28 pm] perma-link part count for / 1
+[04/05/2023 02:49:28 pm] examining permalink path...
+[04/05/2023 02:49:28 pm] ip address: 192.168.68.111
+[04/05/2023 02:49:28 pm] request page: 
+[04/05/2023 02:49:28 pm] page=Login
+[04/05/2023 02:49:28 pm] loading controller ../Private/Components/Controllers/Login.php
+[04/05/2023 02:50:15 pm] perma-link part count for / 1
+[04/05/2023 02:50:15 pm] examining permalink path...
+[04/05/2023 02:50:15 pm] ip address: 192.168.68.111
+[04/05/2023 02:50:15 pm] request page: 
+[04/05/2023 02:50:15 pm] page=Login
+[04/05/2023 02:50:15 pm] loading controller ../Private/Components/Controllers/Login.php
+[04/05/2023 02:50:47 pm] perma-link part count for / 1
+[04/05/2023 02:50:47 pm] examining permalink path...
+[04/05/2023 02:50:47 pm] ip address: 192.168.68.111
+[04/05/2023 02:50:47 pm] request page: 
+[04/05/2023 02:50:47 pm] page=Login
+[04/05/2023 02:50:47 pm] loading controller ../Private/Components/Controllers/Login.php
+[04/05/2023 02:50:47 pm] choosing template Login
+[04/05/2023 02:51:42 pm] perma-link part count for / 1
+[04/05/2023 02:51:42 pm] examining permalink path...
+[04/05/2023 02:51:42 pm] ip address: 192.168.68.111
+[04/05/2023 02:51:42 pm] request page: 
+[04/05/2023 02:51:42 pm] page=Login
+[04/05/2023 02:51:42 pm] loading controller ../Private/Components/Controllers/Login.php
+[04/05/2023 02:51:42 pm] letComponentHandleRequest: Login
+[04/05/2023 02:51:42 pm] starting component: Login, final: Login
+[04/05/2023 02:51:42 pm] 192.168.68.111: no action given
+[04/05/2023 02:52:39 pm] perma-link part count for / 1
+[04/05/2023 02:52:39 pm] examining permalink path...
+[04/05/2023 02:52:39 pm] ip address: 192.168.68.111
+[04/05/2023 02:52:39 pm] request page: 
+[04/05/2023 02:52:39 pm] page=Login
+[04/05/2023 02:52:39 pm] loading controller ../Private/Components/Controllers/Login.php
+[04/05/2023 02:52:39 pm] letComponentHandleRequest: Login
+[04/05/2023 02:52:39 pm] starting component: Login, final: Login
+[04/05/2023 02:52:39 pm] 192.168.68.111: no action given
+[04/05/2023 02:53:18 pm] looking for method: validateLogin
+[04/05/2023 03:03:59 pm] looking for method: validateLogin
+[04/05/2023 03:05:11 pm] looking for method: validateLogin

@@ -17,12 +17,12 @@
 			$this->defineRelationship(new BLToOneRelationship("investmentportfolio", $this, "InvestmentPortfolio", "investmentPortfolioID", "investmentPortfolioID"));
 		} 
 	 
-		public function tableName() 
+		public function tableName(): string
 		{ 
 			return "PettyCashEntry"; 
 		} 
 		 
-		public function pkNames() 
+		public function pkNames(): array|string
 		{ 
 			return "pettyCashEntryID"; 
 		}

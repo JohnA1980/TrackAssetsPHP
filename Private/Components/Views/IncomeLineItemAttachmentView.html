@@ -1,0 +1,19 @@
+<div style="padding:40px" class="text-center">
+
+	<?php if ($file = $item->valueForRelationship("file")) : ?>
+	
+		<?php if ($file->isImage()) : ?>
+			<img src="<?php echo $file->url(low:true)?>" >
+		
+		<?php else : ?>
+			<?php echo $file->field('name') ?>
+			
+		<?php endif ?>
+
+	<?php else : ?>
+
+		No file
+
+	<?php endif ?>
+
+</div>

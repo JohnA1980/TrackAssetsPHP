@@ -15,12 +15,12 @@
 			$this->vars["created"] = date("y/m/d");
 		} 
 	 
-		public function tableName() 
+		public function tableName(): string
 		{ 
 			return "File"; 
 		} 
 		 
-		public function pkNames() 
+		public function pkNames(): array|string
 		{ 
 			return "fileID"; 
 		}

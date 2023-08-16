@@ -19,12 +19,12 @@
             $this->vars["created"] = date("Y-m-d H:i:s");
 		} 
 		
-		public function tableName() 
+		public function tableName(): string
 		{ 
 			return "ExpenseLineItem"; 
 		} 
 		 
-		public function pkNames() 
+		public function pkNames(): array|string
 		{ 
 			return "expenseLineItemID"; 
 		}
@@ -56,7 +56,7 @@
 			It does not pass any errors or warnings back if field data has changed, it merely
 			ommits the fields from the save request.
 		*/
-		public function readOnlyAttributes()
+		public function readOnlyAttributes(): array
 		{
 			return array("expenseLineItemID");
 		}	

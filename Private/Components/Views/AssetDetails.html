@@ -1,3 +1,7 @@
+<link rel="stylesheet" type="text/css" href="css/file-upload.css" media="screen" />
+
+<script src="js/file-upload.js"></script>
+
 <style type="text/css" media="screen">
 #edit {
     margin-left:auto;
@@ -74,7 +78,7 @@
 	.creationBar{
 		float:right;
 		padding-top:6px;
-		padding-right:5px;"
+		padding-right:5px;
 	}
 
 </style>
@@ -202,6 +206,7 @@
     <?php if ($controller->currentView() == "Income") : ?>
   <div id="InvoiceDiv">
    	 <div style="margin-bottom: 5px;">
+		
   
    	 	<select name="selectedIncomeSourceSelect" id="selectedIncomeSourceSelect">
    	 	
@@ -219,6 +224,8 @@
 		 </div>
 	</div>
    	<div>
+
+		
    	
    <?php if($controller->selectedIncomeSource()) : ?>
    	<div class="subSectionTitle" >
@@ -230,8 +237,54 @@
 <?php echo $controller->formValueForKeyPath("selectedIncomeSource.notes") ?>
 </textarea>
    	 	</div>
+		
    	 </div> 
+
     <?php if ($controller->selectedIncomeLineItem()) : ?>
+
+	<script>
+		function processFileUpload(token) 
+		{
+			var params = {
+				'page' : 'AssetDetails',
+				'action' : 'processUpload',
+				'token' : token,
+				'selectedIncomeLineItemID' : bl.ref("selectedIncomeLineItemID").value()
+			}
+			bl.json_r(params, function(resp) {
+				if (resp['result'] != 0) {
+					alert(result["msg"]);
+				}
+				else {
+					bl.ref("imgContainer").html(resp['html']);
+				}
+			});
+		}
+	</script>
+
+	<div id="uploadContainer">
+		<div class="row">
+
+			<div class="col-sm-8">
+				<div id="imgContainer">
+					<?php $controller->pageWithName("IncomeLineItemAttachmentView")->setLineItem($controller->selectedIncomeLineItem())->appendToResponse() ?>
+				</div>
+			</div>
+
+			<div class="col-sm-4">
+				<?php 
+					$uploader = $controller->pageWithName("Uploader");
+					$uploader->type = 'lineItem';
+					$uploader->jsCallback = 'processFileUpload';
+					$uploader->appendToResponse();
+
+				?>
+			</div>
+
+		</div>
+		
+	</div>
+
 	<div class="inliDetails selectedArea" style="height:55px;">     
 		<div class="labelAndValue">
             <div class="labels">Payment Date:</div>

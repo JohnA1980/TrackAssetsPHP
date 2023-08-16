@@ -6,7 +6,8 @@
 	{ 
 		public function __construct($formData) 
 		{ 
-			$templateName = $this->templateNameBasedOnDevice("AssetList", array());
+			//$templateName = $this->templateNameBasedOnDevice("AssetList", array());
+            $templateName = "AssetList";
 			parent::__construct($formData, $templateName);
 			$firstDate = DateTime::createFromFormat('d/m/Y', '31/01/2015');
 			isExactlyOneMonthFromDate($firstDate, DateTime::createFromFormat('d/m/Y', '28/02/2015'));

@@ -14,7 +14,7 @@
 			Examine the time elapsed between this request and the previous one. If it's found to be beyond
 			a certain time frame then destory the session and log the user out.
 		*/
-		public function handleRequest()
+		public function handleRequest(): ?PLController 
 		{
 			$lastRequest = safeValue($_SESSION, "LAST_REQUEST");
 			if ($lastRequest == "")
@@ -41,6 +41,8 @@
                 header("location: Login");
 			}
 			$_SESSION["LAST_REQUEST"] = time();	
+
+			return null;
 		}
 		
 		protected $user;

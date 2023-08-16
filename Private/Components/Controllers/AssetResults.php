@@ -5,7 +5,8 @@
 	{ 
 		public function __construct($formData) 
 		{ 
-			$templateName = $this->templateNameBasedOnDevice("AssetResults", array());
+			// $templateName = $this->templateNameBasedOnDevice("AssetResults", array());
+            $templateName = "AssetResults";
 			parent::__construct($formData, $templateName);
 		} 
         

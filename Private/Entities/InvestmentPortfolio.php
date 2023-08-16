@@ -16,12 +16,12 @@
 			$this->defineRelationship(new BLToManyRelationship("pettycashentries", $this, "PettyCashEntry", "investmentPortfolioID", "investmentPortfolioID"));
 		} 
 	 
-		public function tableName() 
+		public function tableName(): string
 		{ 
 			return "InvestmentPortfolio"; 
 		} 
 		 
-		public function pkNames() 
+		public function pkNames(): array|string
 		{ 
 			return "investmentPortfolioID"; 
 		}
@@ -32,7 +32,7 @@
 			It does not pass any errors or warnings back if field data has changed, it merely
 			ommits the fields from the save request.
 		*/
-		public function readOnlyAttributes()
+		public function readOnlyAttributes(): array
 		{
 			return array("investmentPortfolioID");
 		}	

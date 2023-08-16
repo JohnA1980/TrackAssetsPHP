@@ -24,12 +24,12 @@
 			
 		} 
 	 
-		public function tableName() 
+		public function tableName(): string
 		{ 
 			return "IncomeSource"; 
 		} 
 		 
-		public function pkNames() 
+		public function pkNames(): array|string
 		{ 
 			return "incomeSourceID"; 
 		}
@@ -42,7 +42,7 @@
 			ommits the fields from the save request.
 		*/
 		
-		public function readOnlyAttributes()
+		public function readOnlyAttributes(): array
 		{
 			return array("incomeSourceID");
 		}	

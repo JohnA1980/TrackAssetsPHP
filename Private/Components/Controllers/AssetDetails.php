@@ -12,7 +12,8 @@
 
 		public function __construct($formData) 
 		{ 
-			$templateName = $this->templateNameBasedOnDevice("AssetDetails", array());
+			// $templateName = $this->templateNameBasedOnDevice("AssetDetails", array());
+			$templateName = "AssetDetails";
 			parent::__construct($formData, $templateName);
             
 			$this->currentView = doDecrypt($this->formValueForKey("currentView"));
@@ -213,6 +214,40 @@
         		return "";
         	}
         }
+
+		public function processUpload(): void
+		{
+			$resp = ['result' => 0, 'msg' => ''];
+			try
+			{
+				if (! $token = $this->formValueForKey('token')) {
+					$this->output_json(['result' => 1, 'msg' => 'Missing token']);
+					return;
+				}
+			
+				$qual = new BLAndQualifier([
+					new BLKeyValueQualifier('recID', OP_EXACT_MATCH, NULL_VALUE),
+					new BLKeyValueQualifier('token', OP_EQUAL, $token),
+					new BLKeyValueQualifier('type', OP_EQUAL, 'LineItemAttachment')
+				]);
+				if (! $file = blrecord::first('LineItemAttachment', qualifier:$qual)) {
+					$this->output_json(['result' => 1, 'msg' => 'No matching photo for given token']);
+				}
+				
+				$file->setFields([
+					'recID' => $this->selectedIncomeLineItem()->field('id')
+				]);
+				$file->save();
+				
+				$resp['html'] = $this->pageWithName('IncomeLineItemAttachmentView')->setLineItem($this->selectedIncomeLineItem())->asString();
+			}
+			catch (Exception $error) {
+				bldebug::ln($error);
+				$resp = ['result' => 1, 'msg' => $error->getMessage()];
+			}
+			
+			$this->output_json($resp);
+		}
         
         protected $selectIncomeSource;
         

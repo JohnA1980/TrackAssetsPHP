@@ -6,7 +6,8 @@
 	{ 
 		public function __construct($formData) 
 		{ 
-			$templateName = $this->templateNameBasedOnDevice("CalendarView", array());
+			//$templateName = $this->templateNameBasedOnDevice("CalendarView", array());
+			$templateName = "CalendarView";
 			parent::__construct($formData, $templateName);
 		} 
         

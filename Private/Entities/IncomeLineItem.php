@@ -24,6 +24,8 @@
 			
 			$this->defineRelationship(new BLToOneRelationship("occupant", $this, "Occupant", "occupantID", "occupantID"));
 			$this->defineRelationship(new BLToOneRelationship("incomesource", $this, "IncomeSource", "incomeSourceID", "incomeSourceID"));
+			//$this->defineRelationship(new BLToOneRelationship("receipt", $this, "File", "fileID", "fileID"));
+			$this->defineRelationship(new BLToOneRelationship("file", $this, "LineItemAttachment", "id", "recID", false, new BLKeyValueQualifier("type", OP_EQUAL, "LineItemAttachment")));
             
             // @John: put your default value fields right in the constructor. Records fecthed from the database
             // will overwrite it.
@@ -31,12 +33,12 @@
 		} 
 		
 	 
-		public function tableName() 
+		public function tableName(): string
 		{ 
 			return "IncomeLineItem"; 
 		} 
 		 
-		public function pkNames() 
+		public function pkNames(): array|string
 		{ 
 			return "incomeLineItemID"; 
 		}
@@ -47,7 +49,7 @@
 			It does not pass any errors or warnings back if field data has changed, it merely
 			ommits the fields from the save request.
 		*/
-		public function readOnlyAttributes()
+		public function readOnlyAttributes(): array
 		{
 			return array("incomeLineItemID");
 		}	
@@ -64,7 +66,7 @@
 				
 				$comparatorDate = $this->isPostPaid() ? $toDate : $fromDate;
 				
-				debugln("comparatorDate " . $comparatorDate->format(IncomeLineItem::$DATE_FORMAT) . " this is currentDate: " . $currentDate->format(IncomeLineItem::$DATE_FORMAT) . " is equal?? " + ($comparatorDate == $currentDate));
+				debugln("comparatorDate " . $comparatorDate->format(IncomeLineItem::$DATE_FORMAT) . " this is currentDate: " . $currentDate->format(IncomeLineItem::$DATE_FORMAT) . " is equal?? " . ($comparatorDate == $currentDate));
 				
 				if($comparatorDate->format(IncomeLineItem::$DATE_FORMAT) == $currentDate->format(IncomeLineItem::$DATE_FORMAT)) {
 					return IncomeLineItem::$DUE_TODAY;
@@ -172,9 +174,9 @@
 			return $this->vars["paymentDate"];
 		}
 		
-		public function paymentDateObject(){
-			if(!is_null(paymentDate())){
-				return new DateTime(paymentDate());
+		public function paymentDateObject(): ?DateTime {
+			if ($pd = $this->paymentDate()) {
+				return new DateTime($pd);
 			}	
 			return null;
 		}
@@ -237,6 +239,14 @@
 			$todaysDate = new DateTime();
 			$this->vars["paymentDate"] = $todaysDate->format('Y-m-d');
 			$this->vars["amountPaid"] = $this->vars["amount"];
+		}
+
+		public function markAsVerified(){
+			$this->vars["verifiedDate"] = new DateTime();
+		}
+
+		public function isVerified(){
+			return !is_null($this->vars["verifiedDate"]);
 		}
 
 		/* 	Override this method if you have any database fields that deal in

@@ -25,6 +25,7 @@ if ($useHTML) :
 		<?php foreach ($extraCSS as $css) : ?>
 			<link rel="stylesheet" href="<?php echo $css; ?>" type="text/css" media="screen" charset="utf-8"/>
 		<?php endforeach; ?>
+		<script type="text/javascript" src="js/blogic.js"></script>
 		<script type="text/javascript" src="js/general.js"></script>
 		<?php foreach ($extraJS as $js) : ?>
 			<script type="text/javascript" src="<?php echo $js; ?>"></script>

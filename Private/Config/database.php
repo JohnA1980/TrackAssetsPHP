@@ -28,7 +28,7 @@
 	else
 	{
 		// local development database
-		BLDataSource::setDefaultDataSource(new BLMySQLDataSource("localhost", "johna", "games", "trackassets"));
+		BLDataSource::setDefaultDataSource(new BLMySQLDataSource("localhost", "admin", "", "Trackassets"));
 	}
 
 ?>

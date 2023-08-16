@@ -14,12 +14,12 @@
 			parent::__construct($dataSource); 
 		} 
 	 
-		public function tableName() 
+		public function tableName(): string
 		{ 
 			return "Occupant"; 
 		} 
 		 
-		public function pkNames() 
+		public function pkNames(): array|string
 		{ 
 			return "occupantID"; 
 		}
@@ -30,7 +30,7 @@
 			It does not pass any errors or warnings back if field data has changed, it merely
 			ommits the fields from the save request.
 		*/
-		public function readOnlyAttributes()
+		public function readOnlyAttributes(): array
 		{
 			return array("occupantID");
 		}	

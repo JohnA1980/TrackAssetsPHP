@@ -14,17 +14,17 @@
             
             $this->defineRelationship(new BLToManyRelationship("assetJoin", $this, "AssetUser", "userID", "userID"));
             $this->defineRelationship(new BLFlattenedRelationship("assets", $this, "Asset", "assetID", "assetID", "assetJoin"));
-            $this->defineRelationship(new BLToManyRelationship("portfolios", $this, "InvestmentPortfolio", "userID", "ownerUserID", new BLKeyValueQualifier("deleted", OP_EXACT_MATCH, NULL_VALUE)));
+            $this->defineRelationship(new BLToManyRelationship("portfolios", $this, "InvestmentPortfolio", "userID", "ownerUserID", false ,new BLKeyValueQualifier("deleted", OP_EXACT_MATCH, NULL_VALUE)));
             $this->defineRelationship(new BLToManyRelationship("portfoliousers", $this, "InvestmentPortfolioUser", "userID", "userID"));
 		
 		} 
 		
-		public function tableName() 
+		public function tableName(): string
 		{ 
 			return "User"; 
 		} 
 		 
-		public function pkNames() 
+		public function pkNames(): array|string
 		{ 
 			return "userID"; 
 		}
@@ -75,7 +75,7 @@
 			It does not pass any errors or warnings back if field data has changed, it merely
 			ommits the fields from the save request.
 		*/
-		public function readOnlyAttributes()
+		public function readOnlyAttributes(): array
 		{
 			return array("userID");
 		}	

@@ -8,8 +8,7 @@
 		
 		public function __construct($formData) 
 		{ 
-			$templateName = $this->templateNameBasedOnDevice("Login", array());
-			parent::__construct($formData, $templateName);
+			parent::__construct($formData, "Login");
 			
 			addJS("js/prototype.js");
 			addJS("js/scriptaculous/scriptaculous.js");
@@ -18,14 +17,14 @@
 			$_SESSION["test"] = "yes";
 		} 
 		
-		public function appendToResponse()
+		public function appendToResponse(): void
 		{
 			global $useHTML;
 			if ($useHTML) // only render the page when not called from ajax.
 				parent::appendToResponse();
 		}
 		
-		public function handleRequest()
+		public function handleRequest(): ?PLController
 		{
 			$page = parent::handleRequest();
 			if (! $page)
@@ -44,7 +43,7 @@
 			return $page;
 		}
 		
-        public function renderComponent() 
+        public function renderComponent(): void
         {
         }
 		

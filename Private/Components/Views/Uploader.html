@@ -1,0 +1,7 @@
+<div id="fileUploader">
+	<label for="newFile">Select or drag a file here</label>
+	<br><br>
+	<input type="file" name="newFile" value="" id="newFile" ondragover="fileDragHover(event);" ondragleave="fileDragHover(event);" onchange="fileUploadHandler(this, event, '<?php echo $controller->token; ?>', '<?php echo $controller->type; ?>'<?php if ($controller->jsCallback) echo ", ".$controller->jsCallback; ?>);" multiple="multiple">
+</div>
+
+<div id="progress"></div>

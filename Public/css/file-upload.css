@@ -1,0 +1,44 @@
+input.green {
+    background-color:#50D7B0;
+}
+input.red {
+    background-color:#DB344F;
+}
+
+#fileUploader {
+	padding:20px;
+}
+
+input[type=file] {
+	-webkit-appearance:none;
+	background-color:#eee;
+	border:1px solid #ddd;
+	padding:20px;
+	width:100%;
+	margin-bottom:20px;
+}
+
+input[type=file].hover {
+	border:1px solid #5DD2FE;
+	background-color:#C9FDFA;
+}
+
+#progress p {
+	display: block;
+	width:500px;
+	padding:5px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom:5px;
+	border:1px inset #eed;
+	border-radius:4px;
+	background: #eee url("../images/progress.png") 100% 0 repeat-y;
+	text-align:center;
+	color:white;
+}
+#progress p.success {
+	background: #0091FF none 0 0 no-repeat;
+}
+#progress p.failed {
+	background: #FF0A5D none 0 0 no-repeat;
+}
